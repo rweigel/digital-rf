@@ -80,8 +80,8 @@ def read_one_dir(dir_name):
   return all_timestamps, all_data
 
 site_id = 'W2NAF'
-site_id = "KD1LE node 43-3"
-zip_dir = f'{site_id}/zip'
+#site_id = "KD1LE node 43-3"
+zip_dir = f'data/{site_id}/zip'
 files = os.listdir(zip_dir)
 files.sort()
 for file in files:

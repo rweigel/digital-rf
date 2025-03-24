@@ -1,5 +1,14 @@
+Usage
+
+```
+wget -e robots=off -r -np 'http://mag.gmu.edu/git-data/digital-rf/data/' 
+ln -s mag.gmu.edu/git-data/digital-rf/data 
+python drf.py
+```
 
 `drf.py` processes all data in W2NAF directory.
+
+----
 
 Why is read of KD1LE node 43-3 data so much slower?
 
