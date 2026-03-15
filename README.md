@@ -3,7 +3,8 @@ Usage
 ```
 wget -e robots=off -r -np 'http://mag.gmu.edu/git-data/digital-rf/data/' 
 ln -s mag.gmu.edu/git-data/digital-rf/data 
-python drf.py
+python drf.py data/W2NAF/zip             # Works
+python drf.py "data/KD1LE node 43-3/zip" # Seems to stop processing after first day
 ```
 
 `drf.py` processes all data in W2NAF directory.
