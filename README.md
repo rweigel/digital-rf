@@ -1,3 +1,14 @@
+# Test Read of DRF files
+
+```
+pip install git+https://github.com/rweigel/utilrsw
+pip install digital_rf
+# Run analysis on first DRF observation directory in /home/S000182
+python drf.py --base_dir /home --station S000182
+```
+
+# Old notes for zip files downloaded from PSWS web page
+
 Usage
 
 ```
