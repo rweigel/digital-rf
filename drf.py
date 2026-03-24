@@ -30,7 +30,7 @@ def cli():
   )
   parser.add_argument(
       '--n', type=int, default=1,
-      help='Max number of OBS subdirectories to process per station. Defaults to 1.'
+      help='Max number of OBS subdirectories to process per station. Defaults to 1; -1 means process all OBS subdirectories.'
   )
   parser.add_argument(
       '--read_data', action='store_true',
@@ -43,8 +43,11 @@ def cli():
 
   args = parser.parse_args()
 
-  if args.n is not None:
-    N = args.n
+  if args.n == -1:
+    args.n = None
+
+  if args.return_data:
+    args.read_data = True
 
   return args
 
@@ -149,7 +152,7 @@ def process_observations(station_dir, n=None):
   """Process all subdirectories starting with 'OBS'"""
 
   info("")
-  utilrsw.hline()
+  info(utilrsw.hline(display=False))
   info(f'Station directory: {station_dir}')
 
   obs_dirs = dirs(station_dir)
@@ -162,12 +165,27 @@ def process_observations(station_dir, n=None):
     if obs_dir.startswith('OBS'):
       found_obs_dir = True
       dir_path = os.path.join(station_dir, obs_dir)
-      if os.path.isdir(dir_path):
-        try:
-          time_, data = process_observation(dir_path)
-          n_processed += 1
-        except Exception as e:
-          error(f"Error processing {dir_path}: {e}")
+
+      try:
+        import time
+        time_read1 = time.time()
+        time_, data = process_observation(dir_path)
+        dt1 = time.time() - time_read1
+        log.info(f"Time to read dir content: {dt1:.4f} seconds")
+
+        station_id = os.path.basename(station_dir)
+        cache_file = os.path.join("/tmp/cache", station_id, obs_dir) + ".pkl"
+        utilrsw.write(cache_file, {"time": time_, "data": data})
+
+        time_read2 = time.time()
+        utilrsw.read(cache_file)
+        log.info(f"Time to read cached dir content: {time.time() - time_read2:.4f} seconds")
+        dt2 = time.time() - time_read2
+        log.info(f"Speedup from caching: {dt1/dt2:.2f}x")
+
+        n_processed += 1
+      except Exception as e:
+        error(f"Error processing {dir_path}: {e}")
 
   if not found_obs_dir:
     info(f"No 'OBS' directories found in {station_dir}")
