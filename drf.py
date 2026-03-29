@@ -2,19 +2,334 @@ import os
 
 import utilrsw
 
+"""
+Terminology:
+  * Station: A station is a directory containing one or more samples of data.
+  * Sample: A sample is a directory with a name of in the form
+    OBSyyyy-mm-ddThh-mm, where yyyy-mm-ddThh-mm is the UTC time of the start of
+    the sample. A sample contains one or more continuous blocks of data.
+  * Block: A continuous segment of data. The segment is continuous in the sense
+    that the measurements are at a regular cadence with no gaps.
+  * HAPI Dataset: A set of blocks with the same samples_per_second,
+    center_frequencies, grid_square, uuid_str, lat, and long.
+
+    The HAPI dataset ID is the station directory name (e.g., S000042).
+
+    Some stations have multiple HAPI datasets. For example, station S000042
+    has blocks with 9 or 10 center frequencies. This code only forms one HAPI
+    dataset per station. It does this by only using blocks for which the block
+    metadata matches that for the first block in the first sample. Although it
+    is possible to form multiple HAPI datasets per station by grouping blocks
+    by common metadata, this is not done because it would require scanning all
+    files.
+"""
+
+
 format = u"%(message)s"
 log = utilrsw.logger("drf", log_dir="log", console_format=format, file_format=format)
 
 
-def info(msg):
-  log.info(msg)
+def process_samples(station_id, base_dir, cache_dir,
+                         n=None,
+                         first_last=False,
+                         start=None,
+                         stop=None,
+                         read_data=False,
+                         return_data=False,
+                         cache_dir_arg="/tmp/cache"):
+
+  """Process all subdirectories starting with 'OBS'"""
+  import time
+  import numpy as np
+
+  station_dir = os.path.join(base_dir, station_id)
+  logger.info(station_id, "")
+  logger.info(station_id, utilrsw.hline(display=False))
+  logger.info(station_id, station_id)
+  logger.info(station_id, f'  Station directory: {station_dir}')
+
+  sample_dirs = _subset_sample_dirs(station_dir, n=n, first_last=first_last, start=start, stop=stop)
+
+  found_station_dir = False
+  n_processed = 0
+  sample_times = []
+  sample_data = []
+  sample_metadata = {}
+
+  metadata_first = None
+  for sample_dir in sample_dirs:
+    logger.info(station_id, "")
+
+    sample_metadata[sample_dir] = None
+    if not first_last and n is not None and n_processed >= n:
+      break
+    found_station_dir = True
+    dir_path = os.path.join(station_dir, sample_dir)
+
+    try:
+
+      time_read1 = time.time()
+      times, data, metadata = _process_sample(station_id, dir_path, read_data=read_data, return_data=return_data)
+      dt1 = time.time() - time_read1
+      logger.info(station_id, f"  Time to read sample: {dt1:.4f} seconds")
+
+      if metadata_first is None:
+        metadata_first = metadata
+      else:
+        p1 = metadata_first['properties']
+        p2 = metadata['properties']
+        logger.info(station_id, "  Comparing sample properties with first sample properties:")
+        _compare_sample_properties(station_id, p1, p2)
+
+        block_metadata_first = next(iter(metadata_first['sample_block_metadata'].values()))
+        msg = "  Comparing first block metadata of this sample with that from first block in the first sample."
+        logger.info(station_id, msg)
+        # TODO: Only need to compare metadata for first block of each sample b/c
+        # we have previously compared block metadata within each sample.
+        same = _compare_block_metadata(station_id, block_metadata_first, metadata['sample_block_metadata'])
+        if same:
+          logger.info(station_id, "    No block metadata differences found.")
+        else:
+          msg = f"    Skipping sample {sample_dir} because of block metadata difference from first block in first sample."
+          logger.warning(station_id, msg)
+          continue
+
+      sample_times.append(times)
+      sample_data.append(data)
+      sample_metadata[sample_dir] = metadata
 
 
-def error(msg):
-  log.error(f"Error: {msg}")
+      station_id = os.path.basename(station_dir)
+      cache_file = os.path.join("/tmp/cache", station_id, sample_dir) + ".pkl"
+      cache_data = {
+        "time": sample_times,
+        "data": sample_data,
+        "metadata": sample_metadata
+      }
+      utilrsw.write(cache_file, cache_data)
+
+      time_read2 = time.time()
+      utilrsw.read(cache_file)
+      msg = f"  Time to read cached sample: {time.time() - time_read2:.4f} seconds"
+      logger.info(station_id, msg)
+      dt2 = time.time() - time_read2
+      logger.info(station_id, f"  Speedup from caching: {dt1/dt2:.2f}x")
+
+      n_processed += 1
+    except Exception as e:
+      logger.error(station_id, f"  Error processing {dir_path}: {e}")
+
+  if not found_station_dir:
+    logger.info(station_id, f"  No 'OBS' directories found in {station_dir}")
+    return None
+  else:
+    # Each element of list obs_times is a NumPy array of times for all blocks
+    # in an OBS directory.
+    # Flatten to a single array of times.
+    sample_times = np.concatenate(sample_times) if sample_times else np.array([])
+    sample_data = np.concatenate(sample_data) if sample_data else np.array([])
+    return { "metadata": sample_metadata, "times": sample_times, "data": sample_data}
 
 
-def cli():
+def _process_sample(station_id, observation_dir, read_data=False, return_data=False):
+  import numpy as np
+  from datetime import datetime, timedelta, timezone
+
+  import digital_rf as drf
+
+  do = drf.DigitalRFReader(observation_dir)
+
+  logger.info(station_id, f"  Sample: {os.path.basename(observation_dir)}")
+
+  # Get channels
+  channels = do.get_channels()
+  logger.info(station_id, f"    Channels: {channels}")
+
+  # Get bounds for the first channel
+  start_sample, end_sample = do.get_bounds(channels[0])
+  logger.info(station_id, f"    Channel start index: {start_sample}")
+  logger.info(station_id, f"    Channel stop index:  {end_sample}")
+
+  properties = do.get_properties(channels[0])
+  logger.info(station_id, "    Properties:")
+  for key, value in properties.items():
+    logger.info(station_id, f"      {key}: {value}")
+
+  epoch = properties.get('epoch', '1970-01-01T00:00:00Z')
+  try:
+    epoch_dt = datetime.strptime(epoch, '%Y-%m-%dT%H:%M:%S%z')
+    epoch_unix = epoch_dt.timestamp()
+  except Exception as e:
+    logger.error(station_id, f"Error parsing epoch: {epoch}. Error: {e}")
+    return None
+
+  start_sample_epoch = start_sample / int(properties['samples_per_second'])
+  end_sample_epoch = end_sample / int(properties['samples_per_second'])
+  start_sample_utc = datetime.fromtimestamp(start_sample_epoch + epoch_unix, tz=timezone.utc)
+  start_sample_utc = datetime.strftime(start_sample_utc, '%Y-%m-%dT%H:%M:%S.%fZ')
+  end_sample_utc = datetime.fromtimestamp(end_sample_epoch + epoch_unix, tz=timezone.utc)
+  end_sample_utc = datetime.strftime(end_sample_utc, '%Y-%m-%dT%H:%M:%S.%fZ')
+
+  samples_per_second = properties['samples_per_second']
+  msg = f"    Computed sample start seconds since epoch: {start_sample_epoch} = (start index)/samples_per_second"
+  logger.info(station_id, msg)
+  msg = f"    Computed sample stop seconds since epoch:  {end_sample_epoch} = (end index)/samples_per_second"
+  logger.info(station_id, msg)
+  msg = f"    Computed sample start UTC time: {start_sample_utc}"
+  logger.info(station_id, msg)
+  msg = f"    Computed sample stop UTC time:  {end_sample_utc}"
+  logger.info(station_id, msg)
+
+  # Get continuous blocks of data
+  continuous_blocks = do.get_continuous_blocks(start_sample, end_sample, channels[0])
+  plural = "s" if len(continuous_blocks) > 1 else ""
+  logger.info(station_id, f"\n    Found {len(continuous_blocks)} continuous block{plural}")
+
+  sample_block_metadata = do.read_metadata(start_sample=start_sample,
+                                           end_sample=end_sample,
+                                           channel_name=channels[0])
+
+  sample_block_metadata_first = next(iter(sample_block_metadata.values()))
+
+  metadata = {
+    'channels': channels,
+    'sample_block_metadata': sample_block_metadata,
+    'start_sample': start_sample,
+    'start_sample_utc': start_sample_utc,
+    'end_sample': end_sample,
+    'end_sample_utc': end_sample_utc,
+    'properties': properties,
+    'continuous_blocks_note': "continuous_blocks is a dict with keys of start block index and values of block length.",
+    'continuous_blocks': continuous_blocks,
+    'block_unix_time_ranges': [],
+  }
+
+  obs_data = []
+  obs_times = []
+  bn = 0
+
+  for block_start, block_length in continuous_blocks.items():
+    bn = bn + 1
+
+    # Get the start and end timestamps for the current block.
+    # TODO: Need to use epoch as it may not always be Unix epoch as assumed below.
+    start_time = datetime.fromtimestamp(block_start / int(samples_per_second), tz=timezone.utc)
+    end_time = start_time + timedelta(seconds=(int(block_length)-1) / int(samples_per_second))
+    logger.info(station_id, f"      Block {bn}:")
+
+    logger.info(station_id, f"        Block start:    {block_start}")
+    logger.info(station_id, f"        Block length:   {block_length}")
+    logger.info(station_id, f"        Computed start: {start_time}")
+    logger.info(station_id, f"        Computed stop:  {end_time}")
+    if block_start in sample_block_metadata:
+      logger.info(station_id, "        Metadata:")
+      for key, value in sample_block_metadata[block_start].items():
+        logger.info(station_id, f"          {key}: {value}")
+      logger.info(station_id, "        Comparing metadata for this block to that of the first block.")
+      same = _compare_block_metadata(station_id, sample_block_metadata_first, sample_block_metadata)
+      if same:
+        logger.info(station_id, "          No metadata differences found.")
+      else:
+        msg = f"          Metadata for block {bn} differs from that in first block. Skipping this block."
+        logger.warning(station_id, msg)
+    else:
+      logger.info(station_id, "        Metadata: No metadata for this block.")
+
+
+    if not read_data:
+      logger.info(station_id, "        Data: Not read because read_data is set to False.")
+    else:
+      data = do.read_vector(block_start, block_length, channels[0])
+
+      logger.info(station_id,  "        Data:")
+      logger.info(station_id, f"          # samples:      {len(data)}")
+      logger.info(station_id, f"          data.shape:     {data.shape}")
+      logger.info(station_id, f"          first 2 datum:  {data[0:2]}")
+      logger.info(station_id, f"          last 2 datum:   {data[-2:]}")
+      if return_data:
+        block_unix_time_start = block_start / int(samples_per_second)
+        block_unix_time_end = block_unix_time_start + (block_length - 1) / int(samples_per_second)
+        metadata['block_unix_time_ranges'].append((block_unix_time_start, block_unix_time_end))
+        obs_data.append(data)
+        times = np.arange(block_start, block_start + block_length) / int(samples_per_second)
+        obs_times.append(times)
+
+  if return_data and len(obs_data) > 0:
+    # Concatenate all sample blocks
+    obs_data = np.concatenate(obs_data)
+    obs_times = np.concatenate(obs_times)
+
+  return obs_times, obs_data, metadata
+
+
+class _log:
+  def __init__(self, cache_dir="/tmp/cache"):
+    self.station_info_log = {}
+    self.station_error_log = {}
+    self.station_warning_log = {}
+    self.cache_dir = cache_dir
+
+  def _fmt_msg(self, msg):
+    import io
+    # Get message as string in the case that msg is a non-string object such
+    # as a list, dict, or NumPy array.
+    buf = io.StringIO()
+    print(msg, file=buf)
+    return buf.getvalue().rstrip()
+
+  def info(self, station_id, msg):
+    msg = self._fmt_msg(msg)
+    log.info(msg)
+    if station_id not in self.station_info_log:
+      self.station_info_log[station_id] = []
+    self.station_info_log[station_id].append(msg)
+
+  def warning(self, station_id, msg):
+    self.info(station_id, msg)
+    msg = self._fmt_msg(msg)
+    log.warning(msg)
+    if station_id not in self.station_warning_log:
+      self.station_warning_log[station_id] = []
+    self.station_warning_log[station_id].append(msg)
+    print(self.station_warning_log)
+
+  def error(self, station_id, msg):
+    msg = self._fmt_msg(msg)
+    log.error(msg)
+    if station_id not in self.station_error_log:
+      self.station_error_log[station_id] = []
+    self.station_error_log[station_id].append(msg)
+
+  def write(self, station_id):
+    # Write error log for station to file. Don't write if no errors.
+    log_file = os.path.join(self.cache_dir, f"{station_id}.error.log")
+    log_lines = self.station_info_log.get(station_id, None)
+    if log_lines is None:
+      logger.info(station_id, f"Writing: {log_file}")
+      log_txt = "\n".join(log_lines)
+    else:
+      logger.info(station_id, f"No errors; not writing error log file {log_file}")
+      if os.path.exists(log_file):
+        logger.info(station_id, f"No errors; removing old log file {log_file}")
+        os.remove(log_file)
+
+    # Write info log for station to file.
+    log_file = os.path.join(self.cache_dir, f"{station_id}.log")
+    logger.info(station_id, f"Writing: {log_file}")
+    log_txt = "\n".join(self.station_info_log.get(station_id, ""))
+    if "No 'OBS' directories" not in log_txt:
+      utilrsw.write(log_file, log_txt)
+
+    # Write warning log for station to file. Don't write if no warnings.
+    log_file = os.path.join(self.cache_dir, f"{station_id}.warning.log")
+    log_lines = self.station_warning_log.get(station_id, None)
+    if log_lines is not None:
+      logger.info(station_id, f"Writing: {log_file}")
+      log_txt = "\n".join(log_lines)
+      utilrsw.write(log_file, log_txt)
+
+
+def _cli():
   import argparse
 
   parser = argparse.ArgumentParser(
@@ -52,12 +367,16 @@ def cli():
       '--return_data', action='store_true',
       help='Whether to return data blocks. If not set, data blocks are read but not concatenated and returned to caller.'
   )
+  parser.add_argument(
+      '--cache_dir', type=str, default="/tmp/cache",
+      help='Directory to use for caching observation pk. files. Default is /tmp/cache.'
+  )
 
   args = parser.parse_args()
 
   # If one of start/stop is given, require both
   if (args.start is not None) != (args.stop is not None):
-    parser.error('If one of --start/--stop is given, both are required.')
+    parser.logger.error(station_id, 'If one of --start/--stop is given, both are required.')
 
   # If start/stop given and n not set by user, set n=-1 (process all)
   import sys
@@ -74,135 +393,11 @@ def cli():
   return args
 
 
-def dirs(base_dir):
+def _dirs(base_dir):
   dir_list = sorted(os.listdir(base_dir))
   # Keep only directories
   return [d for d in dir_list if os.path.isdir(os.path.join(base_dir, d))]
 
-
-def process_observation(observation_dir):
-  import numpy as np
-  from datetime import datetime, timedelta, timezone
-
-  import digital_rf as drf
-
-  do = drf.DigitalRFReader(observation_dir)
-
-  info(f"Reading: {observation_dir}")
-
-  # Get channels
-  channels = do.get_channels()
-  info(f"  Channels: {channels}")
-
-  # Get bounds for the first channel
-  start_sample, end_sample = do.get_bounds(channels[0])
-  info(f"  Channel start index: {start_sample}")
-  info(f"  Channel stop index:  {end_sample}")
-
-  properties = do.get_properties(channels[0])
-  info("  Properties:")
-  for key, value in properties.items():
-    info(f"    {key}: {value}")
-
-  epoch = properties.get('epoch', '1970-01-01T00:00:00Z')
-  try:
-    epoch_dt = datetime.strptime(epoch, '%Y-%m-%dT%H:%M:%S%z')
-    epoch_unix = epoch_dt.timestamp()
-  except Exception as e:
-    error(f"Error parsing epoch: {epoch}. Error: {e}")
-    return None
-
-  start_sample_epoch = start_sample / int(properties['samples_per_second'])
-  end_sample_epoch = end_sample / int(properties['samples_per_second'])
-  start_sample_utc = datetime.fromtimestamp(start_sample_epoch + epoch_unix, tz=timezone.utc)
-  start_sample_utc = datetime.strftime(start_sample_utc, '%Y-%m-%dT%H:%M:%S.%fZ')
-  end_sample_utc = datetime.fromtimestamp(end_sample_epoch + epoch_unix, tz=timezone.utc)
-  end_sample_utc = datetime.strftime(end_sample_utc, '%Y-%m-%dT%H:%M:%S.%fZ')
-
-  samples_per_second = properties['samples_per_second']
-  msg = f"  Computed start seconds since epoch: {start_sample_epoch} = (start index)/samples_per_second"
-  info(msg)
-  msg = f"  Computed stop seconds since epoch:  {end_sample_epoch} = (end index)/samples_per_second"
-  info(msg)
-  msg = f"  Computed start UTC time: {start_sample_utc}"
-  info(msg)
-  msg = f"  Computed stop UTC time:  {end_sample_utc}"
-  info(msg)
-
-  # Get continuous blocks of data
-  continuous_blocks = do.get_continuous_blocks(start_sample, end_sample, channels[0])
-  plural = "s" if len(continuous_blocks) > 1 else ""
-  info(f"\n  Found {len(continuous_blocks)} continuous block{plural}")
-
-  metadata_samples = do.read_metadata(
-    start_sample=start_sample,
-    end_sample=end_sample,
-    channel_name=channels[0])
-
-  all_metadata = {
-    'channels': channels,
-    'start_sample': start_sample,
-    'start_sample_utc': start_sample_utc,
-    'end_sample': end_sample,
-    'end_sample_utc': end_sample_utc,
-    'properties': properties,
-    'continuous_blocks_note': "continuous_blocks is a dict with keys of start unix time and values of block length in samples. The actual unix time range of the block can be computed from the start unix time and block length using the sample_rate property.",
-    'continuous_blocks': continuous_blocks,
-    'block_unix_time_ranges': [],
-    'metadata_samples': metadata_samples
-  }
-
-  all_data = []
-  all_times = []
-  bn = 0
-
-  # Read data blocks, but discard content after printing info about it.
-  read_data = cli().read_data
-  # Read and concatenate data blocks to return to caller.
-  return_data = cli().return_data
-
-  for block_start, block_length in continuous_blocks.items():
-    bn = bn + 1
-
-    # Get the start and end timestamps for the current block.
-    # TODO: Need to use epoch as it may not always be Unix epoch as assumed below.
-    start_time = datetime.fromtimestamp(block_start / int(samples_per_second), tz=timezone.utc)
-    end_time = start_time + timedelta(seconds=(int(block_length)-1) / int(samples_per_second))
-    info(f"    Block {bn}:")
-
-    info(f"      Block start:    {block_start}")
-    info(f"      Block length:   {block_length}")
-    info(f"      Computed start: {start_time}")
-    info(f"      Computed stop:  {end_time}")
-    if block_start in metadata_samples:
-      info("      Metadata:")
-      for key, value in metadata_samples[block_start].items():
-        info(f"        {key}: {value}")
-    else:
-      info("      Metadata: No metadata for this block.")
-
-
-    if not read_data:
-      info("      Data: Not read because read_data is set to False.")
-    else:
-      data = do.read_vector(block_start, block_length, channels[0])
-
-      info("      Data:")
-      info(f"        # samples:      {len(data)}")
-      info(f"        data.shape:     {data.shape}")
-
-      if return_data:
-        block_unix_time_start = block_start / int(samples_per_second)
-        block_unix_time_end = block_unix_time_start + (block_length - 1) / int(samples_per_second)
-        all_metadata['block_unix_time_ranges'].append((block_unix_time_start, block_unix_time_end))
-        all_data.append(data)
-        times = np.arange(block_start, block_start + block_length) / int(samples_per_second)
-        all_times.append(times)
-
-  if return_data and len(all_data) > 0:
-    all_data = np.concatenate(all_data)
-
-  return all_times, all_data, all_metadata
 
 def _parse_obs_time(d, pat):
   import datetime
@@ -233,9 +428,50 @@ def _parse_cli_time(ts):
       return None
 
 
-def _subset_obs_dirs(station_dir, n=None, first_last=False, start=None, stop=None):
+def _compare_block_metadata(station_id, metadata_ref, metadata):
+
+  import numpy as np
+
+  same = True
+
+  # Loop over all block metadata in first sample. We don't need the keys
+  # (block start indices) for the comparison only the values
+  # (metadata for each block).
+  for block_start, block_metadata in metadata.items():
+    for key, value in block_metadata.items():
+      if key not in metadata_ref:
+        same = False
+        logger.info(station_id, f"    Block metadata key '{key}' not found in first block metadata.")
+        continue
+      if isinstance(value, np.ndarray):
+        if not np.array_equal(value, metadata_ref[key]):
+          same = False
+          logger.info(station_id, f"    Block metadata key '{key}' has different values from that in first block metadata:")
+          logger.info(station_id, f"      First:   {metadata_ref[key]}")
+          logger.info(station_id, f"      Current: {value}")
+      elif value != metadata_ref[key]:
+        same = False
+        logger.info(station_id, f"    Block metadata key '{key}' has different values from that in first block metadata:")
+        logger.info(station_id, f"      First:   {metadata_ref[key]}")
+        logger.info(station_id, f"      Current: {value}")
+
+  return same
+
+
+def _compare_sample_properties(station_id, properties1, properties2):
+  for key in properties1:
+    if key not in properties2:
+      logger.info(station_id, f"    Metadata key {key} not found in second metadata.")
+    else:
+      if properties1[key] != properties2[key]:
+        logger.info(station_id, f"    Metadata key {key} has different values:")
+        logger.info(station_id, f"      First:   {properties1[key]}")
+        logger.info(station_id, f"      Current: {properties2[key]}")
+
+
+def _subset_sample_dirs(station_dir, n=None, first_last=False, start=None, stop=None):
   import re
-  obs_dirs = [d for d in dirs(station_dir) if d.startswith('OBS')]
+  obs_dirs = [d for d in _dirs(station_dir) if d.startswith('OBS')]
   pat = re.compile(r'^OBS(\d{4}-\d{2}-\d{2}T\d{2}-\d{2})')
 
   # If start/stop given, filter obs_dirs by timestamp in filename
@@ -248,7 +484,7 @@ def _subset_obs_dirs(station_dir, n=None, first_last=False, start=None, stop=Non
         dt = _parse_obs_time(d, pat)
         if dt is not None and start_dt <= dt <= stop_dt:
           filtered.append(d)
-      info(f'Filtering OBS dirs by start/stop: {start} to {stop}. {len(filtered)} remain.')
+      logger.info(station_id, f'  {start} to {stop} gave {len(filtered)} sample dirs out of {len(obs_dirs)}.')
       obs_dirs = filtered
 
   if first_last and len(obs_dirs) > 0:
@@ -262,110 +498,82 @@ def _subset_obs_dirs(station_dir, n=None, first_last=False, start=None, stop=Non
       if d not in seen:
         seen.add(d)
         selected.append(d)
-    info(f'--first-last (n={k}): selecting {selected}')
+    logger.info(station_id, f'  first_last and n options gave {len(selected)} sample dirs out of {len(obs_dirs)}.')
     obs_dirs = selected
 
   return obs_dirs
 
 
-def process_observations(station_dir, n=None, first_last=False, start=None, stop=None):
-  """Process all subdirectories starting with 'OBS'"""
-  import time
+def _catalog_entry(station_dir, result):
+  catalog = []
+  catalog.append(station_dir)
+  catalog.append("") # Nickname not available
+  startDateTime = result['metadata'][0]['start_sample_utc']
+  catalog.append(startDateTime)
+  stopDateTime = result['metadata'][-1]['end_sample_utc']
+  catalog.append(stopDateTime)
+  lat = result['metadata'][0]['obs_metadata'].get('lat', '')
+  catalog.append(lat)
+  long = result['metadata'][0]['obs_metadata'].get('long', '')
+  catalog.append(long)
+  elevation = "" # Not available in obs_metadata
+  catalog.append(elevation)
+  return catalog
 
-  info("")
-  info(utilrsw.hline(display=False))
-  info(f'Station directory: {station_dir}')
-
-  obs_dirs = _subset_obs_dirs(station_dir, n=n, first_last=first_last, start=start, stop=stop)
-
-  found_obs_dir = False
-  n_processed = 0
-  obs_times = []
-  obs_data = []
-  obs_metadata = []
-  for obs_dir in obs_dirs:
-    if not first_last and n is not None and n_processed >= n:
-      break
-    found_obs_dir = True
-    dir_path = os.path.join(station_dir, obs_dir)
-
-    try:
-      time_read1 = time.time()
-      block_times, block_data, block_metadata = process_observation(dir_path)
-      dt1 = time.time() - time_read1
-      log.info(f"Time to read dir content: {dt1:.4f} seconds")
-
-      obs_times.append(block_times)
-      obs_data.append(block_data)
-      obs_metadata.append(block_metadata)
-
-      station_id = os.path.basename(station_dir)
-      cache_file = os.path.join("/tmp/cache", station_id, obs_dir) + ".pkl"
-      utilrsw.write(cache_file, {"time": block_times, "data": block_data, "metadata": block_metadata})
-
-      time_read2 = time.time()
-      utilrsw.read(cache_file)
-      log.info(f"Time to read cached dir content: {time.time() - time_read2:.4f} seconds")
-      dt2 = time.time() - time_read2
-      log.info(f"Speedup from caching: {dt1/dt2:.2f}x")
-
-      n_processed += 1
-    except Exception as e:
-      error(f"Error processing {dir_path}: {e}")
-
-  if not found_obs_dir:
-    info(f"No 'OBS' directories found in {station_dir}")
-    return None
-  else:
-    return { "metadata": obs_metadata, "times": obs_times, "data": obs_data}
 
 if __name__ == '__main__':
-  args = cli()
+  args = _cli()
+  logger = _log(cache_dir=args.cache_dir)
 
   catalog = []
-  # Process all station directories.
-  station_dirs = dirs(args.base_dir)
-  for station_dir in station_dirs:
-    if args.station is not None and station_dir != args.station:
-      continue
-    catalog.append(station_dir)
-    catalog.append("") # Nickname not available
+  for station_id in _dirs(args.base_dir):
 
-    station_dir = os.path.join(args.base_dir, station_dir)
-    result = process_observations(station_dir, n=args.n, first_last=args.first_last, start=args.start, stop=args.stop)
+    if args.station is not None and station_id != args.station:
+      continue
+
+    kwargs = {
+      "base_dir": args.base_dir,
+      "cache_dir": args.cache_dir,
+      "start": args.start,
+      "stop": args.stop,
+      "n": args.n,
+      "first_last": args.first_last,
+      "read_data": args.read_data,
+      "return_data": args.return_data,
+    }
+    result = process_samples(station_id, **kwargs)
 
     if result is not None:
-      startDateTime = result['metadata'][0]['start_sample_utc']
-      catalog.append(startDateTime)
-      stopDateTime = result['metadata'][-1]['end_sample_utc']
-      catalog.append(stopDateTime)
-      lat = result['metadata'][0]['metadata_samples'].get('lat', '')
-      catalog.append(lat)
-      long = result['metadata'][0]['metadata_samples'].get('long', '')
-      catalog.append(long)
-      elevation = "" # Not available in metadata_samples
-      catalog.append(elevation)
+      #catalog.append(_catalog_entry(station_id, result))
 
-      log.info(utilrsw.hline(display=False))
-      log.info(f"Output for station directory: {station_dir}")
-      log.info(utilrsw.hline(display=False))
+      station_dir = os.path.join(args.base_dir, station_id)
+      logger.info(station_id, utilrsw.hline(display=False))
+      logger.info(station_id, f"Result for station directory: {station_dir}")
+      logger.info(station_id, utilrsw.hline(display=False))
 
-      for idx, obs in enumerate(result['metadata']):
-        log.info("Observation metadata:")
-        log.info(utilrsw.format_dict(obs))
+      logger.info(station_id, "Station metadata:")
+      for obs, obs_val in result['metadata'].items():
+        logger.info(station_id, f"  Observation {obs}: {obs_val}")
+
       if result['times'] is not None:
-        log.info("Observation times:")
-        log.info(result['times'])
+        logger.info(station_id, f"Dataset times (shape: {result['times'].shape}):")
+        logger.info(station_id, result['times'])
+        logger.info(station_id, f"Dataset data (shape: {result['data'].shape}):")
+        logger.info(station_id, result['data'])
+
+    logger.info(station_id, utilrsw.hline(display=False))
+    logger.write(station_id)
 
   if len(catalog) > 0:
     utilrsw.write("metadata/drf/catalog.csv", catalog)
+
 
 if False:
   def extract_zip(zip_file):
     import zipfile
 
     dir_name = zip_file.replace('.zip', '')
-    os.makedirs(dir_name, exist_ok=True)
+    os.make_dirs(dir_name, exist_ok=True)
 
     # Extract the contents of the zip file into the directory
     with zipfile.ZipFile(zip_file, 'r') as zip_ref:
@@ -382,4 +590,4 @@ if False:
     if file.endswith('.zip'):
       zip_file = os.path.join(zip_dir, file)
       dir_name = extract_zip(zip_file)
-      time_, data = process_observation(dir_name)
+      time_, data = _process_sample(dir_name)
