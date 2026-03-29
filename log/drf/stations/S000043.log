@@ -45,7 +45,7 @@ S000043
           uuid_str: grape19
           samples_per_second: 10.0
         Comparing metadata for this block to that of the first block.
-          No metadata differences found.
+        Keeping block: No metadata differences found.
         Data:
           # samples:      517
           data.shape:     (517,)
@@ -106,7 +106,7 @@ S000043
           data.shape:     (35,)
           first 2 datum:  [-0.00097243+0.00075024j -0.00130182-0.00062254j]
           last 2 datum:   [-0.00036447-4.6664523e-04j -0.00037449+9.5391326e-05j]
-  Time to read sample: 0.1224 seconds
+  Time to read sample: 0.5360 seconds
 
   Sample: OBS2023-08-07T00-00
     Channels: ['ch0']
@@ -149,7 +149,7 @@ S000043
           uuid_str: grape19
           samples_per_second: 10.0
         Comparing metadata for this block to that of the first block.
-          No metadata differences found.
+        Keeping block: No metadata differences found.
         Data:
           # samples:      100
           data.shape:     (100,)
@@ -177,9 +177,9 @@ S000043
           data.shape:     (53,)
           first 2 datum:  [0.04317113+0.02562276j 0.04889091+0.01565273j]
           last 2 datum:   [-0.03097779+0.05112162j -0.01778457+0.06158204j]
-  Time to read sample: 0.0307 seconds
+  Time to read sample: 0.0361 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample with that from first block in the first sample.
+  Comparing first block metadata of this sample (OBS2023-08-07T00-00) with that from first block in the first sample (16777627883).
     Block metadata key 'center_frequencies' has different values from that in first block metadata:
       First:   [5.]
       Current: [10.]
@@ -240,7 +240,7 @@ S000043
           uuid_str: grape19
           samples_per_second: 10.0
         Comparing metadata for this block to that of the first block.
-          No metadata differences found.
+        Keeping block: No metadata differences found.
         Data:
           # samples:      418
           data.shape:     (418,)
@@ -510,9 +510,9 @@ S000043
           data.shape:     (474,)
           first 2 datum:  [-0.01532278+0.00178039j -0.01319277+0.00726717j]
           last 2 datum:   [-0.00937934-0.00516764j -0.00855503-0.00806817j]
-  Time to read sample: 0.5189 seconds
+  Time to read sample: 0.5832 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample with that from first block in the first sample.
+  Comparing first block metadata of this sample (OBS2026-02-05T00-00) with that from first block in the first sample (16777627883).
     Block metadata key 'center_frequencies' has different values from that in first block metadata:
       First:   [5.]
       Current: [10.]
@@ -564,7 +564,7 @@ S000043
           uuid_str: grape19
           samples_per_second: 10.0
         Comparing metadata for this block to that of the first block.
-          No metadata differences found.
+        Keeping block: No metadata differences found.
         Data:
           # samples:      413
           data.shape:     (413,)
@@ -834,9 +834,9 @@ S000043
           data.shape:     (462,)
           first 2 datum:  [0.02416137-0.00874075j 0.0290059 -0.01272186j]
           last 2 datum:   [0.00421208-0.00480329j 0.00055829-0.01224806j]
-  Time to read sample: 0.5206 seconds
+  Time to read sample: 1.1986 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample with that from first block in the first sample.
+  Comparing first block metadata of this sample (OBS2026-02-06T00-00) with that from first block in the first sample (16777627883).
     Block metadata key 'center_frequencies' has different values from that in first block metadata:
       First:   [5.]
       Current: [10.]
@@ -846,17 +846,18 @@ S000043
     Block metadata key 'long' has different values from that in first block metadata:
       First:   -87.542
       Current: -71.375
-----------------------------------------------------------------------------------------------------------
-Result for station directory: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000043
-----------------------------------------------------------------------------------------------------------
-Station metadata:
-  Observation OBS2023-03-02T00-00: {'channels': ['ch0'], 'sample_block_metadata': OrderedDict([(np.int64(16777627883), {'center_frequencies': array([5.]), 'lat': 33.396, 'long': -87.542, 'sample_rate_denominator': 1, 'sample_rate_numerator': 10, 'uuid_str': 'grape19', 'samples_per_second': np.longdouble('10.0')})]), 'start_sample': 16777627883, 'start_sample_utc': '2023-03-02T13:13:08.300000Z', 'end_sample': 16777766434, 'end_sample_utc': '2023-03-02T17:04:03.400000Z', 'properties': {'H5Tget_class': 1, 'H5Tget_offset': 0, 'H5Tget_order': 0, 'H5Tget_precision': 32, 'H5Tget_size': 4, 'digital_rf_time_description': 'All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.', 'digital_rf_version': '2.6.0', 'epoch': '1970-01-01T00:00:00Z', 'file_cadence_millisecs': 60000, 'is_complex': 1, 'is_continuous': 1, 'num_subchannels': 1, 'sample_rate_denominator': 1, 'sample_rate_numerator': 10, 'subdir_cadence_secs': 3600, 'samples_per_second': np.longdouble('10.0')}, 'continuous_blocks_note': 'continuous_blocks is a dict with keys of start block index and values of block length.', 'continuous_blocks': OrderedDict([(16777627883, 517), (16777655400, 1200), (16777691400, 1200), (16777727400, 1200), (16777763400, 1200), (16777766400, 35)]), 'block_unix_time_ranges': [(1677762788.3, 1677762839.8999999), (1677765540.0, 1677765659.9), (1677769140.0, 1677769259.9), (1677772740.0, 1677772859.9), (1677776340.0, 1677776459.9), (1677776640.0, 1677776643.4)]}
-Dataset times (shape: (5352,)):
-[1.67776279e+09 1.67776279e+09 1.67776279e+09 ... 1.67777664e+09
+  --------------------------------------------------------------------------------------------------------
+  Summary: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000043
+  --------------------------------------------------------------------------------------------------------
+    Samples kept:
+       OBS2023-03-02T00-00
+    Dataset times (shape: (5352,)):
+      [1.67776279e+09 1.67776279e+09 1.67776279e+09 ... 1.67777664e+09
  1.67777664e+09 1.67777664e+09]
-Dataset data (shape: (5352,)):
-[ 0.0000000e+00+0.0000000e+00j  6.9276479e-07+8.3653404e-06j
+    Dataset data (shape: (5352,)):
+      [ 0.0000000e+00+0.0000000e+00j  6.9276479e-07+8.3653404e-06j
  -1.6062013e-05+7.3903000e-05j ... -4.7749846e-04-1.5045411e-03j
  -3.6447163e-04-4.6664523e-04j -3.7449092e-04+9.5391326e-05j]
-No errors; not writing error log file /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/log/drf/stations/S000043.error.log
+  --------------------------------------------------------------------------------------------------------
+  No errors; not writing error log file /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/log/drf/stations/S000043.error.log
   Writing: /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/log/drf/stations/S000043.log
