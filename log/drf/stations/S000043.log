@@ -1,0 +1,862 @@
+
+----------------------------------------------------------------------------------------------------------
+S000043
+  Station directory: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000043
+  first_last and n options gave 4 sample dirs out of 906.
+
+  Sample: OBS2023-03-02T00-00
+    Channels: ['ch0']
+    Channel start index: 16777627883
+    Channel stop index:  16777766434
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1677762788.3 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1677776643.4 = (end index)/samples_per_second
+    Computed sample start UTC time: 2023-03-02T13:13:08.300000Z
+    Computed sample stop UTC time:  2023-03-02T17:04:03.400000Z
+
+    Found 6 continuous blocks
+      Block 1:
+        Block start:    16777627883
+        Block length:   517
+        Computed start: 2023-03-02 13:13:08.300000+00:00
+        Computed stop:  2023-03-02 13:13:59.900000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.396
+          long: -87.542
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          No metadata differences found.
+        Data:
+          # samples:      517
+          data.shape:     (517,)
+          first 2 datum:  [0.000000e+00+0.00000e+00j 6.927648e-07+8.36534e-06j]
+          last 2 datum:   [0.00010984+0.00011569j 0.00256324+0.00098058j]
+      Block 2:
+        Block start:    16777655400
+        Block length:   1200
+        Computed start: 2023-03-02 13:59:00+00:00
+        Computed stop:  2023-03-02 14:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 2.914736e-04+0.00085088j -6.879884e-05-0.00220254j]
+          last 2 datum:   [-0.00099871-0.00012319j -0.00041332-0.00138713j]
+      Block 3:
+        Block start:    16777691400
+        Block length:   1200
+        Computed start: 2023-03-02 14:59:00+00:00
+        Computed stop:  2023-03-02 15:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00024749+0.00019232j  0.00181661-0.00086378j]
+          last 2 datum:   [0.00229627+3.9237631e-05j 0.00018932-1.2438351e-03j]
+      Block 4:
+        Block start:    16777727400
+        Block length:   1200
+        Computed start: 2023-03-02 15:59:00+00:00
+        Computed stop:  2023-03-02 16:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00076086+0.0005485j   0.00062248-0.00175914j]
+          last 2 datum:   [-0.00018606-0.00146603j  0.00138125+0.00136401j]
+      Block 5:
+        Block start:    16777763400
+        Block length:   1200
+        Computed start: 2023-03-02 16:59:00+00:00
+        Computed stop:  2023-03-02 17:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [4.579001e-05+0.00180927j 6.208221e-04+0.001719j  ]
+          last 2 datum:   [-0.00138816+0.00035594j  0.00075915+0.00047183j]
+      Block 6:
+        Block start:    16777766400
+        Block length:   35
+        Computed start: 2023-03-02 17:04:00+00:00
+        Computed stop:  2023-03-02 17:04:03.400000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      35
+          data.shape:     (35,)
+          first 2 datum:  [-0.00097243+0.00075024j -0.00130182-0.00062254j]
+          last 2 datum:   [-0.00036447-4.6664523e-04j -0.00037449+9.5391326e-05j]
+  Time to read sample: 0.1224 seconds
+
+  Sample: OBS2023-08-07T00-00
+    Channels: ['ch0']
+    Channel start index: 16934432300
+    Channel stop index:  16934441452
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1693443230.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1693444145.2 = (end index)/samples_per_second
+    Computed sample start UTC time: 2023-08-31T00:53:50.000000Z
+    Computed sample stop UTC time:  2023-08-31T01:09:05.200000Z
+
+    Found 3 continuous blocks
+      Block 1:
+        Block start:    16934432300
+        Block length:   100
+        Computed start: 2023-08-31 00:53:50+00:00
+        Computed stop:  2023-08-31 00:53:59.900000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 42.6458
+          long: -71.375
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          No metadata differences found.
+        Data:
+          # samples:      100
+          data.shape:     (100,)
+          first 2 datum:  [ 0.0000000e+00+0.0000000e+00j -1.1804442e-05+4.1855194e-05j]
+          last 2 datum:   [-0.02396408+0.00738598j -0.02331434+0.01279448j]
+      Block 2:
+        Block start:    16934435400
+        Block length:   1200
+        Computed start: 2023-08-31 00:59:00+00:00
+        Computed stop:  2023-08-31 01:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.00871715-0.0583959j  -0.00743248-0.05657467j]
+          last 2 datum:   [-0.00596657-0.00323604j -0.00433223+0.00339138j]
+      Block 3:
+        Block start:    16934441400
+        Block length:   53
+        Computed start: 2023-08-31 01:09:00+00:00
+        Computed stop:  2023-08-31 01:09:05.200000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      53
+          data.shape:     (53,)
+          first 2 datum:  [0.04317113+0.02562276j 0.04889091+0.01565273j]
+          last 2 datum:   [-0.03097779+0.05112162j -0.01778457+0.06158204j]
+  Time to read sample: 0.0307 seconds
+  Comparing sample properties with first sample properties:
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [5.]
+      Current: [10.]
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   33.396
+      Current: 42.6458
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   -87.542
+      Current: -71.375
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [5.]
+      Current: [10.]
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   33.396
+      Current: 42.6458
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   -87.542
+      Current: -71.375
+
+  Sample: OBS2026-02-05T00-00
+    Channels: ['ch0']
+    Channel start index: 17702496182
+    Channel stop index:  17703359873
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1770249618.2 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1770335987.3 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-02-05T00:00:18.200000Z
+    Computed sample stop UTC time:  2026-02-05T23:59:47.300000Z
+
+    Found 25 continuous blocks
+      Block 1:
+        Block start:    17702496182
+        Block length:   418
+        Computed start: 2026-02-05 00:00:18.200000+00:00
+        Computed stop:  2026-02-05 00:00:59.900000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 42.6458
+          long: -71.375
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          No metadata differences found.
+        Data:
+          # samples:      418
+          data.shape:     (418,)
+          first 2 datum:  [ 0.0000000e+00+0.0000000e+00j -9.6916165e-06+1.4156475e-05j]
+          last 2 datum:   [-0.0186308 -0.00046041j -0.01760753+0.00067009j]
+      Block 2:
+        Block start:    17702531400
+        Block length:   1200
+        Computed start: 2026-02-05 00:59:00+00:00
+        Computed stop:  2026-02-05 01:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00223727+0.01314658j -0.01164299+0.01409759j]
+          last 2 datum:   [-0.0027446 +0.01521718j -0.00567045+0.01620529j]
+      Block 3:
+        Block start:    17702567400
+        Block length:   1200
+        Computed start: 2026-02-05 01:59:00+00:00
+        Computed stop:  2026-02-05 02:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00304492+0.01327974j 0.00276843+0.01806062j]
+          last 2 datum:   [-0.02897104+0.00594473j -0.02393738+0.01457367j]
+      Block 4:
+        Block start:    17702603400
+        Block length:   1200
+        Computed start: 2026-02-05 02:59:00+00:00
+        Computed stop:  2026-02-05 03:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.02770378+0.00503371j 0.02094091-0.00895249j]
+          last 2 datum:   [-0.01137067+0.0044565j  -0.01487431+0.01779976j]
+      Block 5:
+        Block start:    17702639400
+        Block length:   1200
+        Computed start: 2026-02-05 03:59:00+00:00
+        Computed stop:  2026-02-05 04:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.01781481-0.02247752j -0.00157842-0.02515502j]
+          last 2 datum:   [-0.00054182-0.00531523j  0.00711701-0.00139649j]
+      Block 6:
+        Block start:    17702675400
+        Block length:   1200
+        Computed start: 2026-02-05 04:59:00+00:00
+        Computed stop:  2026-02-05 05:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00377702-0.00957224j  0.00588701-0.00703294j]
+          last 2 datum:   [-0.01187825+0.01515384j  0.00641462+0.01837258j]
+      Block 7:
+        Block start:    17702711400
+        Block length:   1200
+        Computed start: 2026-02-05 05:59:00+00:00
+        Computed stop:  2026-02-05 06:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.01196645+0.01958732j 0.01704129+0.01510948j]
+          last 2 datum:   [0.00737325+0.00095291j 0.00954128+0.00183721j]
+      Block 8:
+        Block start:    17702747400
+        Block length:   1200
+        Computed start: 2026-02-05 06:59:00+00:00
+        Computed stop:  2026-02-05 07:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.0113649+0.01113718j -0.008349 +0.0036417j ]
+          last 2 datum:   [0.02124099+0.01993793j 0.02328579+0.02118907j]
+      Block 9:
+        Block start:    17702783400
+        Block length:   1200
+        Computed start: 2026-02-05 07:59:00+00:00
+        Computed stop:  2026-02-05 08:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00876958-0.00570602j -0.00497249-0.01248406j]
+          last 2 datum:   [-0.00942159+0.00554841j -0.01004299+0.00102248j]
+      Block 10:
+        Block start:    17702819400
+        Block length:   1200
+        Computed start: 2026-02-05 08:59:00+00:00
+        Computed stop:  2026-02-05 09:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00246582+0.01596892j -0.00288497+0.0168768j ]
+          last 2 datum:   [-0.00242234+0.00378854j  0.00151092+0.00519294j]
+      Block 11:
+        Block start:    17702855400
+        Block length:   1200
+        Computed start: 2026-02-05 09:59:00+00:00
+        Computed stop:  2026-02-05 10:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.01471431+0.00940552j -0.01651675+0.00262484j]
+          last 2 datum:   [0.01825248-0.00649468j 0.0192779 -0.00567539j]
+      Block 12:
+        Block start:    17702891400
+        Block length:   1200
+        Computed start: 2026-02-05 10:59:00+00:00
+        Computed stop:  2026-02-05 11:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00397864+0.00845522j  0.00035086+0.00819736j]
+          last 2 datum:   [0.02644483+0.00023813j 0.02281444-0.00240259j]
+      Block 13:
+        Block start:    17702927400
+        Block length:   1200
+        Computed start: 2026-02-05 11:59:00+00:00
+        Computed stop:  2026-02-05 12:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 2.2960496e-06+0.00185593j -1.3305250e-04+0.00128989j]
+          last 2 datum:   [-0.00406322-0.00268504j -0.00140479-0.00106309j]
+      Block 14:
+        Block start:    17702963400
+        Block length:   1200
+        Computed start: 2026-02-05 12:59:00+00:00
+        Computed stop:  2026-02-05 13:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.0110881 -1.7412975e-02j 0.01077055-6.6376750e-05j]
+          last 2 datum:   [-0.013472  -0.00971227j -0.01300241-0.00771826j]
+      Block 15:
+        Block start:    17702999400
+        Block length:   1200
+        Computed start: 2026-02-05 13:59:00+00:00
+        Computed stop:  2026-02-05 14:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00510026-0.00705759j 0.01029759-0.00222375j]
+          last 2 datum:   [-0.00027676+0.00315074j -0.00337392+0.0080578j ]
+      Block 16:
+        Block start:    17703035400
+        Block length:   1200
+        Computed start: 2026-02-05 14:59:00+00:00
+        Computed stop:  2026-02-05 15:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00027692-0.0018619j  0.00134774-0.00135971j]
+          last 2 datum:   [-0.00499644-0.00098366j -0.00335675-0.00331763j]
+      Block 17:
+        Block start:    17703071400
+        Block length:   1200
+        Computed start: 2026-02-05 15:59:00+00:00
+        Computed stop:  2026-02-05 16:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00248785+0.001294j   0.00116975+0.00209316j]
+          last 2 datum:   [0.00054484-0.00226524j 0.00194329-0.00354353j]
+      Block 18:
+        Block start:    17703107400
+        Block length:   1200
+        Computed start: 2026-02-05 16:59:00+00:00
+        Computed stop:  2026-02-05 17:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.00033395+0.00133632j -0.00146539-0.00153724j]
+          last 2 datum:   [-0.00095912-0.0006233j -0.00226136-0.0028387j]
+      Block 19:
+        Block start:    17703143400
+        Block length:   1200
+        Computed start: 2026-02-05 17:59:00+00:00
+        Computed stop:  2026-02-05 18:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00041919+2.1481550e-04j -0.00201306+3.3422812e-06j]
+          last 2 datum:   [0.00102511-0.00049218j 0.00022516+0.00076542j]
+      Block 20:
+        Block start:    17703179400
+        Block length:   1200
+        Computed start: 2026-02-05 18:59:00+00:00
+        Computed stop:  2026-02-05 19:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00232055-0.00102707j -0.00033291-0.00101404j]
+          last 2 datum:   [ 0.00124976-0.00022645j -0.00044322-0.00130852j]
+      Block 21:
+        Block start:    17703215400
+        Block length:   1200
+        Computed start: 2026-02-05 19:59:00+00:00
+        Computed stop:  2026-02-05 20:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00327097+0.00080107j -0.00152342+0.00073869j]
+          last 2 datum:   [-0.00081717+0.00020706j  0.00093209+0.00140372j]
+      Block 22:
+        Block start:    17703251400
+        Block length:   1200
+        Computed start: 2026-02-05 20:59:00+00:00
+        Computed stop:  2026-02-05 21:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.00191113-1.7021690e-03j -0.00186061-1.5272559e-06j]
+          last 2 datum:   [ 0.00114575-0.00307997j -0.00080511-0.00210228j]
+      Block 23:
+        Block start:    17703287400
+        Block length:   1200
+        Computed start: 2026-02-05 21:59:00+00:00
+        Computed stop:  2026-02-05 22:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00067603-0.00222917j 0.00196048-0.00179982j]
+          last 2 datum:   [-0.00094929-0.00021438j  0.00202425+0.00230322j]
+      Block 24:
+        Block start:    17703323400
+        Block length:   1200
+        Computed start: 2026-02-05 22:59:00+00:00
+        Computed stop:  2026-02-05 23:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00977035+0.02512893j -0.00028811+0.02333415j]
+          last 2 datum:   [0.01637101-0.00520233j 0.01314661-0.0085548j ]
+      Block 25:
+        Block start:    17703359400
+        Block length:   474
+        Computed start: 2026-02-05 23:59:00+00:00
+        Computed stop:  2026-02-05 23:59:47.300000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      474
+          data.shape:     (474,)
+          first 2 datum:  [-0.01532278+0.00178039j -0.01319277+0.00726717j]
+          last 2 datum:   [-0.00937934-0.00516764j -0.00855503-0.00806817j]
+  Time to read sample: 0.5189 seconds
+  Comparing sample properties with first sample properties:
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [5.]
+      Current: [10.]
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   33.396
+      Current: 42.6458
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   -87.542
+      Current: -71.375
+
+  Sample: OBS2026-02-06T00-00
+    Channels: ['ch0']
+    Channel start index: 17703360187
+    Channel stop index:  17704223861
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1770336018.7 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1770422386.1 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-02-06T00:00:18.700000Z
+    Computed sample stop UTC time:  2026-02-06T23:59:46.100000Z
+
+    Found 25 continuous blocks
+      Block 1:
+        Block start:    17703360187
+        Block length:   413
+        Computed start: 2026-02-06 00:00:18.700000+00:00
+        Computed stop:  2026-02-06 00:00:59.900000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 42.6458
+          long: -71.375
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          No metadata differences found.
+        Data:
+          # samples:      413
+          data.shape:     (413,)
+          first 2 datum:  [ 0.0000000e+00+0.00000000e+00j -1.8423676e-05-1.06879625e-05j]
+          last 2 datum:   [0.00577998+0.04144409j 0.00361886+0.04194423j]
+      Block 2:
+        Block start:    17703395400
+        Block length:   1200
+        Computed start: 2026-02-06 00:59:00+00:00
+        Computed stop:  2026-02-06 01:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.0319064 +0.01084078j 0.02810585+0.01423171j]
+          last 2 datum:   [-0.00393032+0.00444922j -0.00373983+0.00442648j]
+      Block 3:
+        Block start:    17703431400
+        Block length:   1200
+        Computed start: 2026-02-06 01:59:00+00:00
+        Computed stop:  2026-02-06 02:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.02182136-0.01578728j 0.0226856 -0.01458629j]
+          last 2 datum:   [-0.03105304+0.01731405j -0.03061773+0.01081831j]
+      Block 4:
+        Block start:    17703467400
+        Block length:   1200
+        Computed start: 2026-02-06 02:59:00+00:00
+        Computed stop:  2026-02-06 03:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00950596-0.00941308j 0.00718621-0.00880307j]
+          last 2 datum:   [0.01053349-0.02765219j 0.01289363-0.03016885j]
+      Block 5:
+        Block start:    17703503400
+        Block length:   1200
+        Computed start: 2026-02-06 03:59:00+00:00
+        Computed stop:  2026-02-06 04:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00368151+0.00992264j  0.00044968+0.01306425j]
+          last 2 datum:   [-0.01464848-0.00144433j -0.0117063 -0.0022539j ]
+      Block 6:
+        Block start:    17703539400
+        Block length:   1200
+        Computed start: 2026-02-06 04:59:00+00:00
+        Computed stop:  2026-02-06 05:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.01275982-0.01331705j -0.01183772-0.01032308j]
+          last 2 datum:   [-0.00157002+0.00733894j  0.00019883+0.0062204j ]
+      Block 7:
+        Block start:    17703575400
+        Block length:   1200
+        Computed start: 2026-02-06 05:59:00+00:00
+        Computed stop:  2026-02-06 06:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.0093877 +0.02800244j -0.00854002+0.03154813j]
+          last 2 datum:   [0.00932833-0.00253918j 0.00902766-0.00061621j]
+      Block 8:
+        Block start:    17703611400
+        Block length:   1200
+        Computed start: 2026-02-06 06:59:00+00:00
+        Computed stop:  2026-02-06 07:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.01657096-0.02081326j 0.02113706-0.01236506j]
+          last 2 datum:   [-0.0037936 -0.01386943j -0.00200117-0.00995958j]
+      Block 9:
+        Block start:    17703647400
+        Block length:   1200
+        Computed start: 2026-02-06 07:59:00+00:00
+        Computed stop:  2026-02-06 08:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00558472-0.00269848j 0.00849321-0.00111937j]
+          last 2 datum:   [0.00528762-0.0017204j  0.00275279-0.00335311j]
+      Block 10:
+        Block start:    17703683400
+        Block length:   1200
+        Computed start: 2026-02-06 08:59:00+00:00
+        Computed stop:  2026-02-06 09:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.01918279-0.01619592j 0.01751638-0.0121708j ]
+          last 2 datum:   [0.00188281+0.00337273j 0.00142648+0.00139377j]
+      Block 11:
+        Block start:    17703719400
+        Block length:   1200
+        Computed start: 2026-02-06 09:59:00+00:00
+        Computed stop:  2026-02-06 10:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00818623-0.04629745j  0.00108537-0.04631717j]
+          last 2 datum:   [-0.00813554+0.00432798j -0.01357553+0.00497832j]
+      Block 12:
+        Block start:    17703755400
+        Block length:   1200
+        Computed start: 2026-02-06 10:59:00+00:00
+        Computed stop:  2026-02-06 11:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00277411-0.00512159j 0.00233472-0.00425792j]
+          last 2 datum:   [-0.00093764-0.00359749j -0.00272513-0.00141501j]
+      Block 13:
+        Block start:    17703791400
+        Block length:   1200
+        Computed start: 2026-02-06 11:59:00+00:00
+        Computed stop:  2026-02-06 12:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00141064-0.00812987j 0.00477183-0.00767614j]
+          last 2 datum:   [0.00488796+0.000678j   0.00482894+0.00142666j]
+      Block 14:
+        Block start:    17703827400
+        Block length:   1200
+        Computed start: 2026-02-06 12:59:00+00:00
+        Computed stop:  2026-02-06 13:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00530487-0.00372004j 0.00419392-0.00377328j]
+          last 2 datum:   [0.00513626-0.00274242j 0.00286561+0.00057355j]
+      Block 15:
+        Block start:    17703863400
+        Block length:   1200
+        Computed start: 2026-02-06 13:59:00+00:00
+        Computed stop:  2026-02-06 14:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.0100559 +0.00275315j 0.00813683+0.00449601j]
+          last 2 datum:   [0.0018008 -0.0032099j  0.00494264-0.00146516j]
+      Block 16:
+        Block start:    17703899400
+        Block length:   1200
+        Computed start: 2026-02-06 14:59:00+00:00
+        Computed stop:  2026-02-06 15:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00439354+0.0019713j  -0.00588555+0.00285125j]
+          last 2 datum:   [-0.00471373-0.00628753j  0.00020249-0.00728228j]
+      Block 17:
+        Block start:    17703935400
+        Block length:   1200
+        Computed start: 2026-02-06 15:59:00+00:00
+        Computed stop:  2026-02-06 16:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00015079-0.00289975j 0.00135247+0.00033543j]
+          last 2 datum:   [-0.00115878+3.7217811e-05j -0.00125963+1.1891064e-03j]
+      Block 18:
+        Block start:    17703971400
+        Block length:   1200
+        Computed start: 2026-02-06 16:59:00+00:00
+        Computed stop:  2026-02-06 17:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00155721-0.00010812j -0.0005895 -0.00134601j]
+          last 2 datum:   [-0.00186106+0.00087083j -0.00041702+0.00179977j]
+      Block 19:
+        Block start:    17704007400
+        Block length:   1200
+        Computed start: 2026-02-06 17:59:00+00:00
+        Computed stop:  2026-02-06 18:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00093708+0.00025782j  0.00284217-0.00013648j]
+          last 2 datum:   [ 1.5273048e-03+0.00242785j -8.4373547e-05+0.00032461j]
+      Block 20:
+        Block start:    17704043400
+        Block length:   1200
+        Computed start: 2026-02-06 18:59:00+00:00
+        Computed stop:  2026-02-06 19:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00129105+0.00352418j 0.0020861 +0.00106267j]
+          last 2 datum:   [ 0.00086372+8.8670669e-05j -0.00110392-2.1540469e-05j]
+      Block 21:
+        Block start:    17704079400
+        Block length:   1200
+        Computed start: 2026-02-06 19:59:00+00:00
+        Computed stop:  2026-02-06 20:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00205244+0.00194866j 0.00134148+0.00018925j]
+          last 2 datum:   [ 0.00054877+0.00295282j -0.00059805-0.0001149j ]
+      Block 22:
+        Block start:    17704115400
+        Block length:   1200
+        Computed start: 2026-02-06 20:59:00+00:00
+        Computed stop:  2026-02-06 21:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.0014483 -1.6137447e-03j -0.00333276-9.5415446e-05j]
+          last 2 datum:   [-0.00266753+1.8891227e-03j -0.00272996-7.2201481e-05j]
+      Block 23:
+        Block start:    17704151400
+        Block length:   1200
+        Computed start: 2026-02-06 21:59:00+00:00
+        Computed stop:  2026-02-06 22:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00337602+0.00869253j  0.00065618+0.00867149j]
+          last 2 datum:   [-0.00277048+0.00531315j -0.00443872+0.00808967j]
+      Block 24:
+        Block start:    17704187400
+        Block length:   1200
+        Computed start: 2026-02-06 22:59:00+00:00
+        Computed stop:  2026-02-06 23:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.01282931-0.00044898j 0.01158487-0.00201346j]
+          last 2 datum:   [-0.01245061-0.00099285j -0.01451457+0.00097549j]
+      Block 25:
+        Block start:    17704223400
+        Block length:   462
+        Computed start: 2026-02-06 23:59:00+00:00
+        Computed stop:  2026-02-06 23:59:46.100000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      462
+          data.shape:     (462,)
+          first 2 datum:  [0.02416137-0.00874075j 0.0290059 -0.01272186j]
+          last 2 datum:   [0.00421208-0.00480329j 0.00055829-0.01224806j]
+  Time to read sample: 0.5206 seconds
+  Comparing sample properties with first sample properties:
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [5.]
+      Current: [10.]
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   33.396
+      Current: 42.6458
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   -87.542
+      Current: -71.375
+----------------------------------------------------------------------------------------------------------
+Result for station directory: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000043
+----------------------------------------------------------------------------------------------------------
+Station metadata:
+  Observation OBS2023-03-02T00-00: {'channels': ['ch0'], 'sample_block_metadata': OrderedDict([(np.int64(16777627883), {'center_frequencies': array([5.]), 'lat': 33.396, 'long': -87.542, 'sample_rate_denominator': 1, 'sample_rate_numerator': 10, 'uuid_str': 'grape19', 'samples_per_second': np.longdouble('10.0')})]), 'start_sample': 16777627883, 'start_sample_utc': '2023-03-02T13:13:08.300000Z', 'end_sample': 16777766434, 'end_sample_utc': '2023-03-02T17:04:03.400000Z', 'properties': {'H5Tget_class': 1, 'H5Tget_offset': 0, 'H5Tget_order': 0, 'H5Tget_precision': 32, 'H5Tget_size': 4, 'digital_rf_time_description': 'All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.', 'digital_rf_version': '2.6.0', 'epoch': '1970-01-01T00:00:00Z', 'file_cadence_millisecs': 60000, 'is_complex': 1, 'is_continuous': 1, 'num_subchannels': 1, 'sample_rate_denominator': 1, 'sample_rate_numerator': 10, 'subdir_cadence_secs': 3600, 'samples_per_second': np.longdouble('10.0')}, 'continuous_blocks_note': 'continuous_blocks is a dict with keys of start block index and values of block length.', 'continuous_blocks': OrderedDict([(16777627883, 517), (16777655400, 1200), (16777691400, 1200), (16777727400, 1200), (16777763400, 1200), (16777766400, 35)]), 'block_unix_time_ranges': [(1677762788.3, 1677762839.8999999), (1677765540.0, 1677765659.9), (1677769140.0, 1677769259.9), (1677772740.0, 1677772859.9), (1677776340.0, 1677776459.9), (1677776640.0, 1677776643.4)]}
+Dataset times (shape: (5352,)):
+[1.67776279e+09 1.67776279e+09 1.67776279e+09 ... 1.67777664e+09
+ 1.67777664e+09 1.67777664e+09]
+Dataset data (shape: (5352,)):
+[ 0.0000000e+00+0.0000000e+00j  6.9276479e-07+8.3653404e-06j
+ -1.6062013e-05+7.3903000e-05j ... -4.7749846e-04-1.5045411e-03j
+ -3.6447163e-04-4.6664523e-04j -3.7449092e-04+9.5391326e-05j]
+No errors; not writing error log file /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/log/drf/stations/S000043.error.log
+  Writing: /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/log/drf/stations/S000043.log

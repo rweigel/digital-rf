@@ -1,0 +1,3700 @@
+
+----------------------------------------------------------------------------------------------------------
+S000004
+  Station directory: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000004
+  first_last and n options gave 4 sample dirs out of 418.
+
+  Sample: OBS2022-07-07T15-00
+    Channels: ['ch0']
+    Channel start index: 16572069320
+    Channel stop index:  16577359199
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1657206932.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1657735919.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2022-07-07T15:15:32.000000Z
+    Computed sample stop UTC time:  2022-07-13T18:11:59.900000Z
+
+    Found 33 continuous blocks
+      Block 1:
+        Block start:    16572069320
+        Block length:   280
+        Computed start: 2022-07-07 15:15:32+00:00
+        Computed stop:  2022-07-07 15:15:59.900000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 0.0
+          long: 0.0
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+        Keeping block: No metadata differences found.
+        Data:
+          # samples:      280
+          data.shape:     (280,)
+          first 2 datum:  [ 0.0000000e+00+0.0000000e+00j -2.9688257e-05+1.2769962e-05j]
+          last 2 datum:   [-4.1592744e-04+0.00430614j  2.2652346e-05+0.00493819j]
+      Block 2:
+        Block start:    16572095400
+        Block length:   1200
+        Computed start: 2022-07-07 15:59:00+00:00
+        Computed stop:  2022-07-07 16:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.00416087-0.00367172j -0.00124356-0.00052991j]
+          last 2 datum:   [0.00416861+0.00017356j 0.00389385+0.00029904j]
+      Block 3:
+        Block start:    16572131400
+        Block length:   1200
+        Computed start: 2022-07-07 16:59:00+00:00
+        Computed stop:  2022-07-07 17:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00337839-0.00030666j 0.00352828+0.00077691j]
+          last 2 datum:   [0.00357284+0.00198018j 0.00326704+0.00252989j]
+      Block 4:
+        Block start:    16572167400
+        Block length:   1200
+        Computed start: 2022-07-07 17:59:00+00:00
+        Computed stop:  2022-07-07 18:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00131955+0.00072944j -0.00060722-0.00094761j]
+          last 2 datum:   [-0.00173106-0.00224662j -0.00142431+0.00030259j]
+      Block 5:
+        Block start:    16572203400
+        Block length:   1200
+        Computed start: 2022-07-07 18:59:00+00:00
+        Computed stop:  2022-07-07 19:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00504674+0.00066116j 0.00371454-0.00333584j]
+          last 2 datum:   [0.00393065+0.00184942j 0.00494313-0.00063538j]
+      Block 6:
+        Block start:    16572239400
+        Block length:   1200
+        Computed start: 2022-07-07 19:59:00+00:00
+        Computed stop:  2022-07-07 20:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00220562-0.00453229j 0.00021992+0.00169029j]
+          last 2 datum:   [-0.00103086+0.00895852j -0.00262112+0.00488352j]
+      Block 7:
+        Block start:    16572247800
+        Block length:   53
+        Computed start: 2022-07-07 20:13:00+00:00
+        Computed stop:  2022-07-07 20:13:05.200000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      53
+          data.shape:     (53,)
+          first 2 datum:  [-0.00423343-0.00247996j  0.00259343-0.00088731j]
+          last 2 datum:   [-0.00227704+0.00049452j -0.00644444-0.00478775j]
+      Block 8:
+        Block start:    16572307560
+        Block length:   240
+        Computed start: 2022-07-07 21:52:36+00:00
+        Computed stop:  2022-07-07 21:52:59.900000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 0.0
+          long: 0.0
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+        Keeping block: No metadata differences found.
+        Data:
+          # samples:      240
+          data.shape:     (240,)
+          first 2 datum:  [ 0.000000e+00+0.0000000e+00j -2.503717e-06+1.1200078e-05j]
+          last 2 datum:   [ 0.00447849+0.00302477j -0.00138457+0.00643449j]
+      Block 9:
+        Block start:    16572311400
+        Block length:   1200
+        Computed start: 2022-07-07 21:59:00+00:00
+        Computed stop:  2022-07-07 22:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.00267965+0.00318352j -0.00038974+0.00162025j]
+          last 2 datum:   [0.00181192-0.00442895j 0.00201143-0.00634367j]
+      Block 10:
+        Block start:    16572347400
+        Block length:   1200
+        Computed start: 2022-07-07 22:59:00+00:00
+        Computed stop:  2022-07-07 23:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-2.4651303e-05-0.00904439j -1.4480681e-03-0.00957685j]
+          last 2 datum:   [-0.00483968-0.00195925j -0.00720337-0.01175543j]
+      Block 11:
+        Block start:    16572383400
+        Block length:   1200
+        Computed start: 2022-07-07 23:59:00+00:00
+        Computed stop:  2022-07-08 00:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00970937+0.00295155j 0.00444756-0.00273546j]
+          last 2 datum:   [0.01988708-0.00529169j 0.01538211-0.00523223j]
+      Block 12:
+        Block start:    16572419400
+        Block length:   1200
+        Computed start: 2022-07-08 00:59:00+00:00
+        Computed stop:  2022-07-08 01:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.01415588-0.04594136j  0.00495682-0.04408394j]
+          last 2 datum:   [-0.00289413-0.02782517j -0.02037725-0.04770512j]
+      Block 13:
+        Block start:    16572455400
+        Block length:   1200
+        Computed start: 2022-07-08 01:59:00+00:00
+        Computed stop:  2022-07-08 02:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.65567386+0.37834987j -0.6118697 +0.44699088j]
+          last 2 datum:   [-0.12091426-0.09119185j -0.11568449-0.06014103j]
+      Block 14:
+        Block start:    16572491400
+        Block length:   1200
+        Computed start: 2022-07-08 02:59:00+00:00
+        Computed stop:  2022-07-08 03:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.08593729-0.5379575j -0.21310905-0.4865682j]
+          last 2 datum:   [ 0.038482  +0.13418119j -0.04659607+0.11961299j]
+      Block 15:
+        Block start:    16572527400
+        Block length:   1200
+        Computed start: 2022-07-08 03:59:00+00:00
+        Computed stop:  2022-07-08 04:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.09736598-0.09769636j 0.19654286-0.06207846j]
+          last 2 datum:   [-0.3410272 -0.2614152j  -0.37025982-0.26023468j]
+      Block 16:
+        Block start:    16572563400
+        Block length:   1200
+        Computed start: 2022-07-08 04:59:00+00:00
+        Computed stop:  2022-07-08 05:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.2876798 +0.33409628j -0.31515062+0.30246502j]
+          last 2 datum:   [-0.00499009-0.08002258j  0.01199359-0.09874527j]
+      Block 17:
+        Block start:    16572599400
+        Block length:   1200
+        Computed start: 2022-07-08 05:59:00+00:00
+        Computed stop:  2022-07-08 06:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.21786457+0.12414102j -0.22958595+0.07480299j]
+          last 2 datum:   [-0.29535004+0.11347927j -0.31006125+0.07589891j]
+      Block 18:
+        Block start:    16572635400
+        Block length:   1200
+        Computed start: 2022-07-08 06:59:00+00:00
+        Computed stop:  2022-07-08 07:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.08659568+0.13146444j 0.05209061+0.13576318j]
+          last 2 datum:   [-0.16446477+0.24083747j -0.19640034+0.23721732j]
+      Block 19:
+        Block start:    16572671400
+        Block length:   1200
+        Computed start: 2022-07-08 07:59:00+00:00
+        Computed stop:  2022-07-08 08:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.2277562 +0.16427448j 0.23766883+0.14886464j]
+          last 2 datum:   [-0.05043968-0.23560707j -0.09349823-0.18918741j]
+      Block 20:
+        Block start:    16572707400
+        Block length:   1200
+        Computed start: 2022-07-08 08:59:00+00:00
+        Computed stop:  2022-07-08 09:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.14910099-0.09552313j 0.14425386-0.09778287j]
+          last 2 datum:   [-0.05081913-0.2899961j -0.00730952-0.3261024j]
+      Block 21:
+        Block start:    16572743400
+        Block length:   1200
+        Computed start: 2022-07-08 09:59:00+00:00
+        Computed stop:  2022-07-08 10:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.03202012-0.08621371j 0.02695501-0.10153388j]
+          last 2 datum:   [-0.03069631-0.24016885j  0.00373823-0.24059339j]
+      Block 22:
+        Block start:    16572779400
+        Block length:   1200
+        Computed start: 2022-07-08 10:59:00+00:00
+        Computed stop:  2022-07-08 11:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.04820545+0.06124615j 0.03827941+0.07400893j]
+          last 2 datum:   [-0.06266715-0.06053583j -0.06156239-0.07048648j]
+      Block 23:
+        Block start:    16572815400
+        Block length:   1200
+        Computed start: 2022-07-08 11:59:00+00:00
+        Computed stop:  2022-07-08 12:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [3.8901468e-05-0.02747693j 1.7026000e-02-0.0326616j ]
+          last 2 datum:   [-0.01524539-0.00377764j -0.03372057+0.00067461j]
+      Block 24:
+        Block start:    16572851400
+        Block length:   1200
+        Computed start: 2022-07-08 12:59:00+00:00
+        Computed stop:  2022-07-08 13:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.01604724+0.00221629j 0.00791964+0.01125951j]
+          last 2 datum:   [-0.0345004 -0.02278328j -0.01518834-0.0196896j ]
+      Block 25:
+        Block start:    16572887400
+        Block length:   1200
+        Computed start: 2022-07-08 13:59:00+00:00
+        Computed stop:  2022-07-08 14:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.03062206+0.01658168j 0.02334541+0.0123487j ]
+          last 2 datum:   [ 0.00445127-0.00667332j -0.00870673+0.00330614j]
+      Block 26:
+        Block start:    16572923400
+        Block length:   1200
+        Computed start: 2022-07-08 14:59:00+00:00
+        Computed stop:  2022-07-08 15:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00759271-0.00117217j 0.00834907-0.00629867j]
+          last 2 datum:   [-0.01462209+0.00501155j -0.01151519+0.00419775j]
+      Block 27:
+        Block start:    16572959400
+        Block length:   1200
+        Computed start: 2022-07-08 15:59:00+00:00
+        Computed stop:  2022-07-08 16:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.0022074 -0.00609178j 0.01164475+0.00851053j]
+          last 2 datum:   [ 0.00321455-0.0039694j  -0.00748561-0.00020869j]
+      Block 28:
+        Block start:    16572995400
+        Block length:   1200
+        Computed start: 2022-07-08 16:59:00+00:00
+        Computed stop:  2022-07-08 17:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00886369-0.00162768j -0.00247799-0.00156395j]
+          last 2 datum:   [-0.00493056+0.0016694j  -0.0018371 +0.00520171j]
+      Block 29:
+        Block start:    16573031400
+        Block length:   1200
+        Computed start: 2022-07-08 17:59:00+00:00
+        Computed stop:  2022-07-08 18:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00239173-0.00446544j 0.00244617-0.00300594j]
+          last 2 datum:   [0.00518035+0.00049739j 0.00437217+0.00073532j]
+      Block 30:
+        Block start:    16573054800
+        Block length:   21
+        Computed start: 2022-07-08 18:38:00+00:00
+        Computed stop:  2022-07-08 18:38:02+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      21
+          data.shape:     (21,)
+          first 2 datum:  [-0.00219333-0.00316777j  0.00313581-0.00112139j]
+          last 2 datum:   [0.0038128+0.00793302j 0.0022918+0.00166698j]
+      Block 31:
+        Block start:    16577322280
+        Block length:   320
+        Computed start: 2022-07-13 17:10:28+00:00
+        Computed stop:  2022-07-13 17:10:59.900000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 0.0
+          long: 0.0
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+        Keeping block: No metadata differences found.
+        Data:
+          # samples:      320
+          data.shape:     (320,)
+          first 2 datum:  [ 0.000000e+00+0.0000000e+00j -7.565254e-06+3.0132527e-05j]
+          last 2 datum:   [ 0.00030432-0.00443191j -0.00199077+0.00080365j]
+      Block 32:
+        Block start:    16577351400
+        Block length:   1200
+        Computed start: 2022-07-13 17:59:00+00:00
+        Computed stop:  2022-07-13 18:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00333022-0.00124997j 0.00470485-0.00340502j]
+          last 2 datum:   [-5.9439524e-05+0.00200285j  2.0756021e-04+0.00573068j]
+      Block 33:
+        Block start:    16577358600
+        Block length:   600
+        Computed start: 2022-07-13 18:11:00+00:00
+        Computed stop:  2022-07-13 18:11:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      600
+          data.shape:     (600,)
+          first 2 datum:  [0.00500496-0.0024989j  0.00583196-0.00249927j]
+          last 2 datum:   [ 0.0036739 +0.00072182j -0.00267915+0.00535405j]
+  Time to read sample: 1.5902 seconds
+
+  Sample: OBS2022-11-07T00-00
+    Channels: ['ch0']
+    Channel start index: 16678446590
+    Channel stop index:  16686149999
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1667844659.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1668614999.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2022-11-07T18:10:59.000000Z
+    Computed sample stop UTC time:  2022-11-16T16:09:59.900000Z
+
+    Found 214 continuous blocks
+      Block 1:
+        Block start:    16678446590
+        Block length:   8773
+        Computed start: 2022-11-07 18:10:59+00:00
+        Computed stop:  2022-11-07 18:25:36.200000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.393285
+          long: -87.56013166666666
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393276666666665
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560095
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393256666666666
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56005666666667
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39318333333333
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56006333333333
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393323333333335
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560125
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393328333333336
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56031666666667
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39329
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56003
+        Data:
+          # samples:      8773
+          data.shape:     (8773,)
+          first 2 datum:  [ 0.0000000e+00+0.0000000e+00j -1.7038788e-05+2.4657058e-07j]
+          last 2 datum:   [0.00442508+0.0078029j  0.00594737+0.00388389j]
+      Block 2:
+        Block start:    16678487900
+        Block length:   100
+        Computed start: 2022-11-07 19:19:50+00:00
+        Computed stop:  2022-11-07 19:19:59.900000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.393256666666666
+          long: -87.56005666666667
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393276666666665
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560095
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393256666666666
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56005666666667
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39318333333333
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56006333333333
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393323333333335
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560125
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393328333333336
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56031666666667
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39329
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56003
+        Data:
+          # samples:      100
+          data.shape:     (100,)
+          first 2 datum:  [0.000000e+00+0.000000e+00j 3.390201e-06-4.630236e-06j]
+          last 2 datum:   [-0.00257347-0.00645725j -0.00228418-0.00404591j]
+      Block 3:
+        Block start:    16678506000
+        Block length:   12000
+        Computed start: 2022-11-07 19:50:00+00:00
+        Computed stop:  2022-11-07 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00341705+0.00147353j 0.0028927 +0.00065112j]
+          last 2 datum:   [-0.00306638-0.00634418j -0.0015709 -0.0070469j ]
+      Block 4:
+        Block start:    16678542000
+        Block length:   12000
+        Computed start: 2022-11-07 20:50:00+00:00
+        Computed stop:  2022-11-07 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00788272+0.00813026j -0.00692892+0.00770344j]
+          last 2 datum:   [-0.0132238 -0.00216498j -0.01388225-0.00398008j]
+      Block 5:
+        Block start:    16678578000
+        Block length:   12000
+        Computed start: 2022-11-07 21:50:00+00:00
+        Computed stop:  2022-11-07 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [ 0.00048535+0.00274153j -0.0020504 -0.000247j  ]
+          last 2 datum:   [0.02214266-0.00571097j 0.02248264+0.00171189j]
+      Block 6:
+        Block start:    16678614000
+        Block length:   12000
+        Computed start: 2022-11-07 22:50:00+00:00
+        Computed stop:  2022-11-07 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.02929157-0.07394543j -0.03091505-0.07776523j]
+          last 2 datum:   [-0.0644756 +0.19478586j -0.04657326+0.20875615j]
+      Block 7:
+        Block start:    16678650000
+        Block length:   12000
+        Computed start: 2022-11-07 23:50:00+00:00
+        Computed stop:  2022-11-08 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.0278955+0.04969134j -0.029154 +0.03446415j]
+          last 2 datum:   [-0.03129787-0.09014931j -0.03203408-0.09148564j]
+      Block 8:
+        Block start:    16678686000
+        Block length:   12000
+        Computed start: 2022-11-08 00:50:00+00:00
+        Computed stop:  2022-11-08 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00534604-0.07202769j 0.01118115-0.03379912j]
+          last 2 datum:   [0.0901889 -0.17403427j 0.08449145-0.17446312j]
+      Block 9:
+        Block start:    16678722000
+        Block length:   12000
+        Computed start: 2022-11-08 01:50:00+00:00
+        Computed stop:  2022-11-08 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.09709582+0.02662391j 0.08631255+0.02607102j]
+          last 2 datum:   [-0.1589376 +0.06460968j -0.15358604+0.05093056j]
+      Block 10:
+        Block start:    16678758000
+        Block length:   12000
+        Computed start: 2022-11-08 02:50:00+00:00
+        Computed stop:  2022-11-08 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.0279565 +0.16509645j -0.04895134+0.14697182j]
+          last 2 datum:   [-0.09295133-0.11683144j -0.0802442 -0.12128419j]
+      Block 11:
+        Block start:    16678794000
+        Block length:   12000
+        Computed start: 2022-11-08 03:50:00+00:00
+        Computed stop:  2022-11-08 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.31888148-0.09015234j -0.29940942-0.14692181j]
+          last 2 datum:   [-0.4231756 +0.23755233j -0.41891068+0.21854869j]
+      Block 12:
+        Block start:    16678830000
+        Block length:   12000
+        Computed start: 2022-11-08 04:50:00+00:00
+        Computed stop:  2022-11-08 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.2136501+0.23221989j -0.2625577+0.13781174j]
+          last 2 datum:   [0.05542694+0.12207062j 0.04227817+0.13602133j]
+      Block 13:
+        Block start:    16678866000
+        Block length:   12000
+        Computed start: 2022-11-08 05:50:00+00:00
+        Computed stop:  2022-11-08 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.81975734-0.34828776j 0.8743123 -0.32310492j]
+          last 2 datum:   [-0.64868253-0.42175668j -0.5811898 -0.47022915j]
+      Block 14:
+        Block start:    16678902000
+        Block length:   12000
+        Computed start: 2022-11-08 06:50:00+00:00
+        Computed stop:  2022-11-08 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.5827007-0.02650269j -0.5384511+0.03109868j]
+          last 2 datum:   [0.11721716-0.24626319j 0.18650484-0.2067664j ]
+      Block 15:
+        Block start:    16678938000
+        Block length:   12000
+        Computed start: 2022-11-08 07:50:00+00:00
+        Computed stop:  2022-11-08 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.22914623-0.85894644j 0.37192595-0.7832935j ]
+          last 2 datum:   [0.40088776+0.56534266j 0.40635654+0.564305j  ]
+      Block 16:
+        Block start:    16678974000
+        Block length:   12000
+        Computed start: 2022-11-08 08:50:00+00:00
+        Computed stop:  2022-11-08 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.48306987-0.1985644j  0.55314773-0.13293487j]
+          last 2 datum:   [-0.18149474-0.06340341j -0.15669212-0.09458017j]
+      Block 17:
+        Block start:    16679010000
+        Block length:   12000
+        Computed start: 2022-11-08 09:50:00+00:00
+        Computed stop:  2022-11-08 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.24921776-0.22467865j -0.2109026 -0.23512489j]
+          last 2 datum:   [0.21620016-0.03632998j 0.21367146-0.01109563j]
+      Block 18:
+        Block start:    16679046000
+        Block length:   12000
+        Computed start: 2022-11-08 10:50:00+00:00
+        Computed stop:  2022-11-08 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.36267057+0.22155568j -0.38669044+0.11990219j]
+          last 2 datum:   [-0.39958572-0.17386188j -0.37986866-0.24863243j]
+      Block 19:
+        Block start:    16679082000
+        Block length:   12000
+        Computed start: 2022-11-08 11:50:00+00:00
+        Computed stop:  2022-11-08 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.82677746+0.20888618j -0.8434048 +0.08771521j]
+          last 2 datum:   [-0.14255303+0.17943092j -0.1907587 +0.13186695j]
+      Block 20:
+        Block start:    16679118000
+        Block length:   12000
+        Computed start: 2022-11-08 12:50:00+00:00
+        Computed stop:  2022-11-08 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.16461122-0.11666253j 0.21494967+0.0145691j ]
+          last 2 datum:   [-0.02943953+0.03225999j -0.03364119+0.02088404j]
+      Block 21:
+        Block start:    16679154000
+        Block length:   12000
+        Computed start: 2022-11-08 13:50:00+00:00
+        Computed stop:  2022-11-08 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00109089+0.00261927j 0.0008366 +0.00193633j]
+          last 2 datum:   [0.03898767-0.00975273j 0.03597348+0.00078746j]
+      Block 22:
+        Block start:    16679190000
+        Block length:   12000
+        Computed start: 2022-11-08 14:50:00+00:00
+        Computed stop:  2022-11-08 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00500673+0.02028784j 0.00184065+0.01672901j]
+          last 2 datum:   [0.0015448 +0.00574117j 0.00117541+0.00452229j]
+      Block 23:
+        Block start:    16679226000
+        Block length:   12000
+        Computed start: 2022-11-08 15:50:00+00:00
+        Computed stop:  2022-11-08 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00235453-0.00231551j 0.00066791-0.00542396j]
+          last 2 datum:   [0.00068982-0.00709274j 0.00323671-0.00488231j]
+      Block 24:
+        Block start:    16679262000
+        Block length:   12000
+        Computed start: 2022-11-08 16:50:00+00:00
+        Computed stop:  2022-11-08 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00445556+4.7831487e-05j 0.00329859+8.4448938e-04j]
+          last 2 datum:   [-0.00396038-0.00024765j -0.00576786+0.00212305j]
+      Block 25:
+        Block start:    16679298000
+        Block length:   12000
+        Computed start: 2022-11-08 17:50:00+00:00
+        Computed stop:  2022-11-08 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.0012818 +0.00040041j 0.00439063-0.00063206j]
+          last 2 datum:   [ 0.00066376+0.00051634j -0.00304383-0.00424737j]
+      Block 26:
+        Block start:    16679334000
+        Block length:   12000
+        Computed start: 2022-11-08 18:50:00+00:00
+        Computed stop:  2022-11-08 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00078766-0.00382045j  0.00286983-0.00650847j]
+          last 2 datum:   [0.00928943+0.00312402j 0.00551555+0.00467773j]
+      Block 27:
+        Block start:    16679370000
+        Block length:   12000
+        Computed start: 2022-11-08 19:50:00+00:00
+        Computed stop:  2022-11-08 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.01092722+0.00167259j -0.00595975+0.00278989j]
+          last 2 datum:   [-0.01521665-0.00218974j -0.01421236+0.0054357j ]
+      Block 28:
+        Block start:    16679406000
+        Block length:   12000
+        Computed start: 2022-11-08 20:50:00+00:00
+        Computed stop:  2022-11-08 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00293375-0.00633328j 0.00155908-0.00358446j]
+          last 2 datum:   [-0.00531277+0.01438179j -0.00580052+0.0099609j ]
+      Block 29:
+        Block start:    16679442000
+        Block length:   12000
+        Computed start: 2022-11-08 21:50:00+00:00
+        Computed stop:  2022-11-08 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.02179653-0.04079017j -0.02288536-0.03701804j]
+          last 2 datum:   [0.02361795-0.00347944j 0.02071151+0.00184729j]
+      Block 30:
+        Block start:    16679478000
+        Block length:   12000
+        Computed start: 2022-11-08 22:50:00+00:00
+        Computed stop:  2022-11-08 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.11180265-0.00449411j 0.10333371-0.03598057j]
+          last 2 datum:   [-0.0352261 -0.06138504j -0.03597101-0.06573898j]
+      Block 31:
+        Block start:    16679514000
+        Block length:   12000
+        Computed start: 2022-11-08 23:50:00+00:00
+        Computed stop:  2022-11-09 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.08774859-0.14440444j 0.08618529-0.14780091j]
+          last 2 datum:   [-0.20591532-0.23906888j -0.21963538-0.23092124j]
+      Block 32:
+        Block start:    16679550000
+        Block length:   12000
+        Computed start: 2022-11-09 00:50:00+00:00
+        Computed stop:  2022-11-09 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.25319132-0.16513045j 0.24702927-0.1898404j ]
+          last 2 datum:   [0.10241999+0.20929492j 0.11680993+0.22115056j]
+      Block 33:
+        Block start:    16679586000
+        Block length:   12000
+        Computed start: 2022-11-09 01:50:00+00:00
+        Computed stop:  2022-11-09 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.07759677-0.2804133j  0.10306175-0.28924352j]
+          last 2 datum:   [0.09983872+0.21563357j 0.05442035+0.20002909j]
+      Block 34:
+        Block start:    16679622000
+        Block length:   12000
+        Computed start: 2022-11-09 02:50:00+00:00
+        Computed stop:  2022-11-09 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.23249151-0.03585916j 0.25025806-0.01465711j]
+          last 2 datum:   [-0.5045977-0.09550657j -0.5334166-0.09668987j]
+      Block 35:
+        Block start:    16679658000
+        Block length:   12000
+        Computed start: 2022-11-09 03:50:00+00:00
+        Computed stop:  2022-11-09 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.07420731-0.43539357j -0.00482323-0.42156786j]
+          last 2 datum:   [0.44465628-0.20403904j 0.4793681 -0.15165831j]
+      Block 36:
+        Block start:    16679694000
+        Block length:   12000
+        Computed start: 2022-11-09 04:50:00+00:00
+        Computed stop:  2022-11-09 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.20669192-0.11498625j 0.2197668 -0.05191535j]
+          last 2 datum:   [-0.3765616 +0.72824585j -0.36671296+0.68810475j]
+      Block 37:
+        Block start:    16679730000
+        Block length:   12000
+        Computed start: 2022-11-09 05:50:00+00:00
+        Computed stop:  2022-11-09 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.7617114+0.714251j  -0.7936958+0.6655243j]
+          last 2 datum:   [0.11416368-0.06924959j 0.12432223-0.05278341j]
+      Block 38:
+        Block start:    16679766000
+        Block length:   12000
+        Computed start: 2022-11-09 06:50:00+00:00
+        Computed stop:  2022-11-09 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.53389066+0.03991693j 0.50679165+0.09068688j]
+          last 2 datum:   [-0.16383156-0.54761535j -0.12919693-0.53448164j]
+      Block 39:
+        Block start:    16679802000
+        Block length:   12000
+        Computed start: 2022-11-09 07:50:00+00:00
+        Computed stop:  2022-11-09 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.3626879-0.52700555j 0.4646044-0.45292258j]
+          last 2 datum:   [-0.821266 +0.5296235j -0.8662356+0.4650645j]
+      Block 40:
+        Block start:    16679838000
+        Block length:   12000
+        Computed start: 2022-11-09 08:50:00+00:00
+        Computed stop:  2022-11-09 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.0657806 +0.93160343j -0.10902399+0.87553793j]
+          last 2 datum:   [-0.4919681 -0.3261423j  -0.45774826-0.38458413j]
+      Block 41:
+        Block start:    16679874000
+        Block length:   12000
+        Computed start: 2022-11-09 09:50:00+00:00
+        Computed stop:  2022-11-09 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.09582045+0.10287278j -0.08576997+0.09940198j]
+          last 2 datum:   [0.309718 +0.5188982j  0.3166692+0.51109403j]
+      Block 42:
+        Block start:    16679910000
+        Block length:   12000
+        Computed start: 2022-11-09 10:50:00+00:00
+        Computed stop:  2022-11-09 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.527099  -0.22514114j -0.47808567-0.27400047j]
+          last 2 datum:   [-0.24144757-0.24973907j -0.20156862-0.26389298j]
+      Block 43:
+        Block start:    16679946000
+        Block length:   12000
+        Computed start: 2022-11-09 11:50:00+00:00
+        Computed stop:  2022-11-09 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.7355311+0.38765213j 0.7565391+0.42381635j]
+          last 2 datum:   [0.17229559+0.12154758j 0.18490836+0.14469045j]
+      Block 44:
+        Block start:    16679982000
+        Block length:   12000
+        Computed start: 2022-11-09 12:50:00+00:00
+        Computed stop:  2022-11-09 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.06978901-0.17511374j  0.00015694-0.23263408j]
+          last 2 datum:   [-0.00620902+0.02450556j -0.00806164+0.0452537j ]
+      Block 45:
+        Block start:    16680018000
+        Block length:   12000
+        Computed start: 2022-11-09 13:50:00+00:00
+        Computed stop:  2022-11-09 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01204947-0.03167319j 0.02565958-0.02959559j]
+          last 2 datum:   [0.02755255-0.00044676j 0.02009249-0.00155372j]
+      Block 46:
+        Block start:    16680054000
+        Block length:   12000
+        Computed start: 2022-11-09 14:50:00+00:00
+        Computed stop:  2022-11-09 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.01675538+0.01948605j -0.01325331+0.01929699j]
+          last 2 datum:   [-0.02301618-0.02239133j -0.02271907-0.02511944j]
+      Block 47:
+        Block start:    16680090000
+        Block length:   12000
+        Computed start: 2022-11-09 15:50:00+00:00
+        Computed stop:  2022-11-09 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.0190521-0.00051344j -0.0177605-0.00465711j]
+          last 2 datum:   [0.0226134 +0.01357203j 0.02343077+0.01409141j]
+      Block 48:
+        Block start:    16680126000
+        Block length:   12000
+        Computed start: 2022-11-09 16:50:00+00:00
+        Computed stop:  2022-11-09 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00168702+0.01210886j -0.00179436+0.00592511j]
+          last 2 datum:   [-0.00023189+0.0103865j  -0.00022476+0.00803117j]
+      Block 49:
+        Block start:    16680162000
+        Block length:   12000
+        Computed start: 2022-11-09 17:50:00+00:00
+        Computed stop:  2022-11-09 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-3.8716687e-05+0.01360285j -1.0273586e-03+0.01203623j]
+          last 2 datum:   [0.00584968+0.00238525j 0.0027301 +0.00497637j]
+      Block 50:
+        Block start:    16680198000
+        Block length:   12000
+        Computed start: 2022-11-09 18:50:00+00:00
+        Computed stop:  2022-11-09 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00360327+0.01421338j 0.00121276+0.01312601j]
+          last 2 datum:   [0.01533694-0.00201154j 0.01778603+0.00124714j]
+      Block 51:
+        Block start:    16680234000
+        Block length:   12000
+        Computed start: 2022-11-09 19:50:00+00:00
+        Computed stop:  2022-11-09 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00564211+0.00903582j -0.00705078+0.00776126j]
+          last 2 datum:   [ 0.00262495-0.00240202j -0.00144766-0.00151581j]
+      Block 52:
+        Block start:    16680270000
+        Block length:   12000
+        Computed start: 2022-11-09 20:50:00+00:00
+        Computed stop:  2022-11-09 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.03341566+0.00465906j 0.03421644+0.0090791j ]
+          last 2 datum:   [0.01577165-0.00833859j 0.01594937+0.00149706j]
+      Block 53:
+        Block start:    16680306000
+        Block length:   12000
+        Computed start: 2022-11-09 21:50:00+00:00
+        Computed stop:  2022-11-09 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00418225-0.05593777j 0.0121556 -0.05466688j]
+          last 2 datum:   [-0.00061039-0.02911444j  0.00257318-0.02903128j]
+      Block 54:
+        Block start:    16680342000
+        Block length:   12000
+        Computed start: 2022-11-09 22:50:00+00:00
+        Computed stop:  2022-11-09 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.04176864-0.00624788j -0.03159455-0.00130908j]
+          last 2 datum:   [-0.06995875-0.04707673j -0.0792468 -0.05199533j]
+      Block 55:
+        Block start:    16680378000
+        Block length:   12000
+        Computed start: 2022-11-09 23:50:00+00:00
+        Computed stop:  2022-11-10 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [ 0.00603685+0.20757793j -0.00277899+0.20378676j]
+          last 2 datum:   [0.06311518-0.19517949j 0.0371825 -0.2569141j ]
+      Block 56:
+        Block start:    16680414000
+        Block length:   12000
+        Computed start: 2022-11-10 00:50:00+00:00
+        Computed stop:  2022-11-10 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.01161718+0.23648474j  0.01801048+0.17123322j]
+          last 2 datum:   [-0.21747991-0.44403663j -0.2100729 -0.43546197j]
+      Block 57:
+        Block start:    16680450000
+        Block length:   12000
+        Computed start: 2022-11-10 01:50:00+00:00
+        Computed stop:  2022-11-10 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.06298862+0.13361515j -0.06521064+0.09836726j]
+          last 2 datum:   [0.23377238+0.12544379j 0.27348024+0.1809706j ]
+      Block 58:
+        Block start:    16680486000
+        Block length:   12000
+        Computed start: 2022-11-10 02:50:00+00:00
+        Computed stop:  2022-11-10 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.21343939-0.2490211j  -0.18958053-0.20937635j]
+          last 2 datum:   [-0.1359042 +0.01445868j -0.15947679+0.00967354j]
+      Block 59:
+        Block start:    16680522000
+        Block length:   12000
+        Computed start: 2022-11-10 03:50:00+00:00
+        Computed stop:  2022-11-10 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.27786443+0.14568819j 0.26601896+0.18236709j]
+          last 2 datum:   [-0.63161856-0.10291961j -0.6322154 -0.14589067j]
+      Block 60:
+        Block start:    16680558000
+        Block length:   12000
+        Computed start: 2022-11-10 04:50:00+00:00
+        Computed stop:  2022-11-10 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.4864211 +0.37613305j 0.44340986+0.42440554j]
+          last 2 datum:   [0.4106928 +0.26389825j 0.38974705+0.28857097j]
+      Block 61:
+        Block start:    16680594000
+        Block length:   12000
+        Computed start: 2022-11-10 05:50:00+00:00
+        Computed stop:  2022-11-10 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.2617195 -0.19229497j -0.26213986-0.20731302j]
+          last 2 datum:   [-0.160985  +0.12717712j -0.17695688+0.09979389j]
+      Block 62:
+        Block start:    16680630000
+        Block length:   12000
+        Computed start: 2022-11-10 06:50:00+00:00
+        Computed stop:  2022-11-10 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.25139546+0.21094145j 0.24204902+0.25074616j]
+          last 2 datum:   [0.09589037+0.22476272j 0.06310699+0.24394554j]
+      Block 63:
+        Block start:    16680666000
+        Block length:   12000
+        Computed start: 2022-11-10 07:50:00+00:00
+        Computed stop:  2022-11-10 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.12793969-0.24927926j 0.14495946-0.23535188j]
+          last 2 datum:   [0.63066643+0.77428555j 0.52115256+0.94895226j]
+      Block 64:
+        Block start:    16680702000
+        Block length:   12000
+        Computed start: 2022-11-10 08:50:00+00:00
+        Computed stop:  2022-11-10 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.19799526-0.26912618j -0.18778655-0.30000725j]
+          last 2 datum:   [0.23679028+0.20504077j 0.18862125+0.21298456j]
+      Block 65:
+        Block start:    16680738000
+        Block length:   12000
+        Computed start: 2022-11-10 09:50:00+00:00
+        Computed stop:  2022-11-10 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [ 0.00712142+0.2977597j  -0.0265783 +0.29908037j]
+          last 2 datum:   [0.04564106-0.23272668j 0.07264357-0.22816375j]
+      Block 66:
+        Block start:    16680774000
+        Block length:   12000
+        Computed start: 2022-11-10 10:50:00+00:00
+        Computed stop:  2022-11-10 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.86525095-0.67936707j 0.98717654-0.507379j  ]
+          last 2 datum:   [-0.6903356 +0.16781616j -0.70185274+0.04589014j]
+      Block 67:
+        Block start:    16680810000
+        Block length:   12000
+        Computed start: 2022-11-10 11:50:00+00:00
+        Computed stop:  2022-11-10 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.19641377+0.02416983j -0.21185979-0.01953487j]
+          last 2 datum:   [0.32681012-0.9742841j  0.51031727-0.90120655j]
+      Block 68:
+        Block start:    16680846000
+        Block length:   12000
+        Computed start: 2022-11-10 12:50:00+00:00
+        Computed stop:  2022-11-10 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.46558398-0.2573484j -0.27139616-0.3954177j]
+          last 2 datum:   [-0.03111116+0.11514615j -0.0717703 +0.04316324j]
+      Block 69:
+        Block start:    16680882000
+        Block length:   12000
+        Computed start: 2022-11-10 13:50:00+00:00
+        Computed stop:  2022-11-10 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.06064673-0.00210275j -0.06317756-0.01147646j]
+          last 2 datum:   [0.02506347-0.00611542j 0.02288054-0.00217276j]
+      Block 70:
+        Block start:    16680918000
+        Block length:   12000
+        Computed start: 2022-11-10 14:50:00+00:00
+        Computed stop:  2022-11-10 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01067298+0.01208124j 0.01053178+0.0075031j ]
+          last 2 datum:   [0.00074894-0.02029108j 0.00521406-0.01884646j]
+      Block 71:
+        Block start:    16680954000
+        Block length:   12000
+        Computed start: 2022-11-10 15:50:00+00:00
+        Computed stop:  2022-11-10 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00752938-0.01475931j 0.00215267-0.01133896j]
+          last 2 datum:   [0.00827353+0.01496398j 0.00606491+0.01600676j]
+      Block 72:
+        Block start:    16680978000
+        Block length:   3238
+        Computed start: 2022-11-10 16:30:00+00:00
+        Computed stop:  2022-11-10 16:35:23.700000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      3238
+          data.shape:     (3238,)
+          first 2 datum:  [-0.00323714+0.00249572j -0.00319113+0.00227291j]
+          last 2 datum:   [-0.00121134+0.01078906j  0.01558476+0.0088513j ]
+      Block 73:
+        Block start:    16680998880
+        Block length:   3120
+        Computed start: 2022-11-10 17:04:48+00:00
+        Computed stop:  2022-11-10 17:09:59.900000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.39318333333333
+          long: -87.56006333333333
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393276666666665
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560095
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393256666666666
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56005666666667
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39318333333333
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56006333333333
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393323333333335
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560125
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393328333333336
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56031666666667
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39329
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56003
+        Data:
+          # samples:      3120
+          data.shape:     (3120,)
+          first 2 datum:  [0.0000000e+00+0.0000000e+00j 1.4246954e-06-1.8579478e-05j]
+          last 2 datum:   [0.00159521+0.00243816j 0.00152996+0.00246986j]
+      Block 74:
+        Block start:    16681008000
+        Block length:   2231
+        Computed start: 2022-11-10 17:20:00+00:00
+        Computed stop:  2022-11-10 17:23:43+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      2231
+          data.shape:     (2231,)
+          first 2 datum:  [0.00850743-0.00256118j 0.0052725 -0.00219733j]
+          last 2 datum:   [0.00343432-0.00592242j 0.00931645-0.00436596j]
+      Block 75:
+        Block start:    16681111700
+        Block length:   4300
+        Computed start: 2022-11-10 20:12:50+00:00
+        Computed stop:  2022-11-10 20:19:59.900000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.393323333333335
+          long: -87.560125
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393276666666665
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560095
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393256666666666
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56005666666667
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39318333333333
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56006333333333
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393323333333335
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560125
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393328333333336
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56031666666667
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39329
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56003
+        Data:
+          # samples:      4300
+          data.shape:     (4300,)
+          first 2 datum:  [ 0.000000e+00+0.0000000e+00j -3.102108e-05+4.9025777e-05j]
+          last 2 datum:   [-0.00477404+0.00121135j -0.00277822-0.00034079j]
+      Block 76:
+        Block start:    16681134000
+        Block length:   12000
+        Computed start: 2022-11-10 20:50:00+00:00
+        Computed stop:  2022-11-10 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.0299799 +0.01507244j -0.03040191+0.00897932j]
+          last 2 datum:   [0.01493554-0.04082619j 0.01688422-0.03873853j]
+      Block 77:
+        Block start:    16681154890
+        Block length:   1011
+        Computed start: 2022-11-10 21:24:49+00:00
+        Computed stop:  2022-11-10 21:26:30+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.393328333333336
+          long: -87.56031666666667
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393276666666665
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560095
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393256666666666
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56005666666667
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39318333333333
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56006333333333
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393323333333335
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560125
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393328333333336
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56031666666667
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39329
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56003
+        Data:
+          # samples:      1011
+          data.shape:     (1011,)
+          first 2 datum:  [0.0000000e+00+0.0000000e+00j 2.6907708e-05+1.4660714e-05j]
+          last 2 datum:   [-0.001499  +0.02788498j -0.00552489+0.0257084j ]
+      Block 78:
+        Block start:    16681236600
+        Block length:   17400
+        Computed start: 2022-11-10 23:41:00+00:00
+        Computed stop:  2022-11-11 00:09:59.900000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.39329
+          long: -87.56003
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393276666666665
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560095
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393256666666666
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56005666666667
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39318333333333
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56006333333333
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393323333333335
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560125
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393328333333336
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56031666666667
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39329
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56003
+        Data:
+          # samples:      17400
+          data.shape:     (17400,)
+          first 2 datum:  [ 0.       +0.0000000e+00j -0.0001554-4.1239135e-05j]
+          last 2 datum:   [0.20186983+0.2467836j  0.15991323+0.25764453j]
+      Block 79:
+        Block start:    16681278000
+        Block length:   12000
+        Computed start: 2022-11-11 00:50:00+00:00
+        Computed stop:  2022-11-11 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.03210673+0.08812783j -0.01324885+0.06537203j]
+          last 2 datum:   [-0.00367597+0.565275j  -0.00376386+0.5288128j]
+      Block 80:
+        Block start:    16681314000
+        Block length:   12000
+        Computed start: 2022-11-11 01:50:00+00:00
+        Computed stop:  2022-11-11 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.30208355+0.05150324j -0.32012725+0.04076011j]
+          last 2 datum:   [-0.52611053+0.2209319j  -0.55795866+0.13996147j]
+      Block 81:
+        Block start:    16681350000
+        Block length:   12000
+        Computed start: 2022-11-11 02:50:00+00:00
+        Computed stop:  2022-11-11 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.10783903+0.35668412j 0.04714379+0.3723643j ]
+          last 2 datum:   [-0.13675217+0.25084844j -0.15695056+0.24564396j]
+      Block 82:
+        Block start:    16681386000
+        Block length:   12000
+        Computed start: 2022-11-11 03:50:00+00:00
+        Computed stop:  2022-11-11 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-1.186617 -0.22041991j -1.1879277-0.16361567j]
+          last 2 datum:   [0.43010545-0.5763353j  0.41590837-0.58286244j]
+      Block 83:
+        Block start:    16681422000
+        Block length:   12000
+        Computed start: 2022-11-11 04:50:00+00:00
+        Computed stop:  2022-11-11 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.81792754+0.5549041j -0.8160914 +0.522532j ]
+          last 2 datum:   [-0.2651106 +0.04949821j -0.26412454+0.00856614j]
+      Block 84:
+        Block start:    16681458000
+        Block length:   12000
+        Computed start: 2022-11-11 05:50:00+00:00
+        Computed stop:  2022-11-11 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.06682336+0.2615802j -0.10830578+0.2506918j]
+          last 2 datum:   [0.46424896+0.5205675j 0.4014232 +0.586537j ]
+      Block 85:
+        Block start:    16681494000
+        Block length:   12000
+        Computed start: 2022-11-11 06:50:00+00:00
+        Computed stop:  2022-11-11 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.23686343-0.08727124j -0.24428917-0.06291579j]
+          last 2 datum:   [0.37986603+0.52613485j 0.35985026+0.5123634j ]
+      Block 86:
+        Block start:    16681530000
+        Block length:   12000
+        Computed start: 2022-11-11 07:50:00+00:00
+        Computed stop:  2022-11-11 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.13325639+0.05705447j -0.09155776-0.0375527j ]
+          last 2 datum:   [-0.16856585+0.5854991j -0.22892725+0.5625291j]
+      Block 87:
+        Block start:    16681566000
+        Block length:   12000
+        Computed start: 2022-11-11 08:50:00+00:00
+        Computed stop:  2022-11-11 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.03066003+0.40511987j -0.00084949+0.38469222j]
+          last 2 datum:   [0.1815816 +0.03731327j 0.19563997+0.03323699j]
+      Block 88:
+        Block start:    16681602000
+        Block length:   12000
+        Computed start: 2022-11-11 09:50:00+00:00
+        Computed stop:  2022-11-11 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.17722774-0.44915858j 0.19351114-0.39378384j]
+          last 2 datum:   [0.26478636+0.32615942j 0.22226058+0.3644907j ]
+      Block 89:
+        Block start:    16681638000
+        Block length:   12000
+        Computed start: 2022-11-11 10:50:00+00:00
+        Computed stop:  2022-11-11 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.6446728+0.7234499j -0.7275237+0.6356889j]
+          last 2 datum:   [-0.3693634 +0.48102733j -0.43399987+0.4412058j ]
+      Block 90:
+        Block start:    16681674000
+        Block length:   12000
+        Computed start: 2022-11-11 11:50:00+00:00
+        Computed stop:  2022-11-11 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.42016286+0.40529695j -0.46495315+0.27347165j]
+          last 2 datum:   [-0.15963659-0.7134042j   0.07763905-0.73167366j]
+      Block 91:
+        Block start:    16681710000
+        Block length:   12000
+        Computed start: 2022-11-11 12:50:00+00:00
+        Computed stop:  2022-11-11 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.15606731+0.02100837j -0.25092438-0.0287369j ]
+          last 2 datum:   [0.08709353-0.00376469j 0.06197618+0.02658721j]
+      Block 92:
+        Block start:    16681746000
+        Block length:   12000
+        Computed start: 2022-11-11 13:50:00+00:00
+        Computed stop:  2022-11-11 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.08571921-0.0480089j  0.07792401-0.01741013j]
+          last 2 datum:   [0.02489718-0.00159648j 0.02789164+0.0072311j ]
+      Block 93:
+        Block start:    16681782000
+        Block length:   12000
+        Computed start: 2022-11-11 14:50:00+00:00
+        Computed stop:  2022-11-11 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00101603+0.00726625j  0.00112648+0.0039598j ]
+          last 2 datum:   [0.00326201+0.01551772j 0.0055621 +0.01128951j]
+      Block 94:
+        Block start:    16681818000
+        Block length:   12000
+        Computed start: 2022-11-11 15:50:00+00:00
+        Computed stop:  2022-11-11 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [2.6804487e-06+0.00545515j 3.2509204e-03+0.00994963j]
+          last 2 datum:   [0.00505098+0.00973219j 0.00676137+0.00954361j]
+      Block 95:
+        Block start:    16681854000
+        Block length:   12000
+        Computed start: 2022-11-11 16:50:00+00:00
+        Computed stop:  2022-11-11 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00443637-0.00785455j 0.00021609+0.01289337j]
+          last 2 datum:   [-0.00303876-0.00218819j -0.00563652+0.0003843j ]
+      Block 96:
+        Block start:    16681890000
+        Block length:   12000
+        Computed start: 2022-11-11 17:50:00+00:00
+        Computed stop:  2022-11-11 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01427658+0.00280276j 0.01085964+0.00680457j]
+          last 2 datum:   [ 0.00079218+0.00409485j -0.00240681+0.00536392j]
+      Block 97:
+        Block start:    16681926000
+        Block length:   12000
+        Computed start: 2022-11-11 18:50:00+00:00
+        Computed stop:  2022-11-11 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00336674-0.00654826j  0.00017835-0.00226949j]
+          last 2 datum:   [-0.00549817-0.00816671j -0.00669201-0.00824667j]
+      Block 98:
+        Block start:    16681962000
+        Block length:   12000
+        Computed start: 2022-11-11 19:50:00+00:00
+        Computed stop:  2022-11-11 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00190666-0.01145686j 0.00039671-0.01178337j]
+          last 2 datum:   [-0.02321239+0.01212277j -0.02167462+0.01184916j]
+      Block 99:
+        Block start:    16681998000
+        Block length:   12000
+        Computed start: 2022-11-11 20:50:00+00:00
+        Computed stop:  2022-11-11 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00256757-0.00878944j 0.0050663 -0.0070969j ]
+          last 2 datum:   [-0.01046037-0.00605313j -0.01438601-0.00883028j]
+      Block 100:
+        Block start:    16682034000
+        Block length:   12000
+        Computed start: 2022-11-11 21:50:00+00:00
+        Computed stop:  2022-11-11 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01961743-0.01583205j 0.0224655 -0.01875591j]
+          last 2 datum:   [0.00815367+0.00034765j 0.01210567+0.00655631j]
+      Block 101:
+        Block start:    16682070000
+        Block length:   12000
+        Computed start: 2022-11-11 22:50:00+00:00
+        Computed stop:  2022-11-11 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.07460576+0.04735436j -0.0809861 +0.03439216j]
+          last 2 datum:   [-0.02683709+0.00411551j -0.01481776+0.01609653j]
+      Block 102:
+        Block start:    16682106000
+        Block length:   12000
+        Computed start: 2022-11-11 23:50:00+00:00
+        Computed stop:  2022-11-12 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.10687087-0.17107566j 0.03995877-0.17233402j]
+          last 2 datum:   [-0.01771766-0.2328562j -0.04128582-0.2599556j]
+      Block 103:
+        Block start:    16682142000
+        Block length:   12000
+        Computed start: 2022-11-12 00:50:00+00:00
+        Computed stop:  2022-11-12 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.2501278 -0.19735217j -0.27941906-0.24485339j]
+          last 2 datum:   [-0.1867407 -0.37876362j -0.14035486-0.48376927j]
+      Block 104:
+        Block start:    16682178000
+        Block length:   12000
+        Computed start: 2022-11-12 01:50:00+00:00
+        Computed stop:  2022-11-12 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.15070924-0.34067985j -0.05911005-0.4003212j ]
+          last 2 datum:   [-0.1167017 -0.4150737j  0.02682847-0.4737916j]
+      Block 105:
+        Block start:    16682214000
+        Block length:   12000
+        Computed start: 2022-11-12 02:50:00+00:00
+        Computed stop:  2022-11-12 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.02415997+0.31698808j 0.02263954+0.29173505j]
+          last 2 datum:   [-0.02452438-0.1426318j  -0.04979504-0.18692923j]
+      Block 106:
+        Block start:    16682250000
+        Block length:   12000
+        Computed start: 2022-11-12 03:50:00+00:00
+        Computed stop:  2022-11-12 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.24519612-0.475307j   0.2943774 -0.44596365j]
+          last 2 datum:   [0.55459625+0.13804878j 0.53109366+0.18897487j]
+      Block 107:
+        Block start:    16682286000
+        Block length:   12000
+        Computed start: 2022-11-12 04:50:00+00:00
+        Computed stop:  2022-11-12 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.26872072+0.38471878j 0.41081917+0.3188313j ]
+          last 2 datum:   [-0.11736766-0.03043576j -0.12680896-0.0397702j ]
+      Block 108:
+        Block start:    16682322000
+        Block length:   12000
+        Computed start: 2022-11-12 05:50:00+00:00
+        Computed stop:  2022-11-12 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.19784749+0.11959785j 0.2246708 +0.1452744j ]
+          last 2 datum:   [-0.27697086-0.05959974j -0.27812916-0.0406821j ]
+      Block 109:
+        Block start:    16682358000
+        Block length:   12000
+        Computed start: 2022-11-12 06:50:00+00:00
+        Computed stop:  2022-11-12 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.22958839+0.02473662j 0.22085805+0.06716589j]
+          last 2 datum:   [-0.0417359 -0.18771338j -0.01175156-0.19427858j]
+      Block 110:
+        Block start:    16682394000
+        Block length:   12000
+        Computed start: 2022-11-12 07:50:00+00:00
+        Computed stop:  2022-11-12 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.155764-0.6659388j 0.248656-0.6431679j]
+          last 2 datum:   [-0.83869046+0.07926836j -0.8369312 -0.07865004j]
+      Block 111:
+        Block start:    16682430000
+        Block length:   12000
+        Computed start: 2022-11-12 08:50:00+00:00
+        Computed stop:  2022-11-12 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.0499476 -0.06800747j -0.03420367-0.07376689j]
+          last 2 datum:   [0.23595606-0.07070163j 0.21796168+0.00147549j]
+      Block 112:
+        Block start:    16682466000
+        Block length:   12000
+        Computed start: 2022-11-12 09:50:00+00:00
+        Computed stop:  2022-11-12 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.15289968+0.55872774j -0.23858991+0.50218964j]
+          last 2 datum:   [-0.01360166+0.3331302j  -0.13549939+0.43732283j]
+      Block 113:
+        Block start:    16682502000
+        Block length:   12000
+        Computed start: 2022-11-12 10:50:00+00:00
+        Computed stop:  2022-11-12 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.31387883-0.15745981j 0.32271823-0.08448194j]
+          last 2 datum:   [-0.11219272-0.30778086j -0.06050891-0.2708916j ]
+      Block 114:
+        Block start:    16682538000
+        Block length:   12000
+        Computed start: 2022-11-12 11:50:00+00:00
+        Computed stop:  2022-11-12 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.04734592+0.328298j  -0.08479034+0.2747931j]
+          last 2 datum:   [0.06141514-0.04600167j 0.06392454-0.00946189j]
+      Block 115:
+        Block start:    16682574000
+        Block length:   12000
+        Computed start: 2022-11-12 12:50:00+00:00
+        Computed stop:  2022-11-12 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.14787793+0.03539815j 0.1454977 +0.06080147j]
+          last 2 datum:   [0.02940426+0.04041366j 0.03363201+0.02786637j]
+      Block 116:
+        Block start:    16682610000
+        Block length:   12000
+        Computed start: 2022-11-12 13:50:00+00:00
+        Computed stop:  2022-11-12 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.04869164-0.00665293j -0.04718011-0.02450957j]
+          last 2 datum:   [-0.00090508-0.00064577j  0.00103277+0.00109379j]
+      Block 117:
+        Block start:    16682646000
+        Block length:   12000
+        Computed start: 2022-11-12 14:50:00+00:00
+        Computed stop:  2022-11-12 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00562756+0.00602345j 0.00629284+0.00676364j]
+          last 2 datum:   [-0.0057591 +1.1558183e-03j -0.00705002+5.4815115e-05j]
+      Block 118:
+        Block start:    16682682000
+        Block length:   12000
+        Computed start: 2022-11-12 15:50:00+00:00
+        Computed stop:  2022-11-12 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00056956-0.00607405j  0.00081626-0.00786222j]
+          last 2 datum:   [0.00223149+0.00106874j 0.00083278+0.00550505j]
+      Block 119:
+        Block start:    16682718000
+        Block length:   12000
+        Computed start: 2022-11-12 16:50:00+00:00
+        Computed stop:  2022-11-12 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00416292+0.00194272j 0.00317819+0.00148589j]
+          last 2 datum:   [0.00065466+0.0029867j  0.0046811 +0.00264782j]
+      Block 120:
+        Block start:    16682754000
+        Block length:   12000
+        Computed start: 2022-11-12 17:50:00+00:00
+        Computed stop:  2022-11-12 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00432995+0.00191416j 0.0049535 +0.00097958j]
+          last 2 datum:   [0.00099225+0.00249673j 0.00286679-0.00183409j]
+      Block 121:
+        Block start:    16682790000
+        Block length:   12000
+        Computed start: 2022-11-12 18:50:00+00:00
+        Computed stop:  2022-11-12 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00033812+0.00333499j 0.000687  +0.00034684j]
+          last 2 datum:   [0.00412806-0.00055681j 0.00517428-0.00431922j]
+      Block 122:
+        Block start:    16682826000
+        Block length:   12000
+        Computed start: 2022-11-12 19:50:00+00:00
+        Computed stop:  2022-11-12 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00032456+0.00218094j  0.00387019+0.00481836j]
+          last 2 datum:   [-0.00031926-0.00550528j -0.00356308-0.00604216j]
+      Block 123:
+        Block start:    16682862000
+        Block length:   12000
+        Computed start: 2022-11-12 20:50:00+00:00
+        Computed stop:  2022-11-12 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00035813+0.00494642j  0.00027406+0.00582846j]
+          last 2 datum:   [0.0150755 +0.00680724j 0.01463171+0.00485124j]
+      Block 124:
+        Block start:    16682898000
+        Block length:   12000
+        Computed start: 2022-11-12 21:50:00+00:00
+        Computed stop:  2022-11-12 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00397055-0.01036738j 0.00282158-0.01504048j]
+          last 2 datum:   [-0.01088162+0.00311479j -0.00558733+0.00339556j]
+      Block 125:
+        Block start:    16682934000
+        Block length:   12000
+        Computed start: 2022-11-12 22:50:00+00:00
+        Computed stop:  2022-11-12 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.06325039+0.05426313j -0.05388346+0.05688307j]
+          last 2 datum:   [0.03957423-0.00586573j 0.04474417-0.01061484j]
+      Block 126:
+        Block start:    16682970000
+        Block length:   12000
+        Computed start: 2022-11-12 23:50:00+00:00
+        Computed stop:  2022-11-13 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.03200762+0.12911405j -0.02333532+0.16603105j]
+          last 2 datum:   [-0.13502371+0.10657136j -0.12438838+0.07777105j]
+      Block 127:
+        Block start:    16683006000
+        Block length:   12000
+        Computed start: 2022-11-13 00:50:00+00:00
+        Computed stop:  2022-11-13 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.20042816-0.05216049j 0.20218068-0.07588954j]
+          last 2 datum:   [0.01539515-0.1849085j  0.02402855-0.16485986j]
+      Block 128:
+        Block start:    16683042000
+        Block length:   12000
+        Computed start: 2022-11-13 01:50:00+00:00
+        Computed stop:  2022-11-13 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.03792742+0.18567978j -0.0330764 +0.18836173j]
+          last 2 datum:   [-0.16563632-0.04013041j -0.14223045-0.04213144j]
+      Block 129:
+        Block start:    16683078000
+        Block length:   12000
+        Computed start: 2022-11-13 02:50:00+00:00
+        Computed stop:  2022-11-13 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.07914236-0.5766723j  0.09476883-0.57745457j]
+          last 2 datum:   [-0.00609879+0.45425037j -0.0196523 +0.44857958j]
+      Block 130:
+        Block start:    16683114000
+        Block length:   12000
+        Computed start: 2022-11-13 03:50:00+00:00
+        Computed stop:  2022-11-13 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.02171894-0.03926979j  0.0099208 -0.0506278j ]
+          last 2 datum:   [-0.13893995+0.02297522j -0.13413784-0.00438187j]
+      Block 131:
+        Block start:    16683150000
+        Block length:   12000
+        Computed start: 2022-11-13 04:50:00+00:00
+        Computed stop:  2022-11-13 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01082937-0.02677256j 0.0310215 -0.04017032j]
+          last 2 datum:   [-0.18417326+0.00019602j -0.18076164-0.02917006j]
+      Block 132:
+        Block start:    16683186000
+        Block length:   12000
+        Computed start: 2022-11-13 05:50:00+00:00
+        Computed stop:  2022-11-13 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.18521915-0.04673576j 0.17617121-0.02858881j]
+          last 2 datum:   [0.7848132 -0.59488034j 0.78063565-0.58081865j]
+      Block 133:
+        Block start:    16683222000
+        Block length:   12000
+        Computed start: 2022-11-13 06:50:00+00:00
+        Computed stop:  2022-11-13 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.07978453+0.1495276j  -0.1380182 +0.10005297j]
+          last 2 datum:   [0.26654443-0.23581609j 0.27401054-0.21563366j]
+      Block 134:
+        Block start:    16683258000
+        Block length:   12000
+        Computed start: 2022-11-13 07:50:00+00:00
+        Computed stop:  2022-11-13 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.24996091-0.40160462j 0.3083921 -0.3687765j ]
+          last 2 datum:   [0.35769248+0.13551147j 0.34746924+0.16689667j]
+      Block 135:
+        Block start:    16683294000
+        Block length:   12000
+        Computed start: 2022-11-13 08:50:00+00:00
+        Computed stop:  2022-11-13 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.4793397-0.33985808j -0.3721786-0.44882232j]
+          last 2 datum:   [0.18000644+0.3432547j  0.10348239+0.37320292j]
+      Block 136:
+        Block start:    16683330000
+        Block length:   12000
+        Computed start: 2022-11-13 09:50:00+00:00
+        Computed stop:  2022-11-13 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01817539+0.20035084j 0.01272886+0.20273522j]
+          last 2 datum:   [0.3270693 +0.18557034j 0.32818058+0.20744157j]
+      Block 137:
+        Block start:    16683366000
+        Block length:   12000
+        Computed start: 2022-11-13 10:50:00+00:00
+        Computed stop:  2022-11-13 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.05217896+0.3927659j  0.01960341+0.40306342j]
+          last 2 datum:   [0.01228019+0.17550808j 0.00109961+0.17357586j]
+      Block 138:
+        Block start:    16683402000
+        Block length:   12000
+        Computed start: 2022-11-13 11:50:00+00:00
+        Computed stop:  2022-11-13 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.28438243-0.15285043j -0.26717976-0.18061204j]
+          last 2 datum:   [0.5025046 +0.48727706j 0.48749304+0.5333904j ]
+      Block 139:
+        Block start:    16683438000
+        Block length:   12000
+        Computed start: 2022-11-13 12:50:00+00:00
+        Computed stop:  2022-11-13 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.14152855-0.29082304j 0.27122346-0.10635468j]
+          last 2 datum:   [0.01633747-0.11954433j 0.0660107 -0.04986707j]
+      Block 140:
+        Block start:    16683474000
+        Block length:   12000
+        Computed start: 2022-11-13 13:50:00+00:00
+        Computed stop:  2022-11-13 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01777726+0.02971239j 0.00420038+0.0372835j ]
+          last 2 datum:   [-0.03189923-0.00458924j -0.03123454-0.00631036j]
+      Block 141:
+        Block start:    16683510000
+        Block length:   12000
+        Computed start: 2022-11-13 14:50:00+00:00
+        Computed stop:  2022-11-13 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00509761-0.00986712j 0.00515822-0.00175199j]
+          last 2 datum:   [-0.01256137-0.01204057j -0.01131108-0.01144785j]
+      Block 142:
+        Block start:    16683546000
+        Block length:   12000
+        Computed start: 2022-11-13 15:50:00+00:00
+        Computed stop:  2022-11-13 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00998207-0.00224489j 0.00914178+0.00109827j]
+          last 2 datum:   [-0.00692462-0.00429663j -0.00615051-0.00484409j]
+      Block 143:
+        Block start:    16683582000
+        Block length:   12000
+        Computed start: 2022-11-13 16:50:00+00:00
+        Computed stop:  2022-11-13 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.0047277 +0.01024193j 0.00469961+0.01120314j]
+          last 2 datum:   [0.00862554-0.01338131j 0.01190974-0.01326521j]
+      Block 144:
+        Block start:    16683618000
+        Block length:   12000
+        Computed start: 2022-11-13 17:50:00+00:00
+        Computed stop:  2022-11-13 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [ 0.0021207 +0.00058123j -0.00154498+0.00066944j]
+          last 2 datum:   [-0.00395438+0.0025162j -0.00102045-0.000249j ]
+      Block 145:
+        Block start:    16683654000
+        Block length:   12000
+        Computed start: 2022-11-13 18:50:00+00:00
+        Computed stop:  2022-11-13 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00025184-0.00762248j -0.00399675-0.00565576j]
+          last 2 datum:   [0.00522478-0.00662371j 0.01158942-0.00489411j]
+      Block 146:
+        Block start:    16683690000
+        Block length:   12000
+        Computed start: 2022-11-13 19:50:00+00:00
+        Computed stop:  2022-11-13 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00872066+0.00087691j 0.00687253+0.00025794j]
+          last 2 datum:   [0.00344856-0.00369188j 0.00330326-0.00086316j]
+      Block 147:
+        Block start:    16683726000
+        Block length:   12000
+        Computed start: 2022-11-13 20:50:00+00:00
+        Computed stop:  2022-11-13 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [ 0.00017913-0.00385833j -0.00033617-0.00461346j]
+          last 2 datum:   [-0.00018445+0.00975442j -0.00185213+0.01194346j]
+      Block 148:
+        Block start:    16683762000
+        Block length:   12000
+        Computed start: 2022-11-13 21:50:00+00:00
+        Computed stop:  2022-11-13 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00989054-0.02052202j -0.00519784-0.01456667j]
+          last 2 datum:   [0.00316665-0.0199048j  0.00516517-0.01678871j]
+      Block 149:
+        Block start:    16683798000
+        Block length:   12000
+        Computed start: 2022-11-13 22:50:00+00:00
+        Computed stop:  2022-11-13 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01906518-0.02317067j 0.00790451-0.02321708j]
+          last 2 datum:   [-0.03881837+0.14340669j -0.0276969 +0.14402154j]
+      Block 150:
+        Block start:    16683834000
+        Block length:   12000
+        Computed start: 2022-11-13 23:50:00+00:00
+        Computed stop:  2022-11-14 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.3130157 +0.4413054j 0.24518685+0.4467484j]
+          last 2 datum:   [-0.10903621+0.2898422j  -0.1375693 +0.32200274j]
+      Block 151:
+        Block start:    16683870000
+        Block length:   12000
+        Computed start: 2022-11-14 00:50:00+00:00
+        Computed stop:  2022-11-14 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.29328817-0.4564113j 0.35509053-0.4234074j]
+          last 2 datum:   [-0.36384833+0.03055301j -0.3526144 +0.03836225j]
+      Block 152:
+        Block start:    16683906000
+        Block length:   12000
+        Computed start: 2022-11-14 01:50:00+00:00
+        Computed stop:  2022-11-14 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.04291578-0.13354136j 0.039868  -0.12579183j]
+          last 2 datum:   [-0.149186  -0.12403323j -0.13602583-0.10231056j]
+      Block 153:
+        Block start:    16683942000
+        Block length:   12000
+        Computed start: 2022-11-14 02:50:00+00:00
+        Computed stop:  2022-11-14 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.03577857-0.07162438j 0.02283134-0.09390147j]
+          last 2 datum:   [-0.41404969+0.34082112j -0.45256966+0.29005823j]
+      Block 154:
+        Block start:    16683978000
+        Block length:   12000
+        Computed start: 2022-11-14 03:50:00+00:00
+        Computed stop:  2022-11-14 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.33858556+0.07269694j 0.33674005+0.07608434j]
+          last 2 datum:   [-0.00817442+0.5039712j  -0.02470874+0.47611883j]
+      Block 155:
+        Block start:    16684014000
+        Block length:   12000
+        Computed start: 2022-11-14 04:50:00+00:00
+        Computed stop:  2022-11-14 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.2690526 +0.12097934j -0.27715442+0.07743869j]
+          last 2 datum:   [0.46750504+0.40157878j 0.4216054 +0.45017305j]
+      Block 156:
+        Block start:    16684050000
+        Block length:   12000
+        Computed start: 2022-11-14 05:50:00+00:00
+        Computed stop:  2022-11-14 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.12256725-0.02607741j -0.10525826-0.04417944j]
+          last 2 datum:   [0.03224728-0.03897121j 0.02675879-0.06311135j]
+      Block 157:
+        Block start:    16684086000
+        Block length:   12000
+        Computed start: 2022-11-14 06:50:00+00:00
+        Computed stop:  2022-11-14 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.125006  -0.12755972j -0.09885995-0.13757108j]
+          last 2 datum:   [0.28886005-0.01577976j 0.27371675+0.02490058j]
+      Block 158:
+        Block start:    16684122000
+        Block length:   12000
+        Computed start: 2022-11-14 07:50:00+00:00
+        Computed stop:  2022-11-14 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.8502076-0.79016j    0.8389759-0.73188514j]
+          last 2 datum:   [0.21242876-0.16158259j 0.21682842-0.12724544j]
+      Block 159:
+        Block start:    16684158000
+        Block length:   12000
+        Computed start: 2022-11-14 08:50:00+00:00
+        Computed stop:  2022-11-14 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.36603788-0.43451416j 0.39583674-0.394275j  ]
+          last 2 datum:   [0.42675558-0.24913095j 0.48985714-0.20676152j]
+      Block 160:
+        Block start:    16684194000
+        Block length:   12000
+        Computed start: 2022-11-14 09:50:00+00:00
+        Computed stop:  2022-11-14 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.03621838+0.41136152j -0.05869491+0.37349504j]
+          last 2 datum:   [0.01478205-0.2574163j  0.07782077-0.27140602j]
+      Block 161:
+        Block start:    16684230000
+        Block length:   12000
+        Computed start: 2022-11-14 10:50:00+00:00
+        Computed stop:  2022-11-14 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.7543296-0.03647605j -0.7367863-0.16953458j]
+          last 2 datum:   [-0.05971596+0.26394558j -0.13169731+0.23022456j]
+      Block 162:
+        Block start:    16684266000
+        Block length:   12000
+        Computed start: 2022-11-14 11:50:00+00:00
+        Computed stop:  2022-11-14 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.46844795+0.5744718j -0.548802  +0.4802834j]
+          last 2 datum:   [-0.5998357 +0.1732042j  -0.65177643+0.09025292j]
+      Block 163:
+        Block start:    16684302000
+        Block length:   12000
+        Computed start: 2022-11-14 12:50:00+00:00
+        Computed stop:  2022-11-14 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00976257-0.27464634j 0.11344778-0.23417132j]
+          last 2 datum:   [0.10449725+0.09495331j 0.05725822+0.13137887j]
+      Block 164:
+        Block start:    16684338000
+        Block length:   12000
+        Computed start: 2022-11-14 13:50:00+00:00
+        Computed stop:  2022-11-14 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00726776+0.02212899j 0.00167768+0.0225436j ]
+          last 2 datum:   [-0.01914473-0.00040224j -0.01821653-0.00276801j]
+      Block 165:
+        Block start:    16684374000
+        Block length:   12000
+        Computed start: 2022-11-14 14:50:00+00:00
+        Computed stop:  2022-11-14 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01209278-0.01240468j 0.01474905-0.01487377j]
+          last 2 datum:   [0.00931103+0.01185458j 0.00382212+0.01260346j]
+      Block 166:
+        Block start:    16684410000
+        Block length:   12000
+        Computed start: 2022-11-14 15:50:00+00:00
+        Computed stop:  2022-11-14 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01326931-0.00437168j 0.01636835+0.00154717j]
+          last 2 datum:   [-0.00839666-0.0144732j  -0.00592615-0.01172512j]
+      Block 167:
+        Block start:    16684446000
+        Block length:   12000
+        Computed start: 2022-11-14 16:50:00+00:00
+        Computed stop:  2022-11-14 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00576446-0.00129914j 0.00594015-0.00160375j]
+          last 2 datum:   [0.00540013+0.00066858j 0.00407523+0.00123084j]
+      Block 168:
+        Block start:    16684482000
+        Block length:   12000
+        Computed start: 2022-11-14 17:50:00+00:00
+        Computed stop:  2022-11-14 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00772556-0.00151713j 0.00739284-0.00191715j]
+          last 2 datum:   [0.00546041+0.00428926j 0.00577324+0.0063634j ]
+      Block 169:
+        Block start:    16684518000
+        Block length:   12000
+        Computed start: 2022-11-14 18:50:00+00:00
+        Computed stop:  2022-11-14 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00179181+0.00067444j 0.0008989 -0.00036089j]
+          last 2 datum:   [-0.00130643+1.0325055e-03j  0.00239227-9.6627322e-05j]
+      Block 170:
+        Block start:    16684554000
+        Block length:   12000
+        Computed start: 2022-11-14 19:50:00+00:00
+        Computed stop:  2022-11-14 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00135921-0.0066292j  0.00138474-0.00564078j]
+          last 2 datum:   [0.00233605+0.00129737j 0.00361731-0.00122394j]
+      Block 171:
+        Block start:    16684590000
+        Block length:   12000
+        Computed start: 2022-11-14 20:50:00+00:00
+        Computed stop:  2022-11-14 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00536373-0.00077963j 0.00629557-0.00034126j]
+          last 2 datum:   [0.00697126+0.00131652j 0.009468  +0.00032047j]
+      Block 172:
+        Block start:    16684626000
+        Block length:   12000
+        Computed start: 2022-11-14 21:50:00+00:00
+        Computed stop:  2022-11-14 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01893327-0.01903331j 0.01546623-0.0198273j ]
+          last 2 datum:   [-0.0155397 -0.0041876j  -0.02339216-0.00142504j]
+      Block 173:
+        Block start:    16684662000
+        Block length:   12000
+        Computed start: 2022-11-14 22:50:00+00:00
+        Computed stop:  2022-11-14 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.02445513-0.02538935j -0.03802092-0.02541181j]
+          last 2 datum:   [0.19096896+0.13873342j 0.20435366+0.13481641j]
+      Block 174:
+        Block start:    16684698000
+        Block length:   12000
+        Computed start: 2022-11-14 23:50:00+00:00
+        Computed stop:  2022-11-15 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.22356021-0.12921283j 0.25441074-0.11185915j]
+          last 2 datum:   [-0.02518299+0.2396833j  -0.03316308+0.24109815j]
+      Block 175:
+        Block start:    16684734000
+        Block length:   12000
+        Computed start: 2022-11-15 00:50:00+00:00
+        Computed stop:  2022-11-15 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.31968075-0.10068215j -0.26725313-0.03878233j]
+          last 2 datum:   [-0.05940944+0.17361687j -0.06746686+0.14273478j]
+      Block 176:
+        Block start:    16684770000
+        Block length:   12000
+        Computed start: 2022-11-15 01:50:00+00:00
+        Computed stop:  2022-11-15 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.1480487 -0.1514542j  -0.13046554-0.15123838j]
+          last 2 datum:   [-0.06781284-0.04840047j -0.06839319-0.06003698j]
+      Block 177:
+        Block start:    16684806000
+        Block length:   12000
+        Computed start: 2022-11-15 02:50:00+00:00
+        Computed stop:  2022-11-15 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.03737022+0.01669506j -0.05714721-0.02860874j]
+          last 2 datum:   [0.41431105-0.05913334j 0.41144055-0.04806928j]
+      Block 178:
+        Block start:    16684842000
+        Block length:   12000
+        Computed start: 2022-11-15 03:50:00+00:00
+        Computed stop:  2022-11-15 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.21811269-0.25750792j 0.27589312-0.22444192j]
+          last 2 datum:   [0.4345918+0.5557541j  0.3628794+0.60965365j]
+      Block 179:
+        Block start:    16684878000
+        Block length:   12000
+        Computed start: 2022-11-15 04:50:00+00:00
+        Computed stop:  2022-11-15 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.12874033+0.11672638j -0.16109186+0.09959015j]
+          last 2 datum:   [-0.03240103+0.01003735j -0.03169812+0.00356492j]
+      Block 180:
+        Block start:    16684914000
+        Block length:   12000
+        Computed start: 2022-11-15 05:50:00+00:00
+        Computed stop:  2022-11-15 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.39070094-0.26443604j -0.37994125-0.2949605j ]
+          last 2 datum:   [0.0581135-0.00460033j 0.0632452+0.00062492j]
+      Block 181:
+        Block start:    16684950000
+        Block length:   12000
+        Computed start: 2022-11-15 06:50:00+00:00
+        Computed stop:  2022-11-15 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.18543914-0.09291027j 0.18908675-0.08579222j]
+          last 2 datum:   [0.15118499-0.19186659j 0.15337214-0.17664024j]
+      Block 182:
+        Block start:    16684986000
+        Block length:   12000
+        Computed start: 2022-11-15 07:50:00+00:00
+        Computed stop:  2022-11-15 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.40864027-0.14480297j -0.39731887-0.15931104j]
+          last 2 datum:   [-0.2729688 +0.48223498j -0.30569306+0.42122492j]
+      Block 183:
+        Block start:    16685022000
+        Block length:   12000
+        Computed start: 2022-11-15 08:50:00+00:00
+        Computed stop:  2022-11-15 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.03081551-0.2242874j 0.07108601-0.2734326j]
+          last 2 datum:   [0.25698674-0.4640192j  0.31078956-0.45428774j]
+      Block 184:
+        Block start:    16685058000
+        Block length:   12000
+        Computed start: 2022-11-15 09:50:00+00:00
+        Computed stop:  2022-11-15 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [ 0.02574901+0.05911942j -0.00338342+0.07571883j]
+          last 2 datum:   [1.0827901+0.01655894j 1.0544901+0.18894237j]
+      Block 185:
+        Block start:    16685094000
+        Block length:   12000
+        Computed start: 2022-11-15 10:50:00+00:00
+        Computed stop:  2022-11-15 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.44969994+0.25279948j -0.509595  +0.15970503j]
+          last 2 datum:   [-0.4505112+0.09765802j -0.4732891+0.01853765j]
+      Block 186:
+        Block start:    16685130000
+        Block length:   12000
+        Computed start: 2022-11-15 11:50:00+00:00
+        Computed stop:  2022-11-15 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.14763819-0.71281976j 0.20757157-0.70167994j]
+          last 2 datum:   [-0.3578346+0.39633918j -0.4464293+0.32484758j]
+      Block 187:
+        Block start:    16685166000
+        Block length:   12000
+        Computed start: 2022-11-15 12:50:00+00:00
+        Computed stop:  2022-11-15 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00175   +0.18774961j -0.03104003+0.15748149j]
+          last 2 datum:   [ 0.04447005+0.12488534j -0.00107402+0.15536053j]
+      Block 188:
+        Block start:    16685202000
+        Block length:   12000
+        Computed start: 2022-11-15 13:50:00+00:00
+        Computed stop:  2022-11-15 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.0210717+0.06359189j -0.0463293+0.05680222j]
+          last 2 datum:   [-0.03819945+0.03557331j -0.04664381+0.02632749j]
+      Block 189:
+        Block start:    16685238000
+        Block length:   12000
+        Computed start: 2022-11-15 14:50:00+00:00
+        Computed stop:  2022-11-15 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01192157+0.00791422j 0.00867268+0.01022125j]
+          last 2 datum:   [-0.01789244-0.00783946j -0.01481956-0.00753951j]
+      Block 190:
+        Block start:    16685274000
+        Block length:   12000
+        Computed start: 2022-11-15 15:50:00+00:00
+        Computed stop:  2022-11-15 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00304389+0.01592284j 0.00282593+0.01788518j]
+          last 2 datum:   [0.00262625+0.00782947j 0.00023465+0.0071955j ]
+      Block 191:
+        Block start:    16685310000
+        Block length:   12000
+        Computed start: 2022-11-15 16:50:00+00:00
+        Computed stop:  2022-11-15 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00175456+0.00072668j 0.00089449+0.00068542j]
+          last 2 datum:   [-0.00119168-0.00097108j  0.00355126-0.0020049j ]
+      Block 192:
+        Block start:    16685346000
+        Block length:   12000
+        Computed start: 2022-11-15 17:50:00+00:00
+        Computed stop:  2022-11-15 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00417615-0.01204766j -0.00857518-0.01136444j]
+          last 2 datum:   [ 0.0024191 +0.00118592j -0.00013967-0.00037963j]
+      Block 193:
+        Block start:    16685382000
+        Block length:   12000
+        Computed start: 2022-11-15 18:50:00+00:00
+        Computed stop:  2022-11-15 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00645113-0.00205422j 0.00383644-0.00124175j]
+          last 2 datum:   [-0.01237995+0.00587734j -0.01301751+0.00333255j]
+      Block 194:
+        Block start:    16685418000
+        Block length:   12000
+        Computed start: 2022-11-15 19:50:00+00:00
+        Computed stop:  2022-11-15 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00968048+0.00620499j -0.01415678+0.00397413j]
+          last 2 datum:   [0.00180011+0.00744934j 0.00469831+0.01098948j]
+      Block 195:
+        Block start:    16685454000
+        Block length:   12000
+        Computed start: 2022-11-15 20:50:00+00:00
+        Computed stop:  2022-11-15 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00582746+0.00988158j 0.00827695+0.00863254j]
+          last 2 datum:   [ 0.0011758 -0.0046355j -0.00018167-0.0049966j]
+      Block 196:
+        Block start:    16685490000
+        Block length:   12000
+        Computed start: 2022-11-15 21:50:00+00:00
+        Computed stop:  2022-11-15 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.00480096-0.00378048j -0.00478976-0.00423201j]
+          last 2 datum:   [-0.00244563+0.00801609j -0.0043351 +0.0060252j ]
+      Block 197:
+        Block start:    16685526000
+        Block length:   12000
+        Computed start: 2022-11-15 22:50:00+00:00
+        Computed stop:  2022-11-15 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.0741053 -0.0265237j 0.07024948-0.0389085j]
+          last 2 datum:   [-0.02137695-0.09064006j -0.03426097-0.09478296j]
+      Block 198:
+        Block start:    16685562000
+        Block length:   12000
+        Computed start: 2022-11-15 23:50:00+00:00
+        Computed stop:  2022-11-16 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.02347858+0.20615107j -0.01837018+0.19519643j]
+          last 2 datum:   [0.0654838 +0.02687694j 0.07731488+0.05858319j]
+      Block 199:
+        Block start:    16685598000
+        Block length:   12000
+        Computed start: 2022-11-16 00:50:00+00:00
+        Computed stop:  2022-11-16 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.05717082+0.22200513j 0.10742359+0.19870935j]
+          last 2 datum:   [0.27173838-0.17579627j 0.15751845-0.276597j  ]
+      Block 200:
+        Block start:    16685634000
+        Block length:   12000
+        Computed start: 2022-11-16 01:50:00+00:00
+        Computed stop:  2022-11-16 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.01801142+0.00390839j -0.02979635-0.015581j  ]
+          last 2 datum:   [0.29349065-0.65757585j 0.3990823 -0.605872j  ]
+      Block 201:
+        Block start:    16685670000
+        Block length:   12000
+        Computed start: 2022-11-16 02:50:00+00:00
+        Computed stop:  2022-11-16 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.5317907+0.19875596j 0.4848886+0.25551116j]
+          last 2 datum:   [-0.12722087+0.07089934j -0.14248775+0.0470004j ]
+      Block 202:
+        Block start:    16685706000
+        Block length:   12000
+        Computed start: 2022-11-16 03:50:00+00:00
+        Computed stop:  2022-11-16 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.1371478+0.25386745j 0.1305934+0.24614726j]
+          last 2 datum:   [-0.52950054+0.77118176j -0.56942725+0.7386852j ]
+      Block 203:
+        Block start:    16685742000
+        Block length:   12000
+        Computed start: 2022-11-16 04:50:00+00:00
+        Computed stop:  2022-11-16 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.3139076 -0.10059513j 0.33205542-0.08575385j]
+          last 2 datum:   [0.23333864+0.24285105j 0.21289289+0.2624142j ]
+      Block 204:
+        Block start:    16685778000
+        Block length:   12000
+        Computed start: 2022-11-16 05:50:00+00:00
+        Computed stop:  2022-11-16 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.48789474-0.27471122j -0.46479294-0.29279053j]
+          last 2 datum:   [0.6259373 +0.5338677j 0.53163415+0.6008423j]
+      Block 205:
+        Block start:    16685814000
+        Block length:   12000
+        Computed start: 2022-11-16 06:50:00+00:00
+        Computed stop:  2022-11-16 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.33633184+0.4094775j  -0.3019775 +0.39906216j]
+          last 2 datum:   [-0.5080015+0.36245236j -0.5277639+0.32724455j]
+      Block 206:
+        Block start:    16685850000
+        Block length:   12000
+        Computed start: 2022-11-16 07:50:00+00:00
+        Computed stop:  2022-11-16 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.27464134+0.70102304j 0.15639944+0.74214715j]
+          last 2 datum:   [0.09892982-0.24219877j 0.11146791-0.24450599j]
+      Block 207:
+        Block start:    16685886000
+        Block length:   12000
+        Computed start: 2022-11-16 08:50:00+00:00
+        Computed stop:  2022-11-16 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.09560265+0.11596804j 0.09488082+0.11721054j]
+          last 2 datum:   [-0.48019958+0.19344217j -0.5210855 +0.12191451j]
+      Block 208:
+        Block start:    16685922000
+        Block length:   12000
+        Computed start: 2022-11-16 09:50:00+00:00
+        Computed stop:  2022-11-16 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.42326704+0.31869048j -0.45355955+0.24679333j]
+          last 2 datum:   [-0.06424814+0.22394444j -0.08201457+0.24820814j]
+      Block 209:
+        Block start:    16685958000
+        Block length:   12000
+        Computed start: 2022-11-16 10:50:00+00:00
+        Computed stop:  2022-11-16 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.35908252+0.28522965j -0.3803563 +0.2830024j ]
+          last 2 datum:   [0.10980088+0.16110888j 0.087731  +0.17210208j]
+      Block 210:
+        Block start:    16685994000
+        Block length:   12000
+        Computed start: 2022-11-16 11:50:00+00:00
+        Computed stop:  2022-11-16 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.04472779-0.29708922j 0.10762643-0.2714065j ]
+          last 2 datum:   [-0.05203888+0.6832541j -0.16480085+0.6284483j]
+      Block 211:
+        Block start:    16686030000
+        Block length:   12000
+        Computed start: 2022-11-16 12:50:00+00:00
+        Computed stop:  2022-11-16 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [-0.28277987+0.10958073j -0.29027268+0.01939062j]
+          last 2 datum:   [-0.10198895-0.05344452j -0.05412767-0.10364369j]
+      Block 212:
+        Block start:    16686066000
+        Block length:   12000
+        Computed start: 2022-11-16 13:50:00+00:00
+        Computed stop:  2022-11-16 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.02464438-0.01387352j 0.01587521-0.00092061j]
+          last 2 datum:   [-0.00190998+0.00061612j  0.00168576-0.0021098j ]
+      Block 213:
+        Block start:    16686102000
+        Block length:   12000
+        Computed start: 2022-11-16 14:50:00+00:00
+        Computed stop:  2022-11-16 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.01902733-0.00510583j 0.01846561-0.00502836j]
+          last 2 datum:   [-0.00171468-0.00218651j  0.00643393-0.00208241j]
+      Block 214:
+        Block start:    16686138000
+        Block length:   12000
+        Computed start: 2022-11-16 15:50:00+00:00
+        Computed stop:  2022-11-16 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      12000
+          data.shape:     (12000,)
+          first 2 datum:  [0.00266257-0.00557093j 0.00271085-0.00595599j]
+          last 2 datum:   [0.00632889+0.00022985j 0.00617209-0.00031198j]
+  Time to read sample: 35.1681 seconds
+  Comparing sample properties with first sample properties:
+    Metadata key file_cadence_millisecs has different values:
+      First:   60000
+      Current: 600000
+  Comparing first block metadata of this sample (OBS2022-11-07T00-00) with that from first block in the first sample (16572069320).
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   0.0
+      Current: 33.393285
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   0.0
+      Current: -87.56013166666666
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   0.0
+      Current: 33.393276666666665
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   0.0
+      Current: -87.560095
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   0.0
+      Current: 33.393256666666666
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   0.0
+      Current: -87.56005666666667
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   0.0
+      Current: 33.39318333333333
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   0.0
+      Current: -87.56006333333333
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   0.0
+      Current: 33.393323333333335
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   0.0
+      Current: -87.560125
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   0.0
+      Current: 33.393328333333336
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   0.0
+      Current: -87.56031666666667
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   0.0
+      Current: 33.39329
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   0.0
+      Current: -87.56003
+
+  Sample: OBS2024-06-14T00-00
+    Channels: ['ch0']
+    Channel start index: 17183232182
+    Channel stop index:  17184095868
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1718323218.2 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1718409586.8 = (end index)/samples_per_second
+    Computed sample start UTC time: 2024-06-14T00:00:18.200000Z
+    Computed sample stop UTC time:  2024-06-14T23:59:46.800000Z
+
+    Found 25 continuous blocks
+      Block 1:
+        Block start:    17183232182
+        Block length:   418
+        Computed start: 2024-06-14 00:00:18.200000+00:00
+        Computed stop:  2024-06-14 00:00:59.900000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 33.3958
+          long: -87.5417
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+        Keeping block: No metadata differences found.
+        Data:
+          # samples:      418
+          data.shape:     (418,)
+          first 2 datum:  [0.0000000e+00+0.0000000e+00j 5.0207473e-06-1.8707532e-06j]
+          last 2 datum:   [0.00692394+0.00149443j 0.00282445+0.00081087j]
+      Block 2:
+        Block start:    17183267400
+        Block length:   1200
+        Computed start: 2024-06-14 00:59:00+00:00
+        Computed stop:  2024-06-14 01:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00509274-0.00019759j 0.00595315+0.0038025j ]
+          last 2 datum:   [0.00457795+0.00215423j 0.00669951+0.00133032j]
+      Block 3:
+        Block start:    17183303400
+        Block length:   1200
+        Computed start: 2024-06-14 01:59:00+00:00
+        Computed stop:  2024-06-14 02:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.0019754 +0.00209018j 0.00123337+0.00088438j]
+          last 2 datum:   [0.00265514+0.00330472j 0.00539207+0.00312245j]
+      Block 4:
+        Block start:    17183339400
+        Block length:   1200
+        Computed start: 2024-06-14 02:59:00+00:00
+        Computed stop:  2024-06-14 03:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00840662-0.0068353j  0.01197455-0.00763233j]
+          last 2 datum:   [0.00149448-0.00196146j 0.00121061-0.00501057j]
+      Block 5:
+        Block start:    17183375400
+        Block length:   1200
+        Computed start: 2024-06-14 03:59:00+00:00
+        Computed stop:  2024-06-14 04:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00362173+0.0023801j  0.00229516+0.00282705j]
+          last 2 datum:   [-0.00119022-0.0065723j  -0.00745181-0.00378706j]
+      Block 6:
+        Block start:    17183411400
+        Block length:   1200
+        Computed start: 2024-06-14 04:59:00+00:00
+        Computed stop:  2024-06-14 05:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.00044771+0.00394437j -0.00338724+0.00291526j]
+          last 2 datum:   [0.00098274+0.0020103j  0.00399092+0.00196852j]
+      Block 7:
+        Block start:    17183447400
+        Block length:   1200
+        Computed start: 2024-06-14 05:59:00+00:00
+        Computed stop:  2024-06-14 06:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00536796+0.00768532j 0.00186063+0.00950572j]
+          last 2 datum:   [-0.00529734+0.01992123j -0.00338319+0.01502634j]
+      Block 8:
+        Block start:    17183483400
+        Block length:   1200
+        Computed start: 2024-06-14 06:59:00+00:00
+        Computed stop:  2024-06-14 07:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00657689-0.00606917j 0.00698755-0.00554975j]
+          last 2 datum:   [-0.0097685 -0.00046746j -0.01079896+0.0031508j ]
+      Block 9:
+        Block start:    17183519400
+        Block length:   1200
+        Computed start: 2024-06-14 07:59:00+00:00
+        Computed stop:  2024-06-14 08:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.0007345 -0.00923402j 0.00742181-0.01023734j]
+          last 2 datum:   [-4.771981e-05-0.00441715j -8.190391e-05+0.00158261j]
+      Block 10:
+        Block start:    17183555400
+        Block length:   1200
+        Computed start: 2024-06-14 08:59:00+00:00
+        Computed stop:  2024-06-14 09:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.01379038-0.00155696j -0.0097479 -0.00099246j]
+          last 2 datum:   [-0.00430506+0.00498142j -0.00540951+0.0089815j ]
+      Block 11:
+        Block start:    17183591400
+        Block length:   1200
+        Computed start: 2024-06-14 09:59:00+00:00
+        Computed stop:  2024-06-14 10:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00139601-0.00418809j 0.0039436 -0.00296263j]
+          last 2 datum:   [0.00739282+0.00622723j 0.00375142+0.00770444j]
+      Block 12:
+        Block start:    17183627400
+        Block length:   1200
+        Computed start: 2024-06-14 10:59:00+00:00
+        Computed stop:  2024-06-14 11:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.0021267-0.00209893j -0.0010764-0.00233879j]
+          last 2 datum:   [ 9.6081712e-05+0.00770452j -2.2110068e-04+0.00920747j]
+      Block 13:
+        Block start:    17183663400
+        Block length:   1200
+        Computed start: 2024-06-14 11:59:00+00:00
+        Computed stop:  2024-06-14 12:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.00231639+0.00403288j -0.00089702+0.00632608j]
+          last 2 datum:   [ 0.00156919+0.00882426j -0.00165332+0.01083495j]
+      Block 14:
+        Block start:    17183699400
+        Block length:   1200
+        Computed start: 2024-06-14 12:59:00+00:00
+        Computed stop:  2024-06-14 13:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00491545+0.00311977j -0.00222881+0.00200643j]
+          last 2 datum:   [ 0.0006976 +0.00382527j -0.00122213+0.00147266j]
+      Block 15:
+        Block start:    17183735400
+        Block length:   1200
+        Computed start: 2024-06-14 13:59:00+00:00
+        Computed stop:  2024-06-14 14:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.00224616+0.00203185j -0.00017943+0.001951j  ]
+          last 2 datum:   [-0.00122784+0.0035777j -0.00145261+0.0030798j]
+      Block 16:
+        Block start:    17183771400
+        Block length:   1200
+        Computed start: 2024-06-14 14:59:00+00:00
+        Computed stop:  2024-06-14 15:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00345443+0.00080797j  0.00253139+0.00072523j]
+          last 2 datum:   [-9.5349003e-04+0.00118155j  2.2059436e-05+0.00268932j]
+      Block 17:
+        Block start:    17183807400
+        Block length:   1200
+        Computed start: 2024-06-14 15:59:00+00:00
+        Computed stop:  2024-06-14 16:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.00047847-0.00079907j -0.00260699+0.00188702j]
+          last 2 datum:   [-0.00336084+0.00510973j  0.00119847+0.00161274j]
+      Block 18:
+        Block start:    17183843400
+        Block length:   1200
+        Computed start: 2024-06-14 16:59:00+00:00
+        Computed stop:  2024-06-14 17:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00395329-1.6778667e-03j 0.00062451-9.5261690e-05j]
+          last 2 datum:   [0.00213015-0.00098841j 0.00198643+0.0030288j ]
+      Block 19:
+        Block start:    17183879400
+        Block length:   1200
+        Computed start: 2024-06-14 17:59:00+00:00
+        Computed stop:  2024-06-14 18:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00240235-0.00162288j 0.00151283-0.0042024j ]
+          last 2 datum:   [0.00090995-0.0036591j  0.00311657-0.00232163j]
+      Block 20:
+        Block start:    17183915400
+        Block length:   1200
+        Computed start: 2024-06-14 18:59:00+00:00
+        Computed stop:  2024-06-14 19:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00067724+0.00273181j  0.00391382+0.00347663j]
+          last 2 datum:   [0.0012353 +0.00263049j 0.00011403+0.00648564j]
+      Block 21:
+        Block start:    17183951400
+        Block length:   1200
+        Computed start: 2024-06-14 19:59:00+00:00
+        Computed stop:  2024-06-14 20:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00587575+0.00485885j 0.00518752+0.00320286j]
+          last 2 datum:   [0.00344164-0.00062488j 0.00208974+0.00433751j]
+      Block 22:
+        Block start:    17183987400
+        Block length:   1200
+        Computed start: 2024-06-14 20:59:00+00:00
+        Computed stop:  2024-06-14 21:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00298314+0.00256158j 0.00455212+0.00481651j]
+          last 2 datum:   [0.00384889+0.00039878j 0.00855137+0.00094827j]
+      Block 23:
+        Block start:    17184023400
+        Block length:   1200
+        Computed start: 2024-06-14 21:59:00+00:00
+        Computed stop:  2024-06-14 22:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00730156-0.00366585j 0.00258449-0.00277867j]
+          last 2 datum:   [0.00087847-0.00078809j 0.00589071-0.00393173j]
+      Block 24:
+        Block start:    17184059400
+        Block length:   1200
+        Computed start: 2024-06-14 22:59:00+00:00
+        Computed stop:  2024-06-14 23:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00227079-0.00594241j 0.00129913-0.00922264j]
+          last 2 datum:   [0.00182664-0.00697308j 0.00464822-0.00365802j]
+      Block 25:
+        Block start:    17184095400
+        Block length:   469
+        Computed start: 2024-06-14 23:59:00+00:00
+        Computed stop:  2024-06-14 23:59:46.800000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      469
+          data.shape:     (469,)
+          first 2 datum:  [-2.9440429e-05-0.00523793j  6.4699576e-05+0.00019542j]
+          last 2 datum:   [-0.00057443-0.00285985j -0.00180524+0.00138958j]
+  Time to read sample: 0.5170 seconds
+  Comparing sample properties with first sample properties:
+  Comparing first block metadata of this sample (OBS2024-06-14T00-00) with that from first block in the first sample (16572069320).
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [5.]
+      Current: [10.]
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   0.0
+      Current: 33.3958
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   0.0
+      Current: -87.5417
+
+  Sample: OBS2024-06-15T00-00
+    Channels: ['ch0']
+    Channel start index: 17184096176
+    Channel stop index:  17184605399
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1718409617.6 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1718460539.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2024-06-15T00:00:17.600000Z
+    Computed sample stop UTC time:  2024-06-15T14:08:59.900000Z
+
+    Found 16 continuous blocks
+      Block 1:
+        Block start:    17184096176
+        Block length:   424
+        Computed start: 2024-06-15 00:00:17.600000+00:00
+        Computed stop:  2024-06-15 00:00:59.900000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 33.3958
+          long: -87.5417
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+        Keeping block: No metadata differences found.
+        Data:
+          # samples:      424
+          data.shape:     (424,)
+          first 2 datum:  [0.0000000e+00+0.0000000e+00j 1.5343458e-06-8.7426446e-07j]
+          last 2 datum:   [-0.00355083+0.00095036j -0.00075553-0.00465651j]
+      Block 2:
+        Block start:    17184131400
+        Block length:   1200
+        Computed start: 2024-06-15 00:59:00+00:00
+        Computed stop:  2024-06-15 01:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00399899-0.00422478j 0.00204512-0.00643811j]
+          last 2 datum:   [0.00495295-0.00841648j 0.00502024-0.00657014j]
+      Block 3:
+        Block start:    17184167400
+        Block length:   1200
+        Computed start: 2024-06-15 01:59:00+00:00
+        Computed stop:  2024-06-15 02:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00287655-0.00547389j 0.00190999-0.00375152j]
+          last 2 datum:   [ 0.00036646-0.00541231j -0.00102819-0.00866916j]
+      Block 4:
+        Block start:    17184203400
+        Block length:   1200
+        Computed start: 2024-06-15 02:59:00+00:00
+        Computed stop:  2024-06-15 03:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 3.9199283e-03-0.00281645j -8.2308528e-05+0.0004074j ]
+          last 2 datum:   [-0.00035829-0.00342282j  0.00184273+0.00074609j]
+      Block 5:
+        Block start:    17184239400
+        Block length:   1200
+        Computed start: 2024-06-15 03:59:00+00:00
+        Computed stop:  2024-06-15 04:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00343913-0.01356427j 0.00831739-0.00979017j]
+          last 2 datum:   [0.00612019-0.0001822j 0.00491297-0.0027054j]
+      Block 6:
+        Block start:    17184275400
+        Block length:   1200
+        Computed start: 2024-06-15 04:59:00+00:00
+        Computed stop:  2024-06-15 05:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00955569-0.01378721j 0.00507514-0.01316618j]
+          last 2 datum:   [0.00071611-0.00461447j 0.00119498+0.00104393j]
+      Block 7:
+        Block start:    17184311400
+        Block length:   1200
+        Computed start: 2024-06-15 05:59:00+00:00
+        Computed stop:  2024-06-15 06:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.00299806-0.00010912j -0.00236992+0.0007031j ]
+          last 2 datum:   [-0.00253722-0.00159057j -0.00136022-0.00034699j]
+      Block 8:
+        Block start:    17184347400
+        Block length:   1200
+        Computed start: 2024-06-15 06:59:00+00:00
+        Computed stop:  2024-06-15 07:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [-0.01972789+0.00372552j -0.01968774-0.00029401j]
+          last 2 datum:   [0.00748413+0.00301308j 0.00792078+0.00587483j]
+      Block 9:
+        Block start:    17184383400
+        Block length:   1200
+        Computed start: 2024-06-15 07:59:00+00:00
+        Computed stop:  2024-06-15 08:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.00761044+5.1839303e-05j -0.00115504+4.2076139e-03j]
+          last 2 datum:   [ 0.00071629+0.00037444j -0.00024606-0.00112594j]
+      Block 10:
+        Block start:    17184419400
+        Block length:   1200
+        Computed start: 2024-06-15 08:59:00+00:00
+        Computed stop:  2024-06-15 09:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.0099876 +0.0114776j  0.01103172+0.01419598j]
+          last 2 datum:   [-0.00223525-0.00548372j -0.00080757-0.00543697j]
+      Block 11:
+        Block start:    17184455400
+        Block length:   1200
+        Computed start: 2024-06-15 09:59:00+00:00
+        Computed stop:  2024-06-15 10:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.00165819-0.00585244j -0.00227058-0.00629954j]
+          last 2 datum:   [-0.0043293 +0.00633279j -0.00032163+0.00484917j]
+      Block 12:
+        Block start:    17184491400
+        Block length:   1200
+        Computed start: 2024-06-15 10:59:00+00:00
+        Computed stop:  2024-06-15 11:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00694464-0.00641937j 0.01363186-0.00158406j]
+          last 2 datum:   [-0.00135375-0.00141296j  0.00393418+0.00162442j]
+      Block 13:
+        Block start:    17184527400
+        Block length:   1200
+        Computed start: 2024-06-15 11:59:00+00:00
+        Computed stop:  2024-06-15 12:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.0005251 -0.00081999j 0.00150963-0.00180555j]
+          last 2 datum:   [-4.673641e-05+0.00384824j  9.137585e-04+0.0020801j ]
+      Block 14:
+        Block start:    17184563400
+        Block length:   1200
+        Computed start: 2024-06-15 12:59:00+00:00
+        Computed stop:  2024-06-15 13:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [ 0.00377668-0.00405387j -0.00104314-0.00282849j]
+          last 2 datum:   [ 0.00214671+0.00084373j -0.00156029-0.00240385j]
+      Block 15:
+        Block start:    17184599400
+        Block length:   1200
+        Computed start: 2024-06-15 13:59:00+00:00
+        Computed stop:  2024-06-15 14:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      1200
+          data.shape:     (1200,)
+          first 2 datum:  [0.00115511+0.00179808j 0.00017886+0.00103363j]
+          last 2 datum:   [0.00408794+0.00209097j 0.00586268+0.0030641j ]
+      Block 16:
+        Block start:    17184604888
+        Block length:   512
+        Computed start: 2024-06-15 14:08:08.800000+00:00
+        Computed stop:  2024-06-15 14:08:59.900000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 33.3958
+          long: -87.5417
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+        Keeping block: No metadata differences found.
+        Data:
+          # samples:      512
+          data.shape:     (512,)
+          first 2 datum:  [0.0000000e+00+0.0000000e+00j 2.7962533e-06+2.5016795e-06j]
+          last 2 datum:   [0.00057338+0.00156424j 0.00081437+0.00264193j]
+  Time to read sample: 0.3275 seconds
+  Comparing sample properties with first sample properties:
+  Comparing first block metadata of this sample (OBS2024-06-15T00-00) with that from first block in the first sample (16572069320).
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [5.]
+      Current: [10.]
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   0.0
+      Current: 33.3958
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   0.0
+      Current: -87.5417
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [5.]
+      Current: [10.]
+    Block metadata key 'lat' has different values from that in first block metadata:
+      First:   0.0
+      Current: 33.3958
+    Block metadata key 'long' has different values from that in first block metadata:
+      First:   0.0
+      Current: -87.5417
+----------------------------------------------------------------------------------------------------------
+  Summary: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000004
+  ----------------------------------------------------------------------------------------------------------
+    Samples kept:
+       OBS2022-07-07T15-00
+    Dataset times (shape: (33914,)):
+      [1.65720693e+09 1.65720693e+09 1.65720693e+09 ... 1.65773592e+09
+ 1.65773592e+09 1.65773592e+09]
+    Dataset data (shape: (33914,)):
+      [ 0.0000000e+00+0.0000000e+00j -2.9688257e-05+1.2769962e-05j
+ -2.7436737e-04+4.7926762e-05j ...  2.1178687e-03+6.5337552e-04j
+  3.6738969e-03+7.2182476e-04j -2.6791522e-03+5.3540529e-03j]
+  ----------------------------------------------------------------------------------------------------------
+  No errors; not writing error log file /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/log/drf/stations/S000004.error.log
+  Writing: /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/log/drf/stations/S000004.log

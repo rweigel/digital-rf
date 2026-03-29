@@ -1,0 +1,430 @@
+
+----------------------------------------------------------------------------------------------------------
+S000169
+  Station directory: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000169
+  first_last and n options gave 4 sample dirs out of 266.
+
+  Sample: OBS2024-08-05T00-00
+    Channels: ['ch0']
+    Channel start index: 17228160000
+    Channel stop index:  17229023999
+    Properties:
+      H5Tget_class: 0
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 16
+      H5Tget_size: 2
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 3600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 9
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 86400
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1722816000.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1722902399.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2024-08-05T00:00:00.000000Z
+    Computed sample stop UTC time:  2024-08-05T23:59:59.900000Z
+
+    Found 2 continuous blocks
+      Block 1:
+        Block start:    17228160000
+        Block length:   36000
+        Computed start: 2024-08-05 00:00:00+00:00
+        Computed stop:  2024-08-05 00:59:59.900000+00:00
+        Metadata:
+          callsign: AC0G/LW
+          center_frequencies: [ 2.5   3.33  5.    7.85 10.   14.67 15.   20.   25.  ]
+          grid_square: EM38ww
+          lat: 38.91666793823242
+          long: -92.16666412353516
+          receiver_name: KA9Q_LONGWIRE_WWV
+          uuid_str: b5ea55c54d02417b8beaac079ee74a7f
+          sample_rate_numerator: 10
+          sample_rate_denominator: 1
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          No metadata differences found.
+        Data:
+          # samples:      36000
+          data.shape:     (36000, 9)
+          first 2 datum:  [[ 0.+0.j  0.+0.j  0.+0.j  0.-1.j  1.+0.j -1.+0.j  0.+0.j  0.+0.j  0.+0.j]
+ [ 0.+0.j  0.+1.j  0.+0.j  0.+0.j  0.+0.j  0.-1.j  0.-1.j -1.+1.j  0.+0.j]]
+          last 2 datum:   [[  -69. +108.j   118.  -93.j   512. +992.j   774. +287.j -5611.-1762.j
+      0. +124.j   846. -340.j -1884.+1964.j    81.-1387.j]
+ [  -66. +119.j    78.  -49.j   507.+1006.j   785. +213.j -5795.-1753.j
+      7. +132.j   560. -222.j -1969.+2069.j   157.-1418.j]]
+      Block 2:
+        Block start:    17228988000
+        Block length:   36000
+        Computed start: 2024-08-05 23:00:00+00:00
+        Computed stop:  2024-08-05 23:59:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      36000
+          data.shape:     (36000, 9)
+          first 2 datum:  [[    5.+7.000e+00j     6.-8.000e+00j   -13.-2.200e+01j   -15.-6.000e+00j
+   -864.-8.096e+03j   108.+1.530e+02j    55.+1.570e+02j  -386.+7.300e+02j
+     10.+4.000e+00j]
+ [    6.+1.000e+01j    -3.-4.000e+00j   -11.-2.500e+01j   -24.+1.600e+01j
+  -2207.-7.462e+03j    91.+1.200e+02j    58.+1.570e+02j  -390.+7.310e+02j
+     -9.+4.000e+00j]]
+          last 2 datum:   [[  -7.-2.600e+01j  -48.-7.000e+00j  -54.+7.200e+01j  239.-3.050e+02j
+   -56.-3.425e+03j   32.+6.600e+01j   20.-2.800e+01j -648.-3.960e+02j
+    11.+1.000e+00j]
+ [ -14.-3.300e+01j  -14.-2.500e+01j  -77.+9.800e+01j  186.-5.550e+02j
+  -332.-3.424e+03j   69.+5.100e+01j  -32.-4.200e+01j -714.-4.570e+02j
+    -4.+2.000e+00j]]
+  Time to read sample: 0.0182 seconds
+
+  Sample: OBS2024-08-06T00-00
+    Channels: ['ch0']
+    Channel start index: 17229024000
+    Channel stop index:  17229887999
+    Properties:
+      H5Tget_class: 0
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 16
+      H5Tget_size: 2
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 3600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 9
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 86400
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1722902400.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1722988799.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2024-08-06T00:00:00.000000Z
+    Computed sample stop UTC time:  2024-08-06T23:59:59.900000Z
+
+    Found 2 continuous blocks
+      Block 1:
+        Block start:    17229024000
+        Block length:   36000
+        Computed start: 2024-08-06 00:00:00+00:00
+        Computed stop:  2024-08-06 00:59:59.900000+00:00
+        Metadata:
+          callsign: AC0G/LW
+          center_frequencies: [ 2.5   3.33  5.    7.85 10.   14.67 15.   20.   25.  ]
+          grid_square: EM38ww
+          lat: 38.91666793823242
+          long: -92.16666412353516
+          receiver_name: KA9Q_LONGWIRE_WWV
+          uuid_str: 2f88235feb9040c2a9e5c0167f683bf3
+          sample_rate_numerator: 10
+          sample_rate_denominator: 1
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          No metadata differences found.
+        Data:
+          # samples:      36000
+          data.shape:     (36000, 9)
+          first 2 datum:  [[ -15.+0.000e+00j  -26.-1.600e+01j  -23.+4.900e+01j   15.-2.930e+02j
+  -215.-1.163e+03j   26.+1.000e+00j   -7.-1.100e+01j -329.-2.090e+02j
+    -2.-4.000e+00j]
+ [ -12.-2.200e+01j  -16.-1.000e+01j  -47.+9.000e+01j   -5.-6.750e+02j
+  -328.-1.653e+03j   65.-2.500e+01j  -56.-1.000e+00j -743.-4.430e+02j
+     7.-6.000e+00j]]
+          last 2 datum:   [[  29.  -68.j   -5. -113.j -326.  +88.j -118. -710.j 1356.+3020.j
+    39.   -6.j   51. +151.j  932.  -66.j   -3.   -6.j]
+ [  20.  -72.j  -10.  -92.j -256.  +59.j -310. -619.j 1532.+3003.j
+    52.   +4.j   61.  +60.j  926.  -48.j   11.   -4.j]]
+      Block 2:
+        Block start:    17229852000
+        Block length:   36000
+        Computed start: 2024-08-06 23:00:00+00:00
+        Computed stop:  2024-08-06 23:59:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      36000
+          data.shape:     (36000, 9)
+          first 2 datum:  [[-1.000e+01  -12.j -8.000e+00   -8.j -2.770e+02  -85.j  2.620e+02 -406.j
+   3.010e+03+2067.j -5.690e+02+1008.j -9.010e+02+1373.j -9.320e+02 -174.j
+   8.000e+00   +3.j]
+ [-2.000e+00   -9.j -1.100e+01  +27.j -2.640e+02  -28.j  1.890e+02 -443.j
+   3.867e+03+1251.j -5.120e+02+1034.j -8.230e+02+1406.j -9.250e+02 -172.j
+   2.000e+00   +0.j]]
+          last 2 datum:   [[-4.40e+01  -34.j  5.00e+00  +11.j  2.24e+02 +466.j -1.47e+02 +893.j
+  -2.61e+02+8465.j -1.01e+03+1063.j -3.66e+02 +370.j -1.43e+02-1012.j
+   8.00e+00  +25.j]
+ [-5.30e+01  -31.j  3.00e+00  +19.j  2.53e+02 +497.j -2.94e+02 +916.j
+  -3.70e+02+9698.j -1.00e+03+1487.j -1.33e+02 +568.j -1.37e+02-1170.j
+   1.00e+00  +28.j]]
+  Time to read sample: 0.0179 seconds
+  Comparing sample properties with first sample properties:
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   b5ea55c54d02417b8beaac079ee74a7f
+      Current: 2f88235feb9040c2a9e5c0167f683bf3
+
+  Sample: OBS2025-04-26T00-00
+    Channels: ['ch0']
+    Channel start index: 17456256000
+    Channel stop index:  17457119999
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 3600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 9
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 86400
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1745625600.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1745711999.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2025-04-26T00:00:00.000000Z
+    Computed sample stop UTC time:  2025-04-26T23:59:59.900000Z
+
+    Found 2 continuous blocks
+      Block 1:
+        Block start:    17456256000
+        Block length:   36000
+        Computed start: 2025-04-26 00:00:00+00:00
+        Computed stop:  2025-04-26 00:59:59.900000+00:00
+        Metadata:
+          callsign: AC0G/FB
+          center_frequencies: [ 2.5   3.33  5.    7.85 10.   14.67 15.   20.   25.  ]
+          grid_square: EM38ww
+          lat: 38.91666793823242
+          long: -92.16666412353516
+          receiver_name: KA9Q_DXE_WWV
+          uuid_str: 359e1142dfb745ec97f0f6fd140450a3
+          sample_rate_numerator: 10
+          sample_rate_denominator: 1
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          No metadata differences found.
+        Data:
+          # samples:      36000
+          data.shape:     (36000, 9)
+          first 2 datum:  [[ 2.92062759e-06+1.60932541e-06j  1.66893005e-06+6.25848770e-06j
+   2.36034393e-05-1.91926956e-05j  1.44243240e-05-5.48362732e-05j
+   1.63435936e-04+1.32381916e-04j -5.34057617e-05+8.40425491e-06j
+  -2.79545784e-05-1.41918659e-04j -5.30481339e-06-4.64916229e-06j
+   1.07288361e-05-6.97374344e-06j]
+ [ 6.61611557e-06+2.14576721e-06j  4.11272049e-06+1.23381615e-05j
+   4.71472740e-05-4.18424606e-05j  3.30805779e-05-7.61747360e-05j
+   4.06146049e-04+1.99794769e-04j -1.04784966e-04+2.98619270e-05j
+  -8.57710838e-05-2.89678574e-04j -1.41263008e-05-7.15255737e-06j
+   1.92523003e-05-1.82986259e-05j]]
+          last 2 datum:   [[-2.2828579e-05+6.7353249e-06j  2.6822090e-06-3.7550926e-06j
+  -7.8082085e-05-1.7017126e-04j -1.2415648e-04-6.4969063e-06j
+  -5.9604645e-07-9.8109245e-05j -2.0086765e-05-6.7114830e-05j
+   6.0200691e-05-7.8797340e-05j -7.5697899e-06+1.1920929e-07j
+   1.7464161e-05-7.3313713e-06j]
+ [-2.4139881e-05+7.6293945e-06j  1.0430813e-05+5.7816505e-06j
+  -9.4175339e-05-1.7547607e-04j -1.2993813e-04+3.5166740e-06j
+  -2.4795532e-05-1.0949373e-04j -1.9192696e-05-7.0691109e-05j
+   5.2750111e-05-9.4234943e-05j -8.9406967e-06-5.7816505e-06j
+   1.2516975e-05-8.5830688e-06j]]
+      Block 2:
+        Block start:    17457084000
+        Block length:   36000
+        Computed start: 2025-04-26 23:00:00+00:00
+        Computed stop:  2025-04-26 23:59:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      36000
+          data.shape:     (36000, 9)
+          first 2 datum:  [[-2.5033951e-06-2.08616257e-06j -8.3446503e-07+3.27825546e-06j
+  -4.3511391e-06+4.76837158e-06j -2.9921532e-05-6.73532486e-06j
+  -1.9848347e-05-3.00765038e-04j  1.4722347e-04+4.10079956e-05j
+   5.6284666e-04+1.76250935e-04j  1.1384487e-05+4.64916229e-06j
+  -4.9471855e-06+1.40070915e-05j]
+ [-1.9073486e-06-1.25169754e-06j -1.0728836e-06+3.81469727e-06j
+  -3.6358833e-06+4.52995300e-06j -2.7835369e-05+1.96695328e-06j
+  -8.4578991e-05-2.77757645e-04j  1.4048815e-04+4.29153442e-06j
+   5.7399273e-04+3.39150429e-05j  1.1980534e-05+3.09944153e-06j
+  -2.0444393e-05-1.72853470e-06j]]
+          last 2 datum:   [[-1.49011612e-06+8.5830688e-06j  4.35113907e-06+2.0861626e-06j
+  -9.32216644e-05-4.6849251e-05j -9.65595245e-05+9.9658966e-05j
+  -1.27911568e-04-1.2916327e-04j  1.98006630e-04+8.1658363e-05j
+   8.82744789e-05+1.7279387e-04j -7.98702240e-06+6.6757202e-06j
+   3.11136246e-05+8.7022781e-06j]
+ [-1.84774399e-06+9.1195107e-06j  5.84125519e-06+2.9802322e-06j
+  -1.03890896e-04-5.0842762e-05j -1.15036964e-04+1.4954805e-04j
+  -1.39117241e-04-9.9778175e-05j  2.42173672e-04+4.7802925e-05j
+   1.61230564e-04+1.8918514e-04j -8.52346420e-06+8.4638596e-06j
+   1.05500221e-05+1.4901161e-05j]]
+  Time to read sample: 0.0246 seconds
+  Comparing sample properties with first sample properties:
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'callsign' has different values from that in first block metadata:
+      First:   AC0G/LW
+      Current: AC0G/FB
+    Block metadata key 'receiver_name' has different values from that in first block metadata:
+      First:   KA9Q_LONGWIRE_WWV
+      Current: KA9Q_DXE_WWV
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   b5ea55c54d02417b8beaac079ee74a7f
+      Current: 359e1142dfb745ec97f0f6fd140450a3
+
+  Sample: OBS2025-04-27T00-00
+    Channels: ['ch0']
+    Channel start index: 17457120000
+    Channel stop index:  17457983999
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 3600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 9
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 86400
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1745712000.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1745798399.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2025-04-27T00:00:00.000000Z
+    Computed sample stop UTC time:  2025-04-27T23:59:59.900000Z
+
+    Found 2 continuous blocks
+      Block 1:
+        Block start:    17457120000
+        Block length:   36000
+        Computed start: 2025-04-27 00:00:00+00:00
+        Computed stop:  2025-04-27 00:59:59.900000+00:00
+        Metadata:
+          callsign: AC0G/FB
+          center_frequencies: [ 2.5   3.33  5.    7.85 10.   14.67 15.   20.   25.  ]
+          grid_square: EM38ww
+          lat: 38.91666793823242
+          long: -92.16666412353516
+          receiver_name: KA9Q_DXE_WWV
+          uuid_str: cd87273d3cc74efaa209d50361ee330d
+          sample_rate_numerator: 10
+          sample_rate_denominator: 1
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          No metadata differences found.
+        Data:
+          # samples:      36000
+          data.shape:     (36000, 9)
+          first 2 datum:  [[-7.1525574e-07+3.9935112e-06j  1.8477440e-06+1.1324883e-06j
+  -4.7147274e-05-1.8715858e-05j -4.3570995e-05+8.8453293e-05j
+  -5.5491924e-05-1.6987324e-05j  1.1360645e-04-7.0333481e-06j
+   1.0025501e-04+7.0631504e-05j -3.7550926e-06+6.1988831e-06j
+  -5.7816505e-06-4.7087669e-06j]
+ [-1.3709068e-06+8.7618828e-06j  3.2186508e-06+3.0994415e-06j
+  -9.7513199e-05-2.9683113e-05j -7.5817108e-05+2.0509958e-04j
+  -9.7513199e-05-7.3313713e-06j  2.2560358e-04-5.0663948e-05j
+   2.3907423e-04+1.0919571e-04j -4.0531158e-06+1.4126301e-05j
+  -9.9539757e-06-2.2947788e-05j]]
+          last 2 datum:   [[-1.9967556e-05-2.0682812e-05j  5.7041645e-05-2.3007393e-05j
+   9.4175339e-05-5.1617622e-05j  1.3077259e-04+1.1521578e-04j
+  -2.2000074e-04+9.2089176e-05j -9.1373920e-05+1.4364719e-05j
+  -7.9572201e-05+1.1682510e-05j -1.5318394e-05+1.0430813e-05j
+   5.9604645e-08-1.8239021e-05j]
+ [-2.0027161e-05-1.9788742e-05j  5.3644180e-05-2.8192997e-05j
+   1.2665987e-04-2.4735928e-05j  1.2856722e-04+1.0627508e-04j
+  -1.9770861e-04+1.7660856e-04j -8.7320805e-05+2.7596951e-05j
+  -8.4221363e-05+3.7491322e-05j -1.4066696e-05+1.5079975e-05j
+   8.1062317e-06-1.1086464e-05j]]
+      Block 2:
+        Block start:    17457948000
+        Block length:   36000
+        Computed start: 2025-04-27 23:00:00+00:00
+        Computed stop:  2025-04-27 23:59:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data:
+          # samples:      36000
+          data.shape:     (36000, 9)
+          first 2 datum:  [[ 4.7683716e-07+5.2452087e-06j -2.3841858e-07+2.9802322e-07j
+   1.0371208e-05-8.9585781e-05j  3.3438206e-05+4.3988228e-05j
+   2.8336048e-04-1.2278557e-05j  7.0095062e-05+5.9783459e-05j
+  -8.0454350e-04-3.0755997e-04j -2.9802322e-06-1.3709068e-06j
+  -2.1576881e-05+4.2319298e-06j]
+ [-7.1525574e-07+4.4703484e-06j  1.7881393e-07+1.1920929e-07j
+   3.5464764e-05-4.0411949e-05j  3.7550926e-06+3.9160252e-05j
+   6.5684319e-05-5.1081181e-05j  1.3530254e-05+2.7120113e-05j
+  -7.7414513e-04+7.3909760e-06j -4.8279762e-06-4.1127205e-06j
+  -6.0796738e-06-6.5565109e-07j]]
+          last 2 datum:   [[ 2.86102295e-06+5.9604645e-08j -5.18560410e-06-4.2319298e-06j
+   1.32858753e-04+5.7280064e-05j  6.22153282e-04+4.8381090e-04j
+  -1.08897686e-04-2.4598837e-04j  1.72495842e-04-2.1517277e-04j
+   1.98185444e-04+5.5634975e-04j -1.16825104e-05-2.0861626e-06j
+   2.69412994e-05-2.9146671e-05j]
+ [ 4.17232513e-06+1.2516975e-06j -7.86781311e-06-3.1590462e-06j
+   1.44183636e-04+6.9737434e-05j  8.09013844e-04+3.4731627e-04j
+  -1.32799149e-04-2.5087595e-04j  1.38103962e-04-2.8181076e-04j
+   3.33368778e-04+5.6803226e-04j -9.05990601e-06+1.0132790e-06j
+   9.53674316e-06-1.8894672e-05j]]
+  Time to read sample: 0.0247 seconds
+  Comparing sample properties with first sample properties:
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'callsign' has different values from that in first block metadata:
+      First:   AC0G/LW
+      Current: AC0G/FB
+    Block metadata key 'receiver_name' has different values from that in first block metadata:
+      First:   KA9Q_LONGWIRE_WWV
+      Current: KA9Q_DXE_WWV
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   b5ea55c54d02417b8beaac079ee74a7f
+      Current: cd87273d3cc74efaa209d50361ee330d
+----------------------------------------------------------------------------------------------------------
+Result for station directory: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000169
+----------------------------------------------------------------------------------------------------------
+Station metadata:
+  Observation OBS2024-08-05T00-00: {'channels': ['ch0'], 'sample_block_metadata': OrderedDict([(np.int64(17228160000), {'callsign': 'AC0G/LW', 'center_frequencies': array([ 2.5 ,  3.33,  5.  ,  7.85, 10.  , 14.67, 15.  , 20.  , 25.  ]), 'grid_square': 'EM38ww', 'lat': 38.91666793823242, 'long': -92.16666412353516, 'receiver_name': 'KA9Q_LONGWIRE_WWV', 'uuid_str': 'b5ea55c54d02417b8beaac079ee74a7f', 'sample_rate_numerator': 10, 'sample_rate_denominator': 1, 'samples_per_second': np.longdouble('10.0')})]), 'start_sample': 17228160000, 'start_sample_utc': '2024-08-05T00:00:00.000000Z', 'end_sample': 17229023999, 'end_sample_utc': '2024-08-05T23:59:59.900000Z', 'properties': {'H5Tget_class': 0, 'H5Tget_offset': 0, 'H5Tget_order': 0, 'H5Tget_precision': 16, 'H5Tget_size': 2, 'digital_rf_time_description': 'All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.', 'digital_rf_version': '2.6.0', 'epoch': '1970-01-01T00:00:00Z', 'file_cadence_millisecs': 3600000, 'is_complex': 1, 'is_continuous': 1, 'num_subchannels': 9, 'sample_rate_denominator': 1, 'sample_rate_numerator': 10, 'subdir_cadence_secs': 86400, 'samples_per_second': np.longdouble('10.0')}, 'continuous_blocks_note': 'continuous_blocks is a dict with keys of start block index and values of block length.', 'continuous_blocks': OrderedDict([(17228160000, 36000), (17228988000, 36000)]), 'block_unix_time_ranges': [(1722816000.0, 1722819599.9), (1722898800.0, 1722902399.9)]}
+Dataset times (shape: (72000,)):
+[1.7228160e+09 1.7228160e+09 1.7228160e+09 ... 1.7229024e+09 1.7229024e+09
+ 1.7229024e+09]
+Dataset data (shape: (72000, 9)):
+[[   0.  +0.j    0.  +0.j    0.  +0.j ...    0.  +0.j    0.  +0.j
+     0.  +0.j]
+ [   0.  +0.j    0.  +1.j    0.  +0.j ...    0.  -1.j   -1.  +1.j
+     0.  +0.j]
+ [   1.  +0.j    1.  +1.j   -1.  +1.j ...    0.  -1.j    0.  +0.j
+     0.  -1.j]
+ ...
+ [   2. -34.j    0. -42.j  -65. +82.j ...   10. +10.j -686.-436.j
+     5.  -8.j]
+ [  -7. -26.j  -48.  -7.j  -54. +72.j ...   20. -28.j -648.-396.j
+    11.  +1.j]
+ [ -14. -33.j  -14. -25.j  -77. +98.j ...  -32. -42.j -714.-457.j
+    -4.  +2.j]]
+No errors; not writing error log file /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/log/drf/stations/S000169.error.log
+  Writing: /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/log/drf/stations/S000169.log
