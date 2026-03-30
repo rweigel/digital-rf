@@ -1,0 +1,1 @@
+  Error processing /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000042/OBS2024-03-23T00-00: No channels found: top_level_directory_arg = /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000042/OBS2024-03-23T00-00. If path is correct, you may need to run recreate_properties_file to re-create missing drf_properties.h5 files.
