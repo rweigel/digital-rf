@@ -71,10 +71,15 @@ def process_samples(station_id, station_dir,
     logger.info(station_id, "  Comparing sample properties with first sample properties:")
     _compare_sample_properties(station_id, p1, p2)
 
-    block_metadata_first_key, block_metadata_first = next(iter(metadata_first['sample_block_metadata'].items()))
-    msg = f"  Comparing first block metadata of this sample ({sample_dir}) with that from first block in the first sample ({block_metadata_first_key})."
+    bm_first_block_of_first_sample = next(iter(metadata_first['sample_block_metadata'].values()))
+    bm_first_block_of_current_sample = next(iter(metadata['sample_block_metadata'].values()))
+    msg = "  Comparing first block metadata of this sample with that from first block in the first sample."
     logger.info(station_id, msg)
-    same = _compare_block_metadata(station_id, block_metadata_first, metadata['sample_block_metadata'])
+    same = _compare_block_metadata(
+      station_id,
+      bm_first_block_of_first_sample,
+      bm_first_block_of_current_sample)
+
     if same:
       logger.info(station_id, "    No block metadata differences found.")
     else:
@@ -278,15 +283,16 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
       logger.info(station_id, "        Metadata:")
       for key, value in sample_block_metadata[block_start].items():
         logger.info(station_id, f"          {key}: {value}")
-      logger.info(station_id, "        Comparing metadata for this block to that of the first block.")
-      same = _compare_block_metadata(station_id, sample_block_metadata_first, sample_block_metadata[block_start], indent=10)
-      if same:
-        logger.info(station_id, "        Keeping block: No metadata differences found.")
-      else:
-        msg = "        Skipping block: Metadata for this block differs from that in first block."
-        logger.warning(station_id, msg)
-        metadata['continuous_blocks_skipped'] += 1
-        continue
+      if bn > 1:
+        logger.info(station_id, "        Comparing metadata for this block to that of the first block.")
+        same = _compare_block_metadata(station_id, sample_block_metadata_first, sample_block_metadata[block_start], indent=10)
+        if same:
+          logger.info(station_id, "        Keeping block: No metadata differences found.")
+        else:
+          msg = "        Skipping block: Metadata for this block differs from that in first block."
+          logger.warning(station_id, msg)
+          metadata['continuous_blocks_skipped'] += 1
+          continue
     else:
       logger.info(station_id, "        Metadata: No metadata for this block.")
 

@@ -167,7 +167,7 @@ S000044
         Computed stop:  2023-12-18 23:59:56.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 15.9974 seconds
+  Time to read sample: 16.7746 seconds
 
   Sample: OBS2023-09-06T19-56
     Channels: ['ch0']
@@ -228,11 +228,10 @@ S000044
         Comparing metadata for this block to that of the first block.
         Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.0156 seconds
+  Time to read sample: 0.0661 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-09-06T19-56) with that from first block in the first sample (16914236405).
-    Block metadata key '16940302027' not found in first block metadata.
-    Block metadata key '16940302893' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-09-23T00-00
     Channels: ['ch0']
@@ -340,10 +339,10 @@ S000044
         Computed stop:  2023-09-23 23:59:49.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.1084 seconds
+  Time to read sample: 0.3130 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-09-23T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16954827504' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-09-24T00-00
     Channels: ['ch0']
@@ -556,10 +555,10 @@ S000044
         Computed stop:  2023-09-24 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5262 seconds
+  Time to read sample: 0.8042 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-09-24T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16955136178' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-09-25T00-00
     Channels: ['ch0']
@@ -772,10 +771,10 @@ S000044
         Computed stop:  2023-09-25 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6456 seconds
+  Time to read sample: 0.7419 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-09-25T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16956000178' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-09-26T00-00
     Channels: ['ch0']
@@ -988,10 +987,10 @@ S000044
         Computed stop:  2023-09-26 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7253 seconds
+  Time to read sample: 0.7741 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-09-26T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16956864183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-09-27T00-00
     Channels: ['ch0']
@@ -1204,10 +1203,10 @@ S000044
         Computed stop:  2023-09-27 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5834 seconds
+  Time to read sample: 0.7817 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-09-27T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16957728177' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-09-28T00-00
     Channels: ['ch0']
@@ -1420,12 +1419,10 @@ S000044
         Computed stop:  2023-09-28 23:59:54.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6409 seconds
+  Time to read sample: 0.8090 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-09-28T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16958592182' not found in first block metadata.
-    Block metadata key '16959084328' not found in first block metadata.
-    Block metadata key '16959084999' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-09-29T00-00
     Channels: ['ch0']
@@ -1638,10 +1635,10 @@ S000044
         Computed stop:  2023-09-29 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7349 seconds
+  Time to read sample: 0.8076 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-09-29T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16959456182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-09-30T00-00
     Channels: ['ch0']
@@ -1854,11 +1851,10 @@ S000044
         Computed stop:  2023-09-30 23:59:45.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6971 seconds
+  Time to read sample: 0.7993 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-09-30T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16960320177' not found in first block metadata.
-    Block metadata key '16960889483' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-01T00-00
     Channels: ['ch0']
@@ -2071,10 +2067,10 @@ S000044
         Computed stop:  2023-10-01 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6390 seconds
+  Time to read sample: 0.7303 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-01T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16961184184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-02T00-00
     Channels: ['ch0']
@@ -2303,11 +2299,10 @@ S000044
         Computed stop:  2023-10-02 23:59:45.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 1.2902 seconds
+  Time to read sample: 0.8456 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-02T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16962048180' not found in first block metadata.
-    Block metadata key '16962537429' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-03T00-00
     Channels: ['ch0']
@@ -2520,10 +2515,10 @@ S000044
         Computed stop:  2023-10-03 23:59:47.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5439 seconds
+  Time to read sample: 0.6381 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-03T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16962912180' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-04T00-00
     Channels: ['ch0']
@@ -2736,10 +2731,10 @@ S000044
         Computed stop:  2023-10-04 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6533 seconds
+  Time to read sample: 0.7476 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-04T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16963776177' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-05T00-00
     Channels: ['ch0']
@@ -2952,10 +2947,10 @@ S000044
         Computed stop:  2023-10-05 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6838 seconds
+  Time to read sample: 0.8454 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-05T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16964640184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-06T00-00
     Channels: ['ch0']
@@ -3168,10 +3163,10 @@ S000044
         Computed stop:  2023-10-06 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5030 seconds
+  Time to read sample: 0.7774 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-06T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16965504183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-07T00-00
     Channels: ['ch0']
@@ -3384,10 +3379,10 @@ S000044
         Computed stop:  2023-10-07 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5006 seconds
+  Time to read sample: 0.7126 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-07T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16966368182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-08T00-00
     Channels: ['ch0']
@@ -3600,10 +3595,10 @@ S000044
         Computed stop:  2023-10-08 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7214 seconds
+  Time to read sample: 0.7670 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-08T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16967232181' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-09T00-00
     Channels: ['ch0']
@@ -3816,10 +3811,10 @@ S000044
         Computed stop:  2023-10-09 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6698 seconds
+  Time to read sample: 0.7650 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-09T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16968096180' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-10T00-00
     Channels: ['ch0']
@@ -4032,10 +4027,10 @@ S000044
         Computed stop:  2023-10-10 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6834 seconds
+  Time to read sample: 0.7542 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-10T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16968960174' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-11T00-00
     Channels: ['ch0']
@@ -4248,10 +4243,10 @@ S000044
         Computed stop:  2023-10-11 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6861 seconds
+  Time to read sample: 0.7622 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-11T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16969824183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-12T00-00
     Channels: ['ch0']
@@ -4464,10 +4459,10 @@ S000044
         Computed stop:  2023-10-12 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5637 seconds
+  Time to read sample: 0.6997 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-12T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16970688182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-13T00-00
     Channels: ['ch0']
@@ -4680,10 +4675,10 @@ S000044
         Computed stop:  2023-10-13 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6249 seconds
+  Time to read sample: 0.6475 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-13T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16971552181' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-14T00-00
     Channels: ['ch0']
@@ -4896,10 +4891,10 @@ S000044
         Computed stop:  2023-10-14 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6698 seconds
+  Time to read sample: 0.7509 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-14T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16972416182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-15T00-00
     Channels: ['ch0']
@@ -5112,10 +5107,10 @@ S000044
         Computed stop:  2023-10-15 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6666 seconds
+  Time to read sample: 0.7722 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-15T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16973280180' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-16T00-00
     Channels: ['ch0']
@@ -5328,10 +5323,10 @@ S000044
         Computed stop:  2023-10-16 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5341 seconds
+  Time to read sample: 1.8985 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-16T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16974144179' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-17T00-00
     Channels: ['ch0']
@@ -5544,10 +5539,10 @@ S000044
         Computed stop:  2023-10-17 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6856 seconds
+  Time to read sample: 0.7378 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-17T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16975008179' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-18T00-00
     Channels: ['ch0']
@@ -5760,10 +5755,10 @@ S000044
         Computed stop:  2023-10-18 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6779 seconds
+  Time to read sample: 0.7377 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-18T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16975872178' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-19T00-00
     Channels: ['ch0']
@@ -5976,10 +5971,10 @@ S000044
         Computed stop:  2023-10-19 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5831 seconds
+  Time to read sample: 0.7341 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-19T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16976736178' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-20T00-00
     Channels: ['ch0']
@@ -6192,10 +6187,10 @@ S000044
         Computed stop:  2023-10-20 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6007 seconds
+  Time to read sample: 0.7769 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-20T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16977600177' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-21T00-00
     Channels: ['ch0']
@@ -6408,10 +6403,10 @@ S000044
         Computed stop:  2023-10-21 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5067 seconds
+  Time to read sample: 0.8308 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-21T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16978464177' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-22T00-00
     Channels: ['ch0']
@@ -6624,10 +6619,10 @@ S000044
         Computed stop:  2023-10-22 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5131 seconds
+  Time to read sample: 0.6610 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-22T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16979328176' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-23T00-00
     Channels: ['ch0']
@@ -6840,10 +6835,10 @@ S000044
         Computed stop:  2023-10-23 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5195 seconds
+  Time to read sample: 0.7998 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-23T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16980192176' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-24T00-00
     Channels: ['ch0']
@@ -7056,10 +7051,10 @@ S000044
         Computed stop:  2023-10-24 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4756 seconds
+  Time to read sample: 0.7092 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-24T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16981056185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-25T00-00
     Channels: ['ch0']
@@ -7272,10 +7267,10 @@ S000044
         Computed stop:  2023-10-25 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5454 seconds
+  Time to read sample: 0.7474 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-25T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16981920185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-26T00-00
     Channels: ['ch0']
@@ -7488,10 +7483,10 @@ S000044
         Computed stop:  2023-10-26 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5382 seconds
+  Time to read sample: 0.7676 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-26T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16982784183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-27T00-00
     Channels: ['ch0']
@@ -7704,10 +7699,10 @@ S000044
         Computed stop:  2023-10-27 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4954 seconds
+  Time to read sample: 0.8016 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-27T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16983648183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-28T00-00
     Channels: ['ch0']
@@ -7920,10 +7915,10 @@ S000044
         Computed stop:  2023-10-28 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5611 seconds
+  Time to read sample: 0.6833 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-28T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16984512182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-29T00-00
     Channels: ['ch0']
@@ -8136,10 +8131,10 @@ S000044
         Computed stop:  2023-10-29 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5057 seconds
+  Time to read sample: 0.7560 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-29T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16985376181' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-30T00-00
     Channels: ['ch0']
@@ -8352,12 +8347,10 @@ S000044
         Computed stop:  2023-10-30 23:59:50.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5672 seconds
+  Time to read sample: 0.7589 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-30T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16986240173' not found in first block metadata.
-    Block metadata key '16986877821' not found in first block metadata.
-    Block metadata key '16986880966' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-10-31T00-00
     Channels: ['ch0']
@@ -8570,10 +8563,10 @@ S000044
         Computed stop:  2023-10-31 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4729 seconds
+  Time to read sample: 0.7927 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-10-31T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16987104177' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-01T00-00
     Channels: ['ch0']
@@ -8786,10 +8779,10 @@ S000044
         Computed stop:  2023-11-01 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4355 seconds
+  Time to read sample: 0.7833 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-01T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16987968182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-02T00-00
     Channels: ['ch0']
@@ -9009,14 +9002,10 @@ S000044
         Computed stop:  2023-11-02 23:59:49.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5775 seconds
+  Time to read sample: 0.7899 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-02T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16988832176' not found in first block metadata.
-    Block metadata key '16989465635' not found in first block metadata.
-    Block metadata key '16989479498' not found in first block metadata.
-    Block metadata key '16989482518' not found in first block metadata.
-    Block metadata key '16989503826' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-03T00-00
     Channels: ['ch0']
@@ -9229,10 +9218,10 @@ S000044
         Computed stop:  2023-11-03 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4822 seconds
+  Time to read sample: 0.6696 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-03T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16989696191' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-04T00-00
     Channels: ['ch0']
@@ -9461,11 +9450,10 @@ S000044
         Computed stop:  2023-11-04 23:59:50.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4749 seconds
+  Time to read sample: 0.6427 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-04T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16990560190' not found in first block metadata.
-    Block metadata key '16991035570' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-05T00-00
     Channels: ['ch0']
@@ -9678,10 +9666,10 @@ S000044
         Computed stop:  2023-11-05 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5910 seconds
+  Time to read sample: 0.5810 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-05T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16991424184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-06T00-00
     Channels: ['ch0']
@@ -9894,10 +9882,10 @@ S000044
         Computed stop:  2023-11-06 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5610 seconds
+  Time to read sample: 0.6338 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-06T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16992288190' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-07T00-00
     Channels: ['ch0']
@@ -10110,10 +10098,10 @@ S000044
         Computed stop:  2023-11-07 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5616 seconds
+  Time to read sample: 0.7598 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-07T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16993152193' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-08T00-00
     Channels: ['ch0']
@@ -10326,10 +10314,10 @@ S000044
         Computed stop:  2023-11-08 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6629 seconds
+  Time to read sample: 0.5985 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-08T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16994016189' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-09T00-00
     Channels: ['ch0']
@@ -10542,10 +10530,10 @@ S000044
         Computed stop:  2023-11-09 23:59:48.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 1.1655 seconds
+  Time to read sample: 0.8148 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-09T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16994880185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-10T00-00
     Channels: ['ch0']
@@ -10758,10 +10746,10 @@ S000044
         Computed stop:  2023-11-10 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4759 seconds
+  Time to read sample: 0.7302 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-10T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16995744192' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-11T00-00
     Channels: ['ch0']
@@ -10974,10 +10962,10 @@ S000044
         Computed stop:  2023-11-11 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5985 seconds
+  Time to read sample: 0.7580 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-11T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16996608193' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-12T00-00
     Channels: ['ch0']
@@ -11190,10 +11178,10 @@ S000044
         Computed stop:  2023-11-12 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5523 seconds
+  Time to read sample: 0.7023 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-12T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16997472189' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-13T00-00
     Channels: ['ch0']
@@ -11406,10 +11394,10 @@ S000044
         Computed stop:  2023-11-13 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5411 seconds
+  Time to read sample: 0.8129 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-13T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16998336182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-14T00-00
     Channels: ['ch0']
@@ -11622,10 +11610,10 @@ S000044
         Computed stop:  2023-11-14 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5923 seconds
+  Time to read sample: 0.6803 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-14T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16999200188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-15T00-00
     Channels: ['ch0']
@@ -11838,10 +11826,10 @@ S000044
         Computed stop:  2023-11-15 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5400 seconds
+  Time to read sample: 0.6923 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-15T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17000064189' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-16T00-00
     Channels: ['ch0']
@@ -12054,10 +12042,10 @@ S000044
         Computed stop:  2023-11-16 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5319 seconds
+  Time to read sample: 0.7772 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-16T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17000928181' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-17T00-00
     Channels: ['ch0']
@@ -12270,10 +12258,10 @@ S000044
         Computed stop:  2023-11-17 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5639 seconds
+  Time to read sample: 0.7531 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-17T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17001792186' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-18T00-00
     Channels: ['ch0']
@@ -12486,10 +12474,10 @@ S000044
         Computed stop:  2023-11-18 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5391 seconds
+  Time to read sample: 0.6541 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-18T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17002656181' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-19T00-00
     Channels: ['ch0']
@@ -12702,10 +12690,10 @@ S000044
         Computed stop:  2023-11-19 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5466 seconds
+  Time to read sample: 0.6965 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-19T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17003520182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-20T00-00
     Channels: ['ch0']
@@ -12918,10 +12906,10 @@ S000044
         Computed stop:  2023-11-20 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5497 seconds
+  Time to read sample: 0.7479 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-20T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17004384184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-21T00-00
     Channels: ['ch0']
@@ -13134,10 +13122,10 @@ S000044
         Computed stop:  2023-11-21 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5359 seconds
+  Time to read sample: 0.7097 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-21T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17005248184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-22T00-00
     Channels: ['ch0']
@@ -13350,10 +13338,10 @@ S000044
         Computed stop:  2023-11-22 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 1.4118 seconds
+  Time to read sample: 0.7516 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-22T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17006112188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-23T00-00
     Channels: ['ch0']
@@ -13566,10 +13554,10 @@ S000044
         Computed stop:  2023-11-23 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5958 seconds
+  Time to read sample: 3.3982 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-23T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17006976184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-24T00-00
     Channels: ['ch0']
@@ -13782,10 +13770,10 @@ S000044
         Computed stop:  2023-11-24 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5475 seconds
+  Time to read sample: 0.8353 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-24T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17007840199' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-25T00-00
     Channels: ['ch0']
@@ -13998,11 +13986,10 @@ S000044
         Computed stop:  2023-11-25 23:59:49.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5544 seconds
+  Time to read sample: 0.7066 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-25T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17008704196' not found in first block metadata.
-    Block metadata key '17009158455' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-26T00-00
     Channels: ['ch0']
@@ -14215,10 +14202,10 @@ S000044
         Computed stop:  2023-11-26 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5640 seconds
+  Time to read sample: 0.7174 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-26T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17009568187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-27T00-00
     Channels: ['ch0']
@@ -14431,10 +14418,10 @@ S000044
         Computed stop:  2023-11-27 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6164 seconds
+  Time to read sample: 1.6404 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-27T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17010432196' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-28T00-00
     Channels: ['ch0']
@@ -14647,10 +14634,10 @@ S000044
         Computed stop:  2023-11-28 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5862 seconds
+  Time to read sample: 0.8782 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-28T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17011296187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-29T00-00
     Channels: ['ch0']
@@ -14863,10 +14850,10 @@ S000044
         Computed stop:  2023-11-29 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6144 seconds
+  Time to read sample: 0.7040 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-29T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17012160197' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-11-30T00-00
     Channels: ['ch0']
@@ -15079,10 +15066,10 @@ S000044
         Computed stop:  2023-11-30 23:59:48.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5924 seconds
+  Time to read sample: 0.8304 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-11-30T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17013024194' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-01T00-00
     Channels: ['ch0']
@@ -15295,10 +15282,10 @@ S000044
         Computed stop:  2023-12-01 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5511 seconds
+  Time to read sample: 0.8942 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-01T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17013888184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-02T00-00
     Channels: ['ch0']
@@ -15511,10 +15498,10 @@ S000044
         Computed stop:  2023-12-02 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5624 seconds
+  Time to read sample: 0.8210 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-02T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17014752185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-03T00-00
     Channels: ['ch0']
@@ -15727,10 +15714,10 @@ S000044
         Computed stop:  2023-12-03 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4784 seconds
+  Time to read sample: 0.8312 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-03T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17015616192' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-04T00-00
     Channels: ['ch0']
@@ -15943,10 +15930,10 @@ S000044
         Computed stop:  2023-12-04 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4818 seconds
+  Time to read sample: 0.8702 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-04T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17016480185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-05T00-00
     Channels: ['ch0']
@@ -16159,10 +16146,10 @@ S000044
         Computed stop:  2023-12-05 23:59:47.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5581 seconds
+  Time to read sample: 0.8165 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-05T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17017344182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-06T00-00
     Channels: ['ch0']
@@ -16375,10 +16362,10 @@ S000044
         Computed stop:  2023-12-06 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5138 seconds
+  Time to read sample: 0.8266 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-06T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17018208187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-07T00-00
     Channels: ['ch0']
@@ -16591,10 +16578,10 @@ S000044
         Computed stop:  2023-12-07 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5874 seconds
+  Time to read sample: 0.8424 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-07T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17019072194' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-08T00-00
     Channels: ['ch0']
@@ -16807,10 +16794,10 @@ S000044
         Computed stop:  2023-12-08 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6045 seconds
+  Time to read sample: 0.8198 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-08T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17019936188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-09T00-00
     Channels: ['ch0']
@@ -17023,10 +17010,10 @@ S000044
         Computed stop:  2023-12-09 23:59:48.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5327 seconds
+  Time to read sample: 0.8019 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-09T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17020800183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-10T00-00
     Channels: ['ch0']
@@ -17239,10 +17226,10 @@ S000044
         Computed stop:  2023-12-10 23:59:48.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5646 seconds
+  Time to read sample: 0.7141 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-10T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17021664184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-11T00-00
     Channels: ['ch0']
@@ -17455,10 +17442,10 @@ S000044
         Computed stop:  2023-12-11 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6328 seconds
+  Time to read sample: 0.7585 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-11T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17022528188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-12T00-00
     Channels: ['ch0']
@@ -17671,10 +17658,10 @@ S000044
         Computed stop:  2023-12-12 23:59:47.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5679 seconds
+  Time to read sample: 0.8476 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-12T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17023392187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-13T00-00
     Channels: ['ch0']
@@ -17887,10 +17874,10 @@ S000044
         Computed stop:  2023-12-13 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5528 seconds
+  Time to read sample: 0.8699 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-13T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17024256183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-14T00-00
     Channels: ['ch0']
@@ -18103,10 +18090,10 @@ S000044
         Computed stop:  2023-12-14 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6152 seconds
+  Time to read sample: 0.7480 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-14T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17025120191' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-15T00-00
     Channels: ['ch0']
@@ -18319,10 +18306,10 @@ S000044
         Computed stop:  2023-12-15 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5587 seconds
+  Time to read sample: 0.7144 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-15T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17025984191' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-16T00-00
     Channels: ['ch0']
@@ -18535,10 +18522,10 @@ S000044
         Computed stop:  2023-12-16 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5692 seconds
+  Time to read sample: 0.7746 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-16T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17026848188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-17T00-00
     Channels: ['ch0']
@@ -18751,10 +18738,10 @@ S000044
         Computed stop:  2023-12-17 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5752 seconds
+  Time to read sample: 0.7327 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-17T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17027712182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-18T00-00
     Channels: ['ch0']
@@ -18820,10 +18807,10 @@ S000044
         Computed stop:  2023-12-18 02:48:59.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.0747 seconds
+  Time to read sample: 0.0693 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-18T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17028576187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-19T00-00
     Channels: ['ch0']
@@ -19036,10 +19023,10 @@ S000044
         Computed stop:  2023-12-19 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6003 seconds
+  Time to read sample: 0.7252 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-19T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17029440191' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-20T00-00
     Channels: ['ch0']
@@ -19252,10 +19239,10 @@ S000044
         Computed stop:  2023-12-20 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5508 seconds
+  Time to read sample: 0.7377 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-20T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17030304191' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-21T00-00
     Channels: ['ch0']
@@ -19468,10 +19455,10 @@ S000044
         Computed stop:  2023-12-21 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6018 seconds
+  Time to read sample: 0.7097 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-21T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17031168188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-22T00-00
     Channels: ['ch0']
@@ -19684,10 +19671,10 @@ S000044
         Computed stop:  2023-12-22 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5299 seconds
+  Time to read sample: 0.6701 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-22T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17032032184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-23T00-00
     Channels: ['ch0']
@@ -19900,10 +19887,10 @@ S000044
         Computed stop:  2023-12-23 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5545 seconds
+  Time to read sample: 0.6969 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-23T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17032896182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-24T00-00
     Channels: ['ch0']
@@ -20116,10 +20103,10 @@ S000044
         Computed stop:  2023-12-24 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6056 seconds
+  Time to read sample: 0.7498 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-24T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17033760192' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-25T00-00
     Channels: ['ch0']
@@ -20332,10 +20319,10 @@ S000044
         Computed stop:  2023-12-25 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5823 seconds
+  Time to read sample: 0.7051 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-25T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17034624184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-26T00-00
     Channels: ['ch0']
@@ -20548,10 +20535,10 @@ S000044
         Computed stop:  2023-12-26 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5582 seconds
+  Time to read sample: 0.6811 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-26T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17035488183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-27T00-00
     Channels: ['ch0']
@@ -20764,10 +20751,10 @@ S000044
         Computed stop:  2023-12-27 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6017 seconds
+  Time to read sample: 0.8201 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-27T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17036352183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-28T00-00
     Channels: ['ch0']
@@ -20980,10 +20967,10 @@ S000044
         Computed stop:  2023-12-28 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5593 seconds
+  Time to read sample: 0.6907 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-28T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17037216184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-29T00-00
     Channels: ['ch0']
@@ -21196,10 +21183,10 @@ S000044
         Computed stop:  2023-12-29 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5685 seconds
+  Time to read sample: 0.7628 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-29T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17038080184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-30T00-00
     Channels: ['ch0']
@@ -21412,10 +21399,10 @@ S000044
         Computed stop:  2023-12-30 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6037 seconds
+  Time to read sample: 0.7673 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-30T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17038944189' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2023-12-31T00-00
     Channels: ['ch0']
@@ -21628,10 +21615,10 @@ S000044
         Computed stop:  2023-12-31 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5896 seconds
+  Time to read sample: 0.7052 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2023-12-31T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17039808187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-01T00-00
     Channels: ['ch0']
@@ -21844,10 +21831,10 @@ S000044
         Computed stop:  2024-01-01 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6461 seconds
+  Time to read sample: 0.7565 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-01T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17040672183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-02T00-00
     Channels: ['ch0']
@@ -22060,10 +22047,10 @@ S000044
         Computed stop:  2024-01-02 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6119 seconds
+  Time to read sample: 0.7907 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-02T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17041536191' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-03T00-00
     Channels: ['ch0']
@@ -22276,10 +22263,10 @@ S000044
         Computed stop:  2024-01-03 23:59:49.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6165 seconds
+  Time to read sample: 0.7544 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-03T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17042400187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-04T00-00
     Channels: ['ch0']
@@ -22492,10 +22479,10 @@ S000044
         Computed stop:  2024-01-04 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 2.0107 seconds
+  Time to read sample: 0.7871 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-04T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17043264197' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-05T00-00
     Channels: ['ch0']
@@ -22708,10 +22695,10 @@ S000044
         Computed stop:  2024-01-05 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6168 seconds
+  Time to read sample: 1.2367 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-05T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17044128190' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-06T00-00
     Channels: ['ch0']
@@ -22924,10 +22911,10 @@ S000044
         Computed stop:  2024-01-06 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6204 seconds
+  Time to read sample: 0.7625 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-06T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17044992186' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-07T00-00
     Channels: ['ch0']
@@ -23140,10 +23127,10 @@ S000044
         Computed stop:  2024-01-07 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6207 seconds
+  Time to read sample: 0.7334 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-07T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17045856190' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-08T00-00
     Channels: ['ch0']
@@ -23356,10 +23343,10 @@ S000044
         Computed stop:  2024-01-08 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7386 seconds
+  Time to read sample: 0.6654 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-08T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17046720188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-09T00-00
     Channels: ['ch0']
@@ -23572,10 +23559,10 @@ S000044
         Computed stop:  2024-01-09 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.9138 seconds
+  Time to read sample: 0.7355 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-09T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17047584192' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-10T00-00
     Channels: ['ch0']
@@ -23788,10 +23775,10 @@ S000044
         Computed stop:  2024-01-10 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6301 seconds
+  Time to read sample: 0.7906 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-10T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17048448189' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-11T00-00
     Channels: ['ch0']
@@ -24004,10 +23991,10 @@ S000044
         Computed stop:  2024-01-11 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.3230 seconds
+  Time to read sample: 0.8231 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-11T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17049312197' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-12T00-00
     Channels: ['ch0']
@@ -24220,10 +24207,10 @@ S000044
         Computed stop:  2024-01-12 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.2692 seconds
+  Time to read sample: 0.8139 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-12T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17050176186' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-13T00-00
     Channels: ['ch0']
@@ -24436,10 +24423,10 @@ S000044
         Computed stop:  2024-01-13 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5888 seconds
+  Time to read sample: 0.7645 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-13T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17051040189' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-14T00-00
     Channels: ['ch0']
@@ -24652,10 +24639,10 @@ S000044
         Computed stop:  2024-01-14 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6914 seconds
+  Time to read sample: 0.8364 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-14T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17051904184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-15T00-00
     Channels: ['ch0']
@@ -24868,10 +24855,10 @@ S000044
         Computed stop:  2024-01-15 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6026 seconds
+  Time to read sample: 0.7198 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-15T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17052768195' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-16T00-00
     Channels: ['ch0']
@@ -25084,10 +25071,10 @@ S000044
         Computed stop:  2024-01-16 23:59:47.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6211 seconds
+  Time to read sample: 0.8107 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-16T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17053632189' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-17T00-00
     Channels: ['ch0']
@@ -25300,10 +25287,10 @@ S000044
         Computed stop:  2024-01-17 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6858 seconds
+  Time to read sample: 0.7581 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-17T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17054496187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-18T00-00
     Channels: ['ch0']
@@ -25516,10 +25503,10 @@ S000044
         Computed stop:  2024-01-18 23:59:47.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6567 seconds
+  Time to read sample: 0.7147 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-18T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17055360191' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-19T00-00
     Channels: ['ch0']
@@ -25732,10 +25719,10 @@ S000044
         Computed stop:  2024-01-19 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6629 seconds
+  Time to read sample: 0.8001 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-19T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17056224181' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-20T00-00
     Channels: ['ch0']
@@ -25948,10 +25935,10 @@ S000044
         Computed stop:  2024-01-20 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6914 seconds
+  Time to read sample: 2.0299 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-20T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17057088184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-21T00-00
     Channels: ['ch0']
@@ -26164,10 +26151,10 @@ S000044
         Computed stop:  2024-01-21 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6454 seconds
+  Time to read sample: 0.7837 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-21T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17057952179' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-22T00-00
     Channels: ['ch0']
@@ -26380,10 +26367,10 @@ S000044
         Computed stop:  2024-01-22 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6206 seconds
+  Time to read sample: 0.7822 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-22T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17058816185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-23T00-00
     Channels: ['ch0']
@@ -26596,10 +26583,10 @@ S000044
         Computed stop:  2024-01-23 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6772 seconds
+  Time to read sample: 0.6750 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-23T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17059680188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-24T00-00
     Channels: ['ch0']
@@ -26812,10 +26799,10 @@ S000044
         Computed stop:  2024-01-24 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6478 seconds
+  Time to read sample: 0.7440 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-24T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17060544182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-25T00-00
     Channels: ['ch0']
@@ -27028,10 +27015,10 @@ S000044
         Computed stop:  2024-01-25 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4095 seconds
+  Time to read sample: 0.7354 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-25T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17061408187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-26T00-00
     Channels: ['ch0']
@@ -27244,10 +27231,10 @@ S000044
         Computed stop:  2024-01-26 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6137 seconds
+  Time to read sample: 0.7223 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-26T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17062272185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-27T00-00
     Channels: ['ch0']
@@ -27460,10 +27447,10 @@ S000044
         Computed stop:  2024-01-27 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6110 seconds
+  Time to read sample: 0.7945 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-27T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17063136182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-28T00-00
     Channels: ['ch0']
@@ -27676,10 +27663,10 @@ S000044
         Computed stop:  2024-01-28 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6351 seconds
+  Time to read sample: 0.7928 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-28T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17064000188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-29T00-00
     Channels: ['ch0']
@@ -27892,10 +27879,10 @@ S000044
         Computed stop:  2024-01-29 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6195 seconds
+  Time to read sample: 0.7463 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-29T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17064864182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-30T00-00
     Channels: ['ch0']
@@ -28108,10 +28095,10 @@ S000044
         Computed stop:  2024-01-30 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5255 seconds
+  Time to read sample: 0.7426 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-30T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17065728182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-01-31T00-00
     Channels: ['ch0']
@@ -28324,10 +28311,10 @@ S000044
         Computed stop:  2024-01-31 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5784 seconds
+  Time to read sample: 0.7776 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-01-31T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17066592180' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-01T00-00
     Channels: ['ch0']
@@ -28540,10 +28527,10 @@ S000044
         Computed stop:  2024-02-01 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6449 seconds
+  Time to read sample: 0.6827 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-01T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17067456187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-02T00-00
     Channels: ['ch0']
@@ -28756,10 +28743,10 @@ S000044
         Computed stop:  2024-02-02 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5577 seconds
+  Time to read sample: 0.6852 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-02T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17068320185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-03T00-00
     Channels: ['ch0']
@@ -28972,10 +28959,10 @@ S000044
         Computed stop:  2024-02-03 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5151 seconds
+  Time to read sample: 0.8213 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-03T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17069184194' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-04T00-00
     Channels: ['ch0']
@@ -29188,10 +29175,10 @@ S000044
         Computed stop:  2024-02-04 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6023 seconds
+  Time to read sample: 0.7325 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-04T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17070048181' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-05T00-00
     Channels: ['ch0']
@@ -29404,10 +29391,10 @@ S000044
         Computed stop:  2024-02-05 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5076 seconds
+  Time to read sample: 0.7024 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-05T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17070912182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-06T00-00
     Channels: ['ch0']
@@ -29620,10 +29607,10 @@ S000044
         Computed stop:  2024-02-06 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5541 seconds
+  Time to read sample: 0.8179 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-06T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17071776194' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-07T00-00
     Channels: ['ch0']
@@ -29836,10 +29823,10 @@ S000044
         Computed stop:  2024-02-07 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5868 seconds
+  Time to read sample: 0.7359 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-07T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17072640196' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-08T00-00
     Channels: ['ch0']
@@ -30075,11 +30062,10 @@ S000044
         Computed stop:  2024-02-08 18:53:59.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 22.3867 seconds
+  Time to read sample: 21.2994 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-08T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '16914236462' not found in first block metadata.
-    Block metadata key '17073504189' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-09T00-00
     Channels: ['ch0']
@@ -30292,11 +30278,10 @@ S000044
         Computed stop:  2024-02-09 23:59:45.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5475 seconds
+  Time to read sample: 0.8495 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-09T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17074368188' not found in first block metadata.
-    Block metadata key '17074380301' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-10T00-00
     Channels: ['ch0']
@@ -30509,10 +30494,10 @@ S000044
         Computed stop:  2024-02-10 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6246 seconds
+  Time to read sample: 0.7154 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-10T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17075232191' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-11T00-00
     Channels: ['ch0']
@@ -30725,10 +30710,10 @@ S000044
         Computed stop:  2024-02-11 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5985 seconds
+  Time to read sample: 0.8767 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-11T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17076096188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-12T00-00
     Channels: ['ch0']
@@ -30941,10 +30926,10 @@ S000044
         Computed stop:  2024-02-12 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.3601 seconds
+  Time to read sample: 0.8538 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-12T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17076960189' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-13T00-00
     Channels: ['ch0']
@@ -31157,10 +31142,10 @@ S000044
         Computed stop:  2024-02-13 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6063 seconds
+  Time to read sample: 0.8220 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-13T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17077824184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-14T00-00
     Channels: ['ch0']
@@ -31373,10 +31358,10 @@ S000044
         Computed stop:  2024-02-14 23:59:47.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5248 seconds
+  Time to read sample: 0.7230 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-14T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17078688190' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-15T00-00
     Channels: ['ch0']
@@ -31589,10 +31574,10 @@ S000044
         Computed stop:  2024-02-15 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5860 seconds
+  Time to read sample: 0.8119 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-15T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17079552184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-16T00-00
     Channels: ['ch0']
@@ -31805,10 +31790,10 @@ S000044
         Computed stop:  2024-02-16 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6201 seconds
+  Time to read sample: 0.7893 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-16T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17080416185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-17T00-00
     Channels: ['ch0']
@@ -32021,10 +32006,10 @@ S000044
         Computed stop:  2024-02-17 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5549 seconds
+  Time to read sample: 0.7564 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-17T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17081280186' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-18T00-00
     Channels: ['ch0']
@@ -32237,10 +32222,10 @@ S000044
         Computed stop:  2024-02-18 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5566 seconds
+  Time to read sample: 0.6103 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-18T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17082144188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-19T00-00
     Channels: ['ch0']
@@ -32453,10 +32438,10 @@ S000044
         Computed stop:  2024-02-19 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6358 seconds
+  Time to read sample: 0.7737 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-19T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17083008182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-20T00-00
     Channels: ['ch0']
@@ -32669,10 +32654,10 @@ S000044
         Computed stop:  2024-02-20 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5934 seconds
+  Time to read sample: 0.7047 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-20T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17083872188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-21T00-00
     Channels: ['ch0']
@@ -32885,10 +32870,10 @@ S000044
         Computed stop:  2024-02-21 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5507 seconds
+  Time to read sample: 0.6852 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-21T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17084736180' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-22T00-00
     Channels: ['ch0']
@@ -33101,10 +33086,10 @@ S000044
         Computed stop:  2024-02-22 23:59:47.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6315 seconds
+  Time to read sample: 0.6580 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-22T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17085600186' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-23T00-00
     Channels: ['ch0']
@@ -33317,10 +33302,10 @@ S000044
         Computed stop:  2024-02-23 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5716 seconds
+  Time to read sample: 0.7349 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-23T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17086464180' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-24T00-00
     Channels: ['ch0']
@@ -33533,10 +33518,10 @@ S000044
         Computed stop:  2024-02-24 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5629 seconds
+  Time to read sample: 1.1122 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-24T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17087328188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-25T00-00
     Channels: ['ch0']
@@ -33749,10 +33734,10 @@ S000044
         Computed stop:  2024-02-25 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5502 seconds
+  Time to read sample: 0.8540 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-25T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17088192188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-26T00-00
     Channels: ['ch0']
@@ -33965,10 +33950,10 @@ S000044
         Computed stop:  2024-02-26 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5739 seconds
+  Time to read sample: 0.8094 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-26T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17089056185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-27T00-00
     Channels: ['ch0']
@@ -34181,10 +34166,10 @@ S000044
         Computed stop:  2024-02-27 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5607 seconds
+  Time to read sample: 0.8821 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-27T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17089920188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-28T00-00
     Channels: ['ch0']
@@ -34397,10 +34382,10 @@ S000044
         Computed stop:  2024-02-28 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5468 seconds
+  Time to read sample: 0.8299 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-28T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17090784188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-02-29T00-00
     Channels: ['ch0']
@@ -34613,10 +34598,10 @@ S000044
         Computed stop:  2024-02-29 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5563 seconds
+  Time to read sample: 0.6891 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-02-29T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17091648188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-01T00-00
     Channels: ['ch0']
@@ -34829,10 +34814,10 @@ S000044
         Computed stop:  2024-03-01 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5753 seconds
+  Time to read sample: 0.6933 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-01T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17092512183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-02T00-00
     Channels: ['ch0']
@@ -35045,10 +35030,10 @@ S000044
         Computed stop:  2024-03-02 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5800 seconds
+  Time to read sample: 0.7027 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-02T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17093376185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-03T00-00
     Channels: ['ch0']
@@ -35261,10 +35246,10 @@ S000044
         Computed stop:  2024-03-03 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5612 seconds
+  Time to read sample: 0.7045 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-03T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17094240180' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-04T00-00
     Channels: ['ch0']
@@ -35477,10 +35462,10 @@ S000044
         Computed stop:  2024-03-04 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5426 seconds
+  Time to read sample: 0.8118 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-04T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17095104185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-05T00-00
     Channels: ['ch0']
@@ -35693,10 +35678,10 @@ S000044
         Computed stop:  2024-03-05 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4824 seconds
+  Time to read sample: 0.8912 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-05T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17095968187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-06T00-00
     Channels: ['ch0']
@@ -35909,10 +35894,10 @@ S000044
         Computed stop:  2024-03-06 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5689 seconds
+  Time to read sample: 0.8132 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-06T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17096832185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-07T00-00
     Channels: ['ch0']
@@ -36125,10 +36110,10 @@ S000044
         Computed stop:  2024-03-07 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5573 seconds
+  Time to read sample: 0.7856 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-07T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17097696182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-08T00-00
     Channels: ['ch0']
@@ -36341,10 +36326,10 @@ S000044
         Computed stop:  2024-03-08 23:59:47.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6422 seconds
+  Time to read sample: 0.8888 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-08T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17098560185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-09T00-00
     Channels: ['ch0']
@@ -36557,10 +36542,10 @@ S000044
         Computed stop:  2024-03-09 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5453 seconds
+  Time to read sample: 0.7506 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-09T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17099424180' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-10T00-00
     Channels: ['ch0']
@@ -36773,10 +36758,10 @@ S000044
         Computed stop:  2024-03-10 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5665 seconds
+  Time to read sample: 0.7387 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-10T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17100288185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-11T00-00
     Channels: ['ch0']
@@ -36989,10 +36974,10 @@ S000044
         Computed stop:  2024-03-11 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6384 seconds
+  Time to read sample: 0.8715 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-11T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17101152185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-12T00-00
     Channels: ['ch0']
@@ -37205,10 +37190,10 @@ S000044
         Computed stop:  2024-03-12 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5623 seconds
+  Time to read sample: 0.8198 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-12T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17102016182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-13T00-00
     Channels: ['ch0']
@@ -37421,10 +37406,10 @@ S000044
         Computed stop:  2024-03-13 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5477 seconds
+  Time to read sample: 0.7960 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-13T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17102880182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-14T00-00
     Channels: ['ch0']
@@ -37637,10 +37622,10 @@ S000044
         Computed stop:  2024-03-14 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6521 seconds
+  Time to read sample: 0.8296 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-14T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17103744185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-15T00-00
     Channels: ['ch0']
@@ -37853,10 +37838,10 @@ S000044
         Computed stop:  2024-03-15 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 1.0684 seconds
+  Time to read sample: 0.7563 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-15T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17104608188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-16T00-00
     Channels: ['ch0']
@@ -38069,10 +38054,10 @@ S000044
         Computed stop:  2024-03-16 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5904 seconds
+  Time to read sample: 0.8354 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-16T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17105472188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-17T00-00
     Channels: ['ch0']
@@ -38285,10 +38270,10 @@ S000044
         Computed stop:  2024-03-17 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6128 seconds
+  Time to read sample: 0.8305 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-17T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17106336181' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-18T00-00
     Channels: ['ch0']
@@ -38501,10 +38486,10 @@ S000044
         Computed stop:  2024-03-18 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5659 seconds
+  Time to read sample: 0.7586 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-18T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17107200179' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-19T00-00
     Channels: ['ch0']
@@ -38717,10 +38702,10 @@ S000044
         Computed stop:  2024-03-19 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.2838 seconds
+  Time to read sample: 0.8264 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-19T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17108064184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-20T00-00
     Channels: ['ch0']
@@ -38933,10 +38918,10 @@ S000044
         Computed stop:  2024-03-20 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.3025 seconds
+  Time to read sample: 0.8447 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-20T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17108928183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-21T00-00
     Channels: ['ch0']
@@ -39149,10 +39134,10 @@ S000044
         Computed stop:  2024-03-21 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4237 seconds
+  Time to read sample: 0.8280 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-21T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17109792183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-22T00-00
     Channels: ['ch0']
@@ -39365,10 +39350,10 @@ S000044
         Computed stop:  2024-03-22 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6393 seconds
+  Time to read sample: 0.7887 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-22T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17110656181' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-23T00-00
     Channels: ['ch0']
@@ -39581,10 +39566,10 @@ S000044
         Computed stop:  2024-03-23 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6171 seconds
+  Time to read sample: 0.8928 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-23T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17111520187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-24T00-00
     Channels: ['ch0']
@@ -39797,10 +39782,10 @@ S000044
         Computed stop:  2024-03-24 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5879 seconds
+  Time to read sample: 0.7881 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-24T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17112384190' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-25T00-00
     Channels: ['ch0']
@@ -40013,10 +39998,10 @@ S000044
         Computed stop:  2024-03-25 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5900 seconds
+  Time to read sample: 0.7939 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-25T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17113248184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-26T00-00
     Channels: ['ch0']
@@ -40229,10 +40214,10 @@ S000044
         Computed stop:  2024-03-26 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6470 seconds
+  Time to read sample: 0.9101 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-26T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17114112183' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-27T00-00
     Channels: ['ch0']
@@ -40445,10 +40430,10 @@ S000044
         Computed stop:  2024-03-27 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5303 seconds
+  Time to read sample: 0.7613 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-27T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17114976182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-28T00-00
     Channels: ['ch0']
@@ -40661,10 +40646,10 @@ S000044
         Computed stop:  2024-03-28 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6133 seconds
+  Time to read sample: 0.7708 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-28T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17115840187' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-29T00-00
     Channels: ['ch0']
@@ -40877,10 +40862,10 @@ S000044
         Computed stop:  2024-03-29 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6832 seconds
+  Time to read sample: 0.8996 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-29T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17116704188' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-30T00-00
     Channels: ['ch0']
@@ -41093,10 +41078,10 @@ S000044
         Computed stop:  2024-03-30 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5047 seconds
+  Time to read sample: 0.7660 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-30T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17117568185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-03-31T00-00
     Channels: ['ch0']
@@ -41309,10 +41294,10 @@ S000044
         Computed stop:  2024-03-31 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6074 seconds
+  Time to read sample: 0.5764 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-03-31T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17118432182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-04-01T00-00
     Channels: ['ch0']
@@ -41525,10 +41510,10 @@ S000044
         Computed stop:  2024-04-01 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6716 seconds
+  Time to read sample: 1.7279 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-04-01T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17119296189' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-04-02T00-00
     Channels: ['ch0']
@@ -41741,10 +41726,10 @@ S000044
         Computed stop:  2024-04-02 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5824 seconds
+  Time to read sample: 0.7535 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-04-02T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17120160184' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-04-03T00-00
     Channels: ['ch0']
@@ -41957,10 +41942,10 @@ S000044
         Computed stop:  2024-04-03 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6055 seconds
+  Time to read sample: 0.7969 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-04-03T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17121024182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-04-04T00-00
     Channels: ['ch0']
@@ -42173,10 +42158,10 @@ S000044
         Computed stop:  2024-04-04 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6500 seconds
+  Time to read sample: 0.7945 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-04-04T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17121888180' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-04-05T00-00
     Channels: ['ch0']
@@ -42389,10 +42374,10 @@ S000044
         Computed stop:  2024-04-05 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6275 seconds
+  Time to read sample: 0.4975 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-04-05T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17122752182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-04-06T00-00
     Channels: ['ch0']
@@ -42605,10 +42590,10 @@ S000044
         Computed stop:  2024-04-06 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7208 seconds
+  Time to read sample: 0.5916 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-04-06T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17123616182' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-04-07T00-00
     Channels: ['ch0']
@@ -42821,10 +42806,10 @@ S000044
         Computed stop:  2024-04-07 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5474 seconds
+  Time to read sample: 0.8619 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-04-07T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17124480180' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
 
   Sample: OBS2024-04-08T00-00
     Channels: ['ch0']
@@ -43037,10 +43022,10 @@ S000044
         Computed stop:  2024-04-08 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6242 seconds
+  Time to read sample: 0.8273 seconds
   Comparing sample properties with first sample properties:
-  Comparing first block metadata of this sample (/Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044/OBS2024-04-08T00-00) with that from first block in the first sample (16914236405).
-    Block metadata key '17125344185' not found in first block metadata.
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
   --------------------------------------------------------------------------------------------------------
   Summary: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000044
   --------------------------------------------------------------------------------------------------------
@@ -43049,803 +43034,803 @@ S000044
         skipped blocks:     0 of 17
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-09-06T19-56 (skipped)
+      OBS2023-09-06T19-56
         skipped blocks:     0 of 2
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-09-23T00-00 (skipped)
+      OBS2023-09-23T00-00
         skipped blocks:     0 of 10
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-09-24T00-00 (skipped)
+      OBS2023-09-24T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-09-25T00-00 (skipped)
+      OBS2023-09-25T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-09-26T00-00 (skipped)
+      OBS2023-09-26T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-09-27T00-00 (skipped)
+      OBS2023-09-27T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-09-28T00-00 (skipped)
+      OBS2023-09-28T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-09-29T00-00 (skipped)
+      OBS2023-09-29T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-09-30T00-00 (skipped)
+      OBS2023-09-30T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-01T00-00 (skipped)
+      OBS2023-10-01T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-02T00-00 (skipped)
+      OBS2023-10-02T00-00
         skipped blocks:     0 of 26
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-03T00-00 (skipped)
+      OBS2023-10-03T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-04T00-00 (skipped)
+      OBS2023-10-04T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-05T00-00 (skipped)
+      OBS2023-10-05T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-06T00-00 (skipped)
+      OBS2023-10-06T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-07T00-00 (skipped)
+      OBS2023-10-07T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-08T00-00 (skipped)
+      OBS2023-10-08T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-09T00-00 (skipped)
+      OBS2023-10-09T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-10T00-00 (skipped)
+      OBS2023-10-10T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-11T00-00 (skipped)
+      OBS2023-10-11T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-12T00-00 (skipped)
+      OBS2023-10-12T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-13T00-00 (skipped)
+      OBS2023-10-13T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-14T00-00 (skipped)
+      OBS2023-10-14T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-15T00-00 (skipped)
+      OBS2023-10-15T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-16T00-00 (skipped)
+      OBS2023-10-16T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-17T00-00 (skipped)
+      OBS2023-10-17T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-18T00-00 (skipped)
+      OBS2023-10-18T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-19T00-00 (skipped)
+      OBS2023-10-19T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-20T00-00 (skipped)
+      OBS2023-10-20T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-21T00-00 (skipped)
+      OBS2023-10-21T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-22T00-00 (skipped)
+      OBS2023-10-22T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-23T00-00 (skipped)
+      OBS2023-10-23T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-24T00-00 (skipped)
+      OBS2023-10-24T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-25T00-00 (skipped)
+      OBS2023-10-25T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-26T00-00 (skipped)
+      OBS2023-10-26T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-27T00-00 (skipped)
+      OBS2023-10-27T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-28T00-00 (skipped)
+      OBS2023-10-28T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-29T00-00 (skipped)
+      OBS2023-10-29T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-30T00-00 (skipped)
+      OBS2023-10-30T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-10-31T00-00 (skipped)
+      OBS2023-10-31T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-01T00-00 (skipped)
+      OBS2023-11-01T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-02T00-00 (skipped)
+      OBS2023-11-02T00-00
         skipped blocks:     0 of 26
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-03T00-00 (skipped)
+      OBS2023-11-03T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-04T00-00 (skipped)
+      OBS2023-11-04T00-00
         skipped blocks:     0 of 26
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-05T00-00 (skipped)
+      OBS2023-11-05T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-06T00-00 (skipped)
+      OBS2023-11-06T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-07T00-00 (skipped)
+      OBS2023-11-07T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-08T00-00 (skipped)
+      OBS2023-11-08T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-09T00-00 (skipped)
+      OBS2023-11-09T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-10T00-00 (skipped)
+      OBS2023-11-10T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-11T00-00 (skipped)
+      OBS2023-11-11T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-12T00-00 (skipped)
+      OBS2023-11-12T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-13T00-00 (skipped)
+      OBS2023-11-13T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-14T00-00 (skipped)
+      OBS2023-11-14T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-15T00-00 (skipped)
+      OBS2023-11-15T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-16T00-00 (skipped)
+      OBS2023-11-16T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-17T00-00 (skipped)
+      OBS2023-11-17T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-18T00-00 (skipped)
+      OBS2023-11-18T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-19T00-00 (skipped)
+      OBS2023-11-19T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-20T00-00 (skipped)
+      OBS2023-11-20T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-21T00-00 (skipped)
+      OBS2023-11-21T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-22T00-00 (skipped)
+      OBS2023-11-22T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-23T00-00 (skipped)
+      OBS2023-11-23T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-24T00-00 (skipped)
+      OBS2023-11-24T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-25T00-00 (skipped)
+      OBS2023-11-25T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-26T00-00 (skipped)
+      OBS2023-11-26T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-27T00-00 (skipped)
+      OBS2023-11-27T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-28T00-00 (skipped)
+      OBS2023-11-28T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-29T00-00 (skipped)
+      OBS2023-11-29T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-11-30T00-00 (skipped)
+      OBS2023-11-30T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-01T00-00 (skipped)
+      OBS2023-12-01T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-02T00-00 (skipped)
+      OBS2023-12-02T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-03T00-00 (skipped)
+      OBS2023-12-03T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-04T00-00 (skipped)
+      OBS2023-12-04T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-05T00-00 (skipped)
+      OBS2023-12-05T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-06T00-00 (skipped)
+      OBS2023-12-06T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-07T00-00 (skipped)
+      OBS2023-12-07T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-08T00-00 (skipped)
+      OBS2023-12-08T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-09T00-00 (skipped)
+      OBS2023-12-09T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-10T00-00 (skipped)
+      OBS2023-12-10T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-11T00-00 (skipped)
+      OBS2023-12-11T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-12T00-00 (skipped)
+      OBS2023-12-12T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-13T00-00 (skipped)
+      OBS2023-12-13T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-14T00-00 (skipped)
+      OBS2023-12-14T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-15T00-00 (skipped)
+      OBS2023-12-15T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-16T00-00 (skipped)
+      OBS2023-12-16T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-17T00-00 (skipped)
+      OBS2023-12-17T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-18T00-00 (skipped)
+      OBS2023-12-18T00-00
         skipped blocks:     0 of 4
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-19T00-00 (skipped)
+      OBS2023-12-19T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-20T00-00 (skipped)
+      OBS2023-12-20T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-21T00-00 (skipped)
+      OBS2023-12-21T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-22T00-00 (skipped)
+      OBS2023-12-22T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-23T00-00 (skipped)
+      OBS2023-12-23T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-24T00-00 (skipped)
+      OBS2023-12-24T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-25T00-00 (skipped)
+      OBS2023-12-25T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-26T00-00 (skipped)
+      OBS2023-12-26T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-27T00-00 (skipped)
+      OBS2023-12-27T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-28T00-00 (skipped)
+      OBS2023-12-28T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-29T00-00 (skipped)
+      OBS2023-12-29T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-30T00-00 (skipped)
+      OBS2023-12-30T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2023-12-31T00-00 (skipped)
+      OBS2023-12-31T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-01T00-00 (skipped)
+      OBS2024-01-01T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-02T00-00 (skipped)
+      OBS2024-01-02T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-03T00-00 (skipped)
+      OBS2024-01-03T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-04T00-00 (skipped)
+      OBS2024-01-04T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-05T00-00 (skipped)
+      OBS2024-01-05T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-06T00-00 (skipped)
+      OBS2024-01-06T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-07T00-00 (skipped)
+      OBS2024-01-07T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-08T00-00 (skipped)
+      OBS2024-01-08T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-09T00-00 (skipped)
+      OBS2024-01-09T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-10T00-00 (skipped)
+      OBS2024-01-10T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-11T00-00 (skipped)
+      OBS2024-01-11T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-12T00-00 (skipped)
+      OBS2024-01-12T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-13T00-00 (skipped)
+      OBS2024-01-13T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-14T00-00 (skipped)
+      OBS2024-01-14T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-15T00-00 (skipped)
+      OBS2024-01-15T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-16T00-00 (skipped)
+      OBS2024-01-16T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-17T00-00 (skipped)
+      OBS2024-01-17T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-18T00-00 (skipped)
+      OBS2024-01-18T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-19T00-00 (skipped)
+      OBS2024-01-19T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-20T00-00 (skipped)
+      OBS2024-01-20T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-21T00-00 (skipped)
+      OBS2024-01-21T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-22T00-00 (skipped)
+      OBS2024-01-22T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-23T00-00 (skipped)
+      OBS2024-01-23T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-24T00-00 (skipped)
+      OBS2024-01-24T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-25T00-00 (skipped)
+      OBS2024-01-25T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-26T00-00 (skipped)
+      OBS2024-01-26T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-27T00-00 (skipped)
+      OBS2024-01-27T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-28T00-00 (skipped)
+      OBS2024-01-28T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-29T00-00 (skipped)
+      OBS2024-01-29T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-30T00-00 (skipped)
+      OBS2024-01-30T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-01-31T00-00 (skipped)
+      OBS2024-01-31T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-01T00-00 (skipped)
+      OBS2024-02-01T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-02T00-00 (skipped)
+      OBS2024-02-02T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-03T00-00 (skipped)
+      OBS2024-02-03T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-04T00-00 (skipped)
+      OBS2024-02-04T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-05T00-00 (skipped)
+      OBS2024-02-05T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-06T00-00 (skipped)
+      OBS2024-02-06T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-07T00-00 (skipped)
+      OBS2024-02-07T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-08T00-00 (skipped)
+      OBS2024-02-08T00-00
         skipped blocks:     0 of 27
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-09T00-00 (skipped)
+      OBS2024-02-09T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-10T00-00 (skipped)
+      OBS2024-02-10T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-11T00-00 (skipped)
+      OBS2024-02-11T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-12T00-00 (skipped)
+      OBS2024-02-12T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-13T00-00 (skipped)
+      OBS2024-02-13T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-14T00-00 (skipped)
+      OBS2024-02-14T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-15T00-00 (skipped)
+      OBS2024-02-15T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-16T00-00 (skipped)
+      OBS2024-02-16T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-17T00-00 (skipped)
+      OBS2024-02-17T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-18T00-00 (skipped)
+      OBS2024-02-18T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-19T00-00 (skipped)
+      OBS2024-02-19T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-20T00-00 (skipped)
+      OBS2024-02-20T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-21T00-00 (skipped)
+      OBS2024-02-21T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-22T00-00 (skipped)
+      OBS2024-02-22T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-23T00-00 (skipped)
+      OBS2024-02-23T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-24T00-00 (skipped)
+      OBS2024-02-24T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-25T00-00 (skipped)
+      OBS2024-02-25T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-26T00-00 (skipped)
+      OBS2024-02-26T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-27T00-00 (skipped)
+      OBS2024-02-27T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-28T00-00 (skipped)
+      OBS2024-02-28T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-02-29T00-00 (skipped)
+      OBS2024-02-29T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-01T00-00 (skipped)
+      OBS2024-03-01T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-02T00-00 (skipped)
+      OBS2024-03-02T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-03T00-00 (skipped)
+      OBS2024-03-03T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-04T00-00 (skipped)
+      OBS2024-03-04T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-05T00-00 (skipped)
+      OBS2024-03-05T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-06T00-00 (skipped)
+      OBS2024-03-06T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-07T00-00 (skipped)
+      OBS2024-03-07T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-08T00-00 (skipped)
+      OBS2024-03-08T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-09T00-00 (skipped)
+      OBS2024-03-09T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-10T00-00 (skipped)
+      OBS2024-03-10T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-11T00-00 (skipped)
+      OBS2024-03-11T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-12T00-00 (skipped)
+      OBS2024-03-12T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-13T00-00 (skipped)
+      OBS2024-03-13T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-14T00-00 (skipped)
+      OBS2024-03-14T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-15T00-00 (skipped)
+      OBS2024-03-15T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-16T00-00 (skipped)
+      OBS2024-03-16T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-17T00-00 (skipped)
+      OBS2024-03-17T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-18T00-00 (skipped)
+      OBS2024-03-18T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-19T00-00 (skipped)
+      OBS2024-03-19T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-20T00-00 (skipped)
+      OBS2024-03-20T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-21T00-00 (skipped)
+      OBS2024-03-21T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-22T00-00 (skipped)
+      OBS2024-03-22T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-23T00-00 (skipped)
+      OBS2024-03-23T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-24T00-00 (skipped)
+      OBS2024-03-24T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-25T00-00 (skipped)
+      OBS2024-03-25T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-26T00-00 (skipped)
+      OBS2024-03-26T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-27T00-00 (skipped)
+      OBS2024-03-27T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-28T00-00 (skipped)
+      OBS2024-03-28T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-29T00-00 (skipped)
+      OBS2024-03-29T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-30T00-00 (skipped)
+      OBS2024-03-30T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-03-31T00-00 (skipped)
+      OBS2024-03-31T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-04-01T00-00 (skipped)
+      OBS2024-04-01T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-04-02T00-00 (skipped)
+      OBS2024-04-02T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-04-03T00-00 (skipped)
+      OBS2024-04-03T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-04-04T00-00 (skipped)
+      OBS2024-04-04T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-04-05T00-00 (skipped)
+      OBS2024-04-05T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-04-06T00-00 (skipped)
+      OBS2024-04-06T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-04-07T00-00 (skipped)
+      OBS2024-04-07T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
-      OBS2024-04-08T00-00 (skipped)
+      OBS2024-04-08T00-00
         skipped blocks:     0 of 25
         num_subchannels:    1
         center_frequencies: [10.0]
