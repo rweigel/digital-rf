@@ -83,7 +83,8 @@ def process_samples(station_id, station_dir,
     if same:
       logger.info(station_id, "    No block metadata differences found.")
     else:
-      msg = f"    Skipping sample {sample_dir} because of block metadata difference from first block in first sample."
+      sample_id = os.path.basename(sample_dir)
+      msg = f"    Skipping sample {sample_id} because its first block's metadata differs from that in the first block in the first sample."
       logger.warning(station_id, msg)
       return True
 
@@ -289,7 +290,7 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
         if same:
           logger.info(station_id, "        Keeping block: No metadata differences found.")
         else:
-          msg = "        Skipping block: Metadata for this block differs from that in first block."
+          msg = f"        Skipping block with start {block_start}: Metadata for this block differs from that in first block."
           logger.warning(station_id, msg)
           metadata['continuous_blocks_skipped'] += 1
           continue
@@ -357,7 +358,12 @@ class _log:
     if os.path.exists(log_file):
       os.remove(log_file)
     log_lines = self.logs[level].get(station_id, None)
+
     if log_lines is not None:
+      if level == 'warning':
+        # Trim leading whitespace.
+        log_lines = [line.lstrip() if isinstance(line, str) else line for line in log_lines]
+        self.logs[level][station_id] = log_lines
       log_txt = "\n".join(log_lines)
       if skip_if is None or skip_if not in log_txt:
         self.log.info(f"  Writing: {log_file}")

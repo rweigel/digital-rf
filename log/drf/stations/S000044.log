@@ -43,8 +43,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16914239400
@@ -167,7 +165,7 @@ S000044
         Computed stop:  2023-12-18 23:59:56.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 16.7746 seconds
+  Time to read sample: 15.9422 seconds
 
   Sample: OBS2023-09-06T19-56
     Channels: ['ch0']
@@ -209,8 +207,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16940302893
@@ -228,7 +224,7 @@ S000044
         Comparing metadata for this block to that of the first block.
         Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.0661 seconds
+  Time to read sample: 0.0356 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -273,8 +269,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16954847400
@@ -339,7 +333,7 @@ S000044
         Computed stop:  2023-09-23 23:59:49.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.3130 seconds
+  Time to read sample: 0.2121 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -384,8 +378,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16955171400
@@ -555,7 +547,7 @@ S000044
         Computed stop:  2023-09-24 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8042 seconds
+  Time to read sample: 0.6819 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -600,8 +592,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16956035400
@@ -771,7 +761,7 @@ S000044
         Computed stop:  2023-09-25 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7419 seconds
+  Time to read sample: 0.5598 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -816,8 +806,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16956899400
@@ -987,7 +975,7 @@ S000044
         Computed stop:  2023-09-26 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7741 seconds
+  Time to read sample: 0.5610 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -1032,8 +1020,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16957763400
@@ -1203,7 +1189,7 @@ S000044
         Computed stop:  2023-09-27 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7817 seconds
+  Time to read sample: 0.5904 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -1248,8 +1234,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16958627400
@@ -1419,7 +1403,7 @@ S000044
         Computed stop:  2023-09-28 23:59:54.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8090 seconds
+  Time to read sample: 0.6857 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -1464,8 +1448,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16959491400
@@ -1635,7 +1617,7 @@ S000044
         Computed stop:  2023-09-29 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8076 seconds
+  Time to read sample: 0.5635 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -1680,8 +1662,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16960355400
@@ -1851,7 +1831,7 @@ S000044
         Computed stop:  2023-09-30 23:59:45.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7993 seconds
+  Time to read sample: 0.5446 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -1896,8 +1876,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16961219400
@@ -2067,7 +2045,7 @@ S000044
         Computed stop:  2023-10-01 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7303 seconds
+  Time to read sample: 0.6021 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -2112,8 +2090,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16962083400
@@ -2299,7 +2275,7 @@ S000044
         Computed stop:  2023-10-02 23:59:45.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8456 seconds
+  Time to read sample: 0.5813 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -2344,8 +2320,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16962947400
@@ -2515,7 +2489,7 @@ S000044
         Computed stop:  2023-10-03 23:59:47.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6381 seconds
+  Time to read sample: 0.6070 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -2560,8 +2534,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16963811400
@@ -2731,7 +2703,7 @@ S000044
         Computed stop:  2023-10-04 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7476 seconds
+  Time to read sample: 0.6445 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -2776,8 +2748,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16964675400
@@ -2947,7 +2917,7 @@ S000044
         Computed stop:  2023-10-05 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8454 seconds
+  Time to read sample: 0.5792 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -2992,8 +2962,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16965539400
@@ -3163,7 +3131,7 @@ S000044
         Computed stop:  2023-10-06 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7774 seconds
+  Time to read sample: 0.5685 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -3208,8 +3176,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16966403400
@@ -3379,7 +3345,7 @@ S000044
         Computed stop:  2023-10-07 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7126 seconds
+  Time to read sample: 0.6632 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -3424,8 +3390,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16967267400
@@ -3595,7 +3559,7 @@ S000044
         Computed stop:  2023-10-08 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7670 seconds
+  Time to read sample: 0.6618 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -3640,8 +3604,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16968131400
@@ -3811,7 +3773,7 @@ S000044
         Computed stop:  2023-10-09 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7650 seconds
+  Time to read sample: 0.5316 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -3856,8 +3818,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16968995400
@@ -4027,7 +3987,7 @@ S000044
         Computed stop:  2023-10-10 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7542 seconds
+  Time to read sample: 0.6804 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -4072,8 +4032,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16969859400
@@ -4243,7 +4201,7 @@ S000044
         Computed stop:  2023-10-11 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7622 seconds
+  Time to read sample: 0.5948 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -4288,8 +4246,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16970723400
@@ -4459,7 +4415,7 @@ S000044
         Computed stop:  2023-10-12 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6997 seconds
+  Time to read sample: 0.6920 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -4504,8 +4460,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16971587400
@@ -4675,7 +4629,7 @@ S000044
         Computed stop:  2023-10-13 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6475 seconds
+  Time to read sample: 0.6301 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -4720,8 +4674,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16972451400
@@ -4891,7 +4843,7 @@ S000044
         Computed stop:  2023-10-14 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7509 seconds
+  Time to read sample: 0.6030 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -4936,8 +4888,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16973315400
@@ -5107,7 +5057,7 @@ S000044
         Computed stop:  2023-10-15 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7722 seconds
+  Time to read sample: 0.6165 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -5152,8 +5102,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16974179400
@@ -5323,7 +5271,7 @@ S000044
         Computed stop:  2023-10-16 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 1.8985 seconds
+  Time to read sample: 0.6618 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -5368,8 +5316,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16975043400
@@ -5539,7 +5485,7 @@ S000044
         Computed stop:  2023-10-17 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7378 seconds
+  Time to read sample: 0.6038 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -5584,8 +5530,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16975907400
@@ -5755,7 +5699,7 @@ S000044
         Computed stop:  2023-10-18 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7377 seconds
+  Time to read sample: 0.5297 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -5800,8 +5744,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16976771400
@@ -5971,7 +5913,7 @@ S000044
         Computed stop:  2023-10-19 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7341 seconds
+  Time to read sample: 0.2579 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -6016,8 +5958,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16977635400
@@ -6187,7 +6127,7 @@ S000044
         Computed stop:  2023-10-20 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7769 seconds
+  Time to read sample: 0.2511 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -6232,8 +6172,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16978499400
@@ -6403,7 +6341,7 @@ S000044
         Computed stop:  2023-10-21 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8308 seconds
+  Time to read sample: 0.5828 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -6448,8 +6386,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16979363400
@@ -6619,7 +6555,7 @@ S000044
         Computed stop:  2023-10-22 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6610 seconds
+  Time to read sample: 0.6847 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -6664,8 +6600,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16980227400
@@ -6835,7 +6769,7 @@ S000044
         Computed stop:  2023-10-23 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7998 seconds
+  Time to read sample: 1.1858 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -6880,8 +6814,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16981091400
@@ -7051,7 +6983,7 @@ S000044
         Computed stop:  2023-10-24 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7092 seconds
+  Time to read sample: 0.6414 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -7096,8 +7028,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16981955400
@@ -7267,7 +7197,7 @@ S000044
         Computed stop:  2023-10-25 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7474 seconds
+  Time to read sample: 0.6464 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -7312,8 +7242,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16982819400
@@ -7483,7 +7411,7 @@ S000044
         Computed stop:  2023-10-26 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7676 seconds
+  Time to read sample: 0.6373 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -7528,8 +7456,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16983683400
@@ -7699,7 +7625,7 @@ S000044
         Computed stop:  2023-10-27 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8016 seconds
+  Time to read sample: 0.6658 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -7744,8 +7670,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16984547400
@@ -7915,7 +7839,7 @@ S000044
         Computed stop:  2023-10-28 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6833 seconds
+  Time to read sample: 0.6947 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -7960,8 +7884,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16985411400
@@ -8131,7 +8053,7 @@ S000044
         Computed stop:  2023-10-29 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7560 seconds
+  Time to read sample: 0.6554 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -8176,8 +8098,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16986275400
@@ -8347,7 +8267,7 @@ S000044
         Computed stop:  2023-10-30 23:59:50.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7589 seconds
+  Time to read sample: 0.6446 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -8392,8 +8312,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16987139400
@@ -8563,7 +8481,7 @@ S000044
         Computed stop:  2023-10-31 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7927 seconds
+  Time to read sample: 0.7037 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -8608,8 +8526,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16988003400
@@ -8779,7 +8695,7 @@ S000044
         Computed stop:  2023-11-01 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7833 seconds
+  Time to read sample: 0.6327 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -8824,8 +8740,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16988867400
@@ -9002,7 +8916,7 @@ S000044
         Computed stop:  2023-11-02 23:59:49.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7899 seconds
+  Time to read sample: 0.6679 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -9047,8 +8961,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16989731400
@@ -9218,7 +9130,7 @@ S000044
         Computed stop:  2023-11-03 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6696 seconds
+  Time to read sample: 0.7293 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -9263,8 +9175,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16990595400
@@ -9450,7 +9360,7 @@ S000044
         Computed stop:  2023-11-04 23:59:50.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6427 seconds
+  Time to read sample: 0.6534 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -9495,8 +9405,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16991459400
@@ -9666,7 +9574,7 @@ S000044
         Computed stop:  2023-11-05 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5810 seconds
+  Time to read sample: 0.7453 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -9711,8 +9619,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16992323400
@@ -9882,7 +9788,7 @@ S000044
         Computed stop:  2023-11-06 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6338 seconds
+  Time to read sample: 0.6779 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -9927,8 +9833,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16993187400
@@ -10098,7 +10002,7 @@ S000044
         Computed stop:  2023-11-07 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7598 seconds
+  Time to read sample: 0.6254 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -10143,8 +10047,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16994051400
@@ -10314,7 +10216,7 @@ S000044
         Computed stop:  2023-11-08 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5985 seconds
+  Time to read sample: 0.7138 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -10359,8 +10261,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16994915400
@@ -10530,7 +10430,7 @@ S000044
         Computed stop:  2023-11-09 23:59:48.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8148 seconds
+  Time to read sample: 0.6752 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -10575,8 +10475,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16995779400
@@ -10746,7 +10644,7 @@ S000044
         Computed stop:  2023-11-10 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7302 seconds
+  Time to read sample: 0.6463 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -10791,8 +10689,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16996643400
@@ -10962,7 +10858,7 @@ S000044
         Computed stop:  2023-11-11 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7580 seconds
+  Time to read sample: 0.7247 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -11007,8 +10903,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16997507400
@@ -11178,7 +11072,7 @@ S000044
         Computed stop:  2023-11-12 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7023 seconds
+  Time to read sample: 0.6436 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -11223,8 +11117,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16998371400
@@ -11394,7 +11286,7 @@ S000044
         Computed stop:  2023-11-13 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8129 seconds
+  Time to read sample: 0.4481 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -11439,8 +11331,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16999235400
@@ -11610,7 +11500,7 @@ S000044
         Computed stop:  2023-11-14 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6803 seconds
+  Time to read sample: 0.5194 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -11655,8 +11545,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17000099400
@@ -11826,7 +11714,7 @@ S000044
         Computed stop:  2023-11-15 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6923 seconds
+  Time to read sample: 0.6475 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -11871,8 +11759,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17000963400
@@ -12042,7 +11928,7 @@ S000044
         Computed stop:  2023-11-16 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7772 seconds
+  Time to read sample: 0.6729 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -12087,8 +11973,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17001827400
@@ -12258,7 +12142,7 @@ S000044
         Computed stop:  2023-11-17 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7531 seconds
+  Time to read sample: 0.6967 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -12303,8 +12187,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17002691400
@@ -12474,7 +12356,7 @@ S000044
         Computed stop:  2023-11-18 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6541 seconds
+  Time to read sample: 0.6414 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -12519,8 +12401,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17003555400
@@ -12690,7 +12570,7 @@ S000044
         Computed stop:  2023-11-19 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6965 seconds
+  Time to read sample: 0.6116 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -12735,8 +12615,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17004419400
@@ -12906,7 +12784,7 @@ S000044
         Computed stop:  2023-11-20 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7479 seconds
+  Time to read sample: 0.6454 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -12951,8 +12829,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17005283400
@@ -13122,7 +12998,7 @@ S000044
         Computed stop:  2023-11-21 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7097 seconds
+  Time to read sample: 0.6295 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -13167,8 +13043,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17006147400
@@ -13338,7 +13212,7 @@ S000044
         Computed stop:  2023-11-22 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7516 seconds
+  Time to read sample: 0.6403 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -13383,8 +13257,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17007011400
@@ -13554,7 +13426,7 @@ S000044
         Computed stop:  2023-11-23 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 3.3982 seconds
+  Time to read sample: 0.6557 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -13599,8 +13471,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17007875400
@@ -13770,7 +13640,7 @@ S000044
         Computed stop:  2023-11-24 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8353 seconds
+  Time to read sample: 0.5589 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -13815,8 +13685,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17008739400
@@ -13986,7 +13854,7 @@ S000044
         Computed stop:  2023-11-25 23:59:49.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7066 seconds
+  Time to read sample: 0.5961 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -14031,8 +13899,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17009603400
@@ -14202,7 +14068,7 @@ S000044
         Computed stop:  2023-11-26 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7174 seconds
+  Time to read sample: 0.7366 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -14247,8 +14113,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17010467400
@@ -14418,7 +14282,7 @@ S000044
         Computed stop:  2023-11-27 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 1.6404 seconds
+  Time to read sample: 0.6465 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -14463,8 +14327,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17011331400
@@ -14634,7 +14496,7 @@ S000044
         Computed stop:  2023-11-28 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8782 seconds
+  Time to read sample: 0.6806 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -14679,8 +14541,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17012195400
@@ -14850,7 +14710,7 @@ S000044
         Computed stop:  2023-11-29 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7040 seconds
+  Time to read sample: 0.6551 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -14895,8 +14755,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17013059400
@@ -15066,7 +14924,7 @@ S000044
         Computed stop:  2023-11-30 23:59:48.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8304 seconds
+  Time to read sample: 0.6592 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -15111,8 +14969,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17013923400
@@ -15282,7 +15138,7 @@ S000044
         Computed stop:  2023-12-01 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8942 seconds
+  Time to read sample: 0.6304 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -15327,8 +15183,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17014787400
@@ -15498,7 +15352,7 @@ S000044
         Computed stop:  2023-12-02 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8210 seconds
+  Time to read sample: 0.6910 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -15543,8 +15397,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17015651400
@@ -15714,7 +15566,7 @@ S000044
         Computed stop:  2023-12-03 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8312 seconds
+  Time to read sample: 0.6326 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -15759,8 +15611,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17016515400
@@ -15930,7 +15780,7 @@ S000044
         Computed stop:  2023-12-04 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8702 seconds
+  Time to read sample: 0.5123 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -15975,8 +15825,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17017379400
@@ -16146,7 +15994,7 @@ S000044
         Computed stop:  2023-12-05 23:59:47.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8165 seconds
+  Time to read sample: 0.4694 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -16191,8 +16039,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17018243400
@@ -16362,7 +16208,7 @@ S000044
         Computed stop:  2023-12-06 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8266 seconds
+  Time to read sample: 0.5473 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -16407,8 +16253,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17019107400
@@ -16578,7 +16422,7 @@ S000044
         Computed stop:  2023-12-07 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8424 seconds
+  Time to read sample: 0.5454 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -16623,8 +16467,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17019971400
@@ -16794,7 +16636,7 @@ S000044
         Computed stop:  2023-12-08 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8198 seconds
+  Time to read sample: 0.6337 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -16839,8 +16681,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17020835400
@@ -17010,7 +16850,7 @@ S000044
         Computed stop:  2023-12-09 23:59:48.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8019 seconds
+  Time to read sample: 0.4331 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -17055,8 +16895,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17021699400
@@ -17226,7 +17064,7 @@ S000044
         Computed stop:  2023-12-10 23:59:48.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7141 seconds
+  Time to read sample: 0.2744 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -17271,8 +17109,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17022563400
@@ -17442,7 +17278,7 @@ S000044
         Computed stop:  2023-12-11 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7585 seconds
+  Time to read sample: 0.5854 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -17487,8 +17323,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17023427400
@@ -17658,7 +17492,7 @@ S000044
         Computed stop:  2023-12-12 23:59:47.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8476 seconds
+  Time to read sample: 0.5119 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -17703,8 +17537,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17024291400
@@ -17874,7 +17706,7 @@ S000044
         Computed stop:  2023-12-13 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8699 seconds
+  Time to read sample: 0.5304 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -17919,8 +17751,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17025155400
@@ -18090,7 +17920,7 @@ S000044
         Computed stop:  2023-12-14 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7480 seconds
+  Time to read sample: 0.5785 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -18135,8 +17965,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17026019400
@@ -18306,7 +18134,7 @@ S000044
         Computed stop:  2023-12-15 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7144 seconds
+  Time to read sample: 0.5264 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -18351,8 +18179,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17026883400
@@ -18522,7 +18348,7 @@ S000044
         Computed stop:  2023-12-16 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7746 seconds
+  Time to read sample: 0.5187 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -18567,8 +18393,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17027747400
@@ -18738,7 +18562,7 @@ S000044
         Computed stop:  2023-12-17 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7327 seconds
+  Time to read sample: 0.6072 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -18783,8 +18607,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17028611400
@@ -18807,7 +18629,7 @@ S000044
         Computed stop:  2023-12-18 02:48:59.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.0693 seconds
+  Time to read sample: 0.0711 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -18852,8 +18674,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17029475400
@@ -19023,7 +18843,7 @@ S000044
         Computed stop:  2023-12-19 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7252 seconds
+  Time to read sample: 0.6173 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -19068,8 +18888,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17030339400
@@ -19239,7 +19057,7 @@ S000044
         Computed stop:  2023-12-20 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7377 seconds
+  Time to read sample: 0.3611 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -19284,8 +19102,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17031203400
@@ -19455,7 +19271,7 @@ S000044
         Computed stop:  2023-12-21 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7097 seconds
+  Time to read sample: 0.5693 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -19500,8 +19316,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17032067400
@@ -19671,7 +19485,7 @@ S000044
         Computed stop:  2023-12-22 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6701 seconds
+  Time to read sample: 0.5322 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -19716,8 +19530,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17032931400
@@ -19887,7 +19699,7 @@ S000044
         Computed stop:  2023-12-23 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6969 seconds
+  Time to read sample: 0.5249 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -19932,8 +19744,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17033795400
@@ -20103,7 +19913,7 @@ S000044
         Computed stop:  2023-12-24 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7498 seconds
+  Time to read sample: 0.5552 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -20148,8 +19958,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17034659400
@@ -20319,7 +20127,7 @@ S000044
         Computed stop:  2023-12-25 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7051 seconds
+  Time to read sample: 0.5718 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -20364,8 +20172,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17035523400
@@ -20535,7 +20341,7 @@ S000044
         Computed stop:  2023-12-26 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6811 seconds
+  Time to read sample: 0.5323 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -20580,8 +20386,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17036387400
@@ -20751,7 +20555,7 @@ S000044
         Computed stop:  2023-12-27 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8201 seconds
+  Time to read sample: 0.5568 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -20796,8 +20600,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17037251400
@@ -20967,7 +20769,7 @@ S000044
         Computed stop:  2023-12-28 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6907 seconds
+  Time to read sample: 0.5600 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -21012,8 +20814,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17038115400
@@ -21183,7 +20983,7 @@ S000044
         Computed stop:  2023-12-29 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7628 seconds
+  Time to read sample: 0.5588 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -21228,8 +21028,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17038979400
@@ -21399,7 +21197,7 @@ S000044
         Computed stop:  2023-12-30 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7673 seconds
+  Time to read sample: 0.5659 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -21444,8 +21242,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17039843400
@@ -21615,7 +21411,7 @@ S000044
         Computed stop:  2023-12-31 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7052 seconds
+  Time to read sample: 0.5763 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -21660,8 +21456,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17040707400
@@ -21831,7 +21625,7 @@ S000044
         Computed stop:  2024-01-01 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7565 seconds
+  Time to read sample: 0.5275 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -21876,8 +21670,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17041571400
@@ -22047,7 +21839,7 @@ S000044
         Computed stop:  2024-01-02 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7907 seconds
+  Time to read sample: 0.5991 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -22092,8 +21884,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17042435400
@@ -22263,7 +22053,7 @@ S000044
         Computed stop:  2024-01-03 23:59:49.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7544 seconds
+  Time to read sample: 0.5399 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -22308,8 +22098,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17043299400
@@ -22479,7 +22267,7 @@ S000044
         Computed stop:  2024-01-04 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7871 seconds
+  Time to read sample: 0.5623 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -22524,8 +22312,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17044163400
@@ -22695,7 +22481,7 @@ S000044
         Computed stop:  2024-01-05 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 1.2367 seconds
+  Time to read sample: 0.5797 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -22740,8 +22526,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17045027400
@@ -22911,7 +22695,7 @@ S000044
         Computed stop:  2024-01-06 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7625 seconds
+  Time to read sample: 0.5696 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -22956,8 +22740,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17045891400
@@ -23127,7 +22909,7 @@ S000044
         Computed stop:  2024-01-07 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7334 seconds
+  Time to read sample: 0.5579 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -23172,8 +22954,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17046755400
@@ -23343,7 +23123,7 @@ S000044
         Computed stop:  2024-01-08 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6654 seconds
+  Time to read sample: 0.4318 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -23388,8 +23168,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17047619400
@@ -23559,7 +23337,7 @@ S000044
         Computed stop:  2024-01-09 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7355 seconds
+  Time to read sample: 0.5033 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -23604,8 +23382,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17048483400
@@ -23775,7 +23551,7 @@ S000044
         Computed stop:  2024-01-10 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7906 seconds
+  Time to read sample: 0.5040 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -23820,8 +23596,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17049347400
@@ -23991,7 +23765,7 @@ S000044
         Computed stop:  2024-01-11 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8231 seconds
+  Time to read sample: 0.5789 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -24036,8 +23810,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17050211400
@@ -24207,7 +23979,7 @@ S000044
         Computed stop:  2024-01-12 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8139 seconds
+  Time to read sample: 0.5362 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -24252,8 +24024,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17051075400
@@ -24423,7 +24193,7 @@ S000044
         Computed stop:  2024-01-13 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7645 seconds
+  Time to read sample: 0.4112 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -24468,8 +24238,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17051939400
@@ -24639,7 +24407,7 @@ S000044
         Computed stop:  2024-01-14 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8364 seconds
+  Time to read sample: 0.3546 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -24684,8 +24452,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17052803400
@@ -24855,7 +24621,7 @@ S000044
         Computed stop:  2024-01-15 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7198 seconds
+  Time to read sample: 0.5651 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -24900,8 +24666,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17053667400
@@ -25071,7 +24835,7 @@ S000044
         Computed stop:  2024-01-16 23:59:47.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8107 seconds
+  Time to read sample: 0.5964 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -25116,8 +24880,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17054531400
@@ -25287,7 +25049,7 @@ S000044
         Computed stop:  2024-01-17 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7581 seconds
+  Time to read sample: 0.6031 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -25332,8 +25094,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17055395400
@@ -25503,7 +25263,7 @@ S000044
         Computed stop:  2024-01-18 23:59:47.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7147 seconds
+  Time to read sample: 0.5485 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -25548,8 +25308,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17056259400
@@ -25719,7 +25477,7 @@ S000044
         Computed stop:  2024-01-19 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8001 seconds
+  Time to read sample: 0.4694 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -25764,8 +25522,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17057123400
@@ -25935,7 +25691,7 @@ S000044
         Computed stop:  2024-01-20 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 2.0299 seconds
+  Time to read sample: 0.5444 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -25980,8 +25736,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17057987400
@@ -26151,7 +25905,7 @@ S000044
         Computed stop:  2024-01-21 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7837 seconds
+  Time to read sample: 0.5625 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -26196,8 +25950,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17058851400
@@ -26367,7 +26119,7 @@ S000044
         Computed stop:  2024-01-22 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7822 seconds
+  Time to read sample: 0.5179 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -26412,8 +26164,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17059715400
@@ -26583,7 +26333,7 @@ S000044
         Computed stop:  2024-01-23 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6750 seconds
+  Time to read sample: 0.5193 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -26628,8 +26378,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17060579400
@@ -26799,7 +26547,7 @@ S000044
         Computed stop:  2024-01-24 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7440 seconds
+  Time to read sample: 0.3100 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -26844,8 +26592,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17061443400
@@ -27015,7 +26761,7 @@ S000044
         Computed stop:  2024-01-25 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7354 seconds
+  Time to read sample: 0.5573 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -27060,8 +26806,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17062307400
@@ -27231,7 +26975,7 @@ S000044
         Computed stop:  2024-01-26 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7223 seconds
+  Time to read sample: 0.5909 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -27276,8 +27020,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17063171400
@@ -27447,7 +27189,7 @@ S000044
         Computed stop:  2024-01-27 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7945 seconds
+  Time to read sample: 0.5793 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -27492,8 +27234,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17064035400
@@ -27663,7 +27403,7 @@ S000044
         Computed stop:  2024-01-28 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7928 seconds
+  Time to read sample: 0.5622 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -27708,8 +27448,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17064899400
@@ -27879,7 +27617,7 @@ S000044
         Computed stop:  2024-01-29 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7463 seconds
+  Time to read sample: 0.5467 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -27924,8 +27662,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17065763400
@@ -28095,7 +27831,7 @@ S000044
         Computed stop:  2024-01-30 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7426 seconds
+  Time to read sample: 0.5514 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -28140,8 +27876,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17066627400
@@ -28311,7 +28045,7 @@ S000044
         Computed stop:  2024-01-31 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7776 seconds
+  Time to read sample: 0.5557 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -28356,8 +28090,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17067491400
@@ -28527,7 +28259,7 @@ S000044
         Computed stop:  2024-02-01 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6827 seconds
+  Time to read sample: 0.5775 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -28572,8 +28304,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17068355400
@@ -28743,7 +28473,7 @@ S000044
         Computed stop:  2024-02-02 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6852 seconds
+  Time to read sample: 0.7907 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -28788,8 +28518,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17069219400
@@ -28959,7 +28687,7 @@ S000044
         Computed stop:  2024-02-03 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8213 seconds
+  Time to read sample: 0.6226 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -29004,8 +28732,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17070083400
@@ -29175,7 +28901,7 @@ S000044
         Computed stop:  2024-02-04 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7325 seconds
+  Time to read sample: 0.5892 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -29220,8 +28946,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17070947400
@@ -29391,7 +29115,7 @@ S000044
         Computed stop:  2024-02-05 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7024 seconds
+  Time to read sample: 0.5523 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -29436,8 +29160,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17071811400
@@ -29607,7 +29329,7 @@ S000044
         Computed stop:  2024-02-06 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8179 seconds
+  Time to read sample: 0.5628 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -29652,8 +29374,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17072675400
@@ -29823,7 +29543,7 @@ S000044
         Computed stop:  2024-02-07 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7359 seconds
+  Time to read sample: 0.5676 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -29868,8 +29588,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    16914239400
@@ -30062,7 +29780,7 @@ S000044
         Computed stop:  2024-02-08 18:53:59.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 21.2994 seconds
+  Time to read sample: 22.5845 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -30107,8 +29825,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17074403400
@@ -30278,7 +29994,7 @@ S000044
         Computed stop:  2024-02-09 23:59:45.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8495 seconds
+  Time to read sample: 0.6750 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -30323,8 +30039,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17075267400
@@ -30494,7 +30208,7 @@ S000044
         Computed stop:  2024-02-10 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7154 seconds
+  Time to read sample: 0.7145 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -30539,8 +30253,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17076131400
@@ -30710,7 +30422,7 @@ S000044
         Computed stop:  2024-02-11 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8767 seconds
+  Time to read sample: 0.7456 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -30755,8 +30467,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17076995400
@@ -30926,7 +30636,7 @@ S000044
         Computed stop:  2024-02-12 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8538 seconds
+  Time to read sample: 0.6462 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -30971,8 +30681,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17077859400
@@ -31142,7 +30850,7 @@ S000044
         Computed stop:  2024-02-13 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8220 seconds
+  Time to read sample: 0.6221 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -31187,8 +30895,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17078723400
@@ -31358,7 +31064,7 @@ S000044
         Computed stop:  2024-02-14 23:59:47.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7230 seconds
+  Time to read sample: 0.7082 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -31403,8 +31109,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17079587400
@@ -31574,7 +31278,7 @@ S000044
         Computed stop:  2024-02-15 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8119 seconds
+  Time to read sample: 0.7334 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -31619,8 +31323,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17080451400
@@ -31790,7 +31492,7 @@ S000044
         Computed stop:  2024-02-16 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7893 seconds
+  Time to read sample: 0.6539 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -31835,8 +31537,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17081315400
@@ -32006,7 +31706,7 @@ S000044
         Computed stop:  2024-02-17 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7564 seconds
+  Time to read sample: 0.7068 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -32051,8 +31751,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17082179400
@@ -32222,7 +31920,7 @@ S000044
         Computed stop:  2024-02-18 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6103 seconds
+  Time to read sample: 0.5795 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -32267,8 +31965,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17083043400
@@ -32438,7 +32134,7 @@ S000044
         Computed stop:  2024-02-19 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7737 seconds
+  Time to read sample: 0.6637 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -32483,8 +32179,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17083907400
@@ -32654,7 +32348,7 @@ S000044
         Computed stop:  2024-02-20 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7047 seconds
+  Time to read sample: 0.6188 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -32699,8 +32393,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17084771400
@@ -32870,7 +32562,7 @@ S000044
         Computed stop:  2024-02-21 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6852 seconds
+  Time to read sample: 0.6436 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -32915,8 +32607,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17085635400
@@ -33086,7 +32776,7 @@ S000044
         Computed stop:  2024-02-22 23:59:47.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6580 seconds
+  Time to read sample: 0.6715 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -33131,8 +32821,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17086499400
@@ -33302,7 +32990,7 @@ S000044
         Computed stop:  2024-02-23 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7349 seconds
+  Time to read sample: 0.6964 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -33347,8 +33035,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17087363400
@@ -33518,7 +33204,7 @@ S000044
         Computed stop:  2024-02-24 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 1.1122 seconds
+  Time to read sample: 0.5016 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -33563,8 +33249,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17088227400
@@ -33734,7 +33418,7 @@ S000044
         Computed stop:  2024-02-25 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8540 seconds
+  Time to read sample: 0.5597 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -33779,8 +33463,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17089091400
@@ -33950,7 +33632,7 @@ S000044
         Computed stop:  2024-02-26 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8094 seconds
+  Time to read sample: 0.5358 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -33995,8 +33677,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17089955400
@@ -34166,7 +33846,7 @@ S000044
         Computed stop:  2024-02-27 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8821 seconds
+  Time to read sample: 0.5685 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -34211,8 +33891,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17090819400
@@ -34382,7 +34060,7 @@ S000044
         Computed stop:  2024-02-28 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8299 seconds
+  Time to read sample: 0.5212 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -34427,8 +34105,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17091683400
@@ -34598,7 +34274,7 @@ S000044
         Computed stop:  2024-02-29 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6891 seconds
+  Time to read sample: 0.5608 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -34643,8 +34319,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17092547400
@@ -34814,7 +34488,7 @@ S000044
         Computed stop:  2024-03-01 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.6933 seconds
+  Time to read sample: 0.4997 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -34859,8 +34533,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17093411400
@@ -35030,7 +34702,7 @@ S000044
         Computed stop:  2024-03-02 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7027 seconds
+  Time to read sample: 0.5278 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -35075,8 +34747,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17094275400
@@ -35246,7 +34916,7 @@ S000044
         Computed stop:  2024-03-03 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7045 seconds
+  Time to read sample: 0.5358 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -35291,8 +34961,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17095139400
@@ -35462,7 +35130,7 @@ S000044
         Computed stop:  2024-03-04 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8118 seconds
+  Time to read sample: 0.5954 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -35507,8 +35175,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17096003400
@@ -35678,7 +35344,7 @@ S000044
         Computed stop:  2024-03-05 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8912 seconds
+  Time to read sample: 0.6108 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -35723,8 +35389,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17096867400
@@ -35894,7 +35558,7 @@ S000044
         Computed stop:  2024-03-06 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8132 seconds
+  Time to read sample: 0.5236 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -35939,8 +35603,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17097731400
@@ -36110,7 +35772,7 @@ S000044
         Computed stop:  2024-03-07 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7856 seconds
+  Time to read sample: 0.5278 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -36155,8 +35817,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17098595400
@@ -36326,7 +35986,7 @@ S000044
         Computed stop:  2024-03-08 23:59:47.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8888 seconds
+  Time to read sample: 0.5123 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -36371,8 +36031,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17099459400
@@ -36542,7 +36200,7 @@ S000044
         Computed stop:  2024-03-09 23:59:47.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7506 seconds
+  Time to read sample: 0.5143 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -36587,8 +36245,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17100323400
@@ -36758,7 +36414,7 @@ S000044
         Computed stop:  2024-03-10 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7387 seconds
+  Time to read sample: 0.4845 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -36803,8 +36459,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17101187400
@@ -36974,7 +36628,7 @@ S000044
         Computed stop:  2024-03-11 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8715 seconds
+  Time to read sample: 0.4842 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -37019,8 +36673,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17102051400
@@ -37190,7 +36842,7 @@ S000044
         Computed stop:  2024-03-12 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8198 seconds
+  Time to read sample: 0.6641 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -37235,8 +36887,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17102915400
@@ -37406,7 +37056,7 @@ S000044
         Computed stop:  2024-03-13 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7960 seconds
+  Time to read sample: 0.5739 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -37451,8 +37101,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17103779400
@@ -37622,7 +37270,7 @@ S000044
         Computed stop:  2024-03-14 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8296 seconds
+  Time to read sample: 0.6925 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -37667,8 +37315,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17104643400
@@ -37838,7 +37484,7 @@ S000044
         Computed stop:  2024-03-15 23:59:47.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7563 seconds
+  Time to read sample: 0.6574 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -37883,8 +37529,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17105507400
@@ -38054,7 +37698,7 @@ S000044
         Computed stop:  2024-03-16 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8354 seconds
+  Time to read sample: 0.6345 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -38099,8 +37743,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17106371400
@@ -38270,7 +37912,7 @@ S000044
         Computed stop:  2024-03-17 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8305 seconds
+  Time to read sample: 0.5693 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -38315,8 +37957,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17107235400
@@ -38486,7 +38126,7 @@ S000044
         Computed stop:  2024-03-18 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7586 seconds
+  Time to read sample: 0.7030 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -38531,8 +38171,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17108099400
@@ -38702,7 +38340,7 @@ S000044
         Computed stop:  2024-03-19 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8264 seconds
+  Time to read sample: 0.6345 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -38747,8 +38385,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17108963400
@@ -38918,7 +38554,7 @@ S000044
         Computed stop:  2024-03-20 23:59:48.500000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8447 seconds
+  Time to read sample: 0.5610 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -38963,8 +38599,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17109827400
@@ -39134,7 +38768,7 @@ S000044
         Computed stop:  2024-03-21 23:59:47.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8280 seconds
+  Time to read sample: 0.5795 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -39179,8 +38813,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17110691400
@@ -39350,7 +38982,7 @@ S000044
         Computed stop:  2024-03-22 23:59:48.700000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7887 seconds
+  Time to read sample: 0.6044 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -39395,8 +39027,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17111555400
@@ -39566,7 +39196,7 @@ S000044
         Computed stop:  2024-03-23 23:59:48.600000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8928 seconds
+  Time to read sample: 1.5885 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -39611,8 +39241,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17112419400
@@ -39782,7 +39410,7 @@ S000044
         Computed stop:  2024-03-24 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7881 seconds
+  Time to read sample: 0.7082 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -39827,8 +39455,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17113283400
@@ -39998,7 +39624,7 @@ S000044
         Computed stop:  2024-03-25 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7939 seconds
+  Time to read sample: 0.5611 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -40043,8 +39669,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17114147400
@@ -40214,7 +39838,7 @@ S000044
         Computed stop:  2024-03-26 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.9101 seconds
+  Time to read sample: 0.6248 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -40259,8 +39883,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17115011400
@@ -40430,7 +40052,7 @@ S000044
         Computed stop:  2024-03-27 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7613 seconds
+  Time to read sample: 0.4729 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -40475,8 +40097,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17115875400
@@ -40646,7 +40266,7 @@ S000044
         Computed stop:  2024-03-28 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7708 seconds
+  Time to read sample: 0.5531 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -40691,8 +40311,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17116739400
@@ -40862,7 +40480,7 @@ S000044
         Computed stop:  2024-03-29 23:59:48.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8996 seconds
+  Time to read sample: 0.6710 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -40907,8 +40525,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17117603400
@@ -41078,7 +40694,7 @@ S000044
         Computed stop:  2024-03-30 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7660 seconds
+  Time to read sample: 0.6140 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -41123,8 +40739,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17118467400
@@ -41294,7 +40908,7 @@ S000044
         Computed stop:  2024-03-31 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5764 seconds
+  Time to read sample: 0.5507 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -41339,8 +40953,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17119331400
@@ -41510,7 +41122,7 @@ S000044
         Computed stop:  2024-04-01 23:59:48+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 1.7279 seconds
+  Time to read sample: 0.6240 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -41555,8 +41167,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17120195400
@@ -41726,7 +41336,7 @@ S000044
         Computed stop:  2024-04-02 23:59:48.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7535 seconds
+  Time to read sample: 0.5229 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -41771,8 +41381,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17121059400
@@ -41942,7 +41550,7 @@ S000044
         Computed stop:  2024-04-03 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7969 seconds
+  Time to read sample: 0.6020 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -41987,8 +41595,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17121923400
@@ -42158,7 +41764,7 @@ S000044
         Computed stop:  2024-04-04 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.7945 seconds
+  Time to read sample: 0.6818 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -42203,8 +41809,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17122787400
@@ -42374,7 +41978,7 @@ S000044
         Computed stop:  2024-04-05 23:59:48.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4975 seconds
+  Time to read sample: 0.5801 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -42419,8 +42023,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17123651400
@@ -42590,7 +42192,7 @@ S000044
         Computed stop:  2024-04-06 23:59:47.800000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.5916 seconds
+  Time to read sample: 0.6845 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -42635,8 +42237,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17124515400
@@ -42806,7 +42406,7 @@ S000044
         Computed stop:  2024-04-07 23:59:48.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8619 seconds
+  Time to read sample: 0.5637 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
@@ -42851,8 +42451,6 @@ S000044
           sample_rate_numerator: 10
           uuid_str: grape19
           samples_per_second: 10.0
-        Comparing metadata for this block to that of the first block.
-        Keeping block: No metadata differences found.
         Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17125379400
@@ -43022,7 +42620,7 @@ S000044
         Computed stop:  2024-04-08 23:59:48.200000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.8273 seconds
+  Time to read sample: 0.5566 seconds
   Comparing sample properties with first sample properties:
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
