@@ -21,12 +21,9 @@ Terminology:
 """
 
 import os
-import utilrsw
+import tempfile
 
-base_dir = utilrsw.script_info()['dir']
-LOG_DIR = os.path.join(base_dir, "log", "drf")
-META_DIR = os.path.join(base_dir, "metadata", "drf")
-CACHE_DIR = os.path.join("tmp", "cache", "drf")
+import utilrsw
 
 
 def process_samples(station_id, station_dir,
@@ -37,30 +34,32 @@ def process_samples(station_id, station_dir,
                     read_samples=False,
                     return_samples=False,
                     cache_samples=False,
-                    cache_dir=CACHE_DIR):
+                    cache_dir=None):
 
   """
-  Process all 'OBS' subdirectories in station_dir.
+  Process all 'OBS' subdirectories in station_dir (user home directory).
 
-  Each 'OBS' subdirectory is called a sample. For each sample, read metadata
-  and optionally read sample data blocks.
+  Each subdirectory starting with 'OBS' is referred to as a sample in this code.
+  For each sample, this function reads all block metadata and optionally all
+  data blocks.
 
-  If n is given, only process up to n samples per station.
+  If `n` is given, only process up to `n` samples per station.
 
-  If first_last is True, only process the first and last sample directories per
+  If `first_last` is True, only process the first and last sample directories per
   station.
 
-  If start/stop are given, only process samples with start times within
+  If `start` and `stop` are given, only process samples with start times within
   the start/stop range (inclusive). The start time of a sample is determined
-  by parsing the sample directory name, which is in the format
+  by parsing the sample directory name, which has a name that starts with
   OBSyyyy-mm-ddThh-mm.
 
-  If read_samples is True, read sample data blocks; otherwise only read metadata.
+  If `read_samples` is True, read sample data blocks; otherwise only read metadata.
 
-  If return_samples is True, return the sample data blocks; otherwise discard
-  them after reading.
+  If `return_samples` is True, return concatenated sample data blocks; otherwise
+  that data from each block is discarded after reading (use for faster checking
+  for files with errors).
 
-  If cache_samples is True, cache the sample data blocks to files in cache_dir.
+  If `cache_samples` is True, cache the sample data blocks to files in `cache_dir`.
   """
   import time
   import numpy as np
@@ -71,8 +70,8 @@ def process_samples(station_id, station_dir,
     logger.info(station_id, "  Comparing sample properties with first sample properties:")
     _compare_sample_properties(station_id, p1, p2)
 
-    bm_first_block_of_first_sample = next(iter(metadata_first['sample_block_metadata'].values()))
-    bm_first_block_of_current_sample = next(iter(metadata['sample_block_metadata'].values()))
+    bm_first_block_of_first_sample = _first(metadata_first, 'sample_block_metadata', default={})
+    bm_first_block_of_current_sample = _first(metadata, 'sample_block_metadata', default={})
     msg = "  Comparing first block metadata of this sample with that from first block in the first sample."
     logger.info(station_id, msg)
     same = _compare_block_metadata(
@@ -90,16 +89,60 @@ def process_samples(station_id, station_dir,
 
     return False
 
-  def write_sample_cache(cache_dir, sample_dir, cache_data):
+  def to_json_safe(obj):
+    if isinstance(obj, np.ndarray):
+      return [to_json_safe(i) for i in obj.tolist()]
+    if isinstance(obj, np.floating):
+      return float(obj)
+    if isinstance(obj, np.integer):
+      return int(obj)
+    if isinstance(obj, np.generic):
+      return obj.item()
+    if isinstance(obj, dict):
+      return {(k.item() if isinstance(k, np.generic) else k): to_json_safe(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+      return [to_json_safe(i) for i in obj]
+    return obj
+
+  def write_sample_cache(cache_dir, sample_dir, metadata, data):
     station_id = os.path.basename(station_dir)
-    cache_file = os.path.join(cache_dir, station_id, sample_dir) + ".pkl"
-    utilrsw.write(cache_file, cache_data)
+    obs_dir = os.path.basename(sample_dir)
+
+    cache_file = os.path.join(cache_dir, station_id, f"{obs_dir}.meta.pkl")
+    logger.info(station_id, f"  Caching sample metadata to {cache_file}")
+    utilrsw.write(cache_file, metadata)
+
+    # Also write JSON file for debugging and inspection purposes.
+    cache_file = os.path.join(cache_dir, station_id, f"{obs_dir}.meta.json")
+    metadata_json = to_json_safe(metadata)
+    utilrsw.write(cache_file, metadata_json)
+
+    if data is not None:
+      cache_file = os.path.join(cache_dir, station_id, f"{obs_dir}.data.pkl")
+      logger.info(station_id, f"  Caching sample data to {cache_file}")
+      utilrsw.write(cache_file, data)
 
   def read_sample_cache(cache_dir, sample_dir):
     station_id = os.path.basename(station_dir)
-    cache_file = os.path.join(cache_dir, station_id, sample_dir) + ".pkl"
-    cached = utilrsw.read(cache_file)
+    obs_dir = os.path.basename(sample_dir)
+
+    cached = {"metadata": None, "times": None, "data": None}
+
+    cache_file = os.path.join(cache_dir, station_id, f"{obs_dir}.meta.pkl")
+    logger.info(station_id, f"  Reading cached sample metadata from {cache_file}")
+    tmp = utilrsw.read(cache_file)
+    cached['metadata'] = tmp
+
+    cache_file = os.path.join(cache_dir, station_id, f"{obs_dir}.data.pkl")
+    if os.path.exists(cache_file):
+      logger.info(station_id, f"  Reading cached sample data from {cache_file}")
+      tmp = utilrsw.read(cache_file)
+      cached = cached.update(tmp)
+
     return cached
+
+  if cache_dir is None:
+    cache_dir = os.path.join(_tmpdir(), "cache")
 
   station_dir = os.path.join(station_dir, station_id)
   logger.info(station_id, "")
@@ -139,31 +182,34 @@ def process_samples(station_id, station_dir,
       dt1 = time.time() - time_read1
       logger.info(station_id, f"  Time to read sample: {dt1:.4f} seconds")
 
-      metadata['skipped'] = True
       sample_metadata[sample_name] = metadata
 
-      if cache_samples:
-        cache = {"time": times, "data": data, "metadata": metadata}
-        write_sample_cache(cache_dir, sample_dir, cache)
+      if metadata_first is None:
+        skip_sample = False
+        metadata_first = metadata
+      else:
+        skip_sample = compare_properties(metadata_first, metadata)
 
-        if True:
+      sample_metadata[sample_name]['skipped'] = skip_sample
+
+      if cache_samples:
+        cache_data = None
+        if return_samples:
+          cache_data = {"times": times, "data": data}
+        write_sample_cache(cache_dir, sample_dir, metadata, cache_data)
+
+        if False:
           # Eventually will add cli option use_cache to control whether to read.
           # We keep this here to enable benchmarking the speed of reading from
           # cache vs regular read.
           time_read2 = time.time()
-          cached = read_sample_cache(cache_dir, sample_dir)
+          cache = read_sample_cache(cache_dir, sample_dir)
           dt2 = time.time() - time_read2
           logger.info(station_id, f"  Time to read cached sample: {dt2:.4f} seconds")
           logger.info(station_id, f"  Speedup from caching: {dt1/dt2:.2f}x")
 
-      if metadata_first is None:
-        metadata_first = metadata
-      else:
-        skip_sample = compare_properties(metadata_first, metadata)
-        if skip_sample:
-          continue
-
-      metadata['skipped'] = False
+      if skip_sample:
+        continue
 
       sample_times.append(times)
       sample_data.append(data)
@@ -247,7 +293,7 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
   }
   sample_block_metadata = do.read_metadata(**kwargs)
 
-  sample_block_metadata_first = next(iter(sample_block_metadata.values()))
+  sample_block_metadata_first = _first(sample_block_metadata)
 
   metadata = {
     'channels': channels,
@@ -280,6 +326,7 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
     logger.info(station_id, f"        Block length:   {block_length}")
     logger.info(station_id, f"        Computed start: {start_time}")
     logger.info(station_id, f"        Computed stop:  {end_time}")
+
     if block_start in sample_block_metadata:
       logger.info(station_id, "        Metadata:")
       for key, value in sample_block_metadata[block_start].items():
@@ -308,10 +355,12 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
       logger.info(station_id, f"          data.shape:     {data.shape}")
       logger.info(station_id, f"          first 2 datum:  {data[0:2]}")
       logger.info(station_id, f"          last 2 datum:   {data[-2:]}")
+
+      block_unix_time_start = block_start / int(samples_per_second)
+      block_unix_time_end = block_unix_time_start + (block_length - 1) / int(samples_per_second)
+      metadata['block_unix_time_ranges'].append((block_unix_time_start, block_unix_time_end))
+
       if return_samples:
-        block_unix_time_start = block_start / int(samples_per_second)
-        block_unix_time_end = block_unix_time_start + (block_length - 1) / int(samples_per_second)
-        metadata['block_unix_time_ranges'].append((block_unix_time_start, block_unix_time_end))
         sample_data.append(data)
         times = np.arange(block_start, block_start + block_length) / int(samples_per_second)
         sample_times.append(times)
@@ -325,11 +374,13 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
 
 
 class _log:
-  def __init__(self, log_dir="/tmp/pwsw/log"):
+  def __init__(self, log_dir=None):
+    if log_dir is None:
+      log_dir = os.path.join(_tmpdir(), "log")
     self.logs = {'info': {}, 'warning': {}, 'error': {}}
     self.log_dir = log_dir
     fmt = u"%(message)s"
-    self.log = utilrsw.logger("drf", log_dir=LOG_DIR, console_format=fmt, file_format=fmt)
+    self.log = utilrsw.logger("drf", log_dir=log_dir, console_format=fmt, file_format=fmt)
 
   def _fmt_msg(self, msg):
     import io
@@ -416,11 +467,25 @@ def _cli():
   )
   parser.add_argument(
       '--cache-samples', action='store_true', dest='cache_samples',
-      help='Cache sample data (a sample is a dir starting with OBS).'
+      help='Cache sample metadata (and data if --return-samples; a sample is a dir starting with OBS).'
+  )
+
+  base_dir = utilrsw.script_info()['dir']
+  cache_dir = os.path.join(base_dir, "cache")
+  log_dir = os.path.join(base_dir, "log", "drf")
+  catalog_dir = os.path.join(base_dir, "metadata", "drf")
+
+  parser.add_argument(
+      '--cache-dir', type=str, default=cache_dir, dest='cache_dir',
+      help=f'Directory to use for caching sample data. Default is {cache_dir}.'
   )
   parser.add_argument(
-      '--cache-dir', type=str, default="/tmp/cache", dest='cache_dir',
-      help='Directory to use for caching sample data. Default is /tmp/cache.'
+      '--log-dir', type=str, default=log_dir, dest='log_dir',
+      help=f'Directory to use for caching sample data. Default is {log_dir}.'
+  )
+  parser.add_argument(
+      '--catalog-dir', type=str, default=catalog_dir, dest='catalog_dir',
+      help=f'Directory to use for caching sample data. Default is {catalog_dir}.'
   )
 
   args = parser.parse_args()
@@ -442,6 +507,38 @@ def _cli():
     args.read_samples = True
 
   return args
+
+
+def _first(dict_, key=None, default=None):
+  """Return the first value in an ordered dict, or default if dict is empty.
+
+  Examples:
+    d = {'a': 1, 'b': {'x': 10, 'y': 20}, 'c': {'z': 100}}
+    _first(d) -> 1
+    _first(d, key='b') -> 10
+
+    d = {'a': {'z': 100}}
+    _first(d) -> {'z': 100}
+
+  As of Python 3.7, regular dicts maintain insertion order, so this function
+  will return the value of the first key inserted into the dict.
+  """
+
+  if not dict_:
+    return {}
+  if key is not None:
+    if key not in dict_:
+      return default
+    dict_ = dict_[key]
+
+  return next(iter(dict_.values()))
+
+
+def _tmpdir():
+  if os.path.exists("/tmp"):
+    return "/tmp"
+  else:
+    return tempfile.gettempdir()
 
 
 def _listdir(base_dir):
@@ -588,7 +685,7 @@ def _catalog_entry(station_id, result):
     logger.info(station_id, msg)
     return None
 
-  sample_block_metadata_first = next(iter(sample_block_metadata.values()))
+  sample_block_metadata_first = _first(sample_block_metadata)
   lat = sample_block_metadata_first.get('lat', '')
   catalog.append(lat)
   long = sample_block_metadata_first.get('long', '')
@@ -621,7 +718,7 @@ def _print_station_summary(station_id, result, station_dir, return_samples):
     num_subchannels = utilrsw.get_path(sample_value, p, 'None in metadata')
     logger.info(station_id, f"        num_subchannels:    {num_subchannels}")
 
-    first_block_metadata = next(iter(sample_value.get('sample_block_metadata', {}).values()), {})
+    first_block_metadata = _first(sample_value, key='sample_block_metadata', default={})
     center_frequencies = first_block_metadata.get('center_frequencies', 'None in metadata')
     if isinstance(center_frequencies, np.ndarray):
       center_frequencies = np.array2string(center_frequencies, separator=', ', max_line_width=np.inf, formatter={'float_kind':lambda x:repr(float(x))})
@@ -640,7 +737,10 @@ def _print_station_summary(station_id, result, station_dir, return_samples):
 if __name__ == '__main__':
 
   args = _cli()
-  logger = _log(log_dir=LOG_DIR)
+  logger = _log(log_dir=args.log_dir)
+
+  print(f"Cache directory: {args.cache_dir}")
+  print(f"Log directory:   {args.log_dir}")
 
   catalog = []
   for station_id in _listdir(args.station_dir):
@@ -675,10 +775,9 @@ if __name__ == '__main__':
 
   if len(catalog) > 0:
     # Write HAPI catalog file
-    fname = os.path.join(META_DIR, "catalog.csv")
+    fname = os.path.join(args.catalog_dir, "catalog.csv")
     print(f"\nWriting catalog to {fname}:")
     print("  station_id,nickname,startDateTime,stopDateTime,lat,long,elevation")
     for row in catalog:
       print("  " + ",".join(str(x) for x in row))
     utilrsw.write(fname, catalog)
-
