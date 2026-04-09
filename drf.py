@@ -65,13 +65,14 @@ def process_samples(station_id, station_dir,
   import numpy as np
 
   def compare_properties(metadata_first, metadata):
-    p1 = metadata_first['properties']
-    p2 = metadata['properties']
-    logger.info(station_id, "  Comparing sample properties with first sample properties:")
+
+    p1 = metadata_first['sample']['properties']
+    p2 = metadata['sample']['properties']
+    logger.info(station_id, "  Comparing this sample's properties with first sample properties")
     _compare_sample_properties(station_id, p1, p2)
 
-    bm_first_block_of_first_sample = _first(metadata_first, 'sample_block_metadata', default={})
-    bm_first_block_of_current_sample = _first(metadata, 'sample_block_metadata', default={})
+    bm_first_block_of_first_sample = utilrsw.get_path(metadata_first, ['blocks', 0, 'metadata'], default={})
+    bm_first_block_of_current_sample = utilrsw.get_path(metadata_first, ['blocks', 0, 'metadata'], default={})
     msg = "  Comparing first block metadata of this sample with that from first block in the first sample."
     logger.info(station_id, msg)
     same = _compare_block_metadata(
@@ -266,10 +267,18 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
 
   start_sample_epoch = start_sample / int(properties['samples_per_second'])
   end_sample_epoch = end_sample / int(properties['samples_per_second'])
-  start_sample_utc = datetime.fromtimestamp(start_sample_epoch + epoch_unix, tz=timezone.utc)
+
+  start_sample_unix = start_sample_epoch + epoch_unix
+  end_sample_unix = end_sample_epoch + epoch_unix
+
+  start_sample_utc = datetime.fromtimestamp(start_sample_unix, tz=timezone.utc)
   start_sample_utc = datetime.strftime(start_sample_utc, '%Y-%m-%dT%H:%M:%S.%fZ')
-  end_sample_utc = datetime.fromtimestamp(end_sample_epoch + epoch_unix, tz=timezone.utc)
+
+  end_sample_utc = datetime.fromtimestamp(end_sample_unix, tz=timezone.utc)
   end_sample_utc = datetime.strftime(end_sample_utc, '%Y-%m-%dT%H:%M:%S.%fZ')
+
+  end_sample_utc_exclusive = datetime.fromtimestamp(end_sample_unix + 1 / int(properties['samples_per_second']), tz=timezone.utc)
+  end_sample_utc_exclusive = datetime.strftime(end_sample_utc_exclusive, '%Y-%m-%dT%H:%M:%S.%fZ')
 
   samples_per_second = properties['samples_per_second']
   msg = f"    Computed sample start seconds since epoch: {start_sample_epoch} = (start index)/samples_per_second"
@@ -296,17 +305,20 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
   sample_block_metadata_first = _first(sample_block_metadata)
 
   metadata = {
-    'channels': channels,
-    'sample_block_metadata': sample_block_metadata,
-    'start_sample': start_sample,
-    'start_sample_utc': start_sample_utc,
-    'end_sample': end_sample,
-    'end_sample_utc': end_sample_utc,
-    'properties': properties,
-    'continuous_blocks_note': "continuous_blocks is a dict with keys of start block index and values of block length.",
-    'continuous_blocks': continuous_blocks,
-    'continuous_blocks_skipped': 0,
-    'block_unix_time_ranges': [],
+    'sample': {
+      'id': f"{station_id}/{os.path.basename(observation_dir)}",
+      'channels': channels,
+      'start_index': start_sample,
+      'end_index': end_sample,
+      'start_unix': start_sample_unix,
+      'end_unix': end_sample_unix,
+      'start_utc': start_sample_utc,
+      'end_utc': end_sample_utc,
+      'end_utc_exclusive': end_sample_utc_exclusive,
+      'properties': properties,
+    },
+    'blocks': [],
+    'n_blocks_skipped': 0,
   }
 
   sample_data = []
@@ -316,9 +328,14 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
   for block_start, block_length in continuous_blocks.items():
     bn = bn + 1
 
+    block_info = {
+      'start_index': block_start,
+      'end_index': block_start + block_length - 1,
+      'length': block_length
+    }
+
     # Get the start and end timestamps for the current block.
-    # TODO: Need to use epoch as it may not always be Unix epoch as assumed below.
-    start_time = datetime.fromtimestamp(block_start / int(samples_per_second), tz=timezone.utc)
+    start_time = datetime.fromtimestamp(block_start / int(samples_per_second) + epoch_unix, tz=timezone.utc)
     end_time = start_time + timedelta(seconds=(int(block_length)-1) / int(samples_per_second))
     logger.info(station_id, f"      Block {bn}:")
 
@@ -327,7 +344,22 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
     logger.info(station_id, f"        Computed start: {start_time}")
     logger.info(station_id, f"        Computed stop:  {end_time}")
 
+    block_info['start_utc'] = datetime.strftime(start_time, '%Y-%m-%dT%H:%M:%S.%fZ')
+    block_info['end_utc'] = datetime.strftime(end_time, '%Y-%m-%dT%H:%M:%S.%fZ')
+
+    block_unix_time_start = block_start / int(samples_per_second)
+    block_unix_time_end = block_unix_time_start + (block_length - 1) / int(samples_per_second)
+
+    block_info['start_unix'] = block_unix_time_start
+    block_info['end_unix'] = block_unix_time_end
+
     if block_start in sample_block_metadata:
+      block_info['metadata'] = sample_block_metadata[block_start]
+
+
+    if block_start not in sample_block_metadata:
+      logger.info(station_id, "        Metadata: No metadata for this block.")
+    else:
       logger.info(station_id, "        Metadata:")
       for key, value in sample_block_metadata[block_start].items():
         logger.info(station_id, f"          {key}: {value}")
@@ -339,11 +371,11 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
         else:
           msg = f"        Skipping block with start {block_start}: Metadata for this block differs from that in first block."
           logger.warning(station_id, msg)
-          metadata['continuous_blocks_skipped'] += 1
+          metadata['n_blocks_skipped'] += 1
+          block_info['skipped'] = True
           continue
-    else:
-      logger.info(station_id, "        Metadata: No metadata for this block.")
 
+    metadata['blocks'].append(block_info)
 
     if not read_samples:
       logger.info(station_id, "        Data: Not read because read_samples is set to False.")
@@ -355,10 +387,6 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
       logger.info(station_id, f"          data.shape:     {data.shape}")
       logger.info(station_id, f"          first 2 datum:  {data[0:2]}")
       logger.info(station_id, f"          last 2 datum:   {data[-2:]}")
-
-      block_unix_time_start = block_start / int(samples_per_second)
-      block_unix_time_end = block_unix_time_start + (block_length - 1) / int(samples_per_second)
-      metadata['block_unix_time_ranges'].append((block_unix_time_start, block_unix_time_end))
 
       if return_samples:
         sample_data.append(data)
@@ -674,18 +702,17 @@ def _catalog_entry(station_id, result):
   catalog = []
   catalog.append(station_id)
   catalog.append("") # Nickname not available
-  startDateTime = result['metadata'][samples[0]]['start_sample_utc']
+  startDateTime = result['metadata'][samples[0]]['sample']['start_utc']
   catalog.append(startDateTime)
-  stopDateTime = result['metadata'][samples[last_idx]]['end_sample_utc']
+  stopDateTime = result['metadata'][samples[last_idx]]['sample']['end_utc_exclusive']
   catalog.append(stopDateTime)
 
-  sample_block_metadata = result['metadata'][samples[0]]['sample_block_metadata']
-  if len(sample_block_metadata) == 0:
+  sample_block_metadata_first = result['metadata'][samples[0]]['blocks'][0].get('metadata', {})
+  if len(sample_block_metadata_first) == 0:
     msg = f"  No block metadata found for first sample {samples[0]}. Cannot create catalog entry."
     logger.info(station_id, msg)
     return None
 
-  sample_block_metadata_first = _first(sample_block_metadata)
   lat = sample_block_metadata_first.get('lat', '')
   catalog.append(lat)
   long = sample_block_metadata_first.get('long', '')
@@ -711,15 +738,16 @@ def _print_station_summary(station_id, result, station_dir, return_samples):
   for sample_name, sample_value in result['metadata'].items():
     skipped = " (skipped)" if sample_value.get('skipped', False) else ""
     logger.info(station_id, f"      {sample_name}{skipped}")
-    n_blocks = len(sample_value.get('continuous_blocks', -1))
-    n_skipped = sample_value.get('continuous_blocks_skipped', 0)
+    n_blocks = len(sample_value.get('blocks', -1))
+    n_skipped = sample_value.get('n_blocks_skipped', 0)
     logger.info(station_id, f"        skipped blocks:     {n_skipped} of {n_blocks}")
-    p = 'properties.num_subchannels'
+
+    p = 'sample.properties.num_subchannels'
     num_subchannels = utilrsw.get_path(sample_value, p, 'None in metadata')
     logger.info(station_id, f"        num_subchannels:    {num_subchannels}")
 
-    first_block_metadata = _first(sample_value, key='sample_block_metadata', default={})
-    center_frequencies = first_block_metadata.get('center_frequencies', 'None in metadata')
+    p = ['blocks', 0, 'metadata', 'center_frequencies']
+    center_frequencies = utilrsw.get_path(sample_value, p, default=None)
     if isinstance(center_frequencies, np.ndarray):
       center_frequencies = np.array2string(center_frequencies, separator=', ', max_line_width=np.inf, formatter={'float_kind':lambda x:repr(float(x))})
     logger.info(station_id, f"        center_frequencies: {center_frequencies}")

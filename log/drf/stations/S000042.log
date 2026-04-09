@@ -47,35 +47,16 @@ S000042
           sample_rate_numerator: 10
           sample_rate_denominator: 1
           samples_per_second: 10.0
-        Data:
-          # samples:      36000
-          data.shape:     (36000, 9)
-          first 2 datum:  [[0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.-1.j 0.+0.j]
- [0.+0.j 0.+0.j 0.+1.j 0.-1.j 0.+1.j 0.+1.j 0.+0.j 0.+0.j 0.+0.j]]
-          last 2 datum:   [[0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j]
- [1.+0.j 0.+0.j 0.+0.j 0.-1.j 0.-1.j 0.+0.j 0.+0.j 0.-1.j 1.+0.j]]
+        Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17103708000
         Block length:   36000
         Computed start: 2024-03-13 23:00:00+00:00
         Computed stop:  2024-03-13 23:59:59.900000+00:00
         Metadata: No metadata for this block.
-        Data:
-          # samples:      36000
-          data.shape:     (36000, 9)
-          first 2 datum:  [[-1.2400e+02+1.0900e+02j  1.1700e+02-4.6000e+01j -3.5300e+02-3.7500e+02j
-  -9.1000e+01-2.1400e+02j -7.0590e+03+1.3155e+04j -9.9800e+02+3.6250e+03j
-   1.4130e+03-3.2768e+04j  2.9281e+04+4.7460e+03j  1.2700e+02+6.2000e+01j]
- [-5.0000e+00+6.4000e+01j -1.0200e+02+4.9000e+01j -3.6700e+02-2.3100e+02j
-  -9.7000e+01-1.8500e+02j -3.3930e+03+1.4057e+04j -3.9200e+02+3.0100e+03j
-  -4.4970e+03-2.7719e+04j  3.1179e+04-1.4580e+03j  1.0900e+02+9.0000e+00j]]
-          last 2 datum:   [[-1.+0.j  0.+0.j  0.+0.j  0.+0.j  0.+1.j  0.+0.j -1.+0.j  0.+0.j  0.+0.j]
- [ 0.-1.j  0.+0.j  0.-1.j -1.+0.j  0.+0.j  0.+0.j  1.+0.j  0.+0.j  0.+1.j]]
-  Time to read sample: 0.3958 seconds
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 0.4083 seconds
   Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000042/OBS2024-03-13T00-00.meta.pkl
-  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000042/OBS2024-03-13T00-00.meta.pkl
-  Time to read cached sample: 0.0086 seconds
-  Speedup from caching: 46.25x
 
   Sample: OBS2024-03-14T00-00
     Channels: ['ch0']
@@ -120,40 +101,19 @@ S000042
           sample_rate_numerator: 10
           sample_rate_denominator: 1
           samples_per_second: 10.0
-        Data:
-          # samples:      36000
-          data.shape:     (36000, 9)
-          first 2 datum:  [[ 0.+0.j  0.+0.j  0.-1.j  0.+0.j  0.+0.j  0.+0.j  1.+0.j  0.+0.j  0.+0.j]
- [ 0.+0.j  0.+0.j  0.+0.j -1.+0.j  0.+0.j  0.+0.j -1.+0.j  0.+0.j  0.+0.j]]
-          last 2 datum:   [[-3.600e+01+6.700e+01j  2.800e+01+2.300e+01j  9.810e+02-1.960e+02j
-   3.800e+01+3.200e+01j -1.900e+01+1.558e+03j  1.420e+02-4.380e+02j
-  -4.146e+03+2.600e+01j -4.000e+01+1.760e+02j -2.000e+00+3.200e+01j]
- [-1.060e+02-1.000e+00j  1.700e+01+7.000e+00j  1.017e+03-1.831e+03j
-   0.000e+00-1.770e+02j -1.701e+03+1.255e+03j -2.390e+02+1.920e+02j
-   4.140e+02+9.710e+02j  2.300e+01+1.260e+02j -1.900e+01-6.000e+00j]]
+        Data: Not read because read_samples is set to False.
       Block 2:
         Block start:    17104572000
         Block length:   36000
         Computed start: 2024-03-14 23:00:00+00:00
         Computed stop:  2024-03-14 23:59:59.900000+00:00
         Metadata: No metadata for this block.
-        Data:
-          # samples:      36000
-          data.shape:     (36000, 9)
-          first 2 datum:  [[ 0.+0.j  0.+0.j -1.+0.j  1.+0.j  0.+1.j  0.-1.j  1.+1.j -1.+1.j  0.+0.j]
- [ 1.+0.j  0.+0.j  0.+0.j  0.+0.j  0.+0.j  0.+0.j -1.+0.j  0.+0.j  0.+0.j]]
-          last 2 datum:   [[ 0.+0.j  0.-1.j  0.+0.j  0.+1.j  0.+0.j  1.+0.j  0.+0.j  0.+1.j  0.+0.j]
- [ 0.+0.j  0.+0.j  0.+0.j -1.+0.j  0.+0.j -1.-1.j  0.+0.j -1.+0.j  0.+0.j]]
-  Time to read sample: 0.0133 seconds
-  Comparing sample properties with first sample properties:
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 0.0059 seconds
+  Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
-    Block metadata key 'uuid_str' has different values from that in first block metadata:
-      First:   a2fc8a47924c4f28a1f8a0137e42b1fc
-      Current: e3d841cc4662417eb535803e2e9da815
+    No block metadata differences found.
   Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000042/OBS2024-03-14T00-00.meta.pkl
-  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000042/OBS2024-03-14T00-00.meta.pkl
-  Time to read cached sample: 0.0014 seconds
-  Speedup from caching: 9.36x
   --------------------------------------------------------------------------------------------------------
   Summary: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000042
   --------------------------------------------------------------------------------------------------------
@@ -162,7 +122,7 @@ S000042
         skipped blocks:     0 of 2
         num_subchannels:    9
         center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
-      OBS2024-03-14T00-00 (skipped)
+      OBS2024-03-14T00-00
         skipped blocks:     0 of 2
         num_subchannels:    9
         center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
