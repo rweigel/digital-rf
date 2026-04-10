@@ -4,8 +4,21 @@
 pip install git+https://github.com/rweigel/utilrsw
 pip install git+https://github.com/rweigel/table-ui
 pip install digital_rf
-# Run analysis on first DRF observation directory in /home/S000182
-python drf.py --base_dir /home --station S000182
+
+# Run analysis on first two DRF observation dirs in /home/S000182
+python drf.py --station-dir /home --station S000182 --cache-samples --n 2
+# View results at http://0.0.0.0:5001
+tableui-serve --conf conf/tableui.json
+
+# Run analysis on first two DRF observation dirs for all stations
+python drf.py --station-dir /home --cache-samples --n 2
+# View results at http://0.0.0.0:5001
+tableui-serve --conf conf/tableui.json
+
+# Run analysis on first all DRF observations dirs for all stations
+python drf.py --station-dir /home --cache-samples --n -1
+# View results at http://0.0.0.0:5001
+tableui-serve --conf conf/tableui.json
 ```
 
 # Old notes for zip files downloaded from PSWS web page

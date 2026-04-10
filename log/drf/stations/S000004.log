@@ -2,7 +2,7 @@
 ----------------------------------------------------------------------------------------------------------
 S000004
   Station directory: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000004
-  first_last = False and n=1 gave 1 sample dirs out of 420.
+  first_last = False and n=2 gave 2 sample dirs out of 420.
 
   Sample: OBS2022-07-07T15-00
     Channels: ['ch0']
@@ -287,15 +287,1624 @@ S000004
         Computed stop:  2022-07-13 18:11:59.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 1.1378 seconds
-  Time to read cached sample: 0.0029 seconds
-  Speedup from caching: 387.56x
+  Time to read sample: 1.1274 seconds
+  Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000004/OBS2022-07-07T15-00.meta.pkl
+
+  Sample: OBS2022-11-07T00-00
+    Channels: ['ch0']
+    Channel start index: 16678446590
+    Channel stop index:  16686149999
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1667844659.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1668614999.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2022-11-07T18:10:59.000000Z
+    Computed sample stop UTC time:  2022-11-16T16:09:59.900000Z
+
+    Found 214 continuous blocks
+      Block 1:
+        Block start:    16678446590
+        Block length:   8773
+        Computed start: 2022-11-07 18:10:59+00:00
+        Computed stop:  2022-11-07 18:25:36.200000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.393285
+          long: -87.56013166666666
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+      Block 2:
+        Block start:    16678487900
+        Block length:   100
+        Computed start: 2022-11-07 19:19:50+00:00
+        Computed stop:  2022-11-07 19:19:59.900000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.393256666666666
+          long: -87.56005666666667
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393256666666666
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56005666666667
+      Block 3:
+        Block start:    16678506000
+        Block length:   12000
+        Computed start: 2022-11-07 19:50:00+00:00
+        Computed stop:  2022-11-07 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 4:
+        Block start:    16678542000
+        Block length:   12000
+        Computed start: 2022-11-07 20:50:00+00:00
+        Computed stop:  2022-11-07 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 5:
+        Block start:    16678578000
+        Block length:   12000
+        Computed start: 2022-11-07 21:50:00+00:00
+        Computed stop:  2022-11-07 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 6:
+        Block start:    16678614000
+        Block length:   12000
+        Computed start: 2022-11-07 22:50:00+00:00
+        Computed stop:  2022-11-07 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 7:
+        Block start:    16678650000
+        Block length:   12000
+        Computed start: 2022-11-07 23:50:00+00:00
+        Computed stop:  2022-11-08 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 8:
+        Block start:    16678686000
+        Block length:   12000
+        Computed start: 2022-11-08 00:50:00+00:00
+        Computed stop:  2022-11-08 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 9:
+        Block start:    16678722000
+        Block length:   12000
+        Computed start: 2022-11-08 01:50:00+00:00
+        Computed stop:  2022-11-08 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 10:
+        Block start:    16678758000
+        Block length:   12000
+        Computed start: 2022-11-08 02:50:00+00:00
+        Computed stop:  2022-11-08 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 11:
+        Block start:    16678794000
+        Block length:   12000
+        Computed start: 2022-11-08 03:50:00+00:00
+        Computed stop:  2022-11-08 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 12:
+        Block start:    16678830000
+        Block length:   12000
+        Computed start: 2022-11-08 04:50:00+00:00
+        Computed stop:  2022-11-08 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 13:
+        Block start:    16678866000
+        Block length:   12000
+        Computed start: 2022-11-08 05:50:00+00:00
+        Computed stop:  2022-11-08 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 14:
+        Block start:    16678902000
+        Block length:   12000
+        Computed start: 2022-11-08 06:50:00+00:00
+        Computed stop:  2022-11-08 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 15:
+        Block start:    16678938000
+        Block length:   12000
+        Computed start: 2022-11-08 07:50:00+00:00
+        Computed stop:  2022-11-08 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 16:
+        Block start:    16678974000
+        Block length:   12000
+        Computed start: 2022-11-08 08:50:00+00:00
+        Computed stop:  2022-11-08 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 17:
+        Block start:    16679010000
+        Block length:   12000
+        Computed start: 2022-11-08 09:50:00+00:00
+        Computed stop:  2022-11-08 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 18:
+        Block start:    16679046000
+        Block length:   12000
+        Computed start: 2022-11-08 10:50:00+00:00
+        Computed stop:  2022-11-08 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 19:
+        Block start:    16679082000
+        Block length:   12000
+        Computed start: 2022-11-08 11:50:00+00:00
+        Computed stop:  2022-11-08 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 20:
+        Block start:    16679118000
+        Block length:   12000
+        Computed start: 2022-11-08 12:50:00+00:00
+        Computed stop:  2022-11-08 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 21:
+        Block start:    16679154000
+        Block length:   12000
+        Computed start: 2022-11-08 13:50:00+00:00
+        Computed stop:  2022-11-08 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 22:
+        Block start:    16679190000
+        Block length:   12000
+        Computed start: 2022-11-08 14:50:00+00:00
+        Computed stop:  2022-11-08 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 23:
+        Block start:    16679226000
+        Block length:   12000
+        Computed start: 2022-11-08 15:50:00+00:00
+        Computed stop:  2022-11-08 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 24:
+        Block start:    16679262000
+        Block length:   12000
+        Computed start: 2022-11-08 16:50:00+00:00
+        Computed stop:  2022-11-08 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 25:
+        Block start:    16679298000
+        Block length:   12000
+        Computed start: 2022-11-08 17:50:00+00:00
+        Computed stop:  2022-11-08 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 26:
+        Block start:    16679334000
+        Block length:   12000
+        Computed start: 2022-11-08 18:50:00+00:00
+        Computed stop:  2022-11-08 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 27:
+        Block start:    16679370000
+        Block length:   12000
+        Computed start: 2022-11-08 19:50:00+00:00
+        Computed stop:  2022-11-08 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 28:
+        Block start:    16679406000
+        Block length:   12000
+        Computed start: 2022-11-08 20:50:00+00:00
+        Computed stop:  2022-11-08 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 29:
+        Block start:    16679442000
+        Block length:   12000
+        Computed start: 2022-11-08 21:50:00+00:00
+        Computed stop:  2022-11-08 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 30:
+        Block start:    16679478000
+        Block length:   12000
+        Computed start: 2022-11-08 22:50:00+00:00
+        Computed stop:  2022-11-08 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 31:
+        Block start:    16679514000
+        Block length:   12000
+        Computed start: 2022-11-08 23:50:00+00:00
+        Computed stop:  2022-11-09 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 32:
+        Block start:    16679550000
+        Block length:   12000
+        Computed start: 2022-11-09 00:50:00+00:00
+        Computed stop:  2022-11-09 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 33:
+        Block start:    16679586000
+        Block length:   12000
+        Computed start: 2022-11-09 01:50:00+00:00
+        Computed stop:  2022-11-09 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 34:
+        Block start:    16679622000
+        Block length:   12000
+        Computed start: 2022-11-09 02:50:00+00:00
+        Computed stop:  2022-11-09 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 35:
+        Block start:    16679658000
+        Block length:   12000
+        Computed start: 2022-11-09 03:50:00+00:00
+        Computed stop:  2022-11-09 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 36:
+        Block start:    16679694000
+        Block length:   12000
+        Computed start: 2022-11-09 04:50:00+00:00
+        Computed stop:  2022-11-09 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 37:
+        Block start:    16679730000
+        Block length:   12000
+        Computed start: 2022-11-09 05:50:00+00:00
+        Computed stop:  2022-11-09 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 38:
+        Block start:    16679766000
+        Block length:   12000
+        Computed start: 2022-11-09 06:50:00+00:00
+        Computed stop:  2022-11-09 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 39:
+        Block start:    16679802000
+        Block length:   12000
+        Computed start: 2022-11-09 07:50:00+00:00
+        Computed stop:  2022-11-09 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 40:
+        Block start:    16679838000
+        Block length:   12000
+        Computed start: 2022-11-09 08:50:00+00:00
+        Computed stop:  2022-11-09 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 41:
+        Block start:    16679874000
+        Block length:   12000
+        Computed start: 2022-11-09 09:50:00+00:00
+        Computed stop:  2022-11-09 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 42:
+        Block start:    16679910000
+        Block length:   12000
+        Computed start: 2022-11-09 10:50:00+00:00
+        Computed stop:  2022-11-09 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 43:
+        Block start:    16679946000
+        Block length:   12000
+        Computed start: 2022-11-09 11:50:00+00:00
+        Computed stop:  2022-11-09 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 44:
+        Block start:    16679982000
+        Block length:   12000
+        Computed start: 2022-11-09 12:50:00+00:00
+        Computed stop:  2022-11-09 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 45:
+        Block start:    16680018000
+        Block length:   12000
+        Computed start: 2022-11-09 13:50:00+00:00
+        Computed stop:  2022-11-09 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 46:
+        Block start:    16680054000
+        Block length:   12000
+        Computed start: 2022-11-09 14:50:00+00:00
+        Computed stop:  2022-11-09 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 47:
+        Block start:    16680090000
+        Block length:   12000
+        Computed start: 2022-11-09 15:50:00+00:00
+        Computed stop:  2022-11-09 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 48:
+        Block start:    16680126000
+        Block length:   12000
+        Computed start: 2022-11-09 16:50:00+00:00
+        Computed stop:  2022-11-09 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 49:
+        Block start:    16680162000
+        Block length:   12000
+        Computed start: 2022-11-09 17:50:00+00:00
+        Computed stop:  2022-11-09 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 50:
+        Block start:    16680198000
+        Block length:   12000
+        Computed start: 2022-11-09 18:50:00+00:00
+        Computed stop:  2022-11-09 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 51:
+        Block start:    16680234000
+        Block length:   12000
+        Computed start: 2022-11-09 19:50:00+00:00
+        Computed stop:  2022-11-09 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 52:
+        Block start:    16680270000
+        Block length:   12000
+        Computed start: 2022-11-09 20:50:00+00:00
+        Computed stop:  2022-11-09 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 53:
+        Block start:    16680306000
+        Block length:   12000
+        Computed start: 2022-11-09 21:50:00+00:00
+        Computed stop:  2022-11-09 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 54:
+        Block start:    16680342000
+        Block length:   12000
+        Computed start: 2022-11-09 22:50:00+00:00
+        Computed stop:  2022-11-09 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 55:
+        Block start:    16680378000
+        Block length:   12000
+        Computed start: 2022-11-09 23:50:00+00:00
+        Computed stop:  2022-11-10 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 56:
+        Block start:    16680414000
+        Block length:   12000
+        Computed start: 2022-11-10 00:50:00+00:00
+        Computed stop:  2022-11-10 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 57:
+        Block start:    16680450000
+        Block length:   12000
+        Computed start: 2022-11-10 01:50:00+00:00
+        Computed stop:  2022-11-10 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 58:
+        Block start:    16680486000
+        Block length:   12000
+        Computed start: 2022-11-10 02:50:00+00:00
+        Computed stop:  2022-11-10 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 59:
+        Block start:    16680522000
+        Block length:   12000
+        Computed start: 2022-11-10 03:50:00+00:00
+        Computed stop:  2022-11-10 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 60:
+        Block start:    16680558000
+        Block length:   12000
+        Computed start: 2022-11-10 04:50:00+00:00
+        Computed stop:  2022-11-10 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 61:
+        Block start:    16680594000
+        Block length:   12000
+        Computed start: 2022-11-10 05:50:00+00:00
+        Computed stop:  2022-11-10 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 62:
+        Block start:    16680630000
+        Block length:   12000
+        Computed start: 2022-11-10 06:50:00+00:00
+        Computed stop:  2022-11-10 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 63:
+        Block start:    16680666000
+        Block length:   12000
+        Computed start: 2022-11-10 07:50:00+00:00
+        Computed stop:  2022-11-10 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 64:
+        Block start:    16680702000
+        Block length:   12000
+        Computed start: 2022-11-10 08:50:00+00:00
+        Computed stop:  2022-11-10 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 65:
+        Block start:    16680738000
+        Block length:   12000
+        Computed start: 2022-11-10 09:50:00+00:00
+        Computed stop:  2022-11-10 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 66:
+        Block start:    16680774000
+        Block length:   12000
+        Computed start: 2022-11-10 10:50:00+00:00
+        Computed stop:  2022-11-10 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 67:
+        Block start:    16680810000
+        Block length:   12000
+        Computed start: 2022-11-10 11:50:00+00:00
+        Computed stop:  2022-11-10 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 68:
+        Block start:    16680846000
+        Block length:   12000
+        Computed start: 2022-11-10 12:50:00+00:00
+        Computed stop:  2022-11-10 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 69:
+        Block start:    16680882000
+        Block length:   12000
+        Computed start: 2022-11-10 13:50:00+00:00
+        Computed stop:  2022-11-10 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 70:
+        Block start:    16680918000
+        Block length:   12000
+        Computed start: 2022-11-10 14:50:00+00:00
+        Computed stop:  2022-11-10 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 71:
+        Block start:    16680954000
+        Block length:   12000
+        Computed start: 2022-11-10 15:50:00+00:00
+        Computed stop:  2022-11-10 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 72:
+        Block start:    16680978000
+        Block length:   3238
+        Computed start: 2022-11-10 16:30:00+00:00
+        Computed stop:  2022-11-10 16:35:23.700000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 73:
+        Block start:    16680998880
+        Block length:   3120
+        Computed start: 2022-11-10 17:04:48+00:00
+        Computed stop:  2022-11-10 17:09:59.900000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.39318333333333
+          long: -87.56006333333333
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39318333333333
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56006333333333
+      Block 74:
+        Block start:    16681008000
+        Block length:   2231
+        Computed start: 2022-11-10 17:20:00+00:00
+        Computed stop:  2022-11-10 17:23:43+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 75:
+        Block start:    16681111700
+        Block length:   4300
+        Computed start: 2022-11-10 20:12:50+00:00
+        Computed stop:  2022-11-10 20:19:59.900000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.393323333333335
+          long: -87.560125
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393323333333335
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.560125
+      Block 76:
+        Block start:    16681134000
+        Block length:   12000
+        Computed start: 2022-11-10 20:50:00+00:00
+        Computed stop:  2022-11-10 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 77:
+        Block start:    16681154890
+        Block length:   1011
+        Computed start: 2022-11-10 21:24:49+00:00
+        Computed stop:  2022-11-10 21:26:30+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.393328333333336
+          long: -87.56031666666667
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.393328333333336
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56031666666667
+      Block 78:
+        Block start:    16681236600
+        Block length:   17400
+        Computed start: 2022-11-10 23:41:00+00:00
+        Computed stop:  2022-11-11 00:09:59.900000+00:00
+        Metadata:
+          center_frequencies: [5.]
+          lat: 33.39329
+          long: -87.56003
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Comparing metadata for this block to that of the first block.
+          Block metadata key 'lat' has different values from that in first block metadata:
+            First:   33.393285
+            Current: 33.39329
+          Block metadata key 'long' has different values from that in first block metadata:
+            First:   -87.56013166666666
+            Current: -87.56003
+      Block 79:
+        Block start:    16681278000
+        Block length:   12000
+        Computed start: 2022-11-11 00:50:00+00:00
+        Computed stop:  2022-11-11 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 80:
+        Block start:    16681314000
+        Block length:   12000
+        Computed start: 2022-11-11 01:50:00+00:00
+        Computed stop:  2022-11-11 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 81:
+        Block start:    16681350000
+        Block length:   12000
+        Computed start: 2022-11-11 02:50:00+00:00
+        Computed stop:  2022-11-11 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 82:
+        Block start:    16681386000
+        Block length:   12000
+        Computed start: 2022-11-11 03:50:00+00:00
+        Computed stop:  2022-11-11 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 83:
+        Block start:    16681422000
+        Block length:   12000
+        Computed start: 2022-11-11 04:50:00+00:00
+        Computed stop:  2022-11-11 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 84:
+        Block start:    16681458000
+        Block length:   12000
+        Computed start: 2022-11-11 05:50:00+00:00
+        Computed stop:  2022-11-11 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 85:
+        Block start:    16681494000
+        Block length:   12000
+        Computed start: 2022-11-11 06:50:00+00:00
+        Computed stop:  2022-11-11 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 86:
+        Block start:    16681530000
+        Block length:   12000
+        Computed start: 2022-11-11 07:50:00+00:00
+        Computed stop:  2022-11-11 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 87:
+        Block start:    16681566000
+        Block length:   12000
+        Computed start: 2022-11-11 08:50:00+00:00
+        Computed stop:  2022-11-11 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 88:
+        Block start:    16681602000
+        Block length:   12000
+        Computed start: 2022-11-11 09:50:00+00:00
+        Computed stop:  2022-11-11 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 89:
+        Block start:    16681638000
+        Block length:   12000
+        Computed start: 2022-11-11 10:50:00+00:00
+        Computed stop:  2022-11-11 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 90:
+        Block start:    16681674000
+        Block length:   12000
+        Computed start: 2022-11-11 11:50:00+00:00
+        Computed stop:  2022-11-11 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 91:
+        Block start:    16681710000
+        Block length:   12000
+        Computed start: 2022-11-11 12:50:00+00:00
+        Computed stop:  2022-11-11 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 92:
+        Block start:    16681746000
+        Block length:   12000
+        Computed start: 2022-11-11 13:50:00+00:00
+        Computed stop:  2022-11-11 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 93:
+        Block start:    16681782000
+        Block length:   12000
+        Computed start: 2022-11-11 14:50:00+00:00
+        Computed stop:  2022-11-11 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 94:
+        Block start:    16681818000
+        Block length:   12000
+        Computed start: 2022-11-11 15:50:00+00:00
+        Computed stop:  2022-11-11 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 95:
+        Block start:    16681854000
+        Block length:   12000
+        Computed start: 2022-11-11 16:50:00+00:00
+        Computed stop:  2022-11-11 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 96:
+        Block start:    16681890000
+        Block length:   12000
+        Computed start: 2022-11-11 17:50:00+00:00
+        Computed stop:  2022-11-11 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 97:
+        Block start:    16681926000
+        Block length:   12000
+        Computed start: 2022-11-11 18:50:00+00:00
+        Computed stop:  2022-11-11 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 98:
+        Block start:    16681962000
+        Block length:   12000
+        Computed start: 2022-11-11 19:50:00+00:00
+        Computed stop:  2022-11-11 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 99:
+        Block start:    16681998000
+        Block length:   12000
+        Computed start: 2022-11-11 20:50:00+00:00
+        Computed stop:  2022-11-11 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 100:
+        Block start:    16682034000
+        Block length:   12000
+        Computed start: 2022-11-11 21:50:00+00:00
+        Computed stop:  2022-11-11 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 101:
+        Block start:    16682070000
+        Block length:   12000
+        Computed start: 2022-11-11 22:50:00+00:00
+        Computed stop:  2022-11-11 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 102:
+        Block start:    16682106000
+        Block length:   12000
+        Computed start: 2022-11-11 23:50:00+00:00
+        Computed stop:  2022-11-12 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 103:
+        Block start:    16682142000
+        Block length:   12000
+        Computed start: 2022-11-12 00:50:00+00:00
+        Computed stop:  2022-11-12 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 104:
+        Block start:    16682178000
+        Block length:   12000
+        Computed start: 2022-11-12 01:50:00+00:00
+        Computed stop:  2022-11-12 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 105:
+        Block start:    16682214000
+        Block length:   12000
+        Computed start: 2022-11-12 02:50:00+00:00
+        Computed stop:  2022-11-12 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 106:
+        Block start:    16682250000
+        Block length:   12000
+        Computed start: 2022-11-12 03:50:00+00:00
+        Computed stop:  2022-11-12 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 107:
+        Block start:    16682286000
+        Block length:   12000
+        Computed start: 2022-11-12 04:50:00+00:00
+        Computed stop:  2022-11-12 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 108:
+        Block start:    16682322000
+        Block length:   12000
+        Computed start: 2022-11-12 05:50:00+00:00
+        Computed stop:  2022-11-12 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 109:
+        Block start:    16682358000
+        Block length:   12000
+        Computed start: 2022-11-12 06:50:00+00:00
+        Computed stop:  2022-11-12 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 110:
+        Block start:    16682394000
+        Block length:   12000
+        Computed start: 2022-11-12 07:50:00+00:00
+        Computed stop:  2022-11-12 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 111:
+        Block start:    16682430000
+        Block length:   12000
+        Computed start: 2022-11-12 08:50:00+00:00
+        Computed stop:  2022-11-12 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 112:
+        Block start:    16682466000
+        Block length:   12000
+        Computed start: 2022-11-12 09:50:00+00:00
+        Computed stop:  2022-11-12 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 113:
+        Block start:    16682502000
+        Block length:   12000
+        Computed start: 2022-11-12 10:50:00+00:00
+        Computed stop:  2022-11-12 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 114:
+        Block start:    16682538000
+        Block length:   12000
+        Computed start: 2022-11-12 11:50:00+00:00
+        Computed stop:  2022-11-12 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 115:
+        Block start:    16682574000
+        Block length:   12000
+        Computed start: 2022-11-12 12:50:00+00:00
+        Computed stop:  2022-11-12 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 116:
+        Block start:    16682610000
+        Block length:   12000
+        Computed start: 2022-11-12 13:50:00+00:00
+        Computed stop:  2022-11-12 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 117:
+        Block start:    16682646000
+        Block length:   12000
+        Computed start: 2022-11-12 14:50:00+00:00
+        Computed stop:  2022-11-12 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 118:
+        Block start:    16682682000
+        Block length:   12000
+        Computed start: 2022-11-12 15:50:00+00:00
+        Computed stop:  2022-11-12 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 119:
+        Block start:    16682718000
+        Block length:   12000
+        Computed start: 2022-11-12 16:50:00+00:00
+        Computed stop:  2022-11-12 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 120:
+        Block start:    16682754000
+        Block length:   12000
+        Computed start: 2022-11-12 17:50:00+00:00
+        Computed stop:  2022-11-12 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 121:
+        Block start:    16682790000
+        Block length:   12000
+        Computed start: 2022-11-12 18:50:00+00:00
+        Computed stop:  2022-11-12 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 122:
+        Block start:    16682826000
+        Block length:   12000
+        Computed start: 2022-11-12 19:50:00+00:00
+        Computed stop:  2022-11-12 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 123:
+        Block start:    16682862000
+        Block length:   12000
+        Computed start: 2022-11-12 20:50:00+00:00
+        Computed stop:  2022-11-12 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 124:
+        Block start:    16682898000
+        Block length:   12000
+        Computed start: 2022-11-12 21:50:00+00:00
+        Computed stop:  2022-11-12 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 125:
+        Block start:    16682934000
+        Block length:   12000
+        Computed start: 2022-11-12 22:50:00+00:00
+        Computed stop:  2022-11-12 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 126:
+        Block start:    16682970000
+        Block length:   12000
+        Computed start: 2022-11-12 23:50:00+00:00
+        Computed stop:  2022-11-13 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 127:
+        Block start:    16683006000
+        Block length:   12000
+        Computed start: 2022-11-13 00:50:00+00:00
+        Computed stop:  2022-11-13 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 128:
+        Block start:    16683042000
+        Block length:   12000
+        Computed start: 2022-11-13 01:50:00+00:00
+        Computed stop:  2022-11-13 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 129:
+        Block start:    16683078000
+        Block length:   12000
+        Computed start: 2022-11-13 02:50:00+00:00
+        Computed stop:  2022-11-13 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 130:
+        Block start:    16683114000
+        Block length:   12000
+        Computed start: 2022-11-13 03:50:00+00:00
+        Computed stop:  2022-11-13 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 131:
+        Block start:    16683150000
+        Block length:   12000
+        Computed start: 2022-11-13 04:50:00+00:00
+        Computed stop:  2022-11-13 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 132:
+        Block start:    16683186000
+        Block length:   12000
+        Computed start: 2022-11-13 05:50:00+00:00
+        Computed stop:  2022-11-13 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 133:
+        Block start:    16683222000
+        Block length:   12000
+        Computed start: 2022-11-13 06:50:00+00:00
+        Computed stop:  2022-11-13 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 134:
+        Block start:    16683258000
+        Block length:   12000
+        Computed start: 2022-11-13 07:50:00+00:00
+        Computed stop:  2022-11-13 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 135:
+        Block start:    16683294000
+        Block length:   12000
+        Computed start: 2022-11-13 08:50:00+00:00
+        Computed stop:  2022-11-13 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 136:
+        Block start:    16683330000
+        Block length:   12000
+        Computed start: 2022-11-13 09:50:00+00:00
+        Computed stop:  2022-11-13 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 137:
+        Block start:    16683366000
+        Block length:   12000
+        Computed start: 2022-11-13 10:50:00+00:00
+        Computed stop:  2022-11-13 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 138:
+        Block start:    16683402000
+        Block length:   12000
+        Computed start: 2022-11-13 11:50:00+00:00
+        Computed stop:  2022-11-13 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 139:
+        Block start:    16683438000
+        Block length:   12000
+        Computed start: 2022-11-13 12:50:00+00:00
+        Computed stop:  2022-11-13 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 140:
+        Block start:    16683474000
+        Block length:   12000
+        Computed start: 2022-11-13 13:50:00+00:00
+        Computed stop:  2022-11-13 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 141:
+        Block start:    16683510000
+        Block length:   12000
+        Computed start: 2022-11-13 14:50:00+00:00
+        Computed stop:  2022-11-13 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 142:
+        Block start:    16683546000
+        Block length:   12000
+        Computed start: 2022-11-13 15:50:00+00:00
+        Computed stop:  2022-11-13 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 143:
+        Block start:    16683582000
+        Block length:   12000
+        Computed start: 2022-11-13 16:50:00+00:00
+        Computed stop:  2022-11-13 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 144:
+        Block start:    16683618000
+        Block length:   12000
+        Computed start: 2022-11-13 17:50:00+00:00
+        Computed stop:  2022-11-13 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 145:
+        Block start:    16683654000
+        Block length:   12000
+        Computed start: 2022-11-13 18:50:00+00:00
+        Computed stop:  2022-11-13 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 146:
+        Block start:    16683690000
+        Block length:   12000
+        Computed start: 2022-11-13 19:50:00+00:00
+        Computed stop:  2022-11-13 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 147:
+        Block start:    16683726000
+        Block length:   12000
+        Computed start: 2022-11-13 20:50:00+00:00
+        Computed stop:  2022-11-13 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 148:
+        Block start:    16683762000
+        Block length:   12000
+        Computed start: 2022-11-13 21:50:00+00:00
+        Computed stop:  2022-11-13 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 149:
+        Block start:    16683798000
+        Block length:   12000
+        Computed start: 2022-11-13 22:50:00+00:00
+        Computed stop:  2022-11-13 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 150:
+        Block start:    16683834000
+        Block length:   12000
+        Computed start: 2022-11-13 23:50:00+00:00
+        Computed stop:  2022-11-14 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 151:
+        Block start:    16683870000
+        Block length:   12000
+        Computed start: 2022-11-14 00:50:00+00:00
+        Computed stop:  2022-11-14 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 152:
+        Block start:    16683906000
+        Block length:   12000
+        Computed start: 2022-11-14 01:50:00+00:00
+        Computed stop:  2022-11-14 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 153:
+        Block start:    16683942000
+        Block length:   12000
+        Computed start: 2022-11-14 02:50:00+00:00
+        Computed stop:  2022-11-14 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 154:
+        Block start:    16683978000
+        Block length:   12000
+        Computed start: 2022-11-14 03:50:00+00:00
+        Computed stop:  2022-11-14 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 155:
+        Block start:    16684014000
+        Block length:   12000
+        Computed start: 2022-11-14 04:50:00+00:00
+        Computed stop:  2022-11-14 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 156:
+        Block start:    16684050000
+        Block length:   12000
+        Computed start: 2022-11-14 05:50:00+00:00
+        Computed stop:  2022-11-14 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 157:
+        Block start:    16684086000
+        Block length:   12000
+        Computed start: 2022-11-14 06:50:00+00:00
+        Computed stop:  2022-11-14 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 158:
+        Block start:    16684122000
+        Block length:   12000
+        Computed start: 2022-11-14 07:50:00+00:00
+        Computed stop:  2022-11-14 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 159:
+        Block start:    16684158000
+        Block length:   12000
+        Computed start: 2022-11-14 08:50:00+00:00
+        Computed stop:  2022-11-14 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 160:
+        Block start:    16684194000
+        Block length:   12000
+        Computed start: 2022-11-14 09:50:00+00:00
+        Computed stop:  2022-11-14 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 161:
+        Block start:    16684230000
+        Block length:   12000
+        Computed start: 2022-11-14 10:50:00+00:00
+        Computed stop:  2022-11-14 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 162:
+        Block start:    16684266000
+        Block length:   12000
+        Computed start: 2022-11-14 11:50:00+00:00
+        Computed stop:  2022-11-14 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 163:
+        Block start:    16684302000
+        Block length:   12000
+        Computed start: 2022-11-14 12:50:00+00:00
+        Computed stop:  2022-11-14 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 164:
+        Block start:    16684338000
+        Block length:   12000
+        Computed start: 2022-11-14 13:50:00+00:00
+        Computed stop:  2022-11-14 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 165:
+        Block start:    16684374000
+        Block length:   12000
+        Computed start: 2022-11-14 14:50:00+00:00
+        Computed stop:  2022-11-14 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 166:
+        Block start:    16684410000
+        Block length:   12000
+        Computed start: 2022-11-14 15:50:00+00:00
+        Computed stop:  2022-11-14 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 167:
+        Block start:    16684446000
+        Block length:   12000
+        Computed start: 2022-11-14 16:50:00+00:00
+        Computed stop:  2022-11-14 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 168:
+        Block start:    16684482000
+        Block length:   12000
+        Computed start: 2022-11-14 17:50:00+00:00
+        Computed stop:  2022-11-14 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 169:
+        Block start:    16684518000
+        Block length:   12000
+        Computed start: 2022-11-14 18:50:00+00:00
+        Computed stop:  2022-11-14 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 170:
+        Block start:    16684554000
+        Block length:   12000
+        Computed start: 2022-11-14 19:50:00+00:00
+        Computed stop:  2022-11-14 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 171:
+        Block start:    16684590000
+        Block length:   12000
+        Computed start: 2022-11-14 20:50:00+00:00
+        Computed stop:  2022-11-14 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 172:
+        Block start:    16684626000
+        Block length:   12000
+        Computed start: 2022-11-14 21:50:00+00:00
+        Computed stop:  2022-11-14 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 173:
+        Block start:    16684662000
+        Block length:   12000
+        Computed start: 2022-11-14 22:50:00+00:00
+        Computed stop:  2022-11-14 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 174:
+        Block start:    16684698000
+        Block length:   12000
+        Computed start: 2022-11-14 23:50:00+00:00
+        Computed stop:  2022-11-15 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 175:
+        Block start:    16684734000
+        Block length:   12000
+        Computed start: 2022-11-15 00:50:00+00:00
+        Computed stop:  2022-11-15 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 176:
+        Block start:    16684770000
+        Block length:   12000
+        Computed start: 2022-11-15 01:50:00+00:00
+        Computed stop:  2022-11-15 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 177:
+        Block start:    16684806000
+        Block length:   12000
+        Computed start: 2022-11-15 02:50:00+00:00
+        Computed stop:  2022-11-15 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 178:
+        Block start:    16684842000
+        Block length:   12000
+        Computed start: 2022-11-15 03:50:00+00:00
+        Computed stop:  2022-11-15 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 179:
+        Block start:    16684878000
+        Block length:   12000
+        Computed start: 2022-11-15 04:50:00+00:00
+        Computed stop:  2022-11-15 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 180:
+        Block start:    16684914000
+        Block length:   12000
+        Computed start: 2022-11-15 05:50:00+00:00
+        Computed stop:  2022-11-15 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 181:
+        Block start:    16684950000
+        Block length:   12000
+        Computed start: 2022-11-15 06:50:00+00:00
+        Computed stop:  2022-11-15 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 182:
+        Block start:    16684986000
+        Block length:   12000
+        Computed start: 2022-11-15 07:50:00+00:00
+        Computed stop:  2022-11-15 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 183:
+        Block start:    16685022000
+        Block length:   12000
+        Computed start: 2022-11-15 08:50:00+00:00
+        Computed stop:  2022-11-15 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 184:
+        Block start:    16685058000
+        Block length:   12000
+        Computed start: 2022-11-15 09:50:00+00:00
+        Computed stop:  2022-11-15 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 185:
+        Block start:    16685094000
+        Block length:   12000
+        Computed start: 2022-11-15 10:50:00+00:00
+        Computed stop:  2022-11-15 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 186:
+        Block start:    16685130000
+        Block length:   12000
+        Computed start: 2022-11-15 11:50:00+00:00
+        Computed stop:  2022-11-15 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 187:
+        Block start:    16685166000
+        Block length:   12000
+        Computed start: 2022-11-15 12:50:00+00:00
+        Computed stop:  2022-11-15 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 188:
+        Block start:    16685202000
+        Block length:   12000
+        Computed start: 2022-11-15 13:50:00+00:00
+        Computed stop:  2022-11-15 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 189:
+        Block start:    16685238000
+        Block length:   12000
+        Computed start: 2022-11-15 14:50:00+00:00
+        Computed stop:  2022-11-15 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 190:
+        Block start:    16685274000
+        Block length:   12000
+        Computed start: 2022-11-15 15:50:00+00:00
+        Computed stop:  2022-11-15 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 191:
+        Block start:    16685310000
+        Block length:   12000
+        Computed start: 2022-11-15 16:50:00+00:00
+        Computed stop:  2022-11-15 17:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 192:
+        Block start:    16685346000
+        Block length:   12000
+        Computed start: 2022-11-15 17:50:00+00:00
+        Computed stop:  2022-11-15 18:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 193:
+        Block start:    16685382000
+        Block length:   12000
+        Computed start: 2022-11-15 18:50:00+00:00
+        Computed stop:  2022-11-15 19:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 194:
+        Block start:    16685418000
+        Block length:   12000
+        Computed start: 2022-11-15 19:50:00+00:00
+        Computed stop:  2022-11-15 20:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 195:
+        Block start:    16685454000
+        Block length:   12000
+        Computed start: 2022-11-15 20:50:00+00:00
+        Computed stop:  2022-11-15 21:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 196:
+        Block start:    16685490000
+        Block length:   12000
+        Computed start: 2022-11-15 21:50:00+00:00
+        Computed stop:  2022-11-15 22:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 197:
+        Block start:    16685526000
+        Block length:   12000
+        Computed start: 2022-11-15 22:50:00+00:00
+        Computed stop:  2022-11-15 23:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 198:
+        Block start:    16685562000
+        Block length:   12000
+        Computed start: 2022-11-15 23:50:00+00:00
+        Computed stop:  2022-11-16 00:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 199:
+        Block start:    16685598000
+        Block length:   12000
+        Computed start: 2022-11-16 00:50:00+00:00
+        Computed stop:  2022-11-16 01:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 200:
+        Block start:    16685634000
+        Block length:   12000
+        Computed start: 2022-11-16 01:50:00+00:00
+        Computed stop:  2022-11-16 02:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 201:
+        Block start:    16685670000
+        Block length:   12000
+        Computed start: 2022-11-16 02:50:00+00:00
+        Computed stop:  2022-11-16 03:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 202:
+        Block start:    16685706000
+        Block length:   12000
+        Computed start: 2022-11-16 03:50:00+00:00
+        Computed stop:  2022-11-16 04:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 203:
+        Block start:    16685742000
+        Block length:   12000
+        Computed start: 2022-11-16 04:50:00+00:00
+        Computed stop:  2022-11-16 05:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 204:
+        Block start:    16685778000
+        Block length:   12000
+        Computed start: 2022-11-16 05:50:00+00:00
+        Computed stop:  2022-11-16 06:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 205:
+        Block start:    16685814000
+        Block length:   12000
+        Computed start: 2022-11-16 06:50:00+00:00
+        Computed stop:  2022-11-16 07:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 206:
+        Block start:    16685850000
+        Block length:   12000
+        Computed start: 2022-11-16 07:50:00+00:00
+        Computed stop:  2022-11-16 08:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 207:
+        Block start:    16685886000
+        Block length:   12000
+        Computed start: 2022-11-16 08:50:00+00:00
+        Computed stop:  2022-11-16 09:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 208:
+        Block start:    16685922000
+        Block length:   12000
+        Computed start: 2022-11-16 09:50:00+00:00
+        Computed stop:  2022-11-16 10:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 209:
+        Block start:    16685958000
+        Block length:   12000
+        Computed start: 2022-11-16 10:50:00+00:00
+        Computed stop:  2022-11-16 11:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 210:
+        Block start:    16685994000
+        Block length:   12000
+        Computed start: 2022-11-16 11:50:00+00:00
+        Computed stop:  2022-11-16 12:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 211:
+        Block start:    16686030000
+        Block length:   12000
+        Computed start: 2022-11-16 12:50:00+00:00
+        Computed stop:  2022-11-16 13:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 212:
+        Block start:    16686066000
+        Block length:   12000
+        Computed start: 2022-11-16 13:50:00+00:00
+        Computed stop:  2022-11-16 14:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 213:
+        Block start:    16686102000
+        Block length:   12000
+        Computed start: 2022-11-16 14:50:00+00:00
+        Computed stop:  2022-11-16 15:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 214:
+        Block start:    16686138000
+        Block length:   12000
+        Computed start: 2022-11-16 15:50:00+00:00
+        Computed stop:  2022-11-16 16:09:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 2.5314 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key file_cadence_millisecs has different values:
+      First:   60000
+      Current: 600000
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+  Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000004/OBS2022-11-07T00-00.meta.pkl
   --------------------------------------------------------------------------------------------------------
   Summary: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000004
   --------------------------------------------------------------------------------------------------------
     Samples considered:
       OBS2022-07-07T15-00
         skipped blocks:     0 of 33
+        num_subchannels:    1
+        center_frequencies: [5.0]
+      OBS2022-11-07T00-00
+        skipped blocks:     5 of 209
         num_subchannels:    1
         center_frequencies: [5.0]
     Dataset times and data not returned because return_samples = False.

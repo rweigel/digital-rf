@@ -2,7 +2,7 @@
 ----------------------------------------------------------------------------------------------------------
 S000043
   Station directory: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000043
-  first_last = False and n=1 gave 1 sample dirs out of 1007.
+  first_last = False and n=2 gave 2 sample dirs out of 1007.
 
   Sample: OBS2023-03-02T00-00
     Channels: ['ch0']
@@ -80,9 +80,69 @@ S000043
         Computed stop:  2023-03-02 17:04:03.400000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.0510 seconds
-  Time to read cached sample: 0.0083 seconds
-  Speedup from caching: 6.17x
+  Time to read sample: 0.1258 seconds
+  Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000043/OBS2023-03-02T00-00.meta.pkl
+
+  Sample: OBS2023-08-07T00-00
+    Channels: ['ch0']
+    Channel start index: 16934432300
+    Channel stop index:  16934441452
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1693443230.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1693444145.2 = (end index)/samples_per_second
+    Computed sample start UTC time: 2023-08-31T00:53:50.000000Z
+    Computed sample stop UTC time:  2023-08-31T01:09:05.200000Z
+
+    Found 3 continuous blocks
+      Block 1:
+        Block start:    16934432300
+        Block length:   100
+        Computed start: 2023-08-31 00:53:50+00:00
+        Computed stop:  2023-08-31 00:53:59.900000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 42.6458
+          long: -71.375
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+      Block 2:
+        Block start:    16934435400
+        Block length:   1200
+        Computed start: 2023-08-31 00:59:00+00:00
+        Computed stop:  2023-08-31 01:00:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+      Block 3:
+        Block start:    16934441400
+        Block length:   53
+        Computed start: 2023-08-31 01:09:00+00:00
+        Computed stop:  2023-08-31 01:09:05.200000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 0.0441 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+  Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000043/OBS2023-08-07T00-00.meta.pkl
   --------------------------------------------------------------------------------------------------------
   Summary: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000043
   --------------------------------------------------------------------------------------------------------
@@ -91,5 +151,9 @@ S000043
         skipped blocks:     0 of 6
         num_subchannels:    1
         center_frequencies: [5.0]
+      OBS2023-08-07T00-00
+        skipped blocks:     0 of 3
+        num_subchannels:    1
+        center_frequencies: [10.0]
     Dataset times and data not returned because return_samples = False.
   --------------------------------------------------------------------------------------------------------

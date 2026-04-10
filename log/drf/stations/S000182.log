@@ -2,7 +2,7 @@
 ----------------------------------------------------------------------------------------------------------
 S000182
   Station directory: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000182
-  first_last = False and n=1 gave 1 sample dirs out of 148.
+  first_last = False and n=2 gave 2 sample dirs out of 148.
 
   Sample: OBS2025-01-03T00-00
     Channels: ['ch0']
@@ -55,14 +55,74 @@ S000182
         Computed stop:  2025-01-03 23:59:59.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.0074 seconds
-  Time to read cached sample: 0.0091 seconds
-  Speedup from caching: 0.81x
+  Time to read sample: 0.1555 seconds
+  Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-03T00-00.meta.pkl
+
+  Sample: OBS2025-01-04T00-00
+    Channels: ['ch0']
+    Channel start index: 17359488000
+    Channel stop index:  17360351999
+    Properties:
+      H5Tget_class: 0
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 16
+      H5Tget_size: 2
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 3600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 9
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 86400
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1735948800.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1736035199.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2025-01-04T00:00:00.000000Z
+    Computed sample stop UTC time:  2025-01-04T23:59:59.900000Z
+
+    Found 2 continuous blocks
+      Block 1:
+        Block start:    17359488000
+        Block length:   36000
+        Computed start: 2025-01-04 00:00:00+00:00
+        Computed stop:  2025-01-04 00:59:59.900000+00:00
+        Metadata:
+          callsign: K0RX
+          center_frequencies: [ 2.5   3.33  5.    7.85 10.   14.67 15.   20.   25.  ]
+          grid_square: EN41fq
+          lat: 41.66666793823242
+          long: -91.58333587646484
+          receiver_name: KA9Q_0_WWV
+          uuid_str: 78fd22ed6f3342719d2d27cc84624d16
+          sample_rate_numerator: 10
+          sample_rate_denominator: 1
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+      Block 2:
+        Block start:    17360316000
+        Block length:   36000
+        Computed start: 2025-01-04 23:00:00+00:00
+        Computed stop:  2025-01-04 23:59:59.900000+00:00
+        Metadata: No metadata for this block.
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 0.0674 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+  Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-04T00-00.meta.pkl
   --------------------------------------------------------------------------------------------------------
   Summary: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000182
   --------------------------------------------------------------------------------------------------------
     Samples considered:
       OBS2025-01-03T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-04T00-00
         skipped blocks:     0 of 2
         num_subchannels:    9
         center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]

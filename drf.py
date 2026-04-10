@@ -752,11 +752,11 @@ def _print_station_summary(station_id, result, station_dir, return_samples):
     logger.info(station_id, msg)
 
 
-def _write_tables(station_id, result):
+def _write_tables(station_id, results):
 
     config = {
       "use_all_attributes": True,
-      "out_dir": os.path.join(args.table_dir, "stations", station_id),
+      "out_dir": args.table_dir,
       "formats": ["sql", "csv"],
       "name": "samples",
       "omit_attributes": ["digital_rf_time_description"],
@@ -766,33 +766,40 @@ def _write_tables(station_id, result):
       }
     }
 
-    sample_metadata = []
-    for sample_name, sample_value in result['metadata'].items():
-      flattened = utilrsw.flatten_dicts(sample_value['sample'], simplify=True)
-      # Move all attributes that start with H5 to end of flattened dict.
-      flattened = {k: v for k, v in flattened.items() if not k.startswith('H5')} | \
-                  {k: v for k, v in flattened.items() if k.startswith('H5')}
+    if not isinstance(results, list):
+      results = [results]
 
-      sample = {'station': station_id, **flattened}
-      sample_metadata.append(sample)
+    sample_meta = []
+    for result in results:
+      for sample_name, sample_value in result['metadata'].items():
+        flattened = utilrsw.flatten_dicts(sample_value['sample'], simplify=True)
+        # Move all attributes that start with H5 to end of flattened dict.
+        flattened = {k: v for k, v in flattened.items() if not k.startswith('H5')} | \
+                    {k: v for k, v in flattened.items() if k.startswith('H5')}
 
-    block_metadata = []
-    for sample_name, sample_value in result['metadata'].items():
-      for idx, block in enumerate(sample_value.get('blocks', [])):
-        flattened = utilrsw.flatten_dicts(block, simplify=True)
-        block_metadata.append({'station': station_id, 'sample': sample_name, 'block': idx, **flattened})
+        sample = {'station': station_id, **flattened}
+        sample_meta.append(sample)
+
+    block_meta = []
+    for result in results:
+      for sample_name, sample_value in result['metadata'].items():
+        for idx, block in enumerate(sample_value.get('blocks', [])):
+          flattened = utilrsw.flatten_dicts(block, simplify=True)
+          block_meta.append({'station': station_id, 'sample': sample_name, 'block': idx, **flattened})
 
     if False:
       import logging
       dict2sql_logger = logging.getLogger('dict2sql')
       dict2sql_logger.setLevel(logging.DEBUG)
 
-    tableui.dict2sql(sample_metadata, config)
+    tableui.dict2sql(sample_meta, config)
 
     config['name'] = "blocks"
-    tableui.dict2sql(block_metadata, config)
+    tableui.dict2sql(block_meta, config)
 
     print(f"  Wrote sample and block tables to {config['out_dir']}")
+
+    return sample_meta, block_meta
 
 if __name__ == '__main__':
 
@@ -805,6 +812,7 @@ if __name__ == '__main__':
   print(f"Log directory:   {args.log_dir}")
 
   catalog = []
+  results = []
   for station_id in _listdir(args.station_dir):
 
     if args.station is not None and station_id != args.station:
@@ -835,7 +843,16 @@ if __name__ == '__main__':
     # Write info, warning, and error files.
     logger.write(station_id)
 
-    _write_tables(station_id, result)
+    if result is not None:
+      # Write tables for all stations processed so far. This is done
+      # in the station loop in case there is an exception that causes
+      # the loop to stop before processing all stations.
+      results.append(result)
+      _write_tables(station_id, results)
+
+    if station_id == 'S000028':
+      # If processing only one station, break after processing it.
+      break
 
   if len(catalog) > 0:
     # Write HAPI catalog file
