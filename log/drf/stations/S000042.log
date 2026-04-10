@@ -55,7 +55,7 @@ S000042
         Computed stop:  2024-03-13 23:59:59.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.4331 seconds
+  Time to read sample: 0.4231 seconds
   Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000042/OBS2024-03-13T00-00.meta.pkl
 
   Sample: OBS2024-03-14T00-00
@@ -109,7 +109,7 @@ S000042
         Computed stop:  2024-03-14 23:59:59.900000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 0.0099 seconds
+  Time to read sample: 0.0064 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.

@@ -13,6 +13,7 @@
       "columnOptions": [
         {"name": "station", "width": "3em"},
         {"name": "channels", "width": "5em"},
+        {"name": "n_blocks", "width": "3em"},
         {"name": "start_index", "width": "5em"},
         {"name": "end_index", "width": "5em"},
         {"name": "start_unix", "width": "5em"},

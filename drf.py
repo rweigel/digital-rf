@@ -773,11 +773,34 @@ def _write_tables(station_id, results):
     for result in results:
       for sample_name, sample_value in result['metadata'].items():
         flattened = utilrsw.flatten_dicts(sample_value['sample'], simplify=True)
-        # Move all attributes that start with H5 to end of flattened dict.
-        flattened = {k: v for k, v in flattened.items() if not k.startswith('H5')} | \
-                    {k: v for k, v in flattened.items() if k.startswith('H5')}
 
-        sample = {'station': station_id, **flattened}
+        first_block = utilrsw.get_path(result['metadata'], [sample_name, 'blocks', 0, 'metadata'])
+        if first_block is not None:
+          center_frequencies = first_block.get('center_frequencies', None)
+          n_blocks = len(sample_value.get('blocks', []))
+          flattened['center_frequencies'] = center_frequencies
+          flattened['n_blocks'] = n_blocks
+
+        sample = {
+          'station': station_id,
+          **flattened
+        }
+
+        # Move all attributes that start with H5 to end of flattened dict.
+        sample = {k: v for k, v in sample.items() if not k.startswith('H5')} | \
+                    {k: v for k, v in sample.items() if k.startswith('H5')}
+
+        # Move n_blocks and center_frequencies to after id
+        move_keys = [k for k in ['n_blocks', 'center_frequencies'] if k in sample]
+        if 'id' in sample and move_keys:
+          keys = list(sample.keys())
+          for k in move_keys:
+            keys.remove(k)
+          insert_pos = keys.index('id') + 1
+          for i, k in enumerate(move_keys):
+            keys.insert(insert_pos + i, k)
+          sample = {k: sample[k] for k in keys}
+
         sample_meta.append(sample)
 
     block_meta = []
@@ -785,7 +808,13 @@ def _write_tables(station_id, results):
       for sample_name, sample_value in result['metadata'].items():
         for idx, block in enumerate(sample_value.get('blocks', [])):
           flattened = utilrsw.flatten_dicts(block, simplify=True)
-          block_meta.append({'station': station_id, 'sample': sample_name, 'block': idx, **flattened})
+          block = {
+            'station': station_id,
+            'sample': sample_name,
+            'block': idx,
+            **flattened
+          }
+          block_meta.append(block)
 
     if False:
       import logging
