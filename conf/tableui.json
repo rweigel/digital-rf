@@ -1,0 +1,59 @@
+[
+  {
+    "path": "samples",
+    "table_name": "samples",
+    "sqldb": "../table/drf/samples.sql",
+    "dataTablesAdditions": {
+      "fixedColumns": 2,
+      "columnDropdowns": true,
+      "tableMetadata": {
+        "tableTitle": "Samples",
+        "description+": ""
+      },
+      "columnOptions": [
+        {"name": "station", "width": "3em"},
+        {"name": "channels", "width": "5em"},
+        {"name": "start_index", "width": "5em"},
+        {"name": "end_index", "width": "5em"},
+        {"name": "start_unix", "width": "5em"},
+        {"name": "end_unix", "width": "5em"},
+        {"name": "H5Tget_class", "width": "5em"},
+        {"name": "H5Tget_offset", "width": "5em"},
+        {"name": "H5Tget_order", "width": "5em"},
+        {"name": "H5Tget_precision", "width": "5em"},
+        {"name": "H5Tget_size", "width": "5em"},
+        {"name": "digital_rf_version", "width": "3em"},
+        {"name": "file_cadence_millisecs", "width": "10em"},
+        {"name": "is_complex", "width": "5em"},
+        {"name": "is_continuous", "width": "5em"},
+        {"name": "num_subchannels", "width": "5em"},
+        {"name": "sample_rate_denominator", "width": "10em"},
+        {"name": "sample_rate_numerator", "width": "10em"},
+        {"name": "subdir_cadence_secs", "width": "10em"},
+        {"name": "samples_per_second", "width": "10em"}
+      ]
+    }
+  },
+  {
+    "path": "blocks",
+    "table_name": "blocks",
+    "sqldb": "../table/drf/blocks.sql",
+    "dataTablesAdditions": {
+      "fixedColumns": 3,
+      "columnDropdowns": true,
+      "tableMetadata": {
+        "tableTitle": "Blocks",
+        "description+": ""
+      },
+      "columnOptions": [
+        {"name": "station", "width": "3em"},
+        {"name": "block", "width": "3em"},
+        {"name": "length", "width": "5em"},
+        {"name": "start_index", "width": "5em"},
+        {"name": "end_index", "width": "5em"},
+        {"name": "start_unix", "width": "5em"},
+        {"name": "end_unix", "width": "5em"}
+    ]
+    }
+  }
+]
