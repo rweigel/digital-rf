@@ -90,21 +90,6 @@ def process_samples(station_id, station_dir,
 
     return False
 
-  def to_json_safe(obj):
-    if isinstance(obj, np.ndarray):
-      return [to_json_safe(i) for i in obj.tolist()]
-    if isinstance(obj, np.floating):
-      return float(obj)
-    if isinstance(obj, np.integer):
-      return int(obj)
-    if isinstance(obj, np.generic):
-      return obj.item()
-    if isinstance(obj, dict):
-      return {(k.item() if isinstance(k, np.generic) else k): to_json_safe(v) for k, v in obj.items()}
-    if isinstance(obj, (list, tuple)):
-      return [to_json_safe(i) for i in obj]
-    return obj
-
   def write_sample_cache(cache_dir, sample_dir, metadata, data):
     station_id = os.path.basename(station_dir)
     obs_dir = os.path.basename(sample_dir)
@@ -115,7 +100,7 @@ def process_samples(station_id, station_dir,
 
     # Also write JSON file for debugging and inspection purposes.
     cache_file = os.path.join(cache_dir, station_id, f"{obs_dir}.meta.json")
-    metadata_json = to_json_safe(metadata)
+    metadata_json = _to_json_safe(metadata)
     utilrsw.write(cache_file, metadata_json)
 
     if data is not None:
@@ -306,7 +291,7 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
 
   metadata = {
     'sample': {
-      'id': f"{station_id}/{os.path.basename(observation_dir)}",
+      'id': os.path.basename(observation_dir),
       'channels': channels,
       'start_index': start_sample,
       'end_index': end_sample,
@@ -501,6 +486,7 @@ def _cli():
   base_dir = utilrsw.script_info()['dir']
   cache_dir = os.path.join(base_dir, "cache")
   log_dir = os.path.join(base_dir, "log", "drf")
+  table_dir = os.path.join(base_dir, "table", "drf")
   catalog_dir = os.path.join(base_dir, "metadata", "drf")
 
   parser.add_argument(
@@ -510,6 +496,10 @@ def _cli():
   parser.add_argument(
       '--log-dir', type=str, default=log_dir, dest='log_dir',
       help=f'Directory to use for caching sample data. Default is {log_dir}.'
+  )
+  parser.add_argument(
+      '--table-dir', type=str, default=table_dir, dest='table_dir',
+      help=f'Directory to use for caching sample data. Default is {table_dir}.'
   )
   parser.add_argument(
       '--catalog-dir', type=str, default=catalog_dir, dest='catalog_dir',
@@ -762,7 +752,51 @@ def _print_station_summary(station_id, result, station_dir, return_samples):
     logger.info(station_id, msg)
 
 
+def _write_tables(station_id, result):
+
+    config = {
+      "use_all_attributes": True,
+      "out_dir": os.path.join(args.table_dir, "stations", station_id),
+      "formats": ["sql", "csv"],
+      "name": "samples",
+      "omit_attributes": ["digital_rf_time_description"],
+      "paths": {
+        "/": {
+        }
+      }
+    }
+
+    sample_metadata = []
+    for sample_name, sample_value in result['metadata'].items():
+      flattened = utilrsw.flatten_dicts(sample_value['sample'], simplify=True)
+      # Move all attributes that start with H5 to end of flattened dict.
+      flattened = {k: v for k, v in flattened.items() if not k.startswith('H5')} | \
+                  {k: v for k, v in flattened.items() if k.startswith('H5')}
+
+      sample = {'station': station_id, **flattened}
+      sample_metadata.append(sample)
+
+    block_metadata = []
+    for sample_name, sample_value in result['metadata'].items():
+      for idx, block in enumerate(sample_value.get('blocks', [])):
+        flattened = utilrsw.flatten_dicts(block, simplify=True)
+        block_metadata.append({'station': station_id, 'sample': sample_name, 'block': idx, **flattened})
+
+    if False:
+      import logging
+      dict2sql_logger = logging.getLogger('dict2sql')
+      dict2sql_logger.setLevel(logging.DEBUG)
+
+    tableui.dict2sql(sample_metadata, config)
+
+    config['name'] = "blocks"
+    tableui.dict2sql(block_metadata, config)
+
+    print(f"  Wrote sample and block tables to {config['out_dir']}")
+
 if __name__ == '__main__':
+
+  import tableui
 
   args = _cli()
   logger = _log(log_dir=args.log_dir)
@@ -800,6 +834,8 @@ if __name__ == '__main__':
 
     # Write info, warning, and error files.
     logger.write(station_id)
+
+    _write_tables(station_id, result)
 
   if len(catalog) > 0:
     # Write HAPI catalog file

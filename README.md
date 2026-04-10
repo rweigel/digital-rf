@@ -2,6 +2,7 @@
 
 ```
 pip install git+https://github.com/rweigel/utilrsw
+pip install git+https://github.com/rweigel/table-ui
 pip install digital_rf
 # Run analysis on first DRF observation directory in /home/S000182
 python drf.py --base_dir /home --station S000182
