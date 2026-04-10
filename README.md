@@ -15,7 +15,7 @@ python drf.py --station-dir /home --cache-samples --n 2
 # View results at http://0.0.0.0:5001
 tableui-serve --conf conf/tableui.json
 
-# Run analysis on first all DRF observations dirs for all stations
+# Run analysis on all DRF observations dirs for all stations
 python drf.py --station-dir /home --cache-samples --n -1
 # View results at http://0.0.0.0:5001
 tableui-serve --conf conf/tableui.json
