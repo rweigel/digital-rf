@@ -839,9 +839,18 @@ if __name__ == '__main__':
   print(f"Cache directory: {args.cache_dir}")
   print(f"Log directory:   {args.log_dir}")
 
+  if not os.path.exists(args.station_dir):
+    raise ValueError(f"Station directory {args.station_dir} does not exist. Exiting.")
+
+  station_dirs = _listdir(args.station_dir)
+
+  if len(station_dirs) == 0:
+    print(f"No station subdirectories found in {args.station_dir}. Exiting.")
+    exit(1)
+
   catalog = []
   results = []
-  for station_id in _listdir(args.station_dir):
+  for station_id in station_dirs:
 
     if args.station is not None and station_id != args.station:
       continue
