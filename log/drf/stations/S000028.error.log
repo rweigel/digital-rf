@@ -1,1 +1,2 @@
   Error processing /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000028/OBS2021-12-13T00:00: No channels found: top_level_directory_arg = /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000028/OBS2021-12-13T00:00. If path is correct, you may need to run recreate_properties_file to re-create missing drf_properties.h5 files.
+  Error processing /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000028/OBS2024-04-03T00-00: Unable to synchronously open file (truncated file: eof = 96, sblock->base_addr = 0, stored_eof = 2048)
