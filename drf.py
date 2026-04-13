@@ -100,8 +100,7 @@ def process_samples(station_id, station_dir,
 
     # Also write JSON file for debugging and inspection purposes.
     cache_file = os.path.join(cache_dir, station_id, f"{obs_dir}.meta.json")
-    metadata_json = _to_json_safe(metadata)
-    utilrsw.write(cache_file, metadata_json)
+    utilrsw.write(cache_file, metadata)
 
     if data is not None:
       cache_file = os.path.join(cache_dir, station_id, f"{obs_dir}.data.pkl")
@@ -818,13 +817,13 @@ def _write_tables(station_id, results):
 
     if False:
       import logging
-      dict2sql_logger = logging.getLogger('dict2sql')
-      dict2sql_logger.setLevel(logging.DEBUG)
+      dicts2table_logger = logging.getLogger('dicts2table')
+      dicts2table_logger.setLevel(logging.DEBUG)
 
-    tableui.dict2sql(sample_meta, config)
+    tableui.dicts2table(sample_meta, config)
 
     config['name'] = "blocks"
-    tableui.dict2sql(block_meta, config)
+    tableui.dicts2table(block_meta, config)
 
     print(f"  Wrote sample and block tables to {config['out_dir']}")
 
