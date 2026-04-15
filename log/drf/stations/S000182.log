@@ -1,122 +1,2050 @@
 
-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 S000182
   Station directory: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000182
-  first_last = False and n=2 gave 2 sample dirs out of 148.
 
-  Sample: OBS2025-01-03T00-00
-    Channels: ['ch0']
-    Channel start index: 17358624000
-    Channel stop index:  17359487999
-    Properties:
-      H5Tget_class: 0
-      H5Tget_offset: 0
-      H5Tget_order: 0
-      H5Tget_precision: 16
-      H5Tget_size: 2
-      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
-      digital_rf_version: 2.6.0
-      epoch: 1970-01-01T00:00:00Z
-      file_cadence_millisecs: 3600000
-      is_complex: 1
-      is_continuous: 1
-      num_subchannels: 9
-      sample_rate_denominator: 1
-      sample_rate_numerator: 10
-      subdir_cadence_secs: 86400
-      samples_per_second: 10.0
-    Computed sample start seconds since epoch: 1735862400.0 = (start index)/samples_per_second
-    Computed sample stop seconds since epoch:  1735948799.9 = (end index)/samples_per_second
-    Computed sample start UTC time: 2025-01-03T00:00:00.000000Z
-    Computed sample stop UTC time:  2025-01-03T23:59:59.900000Z
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-03T00-00.meta.pkl
+  Time to read cached sample: 0.0086 seconds
 
-    Found 2 continuous blocks
-      Block 1:
-        Block start:    17358624000
-        Block length:   36000
-        Computed start: 2025-01-03 00:00:00+00:00
-        Computed stop:  2025-01-03 00:59:59.900000+00:00
-        Metadata:
-          callsign: K0RX
-          center_frequencies: [ 2.5   3.33  5.    7.85 10.   14.67 15.   20.   25.  ]
-          grid_square: EN41fq
-          lat: 41.66666793823242
-          long: -91.58333587646484
-          receiver_name: KA9Q_0_WWV
-          uuid_str: 8aba0fda6cab484ca54251afadac0d59
-          sample_rate_numerator: 10
-          sample_rate_denominator: 1
-          samples_per_second: 10.0
-        Data: Not read because read_samples is set to False.
-      Block 2:
-        Block start:    17359452000
-        Block length:   36000
-        Computed start: 2025-01-03 23:00:00+00:00
-        Computed stop:  2025-01-03 23:59:59.900000+00:00
-        Metadata: No metadata for this block.
-        Data: Not read because read_samples is set to False.
-  Time to read sample: 0.1555 seconds
-  Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-03T00-00.meta.pkl
-
-  Sample: OBS2025-01-04T00-00
-    Channels: ['ch0']
-    Channel start index: 17359488000
-    Channel stop index:  17360351999
-    Properties:
-      H5Tget_class: 0
-      H5Tget_offset: 0
-      H5Tget_order: 0
-      H5Tget_precision: 16
-      H5Tget_size: 2
-      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
-      digital_rf_version: 2.6.0
-      epoch: 1970-01-01T00:00:00Z
-      file_cadence_millisecs: 3600000
-      is_complex: 1
-      is_continuous: 1
-      num_subchannels: 9
-      sample_rate_denominator: 1
-      sample_rate_numerator: 10
-      subdir_cadence_secs: 86400
-      samples_per_second: 10.0
-    Computed sample start seconds since epoch: 1735948800.0 = (start index)/samples_per_second
-    Computed sample stop seconds since epoch:  1736035199.9 = (end index)/samples_per_second
-    Computed sample start UTC time: 2025-01-04T00:00:00.000000Z
-    Computed sample stop UTC time:  2025-01-04T23:59:59.900000Z
-
-    Found 2 continuous blocks
-      Block 1:
-        Block start:    17359488000
-        Block length:   36000
-        Computed start: 2025-01-04 00:00:00+00:00
-        Computed stop:  2025-01-04 00:59:59.900000+00:00
-        Metadata:
-          callsign: K0RX
-          center_frequencies: [ 2.5   3.33  5.    7.85 10.   14.67 15.   20.   25.  ]
-          grid_square: EN41fq
-          lat: 41.66666793823242
-          long: -91.58333587646484
-          receiver_name: KA9Q_0_WWV
-          uuid_str: 78fd22ed6f3342719d2d27cc84624d16
-          sample_rate_numerator: 10
-          sample_rate_denominator: 1
-          samples_per_second: 10.0
-        Data: Not read because read_samples is set to False.
-      Block 2:
-        Block start:    17360316000
-        Block length:   36000
-        Computed start: 2025-01-04 23:00:00+00:00
-        Computed stop:  2025-01-04 23:59:59.900000+00:00
-        Metadata: No metadata for this block.
-        Data: Not read because read_samples is set to False.
-  Time to read sample: 0.0674 seconds
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-04T00-00.meta.pkl
+  Time to read cached sample: 0.0087 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
-  Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-04T00-00.meta.pkl
-  --------------------------------------------------------------------------------------------------------
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-05T00-00.meta.pkl
+  Time to read cached sample: 0.0090 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-06T00-00.meta.pkl
+  Time to read cached sample: 0.0082 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-07T00-00.meta.pkl
+  Time to read cached sample: 0.0082 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-08T00-00.meta.pkl
+  Time to read cached sample: 0.0081 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-09T00-00.meta.pkl
+  Time to read cached sample: 0.0068 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-10T00-00.meta.pkl
+  Time to read cached sample: 0.0075 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-11T00-00.meta.pkl
+  Time to read cached sample: 0.0046 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-12T00-00.meta.pkl
+  Time to read cached sample: 0.0053 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-13T00-00.meta.pkl
+  Time to read cached sample: 0.0049 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-14T00-00.meta.pkl
+  Time to read cached sample: 0.0053 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-15T00-00.meta.pkl
+  Time to read cached sample: 0.0048 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-16T00-00.meta.pkl
+  Time to read cached sample: 0.0053 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-17T00-00.meta.pkl
+  Time to read cached sample: 0.0046 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-18T00-00.meta.pkl
+  Time to read cached sample: 0.0051 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-19T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-20T00-00.meta.pkl
+  Time to read cached sample: 0.0049 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-21T00-00.meta.pkl
+  Time to read cached sample: 0.0049 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-22T00-00.meta.pkl
+  Time to read cached sample: 0.0044 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-23T00-00.meta.pkl
+  Time to read cached sample: 0.0044 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-24T00-00.meta.pkl
+  Time to read cached sample: 0.0046 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-25T00-00.meta.pkl
+  Time to read cached sample: 0.0051 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-26T00-00.meta.pkl
+  Time to read cached sample: 0.0050 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-27T00-00.meta.pkl
+  Time to read cached sample: 0.0049 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-01-28T00-00.meta.pkl
+  Time to read cached sample: 0.0046 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-03T00-00.meta.pkl
+  Time to read cached sample: 0.0041 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 8
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-05T00-00.meta.pkl
+  Time to read cached sample: 0.0039 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-06T00-00.meta.pkl
+  Time to read cached sample: 0.0050 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-07T00-00.meta.pkl
+  Time to read cached sample: 0.0046 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-08T00-00.meta.pkl
+  Time to read cached sample: 0.0048 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-09T00-00.meta.pkl
+  Time to read cached sample: 0.0043 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-10T00-00.meta.pkl
+  Time to read cached sample: 0.0047 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-11T00-00.meta.pkl
+  Time to read cached sample: 0.0036 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-12T00-00.meta.pkl
+  Time to read cached sample: 0.0050 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-13T00-00.meta.pkl
+  Time to read cached sample: 0.0045 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-14T00-00.meta.pkl
+  Time to read cached sample: 0.0051 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-15T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-16T00-00.meta.pkl
+  Time to read cached sample: 0.0057 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-17T00-00.meta.pkl
+  Time to read cached sample: 0.0048 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-18T00-00.meta.pkl
+  Time to read cached sample: 0.0049 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-19T00-00.meta.pkl
+  Time to read cached sample: 0.0053 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-20T00-00.meta.pkl
+  Time to read cached sample: 0.0050 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-21T00-00.meta.pkl
+  Time to read cached sample: 0.0056 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-22T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-23T00-00.meta.pkl
+  Time to read cached sample: 0.0037 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-24T00-00.meta.pkl
+  Time to read cached sample: 0.0049 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-25T00-00.meta.pkl
+  Time to read cached sample: 0.0050 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-26T00-00.meta.pkl
+  Time to read cached sample: 0.0065 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-27T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-02-28T00-00.meta.pkl
+  Time to read cached sample: 0.0050 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-02T00-00.meta.pkl
+  Time to read cached sample: 0.0051 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-03T00-00.meta.pkl
+  Time to read cached sample: 0.0050 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-04T00-00.meta.pkl
+  Time to read cached sample: 0.0053 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-05T00-00.meta.pkl
+  Time to read cached sample: 0.0047 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-06T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-07T00-00.meta.pkl
+  Time to read cached sample: 0.0042 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-08T00-00.meta.pkl
+  Time to read cached sample: 0.0036 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-09T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-10T00-00.meta.pkl
+  Time to read cached sample: 0.0047 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-14T00-00.meta.pkl
+  Time to read cached sample: 0.0048 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-15T00-00.meta.pkl
+  Time to read cached sample: 0.0048 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-17T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-18T00-00.meta.pkl
+  Time to read cached sample: 0.0050 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-19T00-00.meta.pkl
+  Time to read cached sample: 0.0040 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-20T00-00.meta.pkl
+  Time to read cached sample: 0.0059 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-24T00-00.meta.pkl
+  Time to read cached sample: 0.0060 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-03-25T00-00.meta.pkl
+  Time to read cached sample: 0.0057 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-02T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-03T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-04T00-00.meta.pkl
+  Time to read cached sample: 0.0055 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-05T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-06T00-00.meta.pkl
+  Time to read cached sample: 0.0058 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-07T00-00.meta.pkl
+  Time to read cached sample: 0.0053 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-08T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-09T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-10T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-11T00-00.meta.pkl
+  Time to read cached sample: 0.0060 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-12T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-13T00-00.meta.pkl
+  Time to read cached sample: 0.0055 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-14T00-00.meta.pkl
+  Time to read cached sample: 0.0056 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-15T00-00.meta.pkl
+  Time to read cached sample: 0.0056 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-16T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-17T00-00.meta.pkl
+  Time to read cached sample: 0.0057 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-18T00-00.meta.pkl
+  Time to read cached sample: 0.0057 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-19T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-20T00-00.meta.pkl
+  Time to read cached sample: 0.0053 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-21T00-00.meta.pkl
+  Time to read cached sample: 0.0057 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-22T00-00.meta.pkl
+  Time to read cached sample: 0.0060 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-23T00-00.meta.pkl
+  Time to read cached sample: 0.0057 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-24T00-00.meta.pkl
+  Time to read cached sample: 0.0058 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-25T00-00.meta.pkl
+  Time to read cached sample: 0.0057 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-26T00-00.meta.pkl
+  Time to read cached sample: 0.0053 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-27T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-28T00-00.meta.pkl
+  Time to read cached sample: 0.0051 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-29T00-00.meta.pkl
+  Time to read cached sample: 0.0055 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-30T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-05-31T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-01T00-00.meta.pkl
+  Time to read cached sample: 0.0051 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-02T00-00.meta.pkl
+  Time to read cached sample: 0.0057 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-03T00-00.meta.pkl
+  Time to read cached sample: 0.0055 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-04T00-00.meta.pkl
+  Time to read cached sample: 0.0055 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-05T00-00.meta.pkl
+  Time to read cached sample: 0.0049 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-06T00-00.meta.pkl
+  Time to read cached sample: 0.0049 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-07T00-00.meta.pkl
+  Time to read cached sample: 0.0051 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-08T00-00.meta.pkl
+  Time to read cached sample: 0.0051 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-09T00-00.meta.pkl
+  Time to read cached sample: 0.0087 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-10T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-11T00-00.meta.pkl
+  Time to read cached sample: 0.0050 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-12T00-00.meta.pkl
+  Time to read cached sample: 0.0048 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-13T00-00.meta.pkl
+  Time to read cached sample: 0.0049 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-14T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-15T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-16T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-17T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-18T00-00.meta.pkl
+  Time to read cached sample: 0.0045 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-19T00-00.meta.pkl
+  Time to read cached sample: 0.0046 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-20T00-00.meta.pkl
+  Time to read cached sample: 0.0053 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-21T00-00.meta.pkl
+  Time to read cached sample: 0.0038 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-22T00-00.meta.pkl
+  Time to read cached sample: 0.0064 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-23T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-24T00-00.meta.pkl
+  Time to read cached sample: 0.0050 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-25T00-00.meta.pkl
+  Time to read cached sample: 0.0053 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-26T00-00.meta.pkl
+  Time to read cached sample: 0.0057 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-27T00-00.meta.pkl
+  Time to read cached sample: 0.0059 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-28T00-00.meta.pkl
+  Time to read cached sample: 0.0056 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-29T00-00.meta.pkl
+  Time to read cached sample: 0.0061 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-06-30T00-00.meta.pkl
+  Time to read cached sample: 0.0052 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-01T00-00.meta.pkl
+  Time to read cached sample: 0.0071 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-02T00-00.meta.pkl
+  Time to read cached sample: 0.0068 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-03T00-00.meta.pkl
+  Time to read cached sample: 0.0057 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-04T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-05T00-00.meta.pkl
+  Time to read cached sample: 0.0046 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-06T00-00.meta.pkl
+  Time to read cached sample: 0.0045 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-07T00-00.meta.pkl
+  Time to read cached sample: 0.0053 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-08T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-09T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-10T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-11T00-00.meta.pkl
+  Time to read cached sample: 0.0054 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-12T00-00.meta.pkl
+  Time to read cached sample: 0.0050 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+
+  Reading cached sample metadata from /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000182/OBS2025-07-13T00-00.meta.pkl
+  Time to read cached sample: 0.0056 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key H5Tget_class has different values:
+      First:   0
+      Current: 1
+    Metadata key H5Tget_precision has different values:
+      First:   16
+      Current: 32
+    Metadata key H5Tget_size has different values:
+      First:   2
+      Current: 4
+    Metadata key num_subchannels has different values:
+      First:   9
+      Current: 4
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+  ---------------------------------------------------------------------------------------------------------
   Summary: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000182
-  --------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------------------
     Samples considered:
       OBS2025-01-03T00-00
         skipped blocks:     0 of 2
@@ -126,5 +2054,561 @@ S000182
         skipped blocks:     0 of 2
         num_subchannels:    9
         center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-05T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-06T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-07T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-08T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-09T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-10T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-11T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-12T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-13T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-14T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-15T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-16T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-17T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-18T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-19T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-20T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-21T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-22T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-23T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-24T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-25T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-26T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-27T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-01-28T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-03T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    8
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 20.0, 25.0]
+      OBS2025-02-05T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-06T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-07T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-08T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-09T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-10T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-11T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-12T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-13T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-14T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-15T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-16T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-17T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-18T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-19T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-20T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-21T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-22T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-23T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-24T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-25T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-26T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-27T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-02-28T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-02T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-03T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-04T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-05T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-06T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-07T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-08T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-09T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-10T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-14T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-15T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-17T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-18T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-19T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-20T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-24T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-03-25T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-05-02T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-05-03T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    9
+        center_frequencies: [2.5, 3.33, 5.0, 7.85, 10.0, 14.67, 15.0, 20.0, 25.0]
+      OBS2025-05-04T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-05T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-06T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-07T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-08T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-09T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-10T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-11T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-12T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-13T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-14T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-15T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-16T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-17T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-18T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-19T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-20T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-21T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-22T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-23T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-24T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-25T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-26T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-27T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-28T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-29T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-30T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-05-31T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-01T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-02T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-03T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-04T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-05T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-06T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-07T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-08T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-09T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-10T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-11T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-12T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-13T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-14T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-15T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-16T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-17T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-18T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-19T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-20T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-21T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-22T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-23T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-24T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-25T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-26T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-27T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-28T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-29T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-06-30T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-01T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-02T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-03T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-04T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-05T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-06T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-07T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-08T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-09T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-10T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-11T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-12T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
+      OBS2025-07-13T00-00
+        skipped blocks:     0 of 2
+        num_subchannels:    4
+        center_frequencies: [10.0, 15.0, 20.0, 25.0]
     Dataset times and data not returned because return_samples = False.
-  --------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------------------

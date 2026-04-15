@@ -5,6 +5,7 @@
     "sqldb": "../table/drf/samples.sql",
     "dataTablesAdditions": {
       "fixedColumns": 2,
+      "renderFunctions": "render.js",
       "columnDropdowns": true,
       "tableMetadata": {
         "tableTitle": "Samples",
@@ -13,7 +14,7 @@
       "columnOptions": [
         {"name": "station", "width": "3em"},
         {"name": "channels", "width": "5em"},
-        {"name": "n_blocks", "width": "3em"},
+        {"name": "n_blocks", "width": "3em", "render": "crossLink"},
         {"name": "start_index", "width": "5em"},
         {"name": "end_index", "width": "5em"},
         {"name": "start_unix", "width": "5em"},
@@ -41,6 +42,7 @@
     "sqldb": "../table/drf/blocks.sql",
     "dataTablesAdditions": {
       "fixedColumns": 3,
+      "renderFunctions": "render.js",
       "columnDropdowns": true,
       "tableMetadata": {
         "tableTitle": "Blocks",
@@ -48,6 +50,7 @@
       },
       "columnOptions": [
         {"name": "station", "width": "3em"},
+        {"name": "sample", "render": "crossLink"},
         {"name": "block", "width": "3em"},
         {"name": "length", "width": "5em"},
         {"name": "start_index", "width": "5em"},

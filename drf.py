@@ -34,6 +34,7 @@ def process_samples(station_id, station_dir,
                     read_samples=False,
                     return_samples=False,
                     cache_samples=False,
+                    use_cache=False,
                     cache_dir=None):
 
   """
@@ -122,7 +123,7 @@ def process_samples(station_id, station_dir,
     if os.path.exists(cache_file):
       logger.info(station_id, f"  Reading cached sample data from {cache_file}")
       tmp = utilrsw.read(cache_file)
-      cached = cached.update(tmp)
+      cached.update(tmp)
 
     return cached
 
@@ -158,14 +159,42 @@ def process_samples(station_id, station_dir,
 
     try:
 
-      kwargs = {
-        "read_samples": read_samples,
-        "return_samples": return_samples
-      }
-      time_read1 = time.time()
-      times, data, metadata = _process_sample(station_id, sample_dir, **kwargs)
-      dt1 = time.time() - time_read1
-      logger.info(station_id, f"  Time to read sample: {dt1:.4f} seconds")
+      base_dir = os.path.join(cache_dir, os.path.basename(station_dir))
+      meta_cache_file = os.path.join(base_dir, f"{sample_name}.meta.pkl")
+      data_cache_file = os.path.join(base_dir, f"{sample_name}.data.pkl")
+      meta_cache_hit = use_cache and os.path.exists(meta_cache_file)
+      data_cache_hit = use_cache and os.path.exists(data_cache_file)
+
+      need_data = read_samples or return_samples
+
+      if meta_cache_hit:
+        time_read1 = time.time()
+        cached = read_sample_cache(cache_dir, sample_dir)
+        dt1 = time.time() - time_read1
+        logger.info(station_id, f"  Time to read cached sample: {dt1:.4f} seconds")
+        metadata = cached['metadata']
+        if data_cache_hit:
+          times = cached.get('times', [])
+          data = cached.get('data', [])
+        elif need_data:
+          logger.info(station_id, "  Data cache not found; reading data from source.")
+          kwargs = {
+            "read_samples": read_samples,
+            "return_samples": return_samples
+          }
+          times, data, _ = _process_sample(station_id, sample_dir, **kwargs)
+        else:
+          times = []
+          data = []
+      else:
+        kwargs = {
+          "read_samples": read_samples,
+          "return_samples": return_samples
+        }
+        time_read1 = time.time()
+        times, data, metadata = _process_sample(station_id, sample_dir, **kwargs)
+        dt1 = time.time() - time_read1
+        logger.info(station_id, f"  Time to read sample: {dt1:.4f} seconds")
 
       sample_metadata[sample_name] = metadata
 
@@ -178,20 +207,15 @@ def process_samples(station_id, station_dir,
       sample_metadata[sample_name]['skipped'] = skip_sample
 
       if cache_samples:
-        cache_data = None
-        if return_samples:
+        if not meta_cache_hit:
+          cache_data = None
+          if return_samples:
+            cache_data = {"times": times, "data": data}
+          write_sample_cache(cache_dir, sample_dir, metadata, cache_data)
+        elif return_samples and not data_cache_hit:
+          # Metadata was cached but data was not; cache the data now.
           cache_data = {"times": times, "data": data}
-        write_sample_cache(cache_dir, sample_dir, metadata, cache_data)
-
-        if False:
-          # Eventually will add cli option use_cache to control whether to read.
-          # We keep this here to enable benchmarking the speed of reading from
-          # cache vs regular read.
-          time_read2 = time.time()
-          cache = read_sample_cache(cache_dir, sample_dir)
-          dt2 = time.time() - time_read2
-          logger.info(station_id, f"  Time to read cached sample: {dt2:.4f} seconds")
-          logger.info(station_id, f"  Speedup from caching: {dt1/dt2:.2f}x")
+          write_sample_cache(cache_dir, sample_dir, metadata, cache_data)
 
       if skip_sample:
         continue
@@ -290,7 +314,7 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
 
   metadata = {
     'sample': {
-      'id': os.path.basename(observation_dir),
+      'sample': os.path.basename(observation_dir),
       'channels': channels,
       'start_index': start_sample,
       'end_index': end_sample,
@@ -479,7 +503,11 @@ def _cli():
   )
   parser.add_argument(
       '--cache-samples', action='store_true', dest='cache_samples',
-      help='Cache sample metadata (and data if --return-samples; a sample is a dir starting with OBS).'
+      help='Cache sample metadata (and data if --return-samples; a sample is a dir starting with OBS). If --use-cache is set, cached metadata and data will not be overwritten.'
+  )
+  parser.add_argument(
+      '--use-cache', action='store_true', dest='use_cache',
+      help='Use any cached sample metadata and data if available.'
   )
 
   base_dir = utilrsw.script_info()['dir']
@@ -751,7 +779,7 @@ def _print_station_summary(station_id, result, station_dir, return_samples):
     logger.info(station_id, msg)
 
 
-def _write_tables(station_id, results):
+def _write_tables(results):
 
     config = {
       "use_all_attributes": True,
@@ -781,7 +809,7 @@ def _write_tables(station_id, results):
           flattened['n_blocks'] = n_blocks
 
         sample = {
-          'station': station_id,
+          'station': result['station_id'],
           **flattened
         }
 
@@ -791,11 +819,11 @@ def _write_tables(station_id, results):
 
         # Move n_blocks and center_frequencies to after id
         move_keys = [k for k in ['n_blocks', 'center_frequencies'] if k in sample]
-        if 'id' in sample and move_keys:
+        if 'sample' in sample and move_keys:
           keys = list(sample.keys())
           for k in move_keys:
             keys.remove(k)
-          insert_pos = keys.index('id') + 1
+          insert_pos = keys.index('sample') + 1
           for i, k in enumerate(move_keys):
             keys.insert(insert_pos + i, k)
           sample = {k: sample[k] for k in keys}
@@ -808,7 +836,7 @@ def _write_tables(station_id, results):
         for idx, block in enumerate(sample_value.get('blocks', [])):
           flattened = utilrsw.flatten_dicts(block, simplify=True)
           block = {
-            'station': station_id,
+            'station': result['station_id'],
             'sample': sample_name,
             'block': idx,
             **flattened
@@ -827,7 +855,6 @@ def _write_tables(station_id, results):
 
     print(f"  Wrote sample and block tables to {config['out_dir']}")
 
-    return sample_meta, block_meta
 
 if __name__ == '__main__':
 
@@ -864,6 +891,7 @@ if __name__ == '__main__':
       "read_samples": args.read_samples,
       "return_samples": args.return_samples,
       "cache_samples": args.cache_samples,
+      "use_cache": args.use_cache,
       "cache_dir": args.cache_dir
     }
 
@@ -884,12 +912,10 @@ if __name__ == '__main__':
       # Write tables for all stations processed so far. This is done
       # in the station loop in case there is an exception that causes
       # the loop to stop before processing all stations.
+      result['station_id'] = station_id
       results.append(result)
-      _write_tables(station_id, results)
+      _write_tables(results)
 
-    if station_id == 'S000028':
-      # If processing only one station, break after processing it.
-      break
 
   if len(catalog) > 0:
     # Write HAPI catalog file

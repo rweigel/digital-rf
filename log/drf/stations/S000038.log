@@ -1,5 +1,5 @@
 
-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 S000038
   Station directory: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000038
   first_last = False and n=2 gave 2 sample dirs out of 1205.
@@ -87,7 +87,7 @@ S000038
         Computed stop:  2023-11-12 23:59:59.100000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 1.1812 seconds
+  Time to read sample: 1.2543 seconds
   Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000038/OBS2023-11-12T00-00.meta.pkl
 
   Sample: OBS2023-11-13T00-00
@@ -299,14 +299,14 @@ S000038
         Computed stop:  2023-11-13 23:59:59.300000+00:00
         Metadata: No metadata for this block.
         Data: Not read because read_samples is set to False.
-  Time to read sample: 2.1792 seconds
+  Time to read sample: 2.1913 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
   Caching sample metadata to /Users/rweigel/git/hapi/server-python-new/server-python-general-psws/bin/digital-rf/cache/S000038/OBS2023-11-13T00-00.meta.pkl
-  --------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------------------
   Summary: /Volumes/WDMyPassport5TB-2/psws/sample_data3/S000038
-  --------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------------------
     Samples considered:
       OBS2023-11-12T00-00
         skipped blocks:     0 of 7
@@ -317,4 +317,4 @@ S000038
         num_subchannels:    1
         center_frequencies: [5.0]
     Dataset times and data not returned because return_samples = False.
-  --------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------------------
