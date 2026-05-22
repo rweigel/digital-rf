@@ -3,7 +3,7 @@
 ```
 pip install git+https://github.com/rweigel/utilrsw
 pip install git+https://github.com/rweigel/table-ui
-pip install digital_rf
+pip install digital_rf --force-reinstall
 
 # Run analysis on first two DRF observation dirs in /home/S000182
 python drf.py --station-dir /home --station S000182 --cache-samples --n 2
