@@ -657,7 +657,7 @@ def _subset_sample_dirs(station_id, station_dir, n=None, first_last=False, start
   if len(obs_dirs) == 0:
     logger.info(station_id, f"  No 'OBS*' directories found in {station_dir}. Trying subdirectory 'G2DRF' for station {station_id}.")
     station_dir = os.path.join(station_dir, "G2DRF")
-    if os.path.exists(station_dir)
+    if os.path.exists(station_dir):
       obs_dirs = [d for d in _listdir(station_dir) if d.startswith('OBS')]
       if len(obs_dirs) == 0:
         return []
