@@ -658,6 +658,13 @@ def _subset_sample_dirs(station_id, station_dir, n=None, first_last=False, start
     logger.info(station_id, f"  No 'OBS*' directories found in {station_dir}. Trying subdirectory 'G2DRF' for station {station_id}.")
     station_dir = os.path.join(station_dir, "G2DRF")
     obs_dirs = [d for d in _listdir(station_dir) if d.startswith('OBS')]
+    if len(obs_dirs) == 0:
+      logger.info(station_id, f"  No 'OBS*' directories found in {station_dir}. Trying subdirectory 'G2DRF' for station {station_id}.")
+      station_dir = os.path.join(station_dir, "G2DRF")
+      obs_dirs = [d for d in _listdir(station_dir) if d.startswith('OBS')]
+      obs_dirs = [os.path.join("G2DRF", d) for d in obs_dirs]
+      if len(obs_dirs) != 0:
+        logger.info(station_id, f"  Found 'OBS*' {station_dir}.")
 
   pat = re.compile(r'^OBS(\d{4}-\d{2}-\d{2}T\d{2}-\d{2})')
 
@@ -853,12 +860,19 @@ def _write_tables(results):
       dicts2table_logger = logging.getLogger('dicts2table')
       dicts2table_logger.setLevel(logging.DEBUG)
 
-    tableui.dicts2table(sample_meta, config)
+    if len(sample_meta) > 0:
+      tableui.dicts2table(sample_meta, config)
+      print(f"  Wrote sample table to {config['out_dir']}")
+    else:
+      logger.info("No sample metadata to write to table.")
 
-    config['name'] = "blocks"
-    tableui.dicts2table(block_meta, config)
+    if len(block_meta) > 0:
+      config['name'] = "blocks"
+      tableui.dicts2table(block_meta, config)
+      print(f"  Wrote block table to {config['out_dir']}")
+    else:
+      logger.info("No block metadata to write to table.")
 
-    print(f"  Wrote sample and block tables to {config['out_dir']}")
 
 
 if __name__ == '__main__':
