@@ -6,5 +6,8 @@ pip install -e . --force-reinstall
 cd /home/bengelke/hapi/digital-rf
 python3 drf.py --station-dir /home --use-cache --cache-samples --n -1
 
-# Copy results to Bob's server. If needed, password is F...S...S...8675
+# Copy results to Bob's server.
 rsync -avz data guest1@rweigel.dynu.net:digital-rf
+
+git commit -m "Update tables" -- data/table
+git commit -m "Update log" -- data/log

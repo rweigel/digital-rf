@@ -1,8 +1,16 @@
 # Daily Updates
 
+Update HAPI `digital-rf` code, execute metadata run, and push tables and log to HAPI `digital-rf` repository.
+
 ```
 cd /home/bengelke/hapi/digital-rf
 ./drf.sh
+```
+
+View results (see Install section below if above was run on headless server).
+
+```
+tableui-serve --conf conf/tableui.json
 ```
 
 # Install
@@ -14,6 +22,11 @@ cd /home/bengelke/hapi
 git clone https://github.com/rweigel/digital-rf
 cd /home/bengelke/hapi/digital-rf
 pip install -e . --force-reinstall
+```
+
+View table from last run
+```
+tableui-serve --conf conf/tableui.json
 ```
 
 # Update `digital-rf`

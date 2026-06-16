@@ -2,7 +2,7 @@
   {
     "path": "samples",
     "table_name": "samples",
-    "sqldb": "../table/drf/samples.sql",
+    "sqldb": "../data/table/samples.sql",
     "dataTablesAdditions": {
       "fixedColumns": 2,
       "renderFunctions": "render.js",
@@ -39,7 +39,7 @@
   {
     "path": "blocks",
     "table_name": "blocks",
-    "sqldb": "../table/drf/blocks.sql",
+    "sqldb": "../data/table/blocks.sql",
     "dataTablesAdditions": {
       "fixedColumns": 3,
       "renderFunctions": "render.js",
