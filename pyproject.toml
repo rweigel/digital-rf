@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "digital-rf-hapi"
+version = "0.1.0"
+description = "Generate metadata for PSWS digital-rf data."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "numpy",
+  "digital_rf",
+  "utilrsw @ git+https://github.com/rweigel/utilrsw",
+  "tableui @ git+https://github.com/rweigel/table-ui",
+]
+
+[tool.setuptools]
+py-modules = ["drf"]
+
+[tool.setuptools.package-data]
+"*" = ["conf/*", "log/*", "misc/*", "table/*"]

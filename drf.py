@@ -511,10 +511,10 @@ def _cli():
   )
 
   base_dir = utilrsw.script_info()['dir']
-  cache_dir = os.path.join(base_dir, "cache")
-  log_dir = os.path.join(base_dir, "log", "drf")
-  table_dir = os.path.join(base_dir, "table", "drf")
-  catalog_dir = os.path.join(base_dir, "metadata", "drf")
+  cache_dir = os.path.join(base_dir, "data", "cache")
+  log_dir = os.path.join(base_dir, "data", "log")
+  table_dir = os.path.join(base_dir, "data", "table")
+  catalog_dir = os.path.join(base_dir, "data", "hapi")
 
   parser.add_argument(
       '--cache-dir', type=str, default=cache_dir, dest='cache_dir',
@@ -530,7 +530,7 @@ def _cli():
   )
   parser.add_argument(
       '--catalog-dir', type=str, default=catalog_dir, dest='catalog_dir',
-      help=f'Directory to use for caching sample data. Default is {catalog_dir}.'
+      help=f'Directory to write hapi catalog. Default is {catalog_dir}.'
   )
 
   args = parser.parse_args()
