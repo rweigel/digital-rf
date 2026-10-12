@@ -1,0 +1,29 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>serve-table</string>
+        <key>EnvironmentVariables</key>
+        <dict>
+		<key>PATH</key>
+                <string>/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        </dict>
+	<key>WorkingDirectory</key>
+	<string>/Users/weigel/git/hapi/digital-rf/etc</string>
+	<key>UserName</key>
+	<string>weigel</string>
+        <key>ProgramArguments</key>
+        <array>
+	  <string>/bin/zsh</string>
+          <string>serve-table.sh</string>
+        </array>
+        <key>RunAtLoad</key>
+        <true/>
+        <key>KeepAlive</key>
+        <true/>
+	<key>StandardErrorPath</key>
+        <string>/Users/weigel/git/hapi/digital-rf/data/log/serve-table/stderr</string>
+        <key>StandardOutPath</key>
+        <string>/Users/weigel/git/hapi/digital-rf/data/log/serve-table/stdout</string>
+    </dict>
+</plist>

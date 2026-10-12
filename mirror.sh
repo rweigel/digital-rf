@@ -1,1 +1,0 @@
-rsync -avz weigel@rweigel.dynu.net:/Users/guest1/digital-rf/data .

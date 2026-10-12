@@ -1,4 +1,9 @@
-# Daily Updates
+# Remaining HAPI Work
+
+1. Determine what to put in HAPI catalog. Catalog will be derived from data/table/samples.csv (searchable at https://hapi-server.org/meta/digital-rf/samples)
+2. Test workflow for updating HAPI catalog based on nightly uploads
+
+# Daily Updates for Bill
 
 Update HAPI `digital-rf` code, execute metadata run, and push tables and log to HAPI `digital-rf` repository.
 

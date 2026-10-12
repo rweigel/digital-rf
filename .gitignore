@@ -1,4 +1,4 @@
 *.egg-info/
 mag.gmu.edu/
 data/cache/
-data/log/
+data/log/serve-table/
