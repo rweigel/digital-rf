@@ -470,7 +470,9 @@ def _cli():
       description='Read Digital RF data from PSWS station directories.'
   )
   parser.add_argument(
-      '--station-dir', required=True, dest='station_dir',
+      '--station-dir',
+      required=True,
+      dest='station_dir',
       help='Directory containing station subdirectories (e.g., S0000183, N000020).'
   )
   parser.add_argument(
@@ -870,7 +872,6 @@ def _write_tables(results):
       print(f"  Wrote block table to {config['out_dir']}")
     else:
       logger.info("No block metadata to write to table.")
-
 
 
 if __name__ == '__main__':

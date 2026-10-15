@@ -1,3 +1,18 @@
+# Remote Development
+
+On pswsnetwork.eng.ua.edu,
+
+```python
+git clone https://github.com/rweigel/digital-rf
+python3 -m venv .venv-drf
+source .venv-drf/bin/activate
+cd digital-rf/
+pip install -e .
+python drf.py --help
+```
+
+On local machine, execute `etc/mount.sh` so that one can edit remote files using a local editor.
+
 # Remaining HAPI Work
 
 1. Determine what to put in HAPI catalog. Catalog will be derived from data/table/samples.csv (searchable at https://hapi-server.org/meta/digital-rf/samples)
