@@ -1,385 +1,714 @@
 
----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 S000043
   Station directory: /home/S000043
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-18T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0003 seconds
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-19T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-20T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-21T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-22T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-23T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-24T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0023 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-25T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-26T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-27T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-28T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-29T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-30T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-08-31T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-01T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-02T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-03T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-04T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-05T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-06T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-07T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-08T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-09T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-10T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0007 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-11T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-12T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-13T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-14T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-15T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-16T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-17T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-18T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-19T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-20T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-21T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-22T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0007 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-23T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-24T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-25T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-26T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0007 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-27T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-28T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-29T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-09-30T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0003 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-01T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-02T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-03T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-04T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-05T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-06T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-07T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0018 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-08T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-09T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-10T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-11T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0006 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-12T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-13T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-14T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0017 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-15T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-16T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-17T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-18T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-19T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0005 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
     No block metadata differences found.
-  -------------------------------------------------------------------------------------------------------------------------------
+
+  Sample: OBS2026-10-20T00-00
+    Channels: ['ch0']
+    Channel start index: 17924544179
+    Channel stop index:  17925407879
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792454417.9 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1792540787.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-20T00:00:17.900000Z
+    Computed sample stop UTC time:  2026-10-20T23:59:47.900000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17924544179
+        Block length:   863701
+        Computed start: 2026-10-20 00:00:17.900000+00:00
+        Computed stop:  2026-10-20 23:59:47.900000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 42.6458
+          long: -71.375
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 2.1366 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-20T00-00.meta.pkl
+
+  Sample: OBS2026-10-21T00-00
+    Channels: ['ch0']
+    Channel start index: 17925408185
+    Channel stop index:  17926271873
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792540818.5 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1792627187.3 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-21T00:00:18.500000Z
+    Computed sample stop UTC time:  2026-10-21T23:59:47.300000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17925408185
+        Block length:   863689
+        Computed start: 2026-10-21 00:00:18.500000+00:00
+        Computed stop:  2026-10-21 23:59:47.300000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 42.6458
+          long: -71.375
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 2.1689 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-21T00-00.meta.pkl
+
+  Sample: OBS2026-10-22T00-00
+    Channels: ['ch0']
+    Channel start index: 17926272179
+    Channel stop index:  17927135878
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792627217.9 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1792713587.8 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-22T00:00:17.900000Z
+    Computed sample stop UTC time:  2026-10-22T23:59:47.800000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17926272179
+        Block length:   863700
+        Computed start: 2026-10-22 00:00:17.900000+00:00
+        Computed stop:  2026-10-22 23:59:47.800000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 42.6458
+          long: -71.375
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 2.1071 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-22T00-00.meta.pkl
+
+  Sample: OBS2026-10-23T00-00
+    Channels: ['ch0']
+    Channel start index: 17927136185
+    Channel stop index:  17927999872
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792713618.5 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1792799987.2 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-23T00:00:18.500000Z
+    Computed sample stop UTC time:  2026-10-23T23:59:47.200000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17927136185
+        Block length:   863688
+        Computed start: 2026-10-23 00:00:18.500000+00:00
+        Computed stop:  2026-10-23 23:59:47.200000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 42.6458
+          long: -71.375
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 1.9720 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-23T00-00.meta.pkl
+
+  Sample: OBS2026-10-24T00-00
+    Channels: ['ch0']
+    Channel start index: 17928000179
+    Channel stop index:  17928863876
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792800017.9 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1792886387.6 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-24T00:00:17.900000Z
+    Computed sample stop UTC time:  2026-10-24T23:59:47.600000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17928000179
+        Block length:   863698
+        Computed start: 2026-10-24 00:00:17.900000+00:00
+        Computed stop:  2026-10-24 23:59:47.600000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 42.6458
+          long: -71.375
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 2.0038 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-24T00-00.meta.pkl
+
+  Sample: OBS2026-10-25T00-00
+    Channels: ['ch0']
+    Channel start index: 17928864185
+    Channel stop index:  17929727879
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792886418.5 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1792972787.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-25T00:00:18.500000Z
+    Computed sample stop UTC time:  2026-10-25T23:59:47.900000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17928864185
+        Block length:   863695
+        Computed start: 2026-10-25 00:00:18.500000+00:00
+        Computed stop:  2026-10-25 23:59:47.900000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 42.6458
+          long: -71.375
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 1.9237 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-25T00-00.meta.pkl
+
+  Sample: OBS2026-10-26T00-00
+    Channels: ['ch0']
+    Channel start index: 17929728188
+    Channel stop index:  17930591874
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 60000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 1
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 3600
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792972818.8 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1793059187.4 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-26T00:00:18.800000Z
+    Computed sample stop UTC time:  2026-10-26T23:59:47.400000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17929728188
+        Block length:   863687
+        Computed start: 2026-10-26 00:00:18.800000+00:00
+        Computed stop:  2026-10-26 23:59:47.400000+00:00
+        Metadata:
+          center_frequencies: [10.]
+          lat: 42.6458
+          long: -71.375
+          sample_rate_denominator: 1
+          sample_rate_numerator: 10
+          uuid_str: grape19
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 1.9225 seconds
+  Comparing this sample's properties with first sample properties
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    No block metadata differences found.
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000043/OBS2026-10-26T00-00.meta.pkl
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------
   Summary: /home/S000043
-  -------------------------------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------
     Samples considered:
       OBS2026-08-18T00-00
         skipped blocks:     0 of 1
@@ -633,5 +962,33 @@ S000043
         skipped blocks:     0 of 1
         num_subchannels:    1
         center_frequencies: [10.0]
+      OBS2026-10-20T00-00
+        skipped blocks:     0 of 1
+        num_subchannels:    1
+        center_frequencies: [10.0]
+      OBS2026-10-21T00-00
+        skipped blocks:     0 of 1
+        num_subchannels:    1
+        center_frequencies: [10.0]
+      OBS2026-10-22T00-00
+        skipped blocks:     0 of 1
+        num_subchannels:    1
+        center_frequencies: [10.0]
+      OBS2026-10-23T00-00
+        skipped blocks:     0 of 1
+        num_subchannels:    1
+        center_frequencies: [10.0]
+      OBS2026-10-24T00-00
+        skipped blocks:     0 of 1
+        num_subchannels:    1
+        center_frequencies: [10.0]
+      OBS2026-10-25T00-00
+        skipped blocks:     0 of 1
+        num_subchannels:    1
+        center_frequencies: [10.0]
+      OBS2026-10-26T00-00
+        skipped blocks:     0 of 1
+        num_subchannels:    1
+        center_frequencies: [10.0]
     Dataset times and data not returned because return_samples = False.
-  -------------------------------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------

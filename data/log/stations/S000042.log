@@ -1,734 +1,1432 @@
 
----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 S000042
   Station directory: /home/S000042
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-08-18T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0003 seconds
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-08-19T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 8f4674b1dff441c6b6dd78d3cead9154
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-08-25T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: a3f763dcd5e54b41a573bf7c50f2e91e
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-08-26T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: afa3c92a78304de0b8f40b81c8065b82
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-08-27T00-00.meta.pkl
   Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 5a20746e4d364bd6a880c4d6ec344439
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-08-28T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: d153487ce10941698affc67151585942
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-08-29T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: db899373b68e49aeaadc636c1372f8de
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-08-30T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 20022eb686ed44fca3c57a224e183ee0
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-08-31T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: a77800cbb0504aa8aec085edd7f7a0eb
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-01T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 9987049d4c774b4fb06d73b37a356545
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-02T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: b2753f355b52424dbb0b7cec6d1db94b
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-03T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 713007790f814aeb85776d217642af09
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-04T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 62ca7a7936e24f1a8f33e804b8033d9d
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-05T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 17f3ec5242aa42d3a2506de54166d70f
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-06T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0003 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 42f85dc00b3b4aab86bd61a6aaf0d64b
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-07T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 3e47d49322ba4ca0b17c331ee8c9e8d1
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-08T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 284db05833f64f7c9b73c0a4db1a484b
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-09T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: b063ef8ba2134b36972a79d9ca3e4767
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-10T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 05a991c0fad04a45ba7498384ac96015
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-11T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 1f23f25eaa8d4292a90c9d4ad413d3a9
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-12T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: b42a6950484d4e06836e37e5d5fbf1fb
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-13T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 320121777088458e97b50ab29b099024
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-14T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: f6ad43347c29495facd131e4aceb97ee
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-15T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 205995e624eb477194cfe071049fb4ca
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-16T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: d90e9d246fb142e495f6c9e314b820a3
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-17T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: d79c74f048984a47aadbbf3dffd401ff
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-18T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 6c7a1fdbdf7d4669a21893bed1ed0b52
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-19T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 31da79720276447b90454f990c2f4341
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-20T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: b9e47d2478d3446d9c12f1c6d68bdcb3
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-21T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 2baba8c8103244e79f4c431f2eb7a05d
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-22T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 6595939c48d244b29ad9ad1d0bc2c265
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-23T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: b98321eeee994470b6692de0ef96683a
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-24T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: a18422cdb4b548f69e5fd5b7488f0b00
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-25T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: e4408a55a5354911a5ee23c6ac77b949
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-26T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 00c07f0c68d84caf944588964c34919d
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-27T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 229debee5e434e2c83406c9fd9b86256
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-28T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 2dd72aecd8c04d198ef9e3be38fccaaa
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-29T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0003 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: fa6d7c9defca424b9392f7f30c97fe6c
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-09-30T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: f14bd5a69a2946d89800f82834c1601e
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-01T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 8633e8ef58b0477b83bc9a7d7e45705b
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-02T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 7747434f052347d681bf2c48168216cd
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-03T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: bbc12cb79da64f4e9ecd7fc26251edb3
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-04T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 48879de4f5cd423da31732286c0e87e2
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-05T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: c4b74e61a10b4084b170ed94f5e12cf5
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-06T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 5db06de663434af89cf9a7866a68abab
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-07T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 3699d494bd354ddcafc8cfc479e69cbe
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-08T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 670851ba6894464c9b34e11a02186b4f
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-09T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 5d78451902c5460eaea0d390b67b6d68
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-10T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 0c7cbd55b704450c90c99542c0d6cb35
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-11T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0003 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 89c7fec608e84c9cb806eb0245623617
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-12T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: df96e8fd66b240feaa2dee7b2a4c8cb1
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-13T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: fd9b2ee802cb4a21bbbe317d79c1ef1d
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-14T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 7a76827630f04165b881a329df7743bf
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-15T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 8a5cb00d134d4fa1b7f01e8b529f326f
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-16T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 56aa1906e7ff458c8dfeb5127e03424d
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-17T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: c99e3a17c75e4ba39e7dbd6ab9f0fd73
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-18T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: e940f69263f7466fad7485f6d4652e91
 
   Reading cached sample metadata from /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-19T00-00.meta.pkl
-  Time to read cached sample: 0.0001 seconds
+  Time to read cached sample: 0.0002 seconds
   Comparing this sample's properties with first sample properties
     Metadata key num_subchannels has different values:
       First:   7
       Current: 8
   Comparing first block metadata of this sample with that from first block in the first sample.
-    No block metadata differences found.
-  -------------------------------------------------------------------------------------------------------------------------------
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 2a70d9c1ace5460c94d21df28dc3d931
+
+  Sample: OBS2026-10-20T00-00
+    Channels: ['ch0']
+    Channel start index: 17924544000
+    Channel stop index:  17925407999
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 3600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 8
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 86400
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792454400.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1792540799.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-20T00:00:00.000000Z
+    Computed sample stop UTC time:  2026-10-20T23:59:59.900000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17924544000
+        Block length:   864000
+        Computed start: 2026-10-20 00:00:00+00:00
+        Computed stop:  2026-10-20 23:59:59.900000+00:00
+        Metadata:
+          callsign: KFS/OMNI
+          center_frequencies: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+          grid_square: CM87tj
+          lat: 37.375
+          long: -122.41666412353516
+          receiver_name: KA9Q_KFS_OMNI_WWV
+          uuid_str: f47d48c49bbb4c8d8be597ff64bf79c3
+          sample_rate_numerator: 10
+          sample_rate_denominator: 1
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 0.0647 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key num_subchannels has different values:
+      First:   7
+      Current: 8
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: f47d48c49bbb4c8d8be597ff64bf79c3
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-20T00-00.meta.pkl
+
+  Sample: OBS2026-10-21T00-00
+    Channels: ['ch0']
+    Channel start index: 17925408000
+    Channel stop index:  17926271999
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 3600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 8
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 86400
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792540800.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1792627199.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-21T00:00:00.000000Z
+    Computed sample stop UTC time:  2026-10-21T23:59:59.900000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17925408000
+        Block length:   864000
+        Computed start: 2026-10-21 00:00:00+00:00
+        Computed stop:  2026-10-21 23:59:59.900000+00:00
+        Metadata:
+          callsign: KFS/OMNI
+          center_frequencies: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+          grid_square: CM87tj
+          lat: 37.375
+          long: -122.41666412353516
+          receiver_name: KA9Q_KFS_OMNI_WWV
+          uuid_str: 9be8639481274955861e1001c14fb2d5
+          sample_rate_numerator: 10
+          sample_rate_denominator: 1
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 0.0599 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key num_subchannels has different values:
+      First:   7
+      Current: 8
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 9be8639481274955861e1001c14fb2d5
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-21T00-00.meta.pkl
+
+  Sample: OBS2026-10-22T00-00
+    Channels: ['ch0']
+    Channel start index: 17926272000
+    Channel stop index:  17927135999
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 3600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 8
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 86400
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792627200.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1792713599.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-22T00:00:00.000000Z
+    Computed sample stop UTC time:  2026-10-22T23:59:59.900000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17926272000
+        Block length:   864000
+        Computed start: 2026-10-22 00:00:00+00:00
+        Computed stop:  2026-10-22 23:59:59.900000+00:00
+        Metadata:
+          callsign: KFS/OMNI
+          center_frequencies: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+          grid_square: CM87tj
+          lat: 37.375
+          long: -122.41666412353516
+          receiver_name: KA9Q_KFS_OMNI_WWV
+          uuid_str: 376d3cc9c23547af9ef66aefacf12bc0
+          sample_rate_numerator: 10
+          sample_rate_denominator: 1
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 0.0636 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key num_subchannels has different values:
+      First:   7
+      Current: 8
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: 376d3cc9c23547af9ef66aefacf12bc0
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-22T00-00.meta.pkl
+
+  Sample: OBS2026-10-23T00-00
+    Channels: ['ch0']
+    Channel start index: 17927136000
+    Channel stop index:  17927999999
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 3600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 8
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 86400
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792713600.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1792799999.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-23T00:00:00.000000Z
+    Computed sample stop UTC time:  2026-10-23T23:59:59.900000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17927136000
+        Block length:   864000
+        Computed start: 2026-10-23 00:00:00+00:00
+        Computed stop:  2026-10-23 23:59:59.900000+00:00
+        Metadata:
+          callsign: KFS/OMNI
+          center_frequencies: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+          grid_square: CM87tj
+          lat: 37.375
+          long: -122.41666412353516
+          receiver_name: KA9Q_KFS_OMNI_WWV
+          uuid_str: f1718abd90f04476a9b7a9a7ae6eba63
+          sample_rate_numerator: 10
+          sample_rate_denominator: 1
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 0.0308 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key num_subchannels has different values:
+      First:   7
+      Current: 8
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: f1718abd90f04476a9b7a9a7ae6eba63
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-23T00-00.meta.pkl
+
+  Sample: OBS2026-10-24T00-00
+    Channels: ['ch0']
+    Channel start index: 17928000000
+    Channel stop index:  17928863999
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 3600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 8
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 86400
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792800000.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1792886399.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-24T00:00:00.000000Z
+    Computed sample stop UTC time:  2026-10-24T23:59:59.900000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17928000000
+        Block length:   864000
+        Computed start: 2026-10-24 00:00:00+00:00
+        Computed stop:  2026-10-24 23:59:59.900000+00:00
+        Metadata:
+          callsign: KFS/OMNI
+          center_frequencies: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+          grid_square: CM87tj
+          lat: 37.375
+          long: -122.41666412353516
+          receiver_name: KA9Q_KFS_OMNI_WWV
+          uuid_str: efdf31a1b8924523ac5909a8061b8a28
+          sample_rate_numerator: 10
+          sample_rate_denominator: 1
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 0.0308 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key num_subchannels has different values:
+      First:   7
+      Current: 8
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: efdf31a1b8924523ac5909a8061b8a28
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-24T00-00.meta.pkl
+
+  Sample: OBS2026-10-25T00-00
+    Channels: ['ch0']
+    Channel start index: 17928864000
+    Channel stop index:  17929727999
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 3600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 8
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 86400
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792886400.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1792972799.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-25T00:00:00.000000Z
+    Computed sample stop UTC time:  2026-10-25T23:59:59.900000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17928864000
+        Block length:   864000
+        Computed start: 2026-10-25 00:00:00+00:00
+        Computed stop:  2026-10-25 23:59:59.900000+00:00
+        Metadata:
+          callsign: KFS/OMNI
+          center_frequencies: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+          grid_square: CM87tj
+          lat: 37.375
+          long: -122.41666412353516
+          receiver_name: KA9Q_KFS_OMNI_WWV
+          uuid_str: d0ca0603b013482691738c918a4dde4a
+          sample_rate_numerator: 10
+          sample_rate_denominator: 1
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 0.0308 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key num_subchannels has different values:
+      First:   7
+      Current: 8
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: d0ca0603b013482691738c918a4dde4a
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-25T00-00.meta.pkl
+
+  Sample: OBS2026-10-26T00-00
+    Channels: ['ch0']
+    Channel start index: 17929728000
+    Channel stop index:  17930591999
+    Properties:
+      H5Tget_class: 1
+      H5Tget_offset: 0
+      H5Tget_order: 0
+      H5Tget_precision: 32
+      H5Tget_size: 4
+      digital_rf_time_description: All times in this format are in number of samples since the epoch in the epoch attribute.  The first sample time will be sample_rate * UTC time at first sample.  Attribute init_utc_timestamp records this init UTC time so that a conversion to any other time is possible given the number of leapseconds difference at init_utc_timestamp.  Leapseconds that occur during data recording are included in the data.
+      digital_rf_version: 2.6.0
+      epoch: 1970-01-01T00:00:00Z
+      file_cadence_millisecs: 3600000
+      is_complex: 1
+      is_continuous: 1
+      num_subchannels: 8
+      sample_rate_denominator: 1
+      sample_rate_numerator: 10
+      subdir_cadence_secs: 86400
+      samples_per_second: 10.0
+    Computed sample start seconds since epoch: 1792972800.0 = (start index)/samples_per_second
+    Computed sample stop seconds since epoch:  1793059199.9 = (end index)/samples_per_second
+    Computed sample start UTC time: 2026-10-26T00:00:00.000000Z
+    Computed sample stop UTC time:  2026-10-26T23:59:59.900000Z
+
+    Found 1 continuous block
+      Block 1:
+        Block start:    17929728000
+        Block length:   864000
+        Computed start: 2026-10-26 00:00:00+00:00
+        Computed stop:  2026-10-26 23:59:59.900000+00:00
+        Metadata:
+          callsign: KFS/OMNI
+          center_frequencies: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+          grid_square: CM87tj
+          lat: 37.375
+          long: -122.41666412353516
+          receiver_name: KA9Q_KFS_OMNI_WWV
+          uuid_str: d9890ef8c70a4f459620e97c2b77b1c6
+          sample_rate_numerator: 10
+          sample_rate_denominator: 1
+          samples_per_second: 10.0
+        Data: Not read because read_samples is set to False.
+  Time to read sample: 0.0305 seconds
+  Comparing this sample's properties with first sample properties
+    Metadata key num_subchannels has different values:
+      First:   7
+      Current: 8
+  Comparing first block metadata of this sample with that from first block in the first sample.
+    Block metadata key 'center_frequencies' has different values from that in first block metadata:
+      First:   [ 0.06  2.5   5.   10.   15.   20.   25.  ]
+      Current: [ 0.06    2.5     5.      7.0393 10.     15.     20.     25.    ]
+    Block metadata key 'uuid_str' has different values from that in first block metadata:
+      First:   99291f29d16e4488866758748450758c
+      Current: d9890ef8c70a4f459620e97c2b77b1c6
+  Caching sample metadata to /home/rweigel/digital-rf/data/cache/S000042/OBS2026-10-26T00-00.meta.pkl
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------
   Summary: /home/S000042
-  -------------------------------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------
     Samples considered:
       OBS2026-08-18T00-00
         skipped blocks:     0 of 1
         num_subchannels:    7
         center_frequencies: [0.06, 2.5, 5.0, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-08-19T00-00
+      OBS2026-08-19T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    7
         center_frequencies: [0.06, 2.5, 5.0, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-08-25T00-00
+      OBS2026-08-25T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    7
         center_frequencies: [0.06, 2.5, 5.0, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-08-26T00-00
+      OBS2026-08-26T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    7
         center_frequencies: [0.06, 2.5, 5.0, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-08-27T00-00
+      OBS2026-08-27T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    7
         center_frequencies: [0.06, 2.5, 5.0, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-08-28T00-00
+      OBS2026-08-28T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    7
         center_frequencies: [0.06, 2.5, 5.0, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-08-29T00-00
+      OBS2026-08-29T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    7
         center_frequencies: [0.06, 2.5, 5.0, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-08-30T00-00
+      OBS2026-08-30T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    7
         center_frequencies: [0.06, 2.5, 5.0, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-08-31T00-00
+      OBS2026-08-31T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-01T00-00
+      OBS2026-09-01T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-02T00-00
+      OBS2026-09-02T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-03T00-00
+      OBS2026-09-03T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-04T00-00
+      OBS2026-09-04T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-05T00-00
+      OBS2026-09-05T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-06T00-00
+      OBS2026-09-06T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-07T00-00
+      OBS2026-09-07T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-08T00-00
+      OBS2026-09-08T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-09T00-00
+      OBS2026-09-09T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-10T00-00
+      OBS2026-09-10T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-11T00-00
+      OBS2026-09-11T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-12T00-00
+      OBS2026-09-12T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-13T00-00
+      OBS2026-09-13T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-14T00-00
+      OBS2026-09-14T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-15T00-00
+      OBS2026-09-15T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-16T00-00
+      OBS2026-09-16T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-17T00-00
+      OBS2026-09-17T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-18T00-00
+      OBS2026-09-18T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-19T00-00
+      OBS2026-09-19T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-20T00-00
+      OBS2026-09-20T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-21T00-00
+      OBS2026-09-21T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-22T00-00
+      OBS2026-09-22T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-23T00-00
+      OBS2026-09-23T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-24T00-00
+      OBS2026-09-24T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-25T00-00
+      OBS2026-09-25T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    7
         center_frequencies: [2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-26T00-00
+      OBS2026-09-26T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-27T00-00
+      OBS2026-09-27T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-28T00-00
+      OBS2026-09-28T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-29T00-00
+      OBS2026-09-29T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-09-30T00-00
+      OBS2026-09-30T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-01T00-00
+      OBS2026-10-01T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-02T00-00
+      OBS2026-10-02T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-03T00-00
+      OBS2026-10-03T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-04T00-00
+      OBS2026-10-04T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-05T00-00
+      OBS2026-10-05T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-06T00-00
+      OBS2026-10-06T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-07T00-00
+      OBS2026-10-07T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-08T00-00
+      OBS2026-10-08T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-09T00-00
+      OBS2026-10-09T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-10T00-00
+      OBS2026-10-10T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-11T00-00
+      OBS2026-10-11T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-12T00-00
+      OBS2026-10-12T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-13T00-00
+      OBS2026-10-13T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-14T00-00
+      OBS2026-10-14T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-15T00-00
+      OBS2026-10-15T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-16T00-00
+      OBS2026-10-16T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-17T00-00
+      OBS2026-10-17T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-18T00-00
+      OBS2026-10-18T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
-      OBS2026-10-19T00-00
+      OBS2026-10-19T00-00 (skipped)
+        skipped blocks:     0 of 1
+        num_subchannels:    8
+        center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
+      OBS2026-10-20T00-00 (skipped)
+        skipped blocks:     0 of 1
+        num_subchannels:    8
+        center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
+      OBS2026-10-21T00-00 (skipped)
+        skipped blocks:     0 of 1
+        num_subchannels:    8
+        center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
+      OBS2026-10-22T00-00 (skipped)
+        skipped blocks:     0 of 1
+        num_subchannels:    8
+        center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
+      OBS2026-10-23T00-00 (skipped)
+        skipped blocks:     0 of 1
+        num_subchannels:    8
+        center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
+      OBS2026-10-24T00-00 (skipped)
+        skipped blocks:     0 of 1
+        num_subchannels:    8
+        center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
+      OBS2026-10-25T00-00 (skipped)
+        skipped blocks:     0 of 1
+        num_subchannels:    8
+        center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
+      OBS2026-10-26T00-00 (skipped)
         skipped blocks:     0 of 1
         num_subchannels:    8
         center_frequencies: [0.06, 2.5, 5.0, 7.0393, 10.0, 15.0, 20.0, 25.0]
     Dataset times and data not returned because return_samples = False.
-  -------------------------------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------
