@@ -589,9 +589,17 @@ def _tmpdir():
 
 
 def _listdir(base_dir):
-  dir_list = sorted(os.listdir(base_dir))
+  try:
+    dir_list = sorted(os.listdir(base_dir))
+  except Exception as e:
+    logger.error(os.path.basename(base_dir), f"Failed to list directory {base_dir}: {e}")
+    dir_list = []
+
   # Keep only directories
-  return [d for d in dir_list if os.path.isdir(os.path.join(base_dir, d))]
+  def is_sta_dir(d):
+    return os.path.isdir(os.path.join(base_dir, d))
+
+  return [d for d in dir_list if is_sta_dir(d)]
 
 
 def _parse_obs_time(d, pat):
