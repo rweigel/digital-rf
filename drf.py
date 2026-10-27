@@ -73,7 +73,7 @@ def process_samples(station_id, station_dir,
     _compare_sample_properties(station_id, p1, p2)
 
     bm_first_block_of_first_sample = utilrsw.get_path(metadata_first, ['blocks', 0, 'metadata'], default={})
-    bm_first_block_of_current_sample = utilrsw.get_path(metadata_first, ['blocks', 0, 'metadata'], default={})
+    bm_first_block_of_current_sample = utilrsw.get_path(metadata, ['blocks', 0, 'metadata'], default={})
     msg = "  Comparing first block metadata of this sample with that from first block in the first sample."
     logger.info(station_id, msg)
     same = _compare_block_metadata(
@@ -136,6 +136,11 @@ def process_samples(station_id, station_dir,
   logger.info(station_id, station_id)
   logger.info(station_id, f'  Station directory: {station_dir}')
 
+  sample_base_dir = station_dir
+  if not _listdirs(sample_base_dir, regex=r'OBS.*'):
+    logger.info(station_id, f"  No 'OBS*' directories found in {station_dir}. Trying subdirectory 'G2DRF'.")
+    sample_base_dir = os.path.join(station_dir, "G2DRF")
+
   # Determine which sample directories to process based on n, first_last, start, and stop.
   kwargs = {
     "n": n,
@@ -143,7 +148,10 @@ def process_samples(station_id, station_dir,
     "start_dt": start_dt,
     "stop_dt": stop_dt
   }
-  sample_names = _subset_sample_dirs(station_id, station_dir, **kwargs)
+  sample_names = (
+    _subset_sample_dirs(station_id, sample_base_dir, **kwargs)
+    if os.path.isdir(sample_base_dir) else []
+  )
 
   sample_times = []
   sample_data = []
@@ -155,7 +163,7 @@ def process_samples(station_id, station_dir,
     logger.info(station_id, "")
 
     found_obs_dir = True
-    sample_dir = os.path.join(station_dir, sample_name)
+    sample_dir = os.path.join(sample_base_dir, sample_name)
 
     try:
 
@@ -227,7 +235,7 @@ def process_samples(station_id, station_dir,
       logger.error(station_id, f"  Error processing {sample_dir}: {e}")
 
   if not found_obs_dir:
-    logger.info(station_id, f"  No 'OBS*' directories found in {station_dir}")
+    logger.info(station_id, f"  No 'OBS*' directories found under {station_dir}")
     return None
   else:
     # Each element of list sample_times is a NumPy array of times each block
@@ -244,7 +252,7 @@ def process_samples(station_id, station_dir,
 
 def _process_sample(station_id, observation_dir, read_samples=False, return_samples=False):
   import numpy as np
-  from datetime import datetime, timedelta, timezone
+  from datetime import UTC, datetime, timedelta
 
   import digital_rf as drf
 
@@ -279,13 +287,13 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
   start_sample_unix = start_sample_epoch + epoch_unix
   end_sample_unix = end_sample_epoch + epoch_unix
 
-  start_sample_utc = datetime.fromtimestamp(start_sample_unix, tz=timezone.utc)
+  start_sample_utc = datetime.fromtimestamp(start_sample_unix, tz=UTC)
   start_sample_utc = datetime.strftime(start_sample_utc, '%Y-%m-%dT%H:%M:%S.%fZ')
 
-  end_sample_utc = datetime.fromtimestamp(end_sample_unix, tz=timezone.utc)
+  end_sample_utc = datetime.fromtimestamp(end_sample_unix, tz=UTC)
   end_sample_utc = datetime.strftime(end_sample_utc, '%Y-%m-%dT%H:%M:%S.%fZ')
 
-  end_sample_utc_exclusive = datetime.fromtimestamp(end_sample_unix + 1 / int(properties['samples_per_second']), tz=timezone.utc)
+  end_sample_utc_exclusive = datetime.fromtimestamp(end_sample_unix + 1 / int(properties['samples_per_second']), tz=UTC)
   end_sample_utc_exclusive = datetime.strftime(end_sample_utc_exclusive, '%Y-%m-%dT%H:%M:%S.%fZ')
 
   samples_per_second = properties['samples_per_second']
@@ -343,7 +351,7 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
     }
 
     # Get the start and end timestamps for the current block.
-    start_time = datetime.fromtimestamp(block_start / int(samples_per_second) + epoch_unix, tz=timezone.utc)
+    start_time = datetime.fromtimestamp(block_start / int(samples_per_second) + epoch_unix, tz=UTC)
     end_time = start_time + timedelta(seconds=(int(block_length)-1) / int(samples_per_second))
     logger.info(station_id, f"      Block {bn}:")
 
@@ -400,6 +408,19 @@ def _process_sample(station_id, observation_dir, read_samples=False, return_samp
         sample_data.append(data)
         times = np.arange(block_start, block_start + block_length) / int(samples_per_second)
         sample_times.append(times)
+
+  if metadata['blocks']:
+    retained_end_index = max(block['end_index'] for block in metadata['blocks'])
+    retained_end_unix = retained_end_index / int(samples_per_second) + epoch_unix
+    metadata['sample']['end_index'] = retained_end_index
+    metadata['sample']['end_unix'] = retained_end_unix
+    metadata['sample']['end_utc'] = datetime.fromtimestamp(
+      retained_end_unix, tz=UTC
+    ).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+    metadata['sample']['end_utc_exclusive'] = datetime.fromtimestamp(
+      (retained_end_index + 1) / int(samples_per_second) + epoch_unix,
+      tz=UTC
+    ).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
 
   if return_samples and len(sample_data) > 0:
     # Concatenate all sample blocks
@@ -471,16 +492,24 @@ def _cli():
   )
   parser.add_argument(
       '--station-dir',
-      required=True,
+      default='/home',
+      required=False,
       dest='station_dir',
       help='Directory containing station subdirectories (e.g., S0000183, N000020).'
+  )
+  parser.add_argument(
+      '--station-dir-regex',
+      default='[A-Z][0-9]+',
+      required=False,
+      dest='station_dir_regex',
+      help='Regex pattern that must match the entire station subdirectory name. Use .* to match any directory name.'
   )
   parser.add_argument(
       '--station', default=None,
       help='Only process this station subdirectory.'
   )
   parser.add_argument(
-      '--n', type=int, default=1,
+      '--n', type=int, default=None,
       help='Max number of OBS subdirectories to process per station. Defaults to 1; -1 means process all OBS subdirectories.'
   )
   parser.add_argument(
@@ -541,17 +570,18 @@ def _cli():
   if (args.start is not None) != (args.stop is not None):
     exit('If one of --start/--stop is given, both are required.')
 
-  # If start/stop given and n not set by user, set n=-1 (process all)
-  import sys
-  n_set = '--n' in sys.argv
-  if args.start is not None and not n_set:
-    args.n = -1
-
-  if args.n == -1:
+  if args.n is None:
+    args.n = None if args.start is not None else 1
+  elif args.n == -1:
     args.n = None
 
   if args.return_samples:
     args.read_samples = True
+
+  try:
+    re.compile(args.station_dir_regex)
+  except re.error as error:
+    raise SystemExit(f"Invalid --station-dir-regex: {error}")
 
   return args
 
@@ -588,7 +618,10 @@ def _tmpdir():
     return tempfile.gettempdir()
 
 
-def _listdir(base_dir):
+def _listdirs(base_dir, regex=None):
+  import re
+
+  directory_pattern = re.compile(regex) if regex is not None else None
   try:
     dir_list = sorted(os.listdir(base_dir))
   except Exception as e:
@@ -599,7 +632,11 @@ def _listdir(base_dir):
   def is_sta_dir(d):
     return os.path.isdir(os.path.join(base_dir, d))
 
-  return [d for d in dir_list if is_sta_dir(d)]
+  return [
+    directory for directory in dir_list
+    if (directory_pattern is None or directory_pattern.fullmatch(directory))
+    and is_sta_dir(directory)
+  ]
 
 
 def _parse_obs_time(d, pat):
@@ -627,6 +664,11 @@ def _compare_block_metadata(station_id, metadata_ref, metadata, indent=4):
 
   same = True
   indent = " " * indent
+  for key in metadata_ref:
+    if key not in metadata:
+      same = False
+      logger.info(station_id, f"{indent}Block metadata key '{key}' not found in current block metadata.")
+
   # Loop over all block metadata in first sample. We don't need the keys
   # (block start indices) for the comparison only the values
   # (metadata for each block).
@@ -663,16 +705,9 @@ def _compare_sample_properties(station_id, properties1, properties2):
 
 def _subset_sample_dirs(station_id, station_dir, n=None, first_last=False, start_dt=None, stop_dt=None):
   import re
-  obs_dirs = [d for d in _listdir(station_dir) if d.startswith('OBS')]
+  obs_dirs = _listdirs(station_dir, regex=r'OBS.*')
   if len(obs_dirs) == 0:
-    logger.info(station_id, f"  No 'OBS*' directories found in {station_dir}. Trying subdirectory 'G2DRF' for station {station_id}.")
-    station_dir = os.path.join(station_dir, "G2DRF")
-    if os.path.exists(station_dir):
-      obs_dirs = [d for d in _listdir(station_dir) if d.startswith('OBS')]
-      if len(obs_dirs) == 0:
-        return []
-    else:
-      return []
+    return []
 
   pat = re.compile(r'^OBS(\d{4}-\d{2}-\d{2}T\d{2}-\d{2})')
 
@@ -696,10 +731,9 @@ def _subset_sample_dirs(station_id, station_dir, n=None, first_last=False, start
   if len(obs_dirs) == 0:
     return []
 
-  if not first_last:
-    if n is not None:
-      obs_dirs = obs_dirs[:n]
-      logger.info(station_id, f'  first_last = False and n={n} gave {len(obs_dirs)} sample dirs out of {len(_listdir(station_dir))}.')
+  if not first_last and n is not None:
+    obs_dirs = obs_dirs[:n]
+    logger.info(station_id, f'  first_last = False and n={n} gave {len(obs_dirs)} sample dirs out of {len(_listdirs(station_dir))}.')
 
   if first_last:
     k = n if n is not None else 1
@@ -712,7 +746,7 @@ def _subset_sample_dirs(station_id, station_dir, n=None, first_last=False, start
       if d not in seen:
         seen.add(d)
         selected.append(d)
-    logger.info(station_id, f'  first_last = True and n={n} gave {len(obs_dirs)} sample dirs out of {len(_listdir(station_dir))}.')
+    logger.info(station_id, f'  first_last = True and n={n} gave {len(selected)} sample dirs out of {len(_listdirs(station_dir))}.')
     obs_dirs = selected
 
   return obs_dirs
@@ -727,10 +761,10 @@ def _catalog_entry(station_id, result):
     return None
 
   # Find index of last sample that is not skipped.
-  last_idx = len(samples) - 1
-  for idx, sample in enumerate(samples):
-    if result['metadata'][sample].get('skipped', True):
-      last_idx = idx - 1
+  last_idx = -1
+  for idx in range(len(samples) - 1, -1, -1):
+    if not result['metadata'][samples[idx]].get('skipped', True):
+      last_idx = idx
       break
   if last_idx < 0:
     logger.info(station_id, f"  All samples were skipped for station {station_id}. Cannot create catalog entry.")
@@ -744,7 +778,8 @@ def _catalog_entry(station_id, result):
   stopDateTime = result['metadata'][samples[last_idx]]['sample']['end_utc_exclusive']
   catalog.append(stopDateTime)
 
-  sample_block_metadata_first = result['metadata'][samples[0]]['blocks'][0].get('metadata', {})
+  p = [samples[0], 'blocks', 0, 'metadata']
+  sample_block_metadata_first = utilrsw.get_path(result['metadata'], p, default={})
   if len(sample_block_metadata_first) == 0:
     msg = f"  No block metadata found for first sample {samples[0]}. Cannot create catalog entry."
     logger.info(station_id, msg)
@@ -872,21 +907,24 @@ def _write_tables(results):
       tableui.dicts2table(sample_meta, config)
       print(f"  Wrote sample table to {config['out_dir']}")
     else:
-      logger.info("No sample metadata to write to table.")
+      logger.info(None, "No sample metadata to write to table.")
 
     if len(block_meta) > 0:
       config['name'] = "blocks"
       tableui.dicts2table(block_meta, config)
       print(f"  Wrote block table to {config['out_dir']}")
     else:
-      logger.info("No block metadata to write to table.")
+      logger.info(None, "No block metadata to write to table.")
 
 
 if __name__ == '__main__':
 
+  import re
+
   import tableui
 
   args = _cli()
+
   logger = _log(log_dir=args.log_dir)
 
   print(f"Cache directory: {args.cache_dir}")
@@ -895,10 +933,12 @@ if __name__ == '__main__':
   if not os.path.exists(args.station_dir):
     raise ValueError(f"Station directory {args.station_dir} does not exist. Exiting.")
 
-  station_dirs = _listdir(args.station_dir)
+  station_dirs = _listdirs(args.station_dir, regex=args.station_dir_regex)
 
   if len(station_dirs) == 0:
-    print(f"No station subdirectories found in {args.station_dir}. Exiting.")
+    msg = (f"No station subdirectories matching {args.station_dir_regex!r} ",
+           f"found in {args.station_dir}. Exiting.")
+    print(msg)
     exit(1)
 
   catalog = []
