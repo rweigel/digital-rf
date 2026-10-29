@@ -1,88 +1,25 @@
-# Remote Development
+# Update all Metadata
 
-On pswsnetwork.eng.ua.edu,
+Install and update HAPI `digital-rf` code, execute metadata run, and push tables and log to HAPI `digital-rf` repository:
 
-```python
-git clone https://github.com/rweigel/digital-rf
-python3 -m venv .venv-drf
-source .venv-drf/bin/activate
-cd digital-rf/
-pip install -e .
-python drf.py --help
-```
-
-On local machine, execute `etc/mount.sh` so that one can edit remote files using a local editor.
-
-# Remaining HAPI Work
-
-1. Determine what to put in HAPI catalog. Catalog will be derived from data/table/samples.csv (searchable at https://hapi-server.org/meta/digital-rf/samples)
-2. Test workflow for updating HAPI catalog based on nightly uploads
-
-# Daily Updates for Bill
-
-Update HAPI `digital-rf` code, execute metadata run, and push tables and log to HAPI `digital-rf` repository.
-
-```
+```bash
 cd /home/bengelke/hapi/digital-rf
 ./drf.sh
 ```
 
-View results (see Install section below if above was run on headless server).
+After this command is executed, log files, updated metadata, and tables file are visible at https://github.com/rweigel/digital-rf/tree/main/data/.
 
-```
-tableui-serve --conf conf/tableui.json
-```
+The `block.csv` and `samples.csv` tables are visible at https://hapi-server.org/meta/psws
 
-# Install
+# Development
 
-If directory `/home/bengelke/hapi/digital-rf` does not exist,
+## Install
 
-```
-cd /home/bengelke/hapi
-git clone https://github.com/rweigel/digital-rf
-cd /home/bengelke/hapi/digital-rf
-pip install -e . --force-reinstall
-```
+See `drf.sh`
 
-View table from last run
-```
-tableui-serve --conf conf/tableui.json
-```
+## Debugging
 
-# Update `digital-rf`
-
-```
-cd /home/bengelke/hapi/digital-rf
-git pull
-pip install -e . --force-reinstall
-``
-
-# View Existing Table from Previous Run
-
-```
-cd /home/bengelke/hapi/digital-rf
-tableui-serve --conf conf/tableui.json
-```
-
-# Run
-
-```
-# Run analysis on all DRF observations dirs for all stations
-cd /home/bengelke/hapi/digital-rf
-python3 drf.py --station-dir /home --use-cache --cache-samples --n -1
-
-# Copy results to Bob's server. If needed, password is F...S...S...8675
-rsync -avz table guest1@rweigel.dynu.net:digital-rf
-rsync -avz cache guest1@rweigel.dynu.net:digital-rf
-rsync -avz log guest1@rweigel.dynu.net:digital-rf
-
-# Optionally view table from analysis
-tableui-serve --conf conf/tableui.json
-```
-
-# Debug
-
-```
+```bash
 # View help
 cd /home/bengelke/hapi/digital-rf
 python3 drf.py --help
@@ -98,4 +35,35 @@ python3 drf.py --station-dir /home --cache-samples --n 2
 # Run analysis on all DRF observations dirs for all stations
 cd /home/bengelke/hapi/digital-rf
 python3 drf.py --station-dir /home --cache-samples --n -1
+```
+
+## Remote Development
+
+On pswsnetwork.eng.ua.edu,
+
+```python
+git clone https://github.com/rweigel/digital-rf
+python3 -m venv .venv-drf
+source .venv-drf/bin/activate
+cd digital-rf/
+pip install -e .
+python drf.py --help
+```
+
+On local machine, one can execute `etc/mount.sh` to edit remote files using a local editor.
+
+# Remaining HAPI Work
+
+1. Determine what to put in HAPI catalog. Catalog will be derived from data/table/samples.csv (searchable at https://hapi-server.org/meta/digital-rf/samples)
+2. Test workflow for updating HAPI catalog based on nightly uploads
+
+# View Tables Locally
+
+The `block` and `samples` tables visible at https://hapi-server.org/meta/psws can be viewed locally using
+
+```bash
+# From digital-rf directory
+git pull 
+pip install -e .
+tableui-serve --conf conf/tableui.json
 ```
