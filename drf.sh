@@ -11,3 +11,4 @@ rsync -avz data guest1@rweigel.dynu.net:digital-rf
 
 git commit -m "Update tables" -- data/table
 git commit -m "Update log" -- data/log
+git push
