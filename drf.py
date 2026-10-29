@@ -693,11 +693,13 @@ def _compare_block_metadata(station_id, metadata_ref, metadata, indent=4):
 
 
 def _compare_sample_properties(station_id, properties1, properties2):
+  import numpy as np
+
   for key in properties1:
     if key not in properties2:
       logger.info(station_id, f"    Metadata key {key} not found in second metadata.")
     else:
-      if properties1[key] != properties2[key]:
+      if not np.array_equal(properties1[key], properties2[key]):
         logger.info(station_id, f"    Metadata key {key} has different values:")
         logger.info(station_id, f"      First:   {properties1[key]}")
         logger.info(station_id, f"      Current: {properties2[key]}")
